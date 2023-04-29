@@ -102,6 +102,16 @@ struct {
 
 #endif
 
+#if ENABLED(SDSUPPORT) && ENABLED(CUSTOM_SD_ACCESS)
+bool isSdUsed()
+{
+#if ENABLED(ESP3D_WIFISUPPORT)
+    return esp3dlib.isSdUsed();
+#endif
+    return false;
+}
+#endif
+
 #if ENABLED(USE_ESP32_EXIO)
 
   HardwareSerial YSerial2(2);

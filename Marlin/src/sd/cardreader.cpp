@@ -60,6 +60,10 @@
 #include "../core/debug_out.h"
 #include "../libs/hex_print.h"
 
+#if ENABLED(CUSTOM_SD_ACCESS)
+extern bool isSdUsed();
+#endif
+
 // extern
 
 PGMSTR(M21_STR, "M21");
@@ -446,6 +450,11 @@ void CardReader::printSelectedFilename() {
 
 void CardReader::mount() {
   flag.mounted = false;
+  #if ENABLED(CUSTOM_SD_ACCESS)
+  if (isSdUsed()) {
+          return;
+      }
+  #endif
   if (root.isOpen()) root.close();
 
   if (!driver->init(SD_SPI_SPEED, SDSS)
@@ -536,6 +545,11 @@ void CardReader::manage_media() {
  * Used by M22, "Release Media", manage_media.
  */
 void CardReader::release() {
+  #if ENABLED(CUSTOM_SD_ACCESS)
+  if (isSdUsed()) {
+          return;
+      }
+  #endif
   // Card removed while printing? Abort!
   if (IS_SD_PRINTING())
     abortFilePrintSoon();
