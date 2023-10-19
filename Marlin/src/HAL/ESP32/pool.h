@@ -11,14 +11,14 @@ public:
     static void IRAM_ATTR writeAcid();
     static void IRAM_ATTR writeOutputs();
     static void IRAM_ATTR pumpOn(bool on);
-    static void IRAM_ATTR alarm_attachOnButton();
-    static void IRAM_ATTR alarm_onButtonPushed();
+    static void IRAM_ATTR boosterOn(bool on);
+    static void IRAM_ATTR alarm_attachOnButton_a();
+    static void IRAM_ATTR alarm_onButtonPushed_a();
+    static void IRAM_ATTR alarm_attachOnButton_b();
+    static void IRAM_ATTR alarm_onButtonPushed_b();
 private:
     static void saveSettings();//store settings in eeprom
     static void loadSettings();//load settings from eeprom
-
-    
-    static void boosterOn(bool on);
 
     //Auto settings
     static void setupClock();
@@ -27,8 +27,9 @@ private:
     static void timeSyncCallback(struct timeval *tv);
 
     static void setAutoTimers();
-    static void setAuto(bool on, int start, int stop);
-    
+    static void setAuto_a(bool on, int start, int stop);
+    static void setAuto_b(bool on, int start, int stop);
+
     //chlorinator settings
     static void setChlorine(bool on, int duty = 50/*0-100%*/, bool write=true);
     static void cycleChlorine(int period_sec = 30000);//30 sec default
