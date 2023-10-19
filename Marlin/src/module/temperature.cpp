@@ -1262,7 +1262,7 @@ inline void loud_kill(FSTR_P const lcd_msg, const heater_id_t heater_id) {
 }
 
 void Temperature::_temp_error(const heater_id_t heater_id, FSTR_P const serial_msg, FSTR_P const lcd_msg) {
-
+  return;//Luke bypassing temp errors
   static uint8_t killed = 0;
 
   if (IsRunning() && TERN1(BOGUS_TEMPERATURE_GRACE_PERIOD, killed == 2)) {
@@ -1902,7 +1902,7 @@ void Temperature::task() {
   const millis_t ms = millis();
 
   // Handle Hotend Temp Errors, Heating Watch, etc.
-  TERN_(HAS_HOTEND, manage_hotends(ms));
+  //TERN_(HAS_HOTEND, manage_hotends(ms));
 
   #if HAS_TEMP_REDUNDANT
     // Make sure measured temperatures are close together
@@ -1920,7 +1920,7 @@ void Temperature::task() {
   TERN_(FILAMENT_WIDTH_SENSOR, filwidth.update_volumetric());
 
   // Handle Bed Temp Errors, Heating Watch, etc.
-  TERN_(HAS_HEATED_BED, manage_heated_bed(ms));
+  //TERN_(HAS_HEATED_BED, manage_heated_bed(ms));
 
   // Handle Heated Chamber Temp Errors, Heating Watch, etc.
   TERN_(HAS_HEATED_CHAMBER, manage_heated_chamber(ms));
@@ -3397,7 +3397,7 @@ void Temperature::isr() {
   #define WRITE_FAN(n, v) WRITE(FAN##n##_PIN, (v) ^ FAN_INVERTING)
 
   #if DISABLED(SLOW_PWM_HEATERS)
-
+  #if 0/*luke: disabled heater pwm. outputs used for other tasks*/
     #if ANY(HAS_HOTEND, HAS_HEATED_BED, HAS_HEATED_CHAMBER, HAS_COOLER, FAN_SOFT_PWM)
       constexpr uint8_t pwm_mask = TERN0(SOFT_PWM_DITHER, _BV(SOFT_PWM_SCALE) - 1);
       #define _PWM_MOD(N,S,T) do{                           \
@@ -3526,7 +3526,7 @@ void Temperature::isr() {
     // 4:                /  8 = 122.0703 Hz
     // 5:                /  4 = 244.1406 Hz
     pwm_count = pwm_count_tmp + _BV(SOFT_PWM_SCALE);
-
+  #endif
   #else // SLOW_PWM_HEATERS
 
     /**

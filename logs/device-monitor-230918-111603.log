@@ -1,0 +1,43 @@
+11:16:03.123 > [37mstart
+11:16:03.123 >  External Reset
+11:16:03.123 >  Brown out Reset
+11:16:03.123 >  Watchdog Reset
+11:16:03.123 > Marlin 2.1.2
+11:16:03.123 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+11:16:03.123 > echo: Compiled: Sep 18 2023
+11:16:03.123 > echo: Free Memory: 231648  PlannerBufferBytes: 1344
+11:16:03.123 > echo:Hardcoded Default Settings Loaded
+11:16:03.123 > echo:; Linear Units:
+11:16:03.123 > echo:  G21 ; (mm)
+11:16:03.123 > echo:; Temperature Units:
+11:16:03.123 > echo:  M149 C ; Units in Celsius
+11:16:03.123 > echo:; Filament settings (Disabled):
+11:16:03.123 > echo:  M200 S0
+11:16:03.123 > echo:  M200 T0 D1.75
+11:16:03.123 > echo:  M200 T1 D1.75
+11:16:03.123 > echo:; Steps per unit:
+11:16:03.123 > echo:  M92 X80.00 Y80.00 Z400.00 E500.00
+11:16:03.123 > echo:; Max feedrates (units/s):
+11:16:03.123 > echo:  M203 X300.00 Y300.00 Z5.00 E25.00
+11:16:03.123 > echo:; Max Acceleration (units/s2):
+11:16:03.123 > echo:  M201 X3000.00 Y3000.00 Z100.00 E10000.00
+11:16:03.123 > echo:; Acceleration (units/s2) (P<print-accel> R<retract-accel> T<travel-accel>):
+11:16:03.123 > echo:  M204 P3000.00 R3000.00 T3000.00
+11:16:03.123 > echo:; Advanced (B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>):
+11:16:03.123 > echo:  M205 B20000.00 S0.00 T0.00 J0.01
+11:16:03.123 > echo:; Home offset:
+11:16:03.123 > echo:  M206 X0.00 Y0.00 Z0.00
+11:16:03.123 > echo:; Hotend offsets:
+11:16:03.123 > echo:echo:  M218 T1 X0.00 Y0.[37m00 Z0.000
+11:16:03.123 > echo:; Hotend PID:
+11:16:03.123 > echo:  M301 P22.20 I1.08 D114.00
+11:16:03.123 > echo:  M301 P22.20 I1.08 D114.00
+11:16:03.123 > echo:; Tool-changing:
+11:16:03.123 > echo:  M217 Z2.00
+11:16:03.123 > echo:No SD card
+11:16:03.123 > echo:SD card released
+11:16:14.993 > [37me[37mcho:No SD card
+11:16:15.003 > [37me[37mcho:Setup wifi
+11:16:15.145 > [37me[37mcho:Connecting
+11:16:18.529 > [37me[37mcho:10.0.1.125
+11:16:19.845 > [37me[37mcho:10.0.1.125

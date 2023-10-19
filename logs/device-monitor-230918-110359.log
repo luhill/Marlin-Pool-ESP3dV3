@@ -1,0 +1,970 @@
+11:03:59.078 > [37mstart
+11:03:59.078 > E (46) gpio: gpio_set_level(226): GPIO output gpio_num error
+11:03:59.078 >  External Reset
+11:03:59.078 >  Brown out Reset
+11:03:59.078 >  Watchdog Reset
+11:03:59.078 > Marlin 2.1.2
+11:03:59.078 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+11:03:59.078 > echo: Compiled: Sep 18 2023
+11:03:59.078 > echo: Free Memory: 231520  PlannerBufferBytes: 1344
+11:03:59.078 > echo:Hardcoded Default Settings Loaded
+11:03:59.078 > echo:; Linear Units:
+11:03:59.078 > echo:  G21 ; (mm)
+11:03:59.078 > echo:; Temperature Units:
+11:03:59.078 > echo:  M149 C ; Units in Celsius
+11:03:59.078 > echo:; Filament settings (Disabled):
+11:03:59.078 > echo:  M200 S0
+11:03:59.078 > echo:  M200 T0 D1.75
+11:03:59.078 > echo:  M200 T1 D1.75
+11:03:59.078 > echo:; Steps per unit:
+11:03:59.078 > echo:  M92 X80.00 Y80.00 Z400.00 E500.00
+11:03:59.078 > echo:; Max feedrates (units/s):
+11:03:59.078 > echo:  M203 X300.00 Y300.00 Z5.00 E25.00
+11:03:59.078 > echo:; Max Acceleration (units/s2):
+11:03:59.078 > echo:  M201 X3000.00 Y3000.00 Z100.00 E10000.00
+11:03:59.078 > echo:; Acceleration (units/s2) (P<print-accel> R<retract-accel> T<travel-accel>):
+11:03:59.078 > echo:  M204 P3000.00 R3000.00 T3000.00
+11:03:59.078 > echo:; Advanced (B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>):
+11:03:59.078 > echo:  M205 B20000.00 S0.00 T0.00 J0.01
+11:03:59.078 > echo:; Home offset:
+11:03:59.078 > echo:  M206 X0.00 Y0[37m.00 Z0.00
+11:03:59.078 > echo:; Hotend offsets:
+11:03:59.078 > echo:echo:  M218 T1 X0.00 Y0.00 Z0.000
+11:03:59.078 > echo:; Hotend PID:
+11:03:59.078 > echo:  M301 P22.20 I1.08 D114.00
+11:03:59.078 > echo:  M301 P22.20 I1.08 D114.00
+11:03:59.078 > echo:; Tool-changing:
+11:03:59.078 > echo:  M217 Z2.00
+11:03:59.078 > echo:No SD card
+11:03:59.078 > echo:SD card released
+11:04:10.897 > [37me[37mcho:No SD card
+11:04:10.907 > [37me[37mcho:Setup wifi
+11:04:11.046 > [37me[37mcho:Connecting
+11:04:14.473 > [37me[37mcho:10.0.1.125
+11:04:15.739 > [37me[37mcho:10.0.1.125
+11:04:25.460 > [37m[37m
+11:04:25.461 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:04:25.463 > 
+11:04:25.463 > 
+11:04:25.463 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:04:25.469 > 
+11:04:25.469 > 
+11:04:25.469 > 
+11:04:25.469 > 
+11:04:25.469 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:04:25.472 > 
+11:04:25.702 > [37mR[37mebooting...
+11:04:25.702 > ets Jun  8 2016 00[37m:[37m22:57
+11:04:25.705 > 
+11:04:25.705 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:04:25.710 > configsip: 0, SPIWP:0xee
+11:04:25.710 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:04:25.718 > mode:DIO, clock div:2
+11:04:25.718 > load[37m:[37m0x3fff0030,len:1184
+11:04:25.721 > load:0x400[37m7[37m8000,len:13192
+11:04:25.724 > load:0x40080400[37m,[37mlen:3028
+11:04:25.728 > entry 0x400805e4
+11:04:26.338 > [37ms[37mtart
+11:04:26.342 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:04:26.345 >  B[37mr[37mown out Reset
+11:04:26.348 >  Watchdog Reset
+11:04:26.348 > M[37ma[37mrlin 2.1.2
+11:04:26.351 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:04:26.356 > echo: Compiled: Sep [37m1[37m8 2023
+11:04:26.359 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:04:26.362 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:04:26.367 > echo:; Linear Units:
+11:04:26.367 > echo:  G[37m2[37m1 ; (mm)
+11:04:26.370 > echo:; Temperature Uni[37mt[37ms:
+11:04:26.373 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:04:26.376 > echo:; Filament settings (D[37mi[37msabled):
+11:04:26.379 > echo:  M200 S0
+11:04:26.379 > echo:  [37mM[37m200 T0 D1.75
+11:04:26.382 > echo:  M200 T1 D1.[37m7[37m5
+11:04:26.384 > echo:; Steps per unit:
+11:04:26.384 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:04:26.390 > echo:; Max feedrates (units/s[37m)[37m:
+11:04:26.392 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:04:26.395 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:04:26.398 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:04:26.403 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:04:26.409 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:04:26.412 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:04:26.420 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:04:26.423 > ec[37mh[37mo:; Home offset:
+11:04:26.426 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:04:26.429 > echo:; Hotend of[37mf[37msets:
+11:04:26.432 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:04:26.434 > echo:; Hotend PID:[37m
+11:04:26.437 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:04:26.440 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:04:26.442 > echo:; Tool-changing:
+11:04:26.442 > echo:  [37mM[37m217 Z2.00
+11:04:29.351 > [37me[37mcho:No SD card
+11:04:29.372 > [37me[37mcho:SD card released
+11:04:41.780 > [37me[37mcho:No SD card
+11:04:41.790 > [37me[37mcho:Setup wifi
+11:04:41.935 > [37me[37mcho:Connecting
+11:04:45.667 > [37me[37mcho:10.0.1.125
+11:04:47.127 > [37me[37mcho:10.0.1.125
+11:04:56.342 > [37m[37m
+11:04:56.342 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:04:56.344 > 
+11:04:56.344 > 
+11:04:56.344 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:04:56.350 > 
+11:04:56.350 > 
+11:04:56.350 > 
+11:04:56.350 > 
+11:04:56.350 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:04:56.354 > 
+11:04:56.588 > [37mR[37mebooting...
+11:04:56.588 > ets Jun  8 2016 00[37m:[37m22:57
+11:04:56.591 > 
+11:04:56.591 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:04:56.596 > configsip: 0, SPIWP:0xee
+11:04:56.596 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:04:56.604 > mode:DIO, clock div:2
+11:04:56.604 > load[37m:[37m0x3fff0030,len:1184
+11:04:56.607 > load:0x400[37m7[37m8000,len:13192
+11:04:56.610 > load:0x40080400[37m,[37mlen:3028
+11:04:56.614 > entry 0x400805e4
+11:04:57.224 > [37ms[37mtart
+11:04:57.228 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:04:57.231 >  B[37mr[37mown out Reset
+11:04:57.234 >  Watchdog Reset
+11:04:57.234 > M[37ma[37mrlin 2.1.2
+11:04:57.237 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:04:57.242 > echo: Compiled: Sep [37m1[37m8 2023
+11:04:57.245 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:04:57.248 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:04:57.253 > echo:; Linear Units:
+11:04:57.253 > echo:  G[37m2[37m1 ; (mm)
+11:04:57.256 > echo:; Temperature Uni[37mt[37ms:
+11:04:57.259 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:04:57.262 > echo:; Filament settings (D[37mi[37msabled):
+11:04:57.265 > echo:  M200 S0
+11:04:57.265 > echo:  [37mM[37m200 T0 D1.75
+11:04:57.267 > echo:  M200 T1 D1.[37m7[37m5
+11:04:57.270 > echo:; Steps per unit:
+11:04:57.270 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:04:57.276 > echo:; Max feedrates (units/s[37m)[37m:
+11:04:57.278 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:04:57.281 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:04:57.284 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:04:57.290 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:04:57.295 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:04:57.298 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:04:57.306 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:04:57.309 > ec[37mh[37mo:; Home offset:
+11:04:57.312 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:04:57.314 > echo:; Hotend of[37mf[37msets:
+11:04:57.317 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:04:57.320 > echo:; Hotend PID:[37m
+11:04:57.323 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:04:57.326 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:04:57.328 > echo:; Tool-changing:
+11:04:57.328 > echo:  [37mM[37m217 Z2.00
+11:05:00.238 > [37me[37mcho:No SD card
+11:05:00.260 > [37me[37mcho:SD card released
+11:05:12.657 > [37me[37mcho:No SD card
+11:05:12.668 > [37me[37mcho:Setup wifi
+11:05:12.805 > [37me[37mcho:Connecting
+11:05:16.032 > [37me[37mcho:10.0.1.125
+11:05:17.497 > [37me[37mcho:10.0.1.125
+11:05:27.228 > [37m[37m
+11:05:27.228 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:05:27.231 > 
+11:05:27.231 > 
+11:05:27.231 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:05:27.236 > 
+11:05:27.236 > 
+11:05:27.236 > 
+11:05:27.236 > 
+11:05:27.236 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:05:27.240 > 
+11:05:27.471 > [37mR[37mebooting...
+11:05:27.471 > ets Jun  8 2016 00[37m:[37m22:57
+11:05:27.473 > 
+11:05:27.473 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:05:27.479 > configsip: 0, SPIWP:0xee
+11:05:27.479 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:05:27.487 > mode:DIO, clock div:2
+11:05:27.487 > load[37m:[37m0x3fff0030,len:1184
+11:05:27.490 > load:0x400[37m7[37m8000,len:13192
+11:05:27.493 > load:0x40080400[37m,[37mlen:3028
+11:05:27.498 > entry 0x400805e4
+11:05:28.108 > [37ms[37mtart
+11:05:28.112 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:05:28.114 >  B[37mr[37mown out Reset
+11:05:28.117 >  Watchdog Reset
+11:05:28.117 > M[37ma[37mrlin 2.1.2
+11:05:28.120 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:05:28.125 > echo: Compiled: Sep [37m1[37m8 2023
+11:05:28.128 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:05:28.131 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:05:28.137 > echo:; Linear Units:
+11:05:28.137 > echo:  G[37m2[37m1 ; (mm)
+11:05:28.139 > echo:; Temperature Uni[37mt[37ms:
+11:05:28.142 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:05:28.145 > echo:; Filament settings (D[37mi[37msabled):
+11:05:28.148 > echo:  M200 S0
+11:05:28.148 > echo:  [37mM[37m200 T0 D1.75
+11:05:28.151 > echo:  M200 T1 D1.[37m7[37m5
+11:05:28.153 > echo:; Steps per unit:
+11:05:28.153 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:05:28.159 > echo:; Max feedrates (units/s[37m)[37m:
+11:05:28.162 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:05:28.164 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:05:28.167 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:05:28.173 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:05:28.178 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:05:28.181 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:05:28.189 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:05:28.192 > ec[37mh[37mo:; Home offset:
+11:05:28.195 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:05:28.198 > echo:; Hotend of[37mf[37msets:
+11:05:28.200 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:05:28.203 > echo:; Hotend PID:[37m
+11:05:28.206 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:05:28.209 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:05:28.212 > echo:; Tool-changing:
+11:05:28.212 > echo:  [37mM[37m217 Z2.00
+11:05:31.121 > [37me[37mcho:No SD card
+11:05:31.142 > [37me[37mcho:SD card released
+11:05:43.550 > [37me[37mcho:No SD card
+11:05:43.560 > [37me[37mcho:Setup wifi
+11:05:43.701 > [37me[37mcho:Connecting
+11:05:46.921 > [37me[37mcho:10.0.1.125
+11:05:48.401 > [37me[37mcho:10.0.1.125
+11:05:58.110 > [37m[37m
+11:05:58.111 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:05:58.113 > 
+11:05:58.113 > 
+11:05:58.113 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:05:58.119 > 
+11:05:58.119 > 
+11:05:58.119 > 
+11:05:58.119 > 
+11:05:58.119 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:05:58.123 > 
+11:05:58.347 > [37mR[37mebooting...
+11:05:58.347 > ets Jun  8 2016 00[37m:[37m22:57
+11:05:58.350 > 
+11:05:58.350 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:05:58.355 > configsip: 0, SPIWP:0xee
+11:05:58.355 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:05:58.364 > mode:DIO, clock div:2
+11:05:58.364 > load[37m:[37m0x3fff0030,len:1184
+11:05:58.366 > load:0x400[37m7[37m8000,len:13192
+11:05:58.369 > load:0x40080400[37m,[37mlen:3028
+11:05:58.374 > entry 0x400805e4
+11:05:58.984 > [37ms[37mtart
+11:05:58.988 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:05:58.991 >  B[37mr[37mown out Reset
+11:05:58.994 >  Watchdog Reset
+11:05:58.994 > M[37ma[37mrlin 2.1.2
+11:05:58.996 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:05:59.002 > echo: Compiled: Sep [37m1[37m8 2023
+11:05:59.005 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:05:59.008 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:05:59.013 > echo:; Linear Units:
+11:05:59.013 > echo:  G[37m2[37m1 ; (mm)
+11:05:59.016 > echo:; Temperature Uni[37mt[37ms:
+11:05:59.019 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:05:59.021 > echo:; Filament settings (D[37mi[37msabled):
+11:05:59.024 > echo:  M200 S0
+11:05:59.024 > echo:  [37mM[37m200 T0 D1.75
+11:05:59.027 > echo:  M200 T1 D1.[37m7[37m5
+11:05:59.029 > echo:; Steps per unit:
+11:05:59.029 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:05:59.035 > echo:; Max feedrates (units/s[37m)[37m:
+11:05:59.038 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:05:59.041 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:05:59.043 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:05:59.049 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:05:59.054 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:05:59.057 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:05:59.066 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:05:59.068 > ec[37mh[37mo:; Home offset:
+11:05:59.071 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:05:59.074 > echo:; Hotend of[37mf[37msets:
+11:05:59.077 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:05:59.079 > echo:; Hotend PID:[37m
+11:05:59.082 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:05:59.085 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:05:59.088 > echo:; Tool-changing:
+11:05:59.088 > echo:  [37mM[37m217 Z2.00
+11:06:01.999 > [37me[37mcho:No SD card
+11:06:02.022 > [37me[37mcho:SD card released
+11:06:14.424 > [37me[37mcho:No SD card
+11:06:14.434 > [37me[37mcho:Setup wifi
+11:06:14.575 > [37me[37mcho:Connecting
+11:06:17.797 > [37me[37mcho:10.0.1.125
+11:06:19.270 > [37me[37mcho:10.0.1.125
+11:06:28.986 > [37m[37m
+11:06:28.987 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:06:28.989 > 
+11:06:28.989 > 
+11:06:28.989 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:06:28.995 > 
+11:06:28.995 > 
+11:06:28.995 > 
+11:06:28.995 > 
+11:06:28.995 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:06:28.998 > 
+11:06:29.228 > [37mR[37mebooting...
+11:06:29.229 > ets Jun  8 2016 00[37m:[37m22:57
+11:06:29.231 > 
+11:06:29.231 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:06:29.237 > configsip: 0, SPIWP:0xee
+11:06:29.237 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:06:29.245 > mode:DIO, clock div:2
+11:06:29.245 > load[37m:[37m0x3fff0030,len:1184
+11:06:29.248 > load:0x400[37m7[37m8000,len:13192
+11:06:29.250 > load:0x40080400[37m,[37mlen:3028
+11:06:29.255 > entry 0x400805e4
+11:06:29.865 > [37ms[37mtart
+11:06:29.869 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:06:29.872 >  B[37mr[37mown out Reset
+11:06:29.875 >  Watchdog Reset
+11:06:29.875 > M[37ma[37mrlin 2.1.2
+11:06:29.878 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:06:29.883 > echo: Compiled: Sep [37m1[37m8 2023
+11:06:29.886 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:06:29.889 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:06:29.894 > echo:; Linear Units:
+11:06:29.894 > echo:  G[37m2[37m1 ; (mm)
+11:06:29.897 > echo:; Temperature Uni[37mt[37ms:
+11:06:29.900 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:06:29.902 > echo:; Filament settings (D[37mi[37msabled):
+11:06:29.905 > echo:  M200 S0
+11:06:29.905 > echo:  [37mM[37m200 T0 D1.75
+11:06:29.908 > echo:  M200 T1 D1.[37m7[37m5
+11:06:29.911 > echo:; Steps per unit:
+11:06:29.911 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:06:29.917 > echo:; Max feedrates (units/s[37m)[37m:
+11:06:29.919 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:06:29.922 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:06:29.925 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:06:29.930 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:06:29.936 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:06:29.939 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:06:29.947 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:06:29.950 > ec[37mh[37mo:; Home offset:
+11:06:29.952 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:06:29.955 > echo:; Hotend of[37mf[37msets:
+11:06:29.958 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:06:29.961 > echo:; Hotend PID:[37m
+11:06:29.964 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:06:29.966 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:06:29.969 > echo:; Tool-changing:
+11:06:29.969 > echo:  [37mM[37m217 Z2.00
+11:06:32.880 > [37me[37mcho:No SD card
+11:06:32.902 > [37me[37mcho:SD card released
+11:06:45.299 > [37me[37mcho:No SD card
+11:06:45.309 > [37me[37mcho:Setup wifi
+11:06:45.451 > [37me[37mcho:Connecting
+11:06:48.671 > [37me[37mcho:10.0.1.125
+11:06:50.143 > [37me[37mcho:10.0.1.125
+11:06:59.868 > [37m[37m
+11:06:59.868 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:06:59.871 > 
+11:06:59.871 > 
+11:06:59.871 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:06:59.876 > 
+11:06:59.876 > 
+11:06:59.876 > 
+11:06:59.876 > 
+11:06:59.876 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:06:59.880 > 
+11:07:00.105 > [37mR[37mebooting...
+11:07:00.105 > ets Jun  8 2016 00[37m:[37m22:57
+11:07:00.108 > 
+11:07:00.108 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:07:00.113 > configsip: 0, SPIWP:0xee
+11:07:00.113 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:07:00.121 > mode:DIO, clock div:2
+11:07:00.121 > load[37m:[37m0x3fff0030,len:1184
+11:07:00.124 > load:0x400[37m7[37m8000,len:13192
+11:07:00.127 > load:0x40080400[37m,[37mlen:3028
+11:07:00.131 > entry 0x400805e4
+11:07:00.742 > [37ms[37mtart
+11:07:00.746 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:07:00.749 >  B[37mr[37mown out Reset
+11:07:00.751 >  Watchdog Reset
+11:07:00.751 > M[37ma[37mrlin 2.1.2
+11:07:00.754 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:07:00.760 > echo: Compiled: Sep [37m1[37m8 2023
+11:07:00.762 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:07:00.765 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:07:00.771 > echo:; Linear Units:
+11:07:00.771 > echo:  G[37m2[37m1 ; (mm)
+11:07:00.775 > echo:; Temperature Uni[37mt[37ms:
+11:07:00.776 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:07:00.780 > echo:; Filament settings (D[37mi[37msabled):
+11:07:00.782 > echo:  M200 S0
+11:07:00.782 > echo:  [37mM[37m200 T0 D1.75
+11:07:00.785 > echo:  M200 T1 D1.[37m7[37m5
+11:07:00.787 > echo:; Steps per unit:
+11:07:00.787 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:07:00.793 > echo:; Max feedrates (units/s[37m)[37m:
+11:07:00.796 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:07:00.798 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:07:00.801 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:07:00.807 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:07:00.812 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:07:00.815 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:07:00.824 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:07:00.826 > ec[37mh[37mo:; Home offset:
+11:07:00.829 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:07:00.832 > echo:; Hotend of[37mf[37msets:
+11:07:00.835 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:07:00.837 > echo:; Hotend PID:[37m
+11:07:00.840 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:07:00.843 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:07:00.846 > echo:; Tool-changing:
+11:07:00.846 > echo:  [37mM[37m217 Z2.00
+11:07:03.755 > [37me[37mcho:No SD card
+11:07:03.777 > [37me[37mcho:SD card released
+11:07:16.174 > [37me[37mcho:No SD card
+11:07:16.184 > [37me[37mcho:Setup wifi
+11:07:16.324 > [37me[37mcho:Connecting
+11:07:19.545 > [37me[37mcho:10.0.1.125
+11:07:21.026 > [37me[37mcho:10.0.1.125
+11:07:30.744 > [37m[37m
+11:07:30.744 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:07:30.747 > 
+11:07:30.747 > 
+11:07:30.747 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:07:30.752 > 
+11:07:30.752 > 
+11:07:30.752 > 
+11:07:30.752 > 
+11:07:30.752 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:07:30.759 > 
+11:07:30.977 > [37mR[37mebooting...
+11:07:30.977 > ets Jun  8 2016 00[37m:[37m22:57
+11:07:30.980 > 
+11:07:30.980 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:07:30.985 > configsip: 0, SPIWP:0xee
+11:07:30.985 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:07:30.994 > mode:DIO, clock div:2
+11:07:30.994 > load[37m:[37m0x3fff0030,len:1184
+11:07:30.997 > load:0x400[37m7[37m8000,len:13192
+11:07:30.999 > load:0x40080400[37m,[37mlen:3028
+11:07:31.004 > entry 0x400805e4
+11:07:31.614 > [37ms[37mtart
+11:07:31.618 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:07:31.621 >  B[37mr[37mown out Reset
+11:07:31.624 >  Watchdog Reset
+11:07:31.624 > M[37ma[37mrlin 2.1.2
+11:07:31.626 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:07:31.632 > echo: Compiled: Sep [37m1[37m8 2023
+11:07:31.635 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:07:31.637 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:07:31.643 > echo:; Linear Units:
+11:07:31.643 > echo:  G[37m2[37m1 ; (mm)
+11:07:31.646 > echo:; Temperature Uni[37mt[37ms:
+11:07:31.649 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:07:31.651 > echo:; Filament settings (D[37mi[37msabled):
+11:07:31.654 > echo:  M200 S0
+11:07:31.654 > echo:  [37mM[37m200 T0 D1.75
+11:07:31.657 > echo:  M200 T1 D1.[37m7[37m5
+11:07:31.660 > echo:; Steps per unit:
+11:07:31.660 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:07:31.665 > echo:; Max feedrates (units/s[37m)[37m:
+11:07:31.668 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:07:31.671 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:07:31.674 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:07:31.679 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:07:31.685 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:07:31.687 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:07:31.696 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:07:31.699 > ec[37mh[37mo:; Home offset:
+11:07:31.701 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:07:31.704 > echo:; Hotend of[37mf[37msets:
+11:07:31.707 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:07:31.710 > echo:; Hotend PID:[37m
+11:07:31.712 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:07:31.715 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:07:31.718 > echo:; Tool-changing:
+11:07:31.718 > echo:  [37mM[37m217 Z2.00
+11:07:34.627 > [37me[37mcho:No SD card
+11:07:34.649 > [37me[37mcho:SD card released
+11:07:47.051 > [37me[37mcho:No SD card
+11:07:47.061 > [37me[37mcho:Setup wifi
+11:07:47.201 > [37me[37mcho:Connecting
+11:07:50.428 > [37me[37mcho:10.0.1.125
+11:07:51.903 > [37me[37mcho:10.0.1.125
+11:08:01.617 > [37m[37m
+11:08:01.617 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:08:01.620 > 
+11:08:01.620 > 
+11:08:01.620 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:08:01.625 > 
+11:08:01.625 > 
+11:08:01.625 > 
+11:08:01.625 > 
+11:08:01.625 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:08:01.628 > 
+11:08:01.851 > [37mR[37mebooting...
+11:08:01.851 > ets Jun  8 2016 00[37m:[37m22:57
+11:08:01.854 > 
+11:08:01.854 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:08:01.859 > configsip: 0, SPIWP:0xee
+11:08:01.859 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:08:01.868 > mode:DIO, clock div:2
+11:08:01.868 > load[37m:[37m0x3fff0030,len:1184
+11:08:01.870 > load:0x400[37m7[37m8000,len:13192
+11:08:01.873 > load:0x40080400[37m,[37mlen:3028
+11:08:01.878 > entry 0x400805e4
+11:08:02.488 > [37ms[37mtart
+11:08:02.492 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:08:02.495 >  B[37mr[37mown out Reset
+11:08:02.497 >  Watchdog Reset
+11:08:02.497 > M[37ma[37mrlin 2.1.2
+11:08:02.500 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:08:02.506 > echo: Compiled: Sep [37m1[37m8 2023
+11:08:02.509 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:08:02.511 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:08:02.517 > echo:; Linear Units:
+11:08:02.517 > echo:  G[37m2[37m1 ; (mm)
+11:08:02.520 > echo:; Temperature Uni[37mt[37ms:
+11:08:02.523 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:08:02.525 > echo:; Filament settings (D[37mi[37msabled):
+11:08:02.528 > echo:  M200 S0
+11:08:02.528 > echo:  [37mM[37m200 T0 D1.75
+11:08:02.531 > echo:  M200 T1 D1.[37m7[37m5
+11:08:02.534 > echo:; Steps per unit:
+11:08:02.534 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:08:02.539 > echo:; Max feedrates (units/s[37m)[37m:
+11:08:02.542 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:08:02.545 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:08:02.548 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:08:02.553 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:08:02.559 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:08:02.561 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:08:02.570 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:08:02.573 > ec[37mh[37mo:; Home offset:
+11:08:02.575 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:08:02.578 > echo:; Hotend of[37mf[37msets:
+11:08:02.581 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:08:02.584 > echo:; Hotend PID:[37m
+11:08:02.586 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:08:02.589 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:08:02.592 > echo:; Tool-changing:
+11:08:02.592 > echo:  [37mM[37m217 Z2.00
+11:08:05.499 > [37me[37mcho:No SD card
+11:08:05.520 > [37me[37mcho:SD card released
+11:08:17.923 > [37me[37mcho:No SD card
+11:08:17.933 > [37me[37mcho:Setup wifi
+11:08:18.074 > [37me[37mcho:Connecting
+11:08:21.294 > [37me[37mcho:10.0.1.125
+11:08:22.777 > [37me[37mcho:10.0.1.125
+11:08:32.490 > [37m[37m
+11:08:32.491 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:08:32.493 > 
+11:08:32.493 > 
+11:08:32.493 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:08:32.499 > 
+11:08:32.499 > 
+11:08:32.499 > 
+11:08:32.499 > 
+11:08:32.499 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:08:32.502 > 
+11:08:32.725 > [37mR[37mebooting...
+11:08:32.725 > ets Jun  8 2016 00[37m:[37m22:57
+11:08:32.728 > 
+11:08:32.728 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:08:32.733 > configsip: 0, SPIWP:0xee
+11:08:32.733 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:08:32.741 > mode:DIO, clock div:2
+11:08:32.741 > load[37m:[37m0x3fff0030,len:1184
+11:08:32.744 > load:0x400[37m7[37m8000,len:13192
+11:08:32.747 > load:0x40080400[37m,[37mlen:3028
+11:08:32.752 > entry 0x400805e4
+11:08:33.362 > [37ms[37mtart
+11:08:33.366 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:08:33.368 >  B[37mr[37mown out Reset
+11:08:33.371 >  Watchdog Reset
+11:08:33.371 > M[37ma[37mrlin 2.1.2
+11:08:33.374 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:08:33.380 > echo: Compiled: Sep [37m1[37m8 2023
+11:08:33.383 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:08:33.385 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:08:33.391 > echo:; Linear Units:
+11:08:33.391 > echo:  G[37m2[37m1 ; (mm)
+11:08:33.394 > echo:; Temperature Uni[37mt[37ms:
+11:08:33.396 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:08:33.399 > echo:; Filament settings (D[37mi[37msabled):
+11:08:33.402 > echo:  M200 S0
+11:08:33.402 > echo:  [37mM[37m200 T0 D1.75
+11:08:33.405 > echo:  M200 T1 D1.[37m7[37m5
+11:08:33.408 > echo:; Steps per unit:
+11:08:33.408 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:08:33.413 > echo:; Max feedrates (units/s[37m)[37m:
+11:08:33.416 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:08:33.419 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:08:33.421 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:08:33.427 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:08:33.433 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:08:33.435 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:08:33.444 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:08:33.446 > ec[37mh[37mo:; Home offset:
+11:08:33.449 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:08:33.452 > echo:; Hotend of[37mf[37msets:
+11:08:33.455 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:08:33.457 > echo:; Hotend PID:[37m
+11:08:33.461 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:08:33.463 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:08:33.466 > echo:; Tool-changing:
+11:08:33.466 > echo:  [37mM[37m217 Z2.00
+11:08:36.375 > [37me[37mcho:No SD card
+11:08:36.397 > [37me[37mcho:SD card released
+11:08:48.799 > [37me[37mcho:No SD card
+11:08:48.809 > [37me[37mcho:Setup wifi
+11:08:48.948 > [37me[37mcho:Connecting
+11:08:52.172 > [37me[37mcho:10.0.1.125
+11:08:53.650 > [37me[37mcho:10.0.1.125
+11:09:03.364 > [37m[37m
+11:09:03.364 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:09:03.367 > 
+11:09:03.367 > 
+11:09:03.367 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:09:03.373 > 
+11:09:03.373 > 
+11:09:03.373 > 
+11:09:03.373 > 
+11:09:03.373 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:09:03.376 > 
+11:09:03.594 > [37mR[37mebooting...
+11:09:03.594 > ets Jun  8 2016 00[37m:[37m22:57
+11:09:03.597 > 
+11:09:03.597 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:09:03.602 > configsip: 0, SPIWP:0xee
+11:09:03.602 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:09:03.610 > mode:DIO, clock div:2
+11:09:03.610 > load[37m:[37m0x3fff0030,len:1184
+11:09:03.613 > load:0x400[37m7[37m8000,len:13192
+11:09:03.616 > load:0x40080400[37m,[37mlen:3028
+11:09:03.621 > entry 0x400805e4
+11:09:04.230 > [37ms[37mtart
+11:09:04.235 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:09:04.237 >  B[37mr[37mown out Reset
+11:09:04.240 >  Watchdog Reset
+11:09:04.240 > M[37ma[37mrlin 2.1.2
+11:09:04.243 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:09:04.249 > echo: Compiled: Sep [37m1[37m8 2023
+11:09:04.251 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:09:04.254 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:09:04.260 > echo:; Linear Units:
+11:09:04.260 > echo:  G[37m2[37m1 ; (mm)
+11:09:04.262 > echo:; Temperature Uni[37mt[37ms:
+11:09:04.265 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:09:04.268 > echo:; Filament settings (D[37mi[37msabled):
+11:09:04.270 > echo:  M200 S0
+11:09:04.270 > echo:  [37mM[37m200 T0 D1.75
+11:09:04.273 > echo:  M200 T1 D1.[37m7[37m5
+11:09:04.276 > echo:; Steps per unit:
+11:09:04.276 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:09:04.282 > echo:; Max feedrates (units/s[37m)[37m:
+11:09:04.285 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:09:04.287 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:09:04.290 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:09:04.295 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:09:04.301 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:09:04.304 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:09:04.312 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:09:04.315 > ec[37mh[37mo:; Home offset:
+11:09:04.318 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:09:04.321 > echo:; Hotend of[37mf[37msets:
+11:09:04.324 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:09:04.326 > echo:; Hotend PID:[37m
+11:09:04.329 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:09:04.332 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:09:04.335 > echo:; Tool-changing:
+11:09:04.335 > echo:  [37mM[37m217 Z2.00
+11:09:07.248 > [37me[37mcho:No SD card
+11:09:07.272 > [37me[37mcho:SD card released
+11:09:19.674 > [37me[37mcho:No SD card
+11:09:19.684 > [37me[37mcho:Setup wifi
+11:09:19.827 > [37me[37mcho:Connecting
+11:09:23.053 > [37me[37mcho:10.0.1.125
+11:09:24.520 > [37me[37mcho:10.0.1.125
+11:09:34.234 > [37m[37m
+11:09:34.234 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:09:34.237 > 
+11:09:34.237 > 
+11:09:34.237 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:09:34.242 > 
+11:09:34.242 > 
+11:09:34.242 > 
+11:09:34.242 > 
+11:09:34.242 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:09:34.246 > 
+11:09:34.470 > [37mR[37mebooting...
+11:09:34.470 > ets Jun  8 2016 00[37m:[37m22:57
+11:09:34.472 > 
+11:09:34.472 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:09:34.478 > configsip: 0, SPIWP:0xee
+11:09:34.478 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:09:34.486 > mode:DIO, clock div:2
+11:09:34.486 > load[37m:[37m0x3fff0030,len:1184
+11:09:34.489 > load:0x400[37m7[37m8000,len:13192
+11:09:34.492 > load:0x40080400[37m,[37mlen:3028
+11:09:34.496 > entry 0x400805e4
+11:09:35.106 > [37ms[37mtart
+11:09:35.110 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:09:35.113 >  B[37mr[37mown out Reset
+11:09:35.116 >  Watchdog Reset
+11:09:35.116 > M[37ma[37mrlin 2.1.2
+11:09:35.119 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:09:35.124 > echo: Compiled: Sep [37m1[37m8 2023
+11:09:35.127 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:09:35.130 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:09:35.135 > echo:; Linear Units:
+11:09:35.135 > echo:  G[37m2[37m1 ; (mm)
+11:09:35.138 > echo:; Temperature Uni[37mt[37ms:
+11:09:35.141 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:09:35.144 > echo:; Filament settings (D[37mi[37msabled):
+11:09:35.147 > echo:  M200 S0
+11:09:35.147 > echo:  [37mM[37m200 T0 D1.75
+11:09:35.149 > echo:  M200 T1 D1.[37m7[37m5
+11:09:35.152 > echo:; Steps per unit:
+11:09:35.152 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:09:35.157 > echo:; Max feedrates (units/s[37m)[37m:
+11:09:35.160 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:09:35.163 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:09:35.166 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:09:35.171 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:09:35.177 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:09:35.180 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:09:35.188 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:09:35.191 > ec[37mh[37mo:; Home offset:
+11:09:35.194 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:09:35.197 > echo:; Hotend of[37mf[37msets:
+11:09:35.199 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:09:35.202 > echo:; Hotend PID:[37m
+11:09:35.205 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:09:35.207 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:09:35.210 > echo:; Tool-changing:
+11:09:35.210 > echo:  [37mM[37m217 Z2.00
+11:09:38.121 > [37me[37mcho:No SD card
+11:09:38.142 > [37me[37mcho:SD card released
+11:09:50.545 > [37me[37mcho:No SD card
+11:09:50.555 > [37me[37mcho:Setup wifi
+11:09:50.695 > [37me[37mcho:Connecting
+11:09:53.913 > [37me[37mcho:10.0.1.125
+11:09:55.395 > [37me[37mcho:10.0.1.125
+11:10:05.110 > [37m[37m
+11:10:05.110 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:10:05.113 > 
+11:10:05.113 > 
+11:10:05.113 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:10:05.118 > 
+11:10:05.118 > 
+11:10:05.118 > 
+11:10:05.118 > 
+11:10:05.118 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:10:05.122 > 
+11:10:05.352 > [37mR[37mebooting...
+11:10:05.352 > ets Jun  8 2016 00[37m:[37m22:57
+11:10:05.354 > 
+11:10:05.354 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:10:05.360 > configsip: 0, SPIWP:0xee
+11:10:05.360 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:10:05.368 > mode:DIO, clock div:2
+11:10:05.368 > load[37m:[37m0x3fff0030,len:1184
+11:10:05.371 > load:0x400[37m7[37m8000,len:13192
+11:10:05.374 > load:0x40080400[37m,[37mlen:3028
+11:10:05.379 > entry 0x400805e4
+11:10:05.989 > [37ms[37mtart
+11:10:05.993 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:10:05.996 >  B[37mr[37mown out Reset
+11:10:05.998 >  Watchdog Reset
+11:10:05.998 > M[37ma[37mrlin 2.1.2
+11:10:06.001 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:10:06.007 > echo: Compiled: Sep [37m1[37m8 2023
+11:10:06.009 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:10:06.012 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:10:06.018 > echo:; Linear Units:
+11:10:06.018 > echo:  G[37m2[37m1 ; (mm)
+11:10:06.020 > echo:; Temperature Uni[37mt[37ms:
+11:10:06.023 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:10:06.026 > echo:; Filament settings (D[37mi[37msabled):
+11:10:06.029 > echo:  M200 S0
+11:10:06.029 > echo:  [37mM[37m200 T0 D1.75
+11:10:06.031 > echo:  M200 T1 D1.[37m7[37m5
+11:10:06.034 > echo:; Steps per unit:
+11:10:06.034 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:10:06.040 > echo:; Max feedrates (units/s[37m)[37m:
+11:10:06.043 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:10:06.046 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:10:06.048 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:10:06.054 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:10:06.059 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:10:06.062 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:10:06.070 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:10:06.073 > ec[37mh[37mo:; Home offset:
+11:10:06.076 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:10:06.079 > echo:; Hotend of[37mf[37msets:
+11:10:06.081 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:10:06.084 > echo:; Hotend PID:[37m
+11:10:06.087 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:10:06.090 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:10:06.092 > echo:; Tool-changing:
+11:10:06.092 > echo:  [37mM[37m217 Z2.00
+11:10:09.002 > [37me[37mcho:No SD card
+11:10:09.023 > [37me[37mcho:SD card released
+11:10:21.421 > [37me[37mcho:No SD card
+11:10:21.431 > [37me[37mcho:Setup wifi
+11:10:21.570 > [37me[37mcho:Connecting
+11:10:24.794 > [37me[37mcho:10.0.1.125
+11:10:26.272 > [37me[37mcho:10.0.1.125
+11:10:35.991 > [37m[37m
+11:10:35.991 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:10:35.994 > 
+11:10:35.994 > 
+11:10:35.994 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:10:36.000 > 
+11:10:36.000 > 
+11:10:36.000 > 
+11:10:36.000 > 
+11:10:36.000 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:10:36.003 > 
+11:10:36.234 > [37mR[37mebooting...
+11:10:36.235 > ets Jun  8 2016 00[37m:[37m22:57
+11:10:36.237 > 
+11:10:36.237 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:10:36.243 > configsip: 0, SPIWP:0xee
+11:10:36.243 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:10:36.251 > mode:DIO, clock div:2
+11:10:36.251 > load[37m:[37m0x3fff0030,len:1184
+11:10:36.254 > load:0x400[37m7[37m8000,len:13192
+11:10:36.256 > load:0x40080400[37m,[37mlen:3028
+11:10:36.261 > entry 0x400805e4
+11:10:36.871 > [37ms[37mtart
+11:10:36.875 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:10:36.878 >  B[37mr[37mown out Reset
+11:10:36.881 >  Watchdog Reset
+11:10:36.881 > M[37ma[37mrlin 2.1.2
+11:10:36.884 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:10:36.889 > echo: Compiled: Sep [37m1[37m8 2023
+11:10:36.892 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:10:36.895 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:10:36.900 > echo:; Linear Units:
+11:10:36.900 > echo:  G[37m2[37m1 ; (mm)
+11:10:36.903 > echo:; Temperature Uni[37mt[37ms:
+11:10:36.906 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:10:36.909 > echo:; Filament settings (D[37mi[37msabled):
+11:10:36.911 > echo:  M200 S0
+11:10:36.911 > echo:  [37mM[37m200 T0 D1.75
+11:10:36.914 > echo:  M200 T1 D1.[37m7[37m5
+11:10:36.917 > echo:; Steps per unit:
+11:10:36.917 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:10:36.922 > echo:; Max feedrates (units/s[37m)[37m:
+11:10:36.925 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:10:36.928 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:10:36.931 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:10:36.936 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:10:36.942 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:10:36.945 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:10:36.953 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:10:36.956 > ec[37mh[37mo:; Home offset:
+11:10:36.959 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:10:36.961 > echo:; Hotend of[37mf[37msets:
+11:10:36.964 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:10:36.967 > echo:; Hotend PID:[37m
+11:10:36.970 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:10:36.973 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:10:36.975 > echo:; Tool-changing:
+11:10:36.975 > echo:  [37mM[37m217 Z2.00
+11:10:39.883 > [37me[37mcho:No SD card
+11:10:39.904 > [37me[37mcho:SD card released
+11:10:52.301 > [37me[37mcho:No SD card
+11:10:52.311 > [37me[37mcho:Setup wifi
+11:10:52.451 > [37me[37mcho:Connecting
+11:10:56.178 > [37me[37mcho:10.0.1.125
+11:10:57.652 > [37me[37mcho:10.0.1.125
+11:11:06.874 > [37m[37m
+11:11:06.874 > abort() was called at PC 0x400[37m8[37m5423 on core 1
+11:11:06.877 > 
+11:11:06.877 > 
+11:11:06.877 > Backtrace: [37m0[37mx40083e55:0x3ffbf3dc |<-CORRUPT[37mE[37mD
+11:11:06.882 > 
+11:11:06.882 > 
+11:11:06.882 > 
+11:11:06.882 > 
+11:11:06.882 > ELF file SHA256: fa5[37m1[37m5c3a5adafda4
+11:11:06.886 > 
+11:11:07.116 > [37mR[37mebooting...
+11:11:07.116 > ets Jun  8 2016 00[37m:[37m22:57
+11:11:07.119 > 
+11:11:07.119 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+11:11:07.124 > configsip: 0, SPIWP:0xee
+11:11:07.124 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:11:07.132 > mode:DIO, clock div:2
+11:11:07.132 > load[37m:[37m0x3fff0030,len:1184
+11:11:07.135 > load:0x400[37m7[37m8000,len:13192
+11:11:07.138 > load:0x40080400[37m,[37mlen:3028
+11:11:07.143 > entry 0x400805e4
+11:11:07.753 > [37ms[37mtart
+11:11:07.757 > [37mE[37m (46) gpio: gpio_set_level(226)[37m:[37m GPIO output gpio_num error
+11:11:07.760 >  B[37mr[37mown out Reset
+11:11:07.763 >  Watchdog Reset
+11:11:07.763 > M[37ma[37mrlin 2.1.2
+11:11:07.765 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+11:11:07.771 > echo: Compiled: Sep [37m1[37m8 2023
+11:11:07.774 > echo: Free Memory: 23152[37m0[37m  PlannerBufferBytes: 1344
+11:11:07.777 > echo[37m:[37mHardcoded Default Settings Load[37me[37md
+11:11:07.782 > echo:; Linear Units:
+11:11:07.782 > echo:  G[37m2[37m1 ; (mm)
+11:11:07.785 > echo:; Temperature Uni[37mt[37ms:
+11:11:07.788 > echo:  M149 C ; Units in Cel[37ms[37mius
+11:11:07.790 > echo:; Filament settings (D[37mi[37msabled):
+11:11:07.793 > echo:  M200 S0
+11:11:07.793 > echo:  [37mM[37m200 T0 D1.75
+11:11:07.796 > echo:  M200 T1 D1.[37m7[37m5
+11:11:07.799 > echo:; Steps per unit:
+11:11:07.799 > echo: [37m [37mM92 X80.00 Y80.00 Z400.00 E500.[37m0[37m0
+11:11:07.804 > echo:; Max feedrates (units/s[37m)[37m:
+11:11:07.807 > echo:  M203 X300.00 Y300.00 Z[37m5[37m.00 E25.00
+11:11:07.810 > echo:; Max Accelerat[37mi[37mon (units/s2):
+11:11:07.813 > echo:  M201 X300[37m0[37m.00 Y3000.00 Z100.00 E10000.00
+11:11:07.818 > [37me[37mcho:; Acceleration (units/s2) ([37mP[37m<print-accel> R<retract-accel> [37mT[37m<travel-accel>):
+11:11:07.824 > echo:  M204 P3[37m0[37m00.00 R3000.00 T3000.00
+11:11:07.827 > echo:; [37mA[37mdvanced (B<min_segment_time_us>[37m [37mS<min_feedrate> T<min_travel_fe[37me[37mdrate> J<junc_dev>):
+11:11:07.835 > echo:  M20[37m5[37m B20000.00 S0.00 T0.00 J0.01
+11:11:07.838 > ec[37mh[37mo:; Home offset:
+11:11:07.840 > echo:  M206 X0[37m.[37m00 Y0.00 Z0.00
+11:11:07.843 > echo:; Hotend of[37mf[37msets:
+11:11:07.846 > echo:echo:  M218 T1 X0.00[37m [37mY0.00 Z0.000
+11:11:07.849 > echo:; Hotend PID:[37m
+11:11:07.852 > [37mecho:  M301 P22.20 I1.08 D114.0[37m0[37m
+11:11:07.854 > echo:  M301 P22.20 I1.08 D114.[37m0[37m0
+11:11:07.857 > echo:; Tool-changing:
+11:11:07.857 > echo:  [37mM[37m217 Z2.00
+11:11:10.766 > [37me[37mcho:No SD card
+11:11:10.788 > [37me[37mcho:SD card released
+11:11:12.393 > [37me[37mts Jun  8 2016 00:22:57
+11:11:12.393 > 
+11:11:12.393 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+11:11:12.401 > waiting for download[37m
+11:11:12.930 > [37m[37mU[37m [37m�[37m[37m[37m [37m�[37me[37mts Jun  8 2016 00:22:57
+11:11:13.178 > 
+11:11:13.178 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+11:11:13.186 > waiting for download[37m
+11:11:14.044 > [37m�[37m [37mUUUU    �� UUUU    �� UUU[37mU[37m    �� UUUU    �� UUUU   [37m [37m�� UUUU    �[37m�[37m [37m     ��      �� [37m [37m    ��      ��     [37m [37m��      �[37m[37m [37m [37m�[37me[37mts Jun  8 2016 00:22:57
+11:11:14.338 > 
+11:11:14.338 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+11:11:14.346 > waiting for download[37m
+11:11:14.872 > [37m[37mU[37m [37m�[37m[37m [37m [37m�[37me[37mts Jun  8 2016 00:22:57
+11:11:15.113 > 
+11:11:15.113 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+11:11:15.121 > waiting for download[37m
+11:11:16.556 > [37me[37mts Jun  8 2016 00:22:57
+11:11:16.556 > 
+11:11:16.556 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+11:11:16.564 > waiting for download[37m
+11:11:17.237 > [37m[37mU[37m [37m 
