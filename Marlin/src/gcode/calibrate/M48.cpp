@@ -161,7 +161,7 @@ void GcodeSuite::M48() {
         const int dir = (random(0, 10) > 5.0) ? -1 : 1;  // clockwise or counter clockwise
         float angle = random(0, 360);
         const float radius = random(
-          #if ENABLED(DELTA)
+          #if EITHER(DELTA,ROTARY_DELTA)
             int(0.1250000000 * (DELTA_PRINTABLE_RADIUS)),
             int(0.3333333333 * (DELTA_PRINTABLE_RADIUS))
           #else

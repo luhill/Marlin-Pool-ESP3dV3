@@ -30,27 +30,35 @@
 
 extern float delta_height;
 extern abc_float_t delta_endstop_adj;
-extern float delta_radius,
-             delta_diagonal_rod,
-             segments_per_second;
-extern abc_float_t delta_tower_angle_trim;
-extern xy_float_t delta_tower[ABC];
-extern abc_float_t delta_diagonal_rod_2_tower;
+extern float segments_per_second;
 extern float delta_clip_start_height;
-extern abc_float_t delta_diagonal_rod_trim;
-
+extern float delta_radius;
+#if ENABLED(ROTARY_DELTA)
+  extern float delta_joint_offset,  //MOTOR_RADIUS - EFFECTOR_RADIUS
+             delta_arm,
+             delta_bicep,
+             delta_bicep_height,
+             delta_bicep2,
+             delta_bicep2_minus_arm2,
+             delta_bicep_drive_radius,
+             delta_tool_offset,
+             delta_bicep_height_adjusted,
+             delta_xy_compensation,
+             delta_z_compensation,
+             delta_z_decay;
+#else
+  
+  extern float delta_diagonal_rod;
+  extern abc_float_t delta_tower_angle_trim;
+  extern xy_float_t delta_tower[ABC];
+  extern abc_float_t delta_diagonal_rod_2_tower;
+  extern abc_float_t delta_diagonal_rod_trim;
+#endif
 /**
  * Recalculate factors used for delta kinematics whenever
  * settings have been changed (e.g., by M665).
  */
 void recalc_delta_settings();
-
-/**
- * Get a safe radius for calibration
- */
-#if HAS_DELTA_SENSORLESS_PROBING
-  static constexpr float sensorless_radius_factor = 0.7f;
-#endif
 
 /**
  * Delta Inverse Kinematics
@@ -83,6 +91,8 @@ void recalc_delta_settings();
 
 void inverse_kinematics(const xyz_pos_t &raw);
 
+void adjusted_rotary_delta_ik(const xyz_pos_t &pos);
+void rotary_delta_ik(const xyz_pos_t &pos);
 /**
  * Calculate the highest Z position where the
  * effector has the full range of XY motion.
@@ -117,6 +127,7 @@ void refresh_delta_clip_start_height();
  * The result is stored in the cartes[] array.
  */
 void forward_kinematics(const_float_t z1, const_float_t z2, const_float_t z3);
+
 
 FORCE_INLINE void forward_kinematics(const abc_float_t &point) {
   forward_kinematics(point.a, point.b, point.c);

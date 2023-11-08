@@ -323,7 +323,22 @@ typedef struct SettingsDataStruct {
   //
   #if IS_KINEMATIC
     float segments_per_second;                          // M665 S
-    #if ENABLED(DELTA)
+    #if ENABLED(ROTARY_DELTA)
+      float delta_radius;                                 // M665 R
+      float delta_height;                                 // M666 H
+      abc_float_t delta_endstop_adj;                    // M666 X Y Z
+      float delta_bicep;
+      float delta_bicep_height;
+      float delta_arm;                         // M665 L
+      float delta_bicep_drive_radius;
+      float delta_joint_offset;
+      float delta_tool_offset;
+      float delta_xy_compensation;
+      float delta_z_compensation;
+      float delta_z_decay;
+      //float delta_bicep_height_adjusted;
+      /*luke todo*/
+    #elif ENABLED(DELTA)
       float delta_height;                               // M666 H
       abc_float_t delta_endstop_adj;                    // M666 X Y Z
       float delta_radius,                               // M665 R
@@ -1009,7 +1024,22 @@ void MarlinSettings::postprocess() {
     #if IS_KINEMATIC
     {
       EEPROM_WRITE(segments_per_second);
-      #if ENABLED(DELTA)
+      #if ENABLED(ROTARY_DELTA)
+        _FIELD_TEST(delta_height);
+        EEPROM_WRITE(delta_height);              // 1 float
+        EEPROM_WRITE(delta_endstop_adj);         // 3 floats
+        EEPROM_WRITE(delta_radius);              // 1 float
+        /*luke todo*/
+        EEPROM_WRITE(delta_bicep);               // 1 float
+        EEPROM_WRITE(delta_bicep_height);        // 1 float
+        EEPROM_WRITE(delta_arm);                 // 1 float
+        EEPROM_WRITE(delta_bicep_drive_radius);  // 1 float
+        EEPROM_WRITE(delta_joint_offset);        // 1 float
+        EEPROM_WRITE(delta_tool_offset);         // 1 float
+        EEPROM_WRITE(delta_xy_compensation);     // 1 float
+        EEPROM_WRITE(delta_z_compensation);      // 1 float
+        EEPROM_WRITE(delta_z_decay);             // 1 float
+      #elif ENABLED(DELTA)
         _FIELD_TEST(delta_height);
         EEPROM_WRITE(delta_height);              // 1 float
         EEPROM_WRITE(delta_endstop_adj);         // 3 floats
@@ -1963,7 +1993,22 @@ void MarlinSettings::postprocess() {
       #if IS_KINEMATIC
       {
         EEPROM_READ(segments_per_second);
-        #if ENABLED(DELTA)
+        #if ENABLED(ROTARY_DELTA)
+          _FIELD_TEST(delta_height);
+          EEPROM_READ(delta_height);              // 1 float
+          EEPROM_READ(delta_endstop_adj);         // 3 floats
+          EEPROM_READ(delta_radius);              // 1 float
+          /*luke todo*/
+          EEPROM_READ(delta_bicep);               // 1 float
+          EEPROM_READ(delta_bicep_height);        // 1 float
+          EEPROM_READ(delta_arm);                 // 1 float
+          EEPROM_READ(delta_bicep_drive_radius);  // 1 float
+          EEPROM_READ(delta_joint_offset);        // 1 float
+          EEPROM_READ(delta_tool_offset);         // 1 float
+          EEPROM_READ(delta_xy_compensation);     // 1 float
+          EEPROM_READ(delta_z_compensation);      // 1 float
+          EEPROM_READ(delta_z_decay);             // 1 float
+        #elif ENABLED(DELTA)
           _FIELD_TEST(delta_height);
           EEPROM_READ(delta_height);              // 1 float
           EEPROM_READ(delta_endstop_adj);         // 3 floats
@@ -3045,7 +3090,24 @@ void MarlinSettings::reset() {
 
   #if IS_KINEMATIC
     segments_per_second = DEFAULT_SEGMENTS_PER_SECOND;
-    #if ENABLED(DELTA)
+    #if ENABLED(ROTARY_DELTA)
+      const abc_float_t adj = DELTA_ENDSTOP_ADJ;
+      delta_height = DELTA_HEIGHT;
+      delta_endstop_adj = adj;
+      delta_radius = DELTA_RADIUS;
+      delta_joint_offset = DELTA_MOTOR_RADIUS - DELTA_EFFECTOR_RADIUS;
+      delta_arm = DELTA_ARM;
+      delta_bicep = DELTA_BICEP;
+      delta_bicep_height = DELTA_BICEP_HEIGHT;
+      delta_bicep2 = delta_bicep * delta_bicep;
+      delta_bicep2_minus_arm2 = delta_bicep2 - delta_arm * delta_arm;
+      delta_bicep_drive_radius = DELTA_BICEP_DRIVE_RADIUS;
+      delta_tool_offset = DELTA_TOOL_OFFSET;
+      delta_bicep_height_adjusted = delta_bicep_height - delta_tool_offset;
+      delta_xy_compensation = DELTA_XY_COMPENSATION;
+      delta_z_compensation = DELTA_Z_COMPENSATION;
+      delta_z_decay = DELTA_Z_DECAY;
+    #elif ENABLED(DELTA)
       const abc_float_t adj = DELTA_ENDSTOP_ADJ, dta = DELTA_TOWER_ANGLE_TRIM, ddr = DELTA_DIAGONAL_ROD_TRIM_TOWER;
       delta_height = DELTA_HEIGHT;
       delta_endstop_adj = adj;

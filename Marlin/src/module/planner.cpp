@@ -1564,7 +1564,7 @@ void Planner::check_axes_activity() {
       saved_motion_state.acceleration.x = settings.max_acceleration_mm_per_s2[X_AXIS];
       saved_motion_state.acceleration.y = settings.max_acceleration_mm_per_s2[Y_AXIS];
       settings.max_acceleration_mm_per_s2[X_AXIS] = settings.max_acceleration_mm_per_s2[Y_AXIS] = 100;
-      #if ENABLED(DELTA)
+      #if EITHER(DELTA,ROTARY_DELTA)
         saved_motion_state.acceleration.z = settings.max_acceleration_mm_per_s2[Z_AXIS];
         settings.max_acceleration_mm_per_s2[Z_AXIS] = 100;
       #endif

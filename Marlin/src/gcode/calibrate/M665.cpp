@@ -28,9 +28,49 @@
 #include "../../module/motion.h"
 
 #if ENABLED(DELTA)
-
   #include "../../module/delta.h"
+  #if ENABLED(ROTARY_DELTA)
+    /**
+   * M665: Set delta configurations
+   *    T = Tool offset below plate
+   *    H = delta height
+   *    I = bicep height
+   *    R = delta radius
+   *    S = segments per second
+   *    A = Alpha (Tower 1) diagonal rod trim
+   *    B = Beta  (Tower 2) diagonal rod trim
+   *    C = Gamma (Tower 3) diagonal rod trim
+   */
+  void GcodeSuite::M665() {
+    /*luke todo*/
+    if (!parser.seen_any()) return M665_report();
+    if (parser.seenval('T')) delta_tool_offset          = parser.value_linear_units(); //tool z offset
+    if (parser.seenval('H')) delta_height               = parser.value_linear_units(); //Distance between bed and plate at home position
+    if (parser.seenval('I')) delta_bicep_height         = parser.value_linear_units(); //height of bicep joints
+    if (parser.seenval('R')) delta_radius               = parser.value_linear_units(); //reachable radius of effector
+    if (parser.seenval('B')) delta_bicep                = parser.value_linear_units(); //bicep length
+    if (parser.seenval('A')) delta_arm                  = parser.value_linear_units(); //arm length
+    if (parser.seenval('D')) delta_bicep_drive_radius   = parser.value_linear_units(); //radius of belt drive for bicep
+    if (parser.seenval('J')) delta_joint_offset         = parser.value_linear_units(); //motor radius - effector radius
+    if (parser.seenval('S')) segments_per_second        = parser.value_float();
+    recalc_delta_settings();
+  }
 
+  void GcodeSuite::M665_report(const bool forReplay/*=true*/) {
+    report_heading_etc(forReplay, F(STR_DELTA_SETTINGS));
+      SERIAL_ECHOLNPGM_P(
+        PSTR("  M665 T"), LINEAR_UNIT(delta_tool_offset)
+      , PSTR(" H"), LINEAR_UNIT(delta_height)
+      , PSTR(" I"), LINEAR_UNIT(delta_bicep_height)
+      , PSTR(" R"), LINEAR_UNIT(delta_radius)
+      , PSTR(" B"), LINEAR_UNIT(delta_bicep)
+      , PSTR(" A"), LINEAR_UNIT(delta_arm)
+      , PSTR(" D"), LINEAR_UNIT(delta_bicep_drive_radius)
+      , PSTR(" J"), LINEAR_UNIT(delta_joint_offset)
+      , PSTR(" S"), segments_per_second
+    );
+  }
+  #else
   /**
    * M665: Set delta configurations
    *
@@ -76,7 +116,7 @@
       , PSTR(" C"), LINEAR_UNIT(delta_diagonal_rod_trim.c)
     );
   }
-
+  #endif
 #elif IS_SCARA
 
   #include "../../module/scara.h"

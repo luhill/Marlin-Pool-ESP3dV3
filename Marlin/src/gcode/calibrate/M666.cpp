@@ -36,7 +36,31 @@
 #define DEBUG_OUT ENABLED(DEBUG_LEVELING_FEATURE)
 #include "../../core/debug_out.h"
 
-#if ENABLED(DELTA)
+#if ENABLED(ROTARY_DELTA)
+  void GcodeSuite::M666() {
+    if (!parser.seen_any()) return M666_report();
+    if (parser.seenval('X')) delta_endstop_adj[0]         = parser.value_linear_units();
+    if (parser.seenval('Y')) delta_endstop_adj[1]         = parser.value_linear_units(); 
+    if (parser.seenval('Z')) delta_endstop_adj[2]         = parser.value_linear_units();
+    if (parser.seenval('R')) delta_xy_compensation        = parser.value_float();
+    if (parser.seenval('H')) delta_z_compensation         = parser.value_float();
+    if (parser.seenval('D')) delta_z_decay                = parser.value_float();
+    recalc_delta_settings();
+    M666_report();
+  }
+
+  void GcodeSuite::M666_report(const bool forReplay/*=true*/) {
+    report_heading_etc(forReplay, F(STR_ENDSTOP_ADJUSTMENT));
+    SERIAL_ECHOLNPGM_P(
+        PSTR("  M666 X"), LINEAR_UNIT(delta_endstop_adj.a)
+      , PSTR(" Y"), LINEAR_UNIT(delta_endstop_adj.b)
+      , PSTR(" Z"), LINEAR_UNIT(delta_endstop_adj.c)
+      , PSTR(" R"), delta_xy_compensation
+      , PSTR(" H"), delta_z_compensation
+      , PSTR(" D"), delta_z_decay
+    );
+  }
+#elif ENABLED(DELTA)
 
   /**
    * M666: Set delta endstop adjustment
