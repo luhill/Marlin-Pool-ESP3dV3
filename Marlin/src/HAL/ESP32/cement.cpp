@@ -7,7 +7,7 @@
 #include "../../core/serial.h"
 #include "../../core/macros.h"
 #include "../../pins/esp32/pins_MKS_TINYBEE.h"
-
+#include "../../module/motion.h" //used to check position of the extruder
 
 
 //#define _TIMERINTERRUPT_LOGLEVEL_     4
@@ -33,14 +33,25 @@ struct Settings{//26 bytes
   int time_start;//4 bytes = int
   int time_stop;//4 bytes = int
 };
-#define SEC_PER_DAY 86400
 static Settings S;
 
+struct Addative{
+  float ratio;//how much to add per mm of extrusion
+  float flow; //how many ml/sec is dosed when turned on
+  float position; //how much has already been dosed
+  bool on;
+  uint8_t pin;
+};
+static const uint8_t NUM_ADDATIVES = 2;
+static Addative addatives[NUM_ADDATIVES];
+#define SEC_PER_DAY 86400
+#define DOSE_INTERVAL_SEC 0.5f
 static volatile bool updateWebUi = false;
 
 static const char j_start [] = "{\"myPanel\":{\"values\":{";
 static const char j_end [] = "}}}\n";
 static const char j_time_current [] = "\"time_current\":\"%s\"";
+static const char j_extrude_on [] = "\"extrude\":\"%i\"";
 static const char j_auto [] = "\"auto\":[%i,%i,%i]";
 
 static const char j_ui [] = "{\"myPanel\":{\"name\":\"Cement Printer\",\"ui\":{"
@@ -48,6 +59,10 @@ static const char j_ui [] = "{\"myPanel\":{\"name\":\"Cement Printer\",\"ui\":{"
             "\"type\":\"datetime-local\","
             "\"label\":\"Time\","
             "\"cmd\":\"P0\""
+            "},\"extrude\":{"
+            "\"type\":\"boolean\","
+            "\"label\":\"Extrude\","
+            "\"cmd\":\"P1\""
             "},\"auto\":{"
             "\"type\":\"onStartStop\","
             "\"label\":\"Auto\","
@@ -63,7 +78,8 @@ ESP32_ISRTimer ISR_Timer;
 
 static int ISR_TIMER_AUTO_ON;
 static int ISR_TIMER_AUTO_OFF;
-
+static int ISR_TIMER_DOSER;
+static bool extrude_on = false;
 void IRAM_ATTR alarm_autoOn(){
   if(S.auto_on){
     updateWebUi = true;
@@ -80,7 +96,18 @@ void IRAM_ATTR alarm_autoOff(){
     ISR_Timer.changeInterval(ISR_TIMER_AUTO_OFF,86400000);
   }
 }
-
+//Periodically check the extrusion position and dose chemicals if required
+void IRAM_ATTR alarm_dose(){
+  if(!extrude_on) return;
+  float e = destination.e;
+  for(int i = 0; i < NUM_ADDATIVES; i++){
+    if(addatives[i].on){
+      addatives[i].position += addatives[i].flow * DOSE_INTERVAL_SEC;
+    }
+    addatives[i].on = addatives[i].position < e*addatives[i].ratio;
+    OUT_WRITE(addatives[i].pin,addatives[i].on);
+  }
+}
 //ISR_timer ticks 
 bool IRAM_ATTR hwTimerHandler(void * timerNo){
 	ISR_Timer.run();
@@ -103,7 +130,8 @@ void CEMENT::handleCommand(const int8_t c, String val){
         if(val!=""){setTimeCurrent(val.c_str());}
         sprintf(status, j_time_current, getTimeCurrent());
         break;
-    case 1://Pump on off
+    case 1://Extrude matching on off
+        extrude_on = val.toInt()>0;
         break;
     case 3://Auot timer
         sscanf(val.c_str(),"[%u,%u,%u]",&onS, &startS, &stopS);
@@ -114,8 +142,8 @@ void CEMENT::handleCommand(const int8_t c, String val){
         SERIAL_ECHO(j_ui);
         return;
     case 114://web interface requesting all settings
-        //snprintf(sendc,sizeof(sendc),"%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",j_time_current, j_pump_on, j_booster_on, j_auto_a, j_auto_b, j_chlorine, j_ion, j_acid, j_cycle_chlorine, j_cycle_ion);
-        //snprintf(status,sizeof(status),sendc,getTimeCurrent(),pump_on,booster_on,S.auto_on_a,S.time_start_a,S.time_stop_a,S.auto_on_b,S.time_start_b,S.time_stop_b,S.duty_chlorine,ion_on,S.duty_ion,S.acid_on,S.duty_acid,S.cycle_chlorine,S.cycle_ion);
+        snprintf(sendc,sizeof(sendc),"%s,%s,%s",j_time_current, j_auto, j_extrude_on);
+        snprintf(status,sizeof(status),sendc,getTimeCurrent(),S.auto_on,S.time_start,S.time_stop,extrude_on);
         break;
     default:
         SERIAL_ECHOLN("unknown cement command");
@@ -125,10 +153,22 @@ void CEMENT::handleCommand(const int8_t c, String val){
     snprintf(sendc,sizeof(sendc),"%s%s%s",j_start, status, j_end);
     SERIAL_ECHOLN(sendc);
 }
+void CEMENT::initializeAddatives(){
+  addatives[0].ratio = 1;
+  addatives[0].flow = 1;
+  addatives[0].position = 0;
+  addatives[0].on = false;
+  addatives[0].pin = FAN_PIN; //black
 
+  addatives[1].ratio = 0.5;
+  addatives[1].flow = 1;
+  addatives[1].position = 0;
+  addatives[1].on = false;
+  addatives[1].pin = FAN1_PIN;//blue
+}
 void CEMENT::setup(){
     //Set Pin states
-
+    initializeAddatives();
     setupClock();
     loadSettings();//get saved settings from eeprom
     if(!S.initialized){//the settings have never been saved (code loaded to device for the first time or eeprom was erased)
@@ -144,7 +184,7 @@ void CEMENT::setup(){
     /*Note - reading an i2s analog to digital converter cannot be performed inside an ISR*/
     ISR_TIMER_AUTO_ON = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOn);                      //auto on timer
     ISR_TIMER_AUTO_OFF = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOff);                    //auto off timer
-    
+    ISR_TIMER_DOSER = ISR_Timer.setInterval(DOSE_INTERVAL_SEC*1000, alarm_dose);
     setAutoTimers();//Auto on & off timers were initialized with arbitrary values above. Update them based on current time
     
     writeOutputs();
@@ -160,7 +200,7 @@ void CEMENT::loop(){
 
 void CEMENT::setupClock(){
     sntp_set_time_sync_notification_cb(timeSyncCallback);//time server may take a 
-    configTime(10*60*60, 0, "pool.ntp.org");//brisbane time 10hrs ahead , 0 daylight saving
+    configTime(10*60*60, 0, "au.pool.ntp.org","pool.ntp.org");//brisbane time 10hrs ahead , 0 daylight saving
     struct tm timeinfo;
     if(!getLocalTime(&timeinfo)){//error getting time from ntp server. set it manually
       timeinfo.tm_year = 2023 - 1900;

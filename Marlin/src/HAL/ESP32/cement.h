@@ -8,6 +8,7 @@ public:
     static void loop();
     static void writeOutputs();
 private:
+    static void initializeAddatives();
     static void saveSettings();//store settings in eeprom
     static void loadSettings();//load settings from eeprom
 
