@@ -1,8 +1,8 @@
 #include "Arduino.h"
 
-class CEMENT{
+class CUSTOM_CNC{
 public:
-    CEMENT();
+    CUSTOM_CNC();
     static void setup();
     static void handleCommand(const int8_t c, String val);
     static void loop();

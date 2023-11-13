@@ -3548,8 +3548,9 @@ void MarlinSettings::reset() {
     //
     // M218 Hotend offsets
     //
-    TERN_(HAS_HOTEND_OFFSET, gcode.M218_report(forReplay));
-
+    #if HOTENDS
+      TERN_(HAS_HOTEND_OFFSET, gcode.M218_report(forReplay));
+    #endif
     //
     // Bed Leveling
     //

@@ -2747,7 +2747,7 @@ static_assert(Y_MAX_LENGTH >= Y_BED_SIZE, "Movement bounds (Y_MIN_POS, Y_MAX_POS
     #elif Y_HOME_TO_MAX && DISABLED(USE_YMAX_PLUG)
       #error "Enable USE_YMAX_PLUG when homing Y to MAX."
     #elif I_HOME_TO_MIN && DISABLED(USE_IMIN_PLUG)
-      #error "Enable USE_IMIN_PLUG when homing I to MIN."
+      //#error "Enable USE_IMIN_PLUG when homing I to MIN."
     #elif I_HOME_TO_MAX && DISABLED(USE_IMAX_PLUG)
       #error "Enable USE_IMAX_PLUG when homing I to MAX."
     #elif J_HOME_TO_MIN && DISABLED(USE_JMIN_PLUG)

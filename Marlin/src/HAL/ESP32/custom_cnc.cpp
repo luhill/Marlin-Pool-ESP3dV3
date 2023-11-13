@@ -1,4 +1,4 @@
-#include "cement.h"
+#include "custom_cnc.h"
 #include <driver/ledc.h> //used for pwm
 #include <EEPROM.h>
 #include <time.h>
@@ -43,7 +43,7 @@ static const char j_end [] = "}}}\n";
 static const char j_time_current [] = "\"time_current\":\"%s\"";
 static const char j_auto [] = "\"auto\":[%i,%i,%i]";
 
-static const char j_ui [] = "{\"myPanel\":{\"name\":\"Cement Printer\",\"ui\":{"
+static const char j_ui [] = "{\"myPanel\":{\"name\":\"CUSTOM_CNC \",\"ui\":{"
             "\"time_current\":{"
             "\"type\":\"datetime-local\","
             "\"label\":\"Time\","
@@ -68,7 +68,7 @@ void IRAM_ATTR alarm_autoOn(){
   if(S.auto_on){
     updateWebUi = true;
     //todo: task when on triggered
-    CEMENT::writeOutputs();
+    CUSTOM_CNC::writeOutputs();
     ISR_Timer.changeInterval(ISR_TIMER_AUTO_ON,86400000);//resquedule the timer for 24hrs (initial setup was unlikely 24 hr interval)
   }
 }
@@ -76,7 +76,7 @@ void IRAM_ATTR alarm_autoOff(){
   if(S.auto_on){
     updateWebUi = true;
     //todo: task when off triggered
-    CEMENT::writeOutputs();
+    CUSTOM_CNC::writeOutputs();
     ISR_Timer.changeInterval(ISR_TIMER_AUTO_OFF,86400000);
   }
 }
@@ -86,10 +86,10 @@ bool IRAM_ATTR hwTimerHandler(void * timerNo){
 	ISR_Timer.run();
 	return true;
 }
-CEMENT::CEMENT(){}
+CUSTOM_CNC::CUSTOM_CNC(){}
 
 static int onS, dutyS, startS, stopS;//used in switch statment
-void CEMENT::handleCommand(const int8_t c, String val){
+void CUSTOM_CNC::handleCommand(const int8_t c, String val){
     switch (c){
       /*extract value from string value:
       val.toInt()
@@ -114,11 +114,11 @@ void CEMENT::handleCommand(const int8_t c, String val){
         SERIAL_ECHO(j_ui);
         return;
     case 114://web interface requesting all settings
-        //snprintf(sendc,sizeof(sendc),"%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",j_time_current, j_pump_on, j_booster_on, j_auto_a, j_auto_b, j_chlorine, j_ion, j_acid, j_cycle_chlorine, j_cycle_ion);
-        //snprintf(status,sizeof(status),sendc,getTimeCurrent(),pump_on,booster_on,S.auto_on_a,S.time_start_a,S.time_stop_a,S.auto_on_b,S.time_start_b,S.time_stop_b,S.duty_chlorine,ion_on,S.duty_ion,S.acid_on,S.duty_acid,S.cycle_chlorine,S.cycle_ion);
+        snprintf(sendc,sizeof(sendc),"%s,%s",j_time_current, j_auto);
+        snprintf(status,sizeof(status),sendc,getTimeCurrent(),S.auto_on,S.time_start,S.time_stop);
         break;
     default:
-        SERIAL_ECHOLN("unknown cement command");
+        SERIAL_ECHOLN("unknown CUSTOM_CNC command");
         return;
         break;
     }
@@ -126,7 +126,7 @@ void CEMENT::handleCommand(const int8_t c, String val){
     SERIAL_ECHOLN(sendc);
 }
 
-void CEMENT::setup(){
+void CUSTOM_CNC::setup(){
     //Set Pin states
 
     setupClock();
@@ -150,17 +150,17 @@ void CEMENT::setup(){
     writeOutputs();
 }
 
-void CEMENT::loop(){
+void CUSTOM_CNC::loop(){
   if(updateWebUi){
     updateWebUi = false;
-    CEMENT::handleCommand(1,"");//auto mode has turned the equipment on or off. Update the UI
+    CUSTOM_CNC::handleCommand(1,"");//auto mode has turned the equipment on or off. Update the UI
   }
   return;
 }
 
-void CEMENT::setupClock(){
+void CUSTOM_CNC::setupClock(){
     sntp_set_time_sync_notification_cb(timeSyncCallback);//time server may take a 
-    configTime(10*60*60, 0, "pool.ntp.org");//brisbane time 10hrs ahead , 0 daylight saving
+    configTime(10*60*60, 0, "au.pool.ntp.org","pool.ntp.org");//brisbane time 10hrs ahead , 0 daylight saving
     struct tm timeinfo;
     if(!getLocalTime(&timeinfo)){//error getting time from ntp server. set it manually
       timeinfo.tm_year = 2023 - 1900;
@@ -175,11 +175,11 @@ void CEMENT::setupClock(){
     }
     return;
 }
-void CEMENT::timeSyncCallback(struct timeval *tv){
+void CUSTOM_CNC::timeSyncCallback(struct timeval *tv){
     setAutoTimers();
-    CEMENT::handleCommand(0,"");//output time to serial 
+    CUSTOM_CNC::handleCommand(0,"");//output time to serial 
 }
-void CEMENT::setAutoTimers(){
+void CUSTOM_CNC::setAutoTimers(){
     time_t now;
     time(&now);
     struct tm lTime;
@@ -192,7 +192,7 @@ void CEMENT::setAutoTimers(){
     ISR_Timer.changeInterval(ISR_TIMER_AUTO_OFF,stop*1000);
 }
 
-void CEMENT::setAuto(bool on, int start, int stop){
+void CUSTOM_CNC::setAuto(bool on, int start, int stop){
     bool changed = false;
     if(on != S.auto_on){
       S.auto_on = on;
@@ -212,12 +212,12 @@ void CEMENT::setAuto(bool on, int start, int stop){
     }
 }
 
-void CEMENT::writeOutputs(){
+void CUSTOM_CNC::writeOutputs(){
   //Do not use 'digitalWrite' use macros defined in ESP32/fastio.h ('WRITE') as some mks tinybee pins are virtual shift register pins
   //WRITE(PIN_NAME,HIGH)
 }
 
-void CEMENT::setTimeCurrent(const char *sDateTime){//2023-09-11T16:30:21
+void CUSTOM_CNC::setTimeCurrent(const char *sDateTime){//2023-09-11T16:30:21
   struct tm ti;
   sscanf(sDateTime,"%d-%d-%dT%d:%d",&ti.tm_year,&ti.tm_mon,&ti.tm_mday,&ti.tm_hour,&ti.tm_min);
   ti.tm_year-=1900;
@@ -227,7 +227,7 @@ void CEMENT::setTimeCurrent(const char *sDateTime){//2023-09-11T16:30:21
   settimeofday(&now, NULL);
   setAutoTimers();
 }
-char* CEMENT::getTimeCurrent(){
+char* CUSTOM_CNC::getTimeCurrent(){
     time_t now;
     time(&now);
     struct tm lTime;
@@ -236,12 +236,12 @@ char* CEMENT::getTimeCurrent(){
     strftime(dts, sizeof(dts), "%Y-%m-%dT%X", &lTime);
     return dts;
 }
-void CEMENT::loadSettings(){
+void CUSTOM_CNC::loadSettings(){
   EEPROM.begin(MARLIN_EEPROM_SIZE);
   EEPROM.get(EEPROM_SETTINGS_LOCATION,S);
   EEPROM.end();
 }
-void CEMENT::saveSettings(){
+void CUSTOM_CNC::saveSettings(){
   if (!EEPROM.begin(MARLIN_EEPROM_SIZE)){
       SERIAL_ECHO("eeprom failed to start");
   }
