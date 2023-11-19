@@ -199,9 +199,10 @@ void GcodeSuite::get_destination_from_command() {
     if ( (seen.e = parser.seenval('E')) ) {
       const float v = parser.value_axis_units(E_AXIS);
       destination.e = axis_is_relative(E_AXIS) ? current_position.e + v : v;
-    }
-    else
+    }else{
       destination.e = current_position.e;
+    }
+    CEMENT::extrude(destination.e);
   #endif
 
   #if ENABLED(POWER_LOSS_RECOVERY) && !PIN_EXISTS(POWER_LOSS)

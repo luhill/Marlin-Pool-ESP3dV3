@@ -7,7 +7,7 @@
 #include "../../core/serial.h"
 #include "../../core/macros.h"
 #include "../../pins/esp32/pins_MKS_TINYBEE.h"
-#include "../../module/motion.h" //used to check position of the extruder
+//#include "../../module/motion.h" //used to check position of the extruder
 
 
 //#define _TIMERINTERRUPT_LOGLEVEL_     4
@@ -38,20 +38,23 @@ static Settings S;
 struct Addative{
   float ratio;//how much to add per mm of extrusion
   float flow; //how many ml/sec is dosed when turned on
-  float position; //how much has already been dosed
+  uint32_t position; //total duration in ms that addative has been dosed
+  uint32_t targetPosition; 
   bool on;
   uint8_t pin;
 };
-static const uint8_t NUM_ADDATIVES = 2;
-static Addative addatives[NUM_ADDATIVES];
-#define SEC_PER_DAY 86400
-#define DOSE_INTERVAL_SEC 0.5f
-static volatile bool updateWebUi = false;
 
+static const uint8_t NUM_ADDATIVES = 2;
+static volatile Addative addatives[NUM_ADDATIVES];
+#define SEC_PER_DAY 86400
+static const int DOSE_INTERVAL_MS = 500;
+static volatile bool updateWebUi = false;
+static volatile bool on = false;
+static volatile float_t e = 0.0f;
 static const char j_start [] = "{\"myPanel\":{\"values\":{";
 static const char j_end [] = "}}}\n";
 static const char j_time_current [] = "\"time_current\":\"%s\"";
-static const char j_extrude_on [] = "\"extrude\":\"%i\"";
+static const char j_extrude_on [] = "\"extrude\":%i";
 static const char j_auto [] = "\"auto\":[%i,%i,%i]";
 
 static const char j_ui [] = "{\"myPanel\":{\"name\":\"Cement Printer\",\"ui\":{"
@@ -79,7 +82,7 @@ ESP32_ISRTimer ISR_Timer;
 static int ISR_TIMER_AUTO_ON;
 static int ISR_TIMER_AUTO_OFF;
 static int ISR_TIMER_DOSER;
-static bool extrude_on = false;
+static volatile bool extrude_on = false;
 void IRAM_ATTR alarm_autoOn(){
   if(S.auto_on){
     updateWebUi = true;
@@ -97,15 +100,20 @@ void IRAM_ATTR alarm_autoOff(){
   }
 }
 //Periodically check the extrusion position and dose chemicals if required
-void IRAM_ATTR alarm_dose(){
+void IRAM_ATTR alarm_dose(){// floating point calcs not allowed in ISR (hence doubles)
   if(!extrude_on) return;
-  float e = destination.e;
   for(int i = 0; i < NUM_ADDATIVES; i++){
     if(addatives[i].on){
-      addatives[i].position += addatives[i].flow * DOSE_INTERVAL_SEC;
+      addatives[i].position += DOSE_INTERVAL_MS;
     }
-    addatives[i].on = addatives[i].position < e*addatives[i].ratio;
-    OUT_WRITE(addatives[i].pin,addatives[i].on);
+    addatives[i].on = addatives[i].position < addatives[i].targetPosition;
+    WRITE(addatives[i].pin,addatives[i].on);
+  }
+}
+void CEMENT::extrude(float_t ex){
+  //e = ex;
+  for(int i = 0; i < NUM_ADDATIVES; i++){
+    addatives[i].targetPosition = (int32_t)(ex * addatives[i].ratio / addatives[i].flow*1000);
   }
 }
 //ISR_timer ticks 
@@ -132,6 +140,7 @@ void CEMENT::handleCommand(const int8_t c, String val){
         break;
     case 1://Extrude matching on off
         extrude_on = val.toInt()>0;
+        sprintf(status, j_extrude_on, extrude_on);
         break;
     case 3://Auot timer
         sscanf(val.c_str(),"[%u,%u,%u]",&onS, &startS, &stopS);
@@ -154,15 +163,17 @@ void CEMENT::handleCommand(const int8_t c, String val){
     SERIAL_ECHOLN(sendc);
 }
 void CEMENT::initializeAddatives(){
-  addatives[0].ratio = 1;
-  addatives[0].flow = 1;
+  addatives[0].ratio = 1.0f;
+  addatives[0].flow = 1.0f;
   addatives[0].position = 0;
+  addatives[0].targetPosition = 0;
   addatives[0].on = false;
   addatives[0].pin = FAN_PIN; //black
 
-  addatives[1].ratio = 0.5;
-  addatives[1].flow = 1;
+  addatives[1].ratio = 0.5f;
+  addatives[1].flow = 1.0f;
   addatives[1].position = 0;
+  addatives[1].targetPosition = 0;
   addatives[1].on = false;
   addatives[1].pin = FAN1_PIN;//blue
 }
@@ -184,7 +195,7 @@ void CEMENT::setup(){
     /*Note - reading an i2s analog to digital converter cannot be performed inside an ISR*/
     ISR_TIMER_AUTO_ON = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOn);                      //auto on timer
     ISR_TIMER_AUTO_OFF = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOff);                    //auto off timer
-    ISR_TIMER_DOSER = ISR_Timer.setInterval(DOSE_INTERVAL_SEC*1000, alarm_dose);
+    ISR_TIMER_DOSER = ISR_Timer.setInterval(DOSE_INTERVAL_MS, alarm_dose);
     setAutoTimers();//Auto on & off timers were initialized with arbitrary values above. Update them based on current time
     
     writeOutputs();

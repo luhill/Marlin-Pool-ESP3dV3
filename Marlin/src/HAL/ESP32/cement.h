@@ -6,6 +6,7 @@ public:
     static void setup();
     static void handleCommand(const int8_t c, String val);
     static void loop();
+    static void extrude(float_t ex);
     static void writeOutputs();
 private:
     static void initializeAddatives();
