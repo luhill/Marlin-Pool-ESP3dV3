@@ -8,7 +8,7 @@
 #include "../../core/macros.h"
 #include <Adafruit_ADS1X15.h>
 #include "../../pins/esp32/pins_MKS_TINYBEE.h"
-
+#include "../../module/temperature.h"
 
 
 //#define _TIMERINTERRUPT_LOGLEVEL_     4
@@ -56,6 +56,8 @@ struct PoolParameters{//26 bytes
   int cycle_ion;//4 bytes = int
   byte acid_on;
   int duty_acid;
+  byte floc_on;
+  int duty_floc;
 };
 #define SEC_PER_DAY 86400
 #define chlorinePWMChannel_fwd 0
@@ -71,6 +73,7 @@ static volatile bool chlorine_rev = false;
 static volatile bool ion_on = true;
 static volatile bool ion_rev = false;
 static volatile bool acid_on_cycle = false;
+static volatile bool floc_on_cycle = false;
 static volatile float a0 = 2.5f;
 static volatile bool updateWebUi = false;
 
@@ -84,9 +87,10 @@ static const char j_auto_b [] = "\"auto_b\":[%i,%i,%i]";
 static const char j_chlorine [] = "\"chlorine\":[%i,%i]";
 static const char j_ion [] = "\"ion\":[%i,%i]";
 static const char j_acid [] = "\"acid\":[%i,%i]";
+static const char j_floc [] = "\"floc\":[%i,%i]";
 static const char j_cycle_chlorine [] = "\"cycle_chlorine\":%i";
 static const char j_cycle_ion [] = "\"cycle_ion\":%i";
-static const char j_adc0 [] = "\"adc0\":%.2f";
+static const char j_temps [] = "\"temps\":[{\"l\":\"Outlet\",\"v\":%.1f},{\"l\":\"Inlet\",\"v\":%.1f},{\"l\":\"Ambient\",\"v\":%.1f}]";
 
 static const char j_ui [] = "{\"myPanel\":{\"name\":\"Pool\",\"ui\":{"
             "\"time_current\":{"
@@ -101,6 +105,9 @@ static const char j_ui [] = "{\"myPanel\":{\"name\":\"Pool\",\"ui\":{"
             "\"type\":\"onStartStop\","
             "\"label\":\"Auto 2\","
             "\"cmd\":\"P4\""
+            "},\"temps\":{"
+            "\"type\":\"temps\","
+            "\"cmd\":\"P11\""
             "},\"pump\":{"
             "\"type\":\"boolean\","
             "\"label\":\"Pump\","
@@ -121,25 +128,27 @@ static const char j_ui [] = "{\"myPanel\":{\"name\":\"Pool\",\"ui\":{"
             "\"type\":\"onDuty\","
             "\"label\":\"Acid Doser\","
             "\"cmd\":\"P7\""
+            "},\"floc\":{"
+            "\"type\":\"onDuty\","
+            "\"label\":\"Floc Doser\","
+            "\"cmd\":\"P8\""
             "},\"cycle_chlorine\":{"
             "\"type\":\"number\","
             "\"label\":\"Chlorine Period\","
             "\"append\":\"sec\","
-            "\"cmd\":\"P8\""
+            "\"cmd\":\"P9\""
             "},\"cycle_ion\":{"
             "\"type\":\"number\","
             "\"label\":\"Ion Period\","
             "\"append\":\"sec\","
-            "\"cmd\":\"P9\""
-            "},\"adc0\":{"
-            "\"type\":\"number\","
-            "\"label\":\"ADC0\","
-            "\"append\":\"v\","
             "\"cmd\":\"P10\""
             "}}}}\n";
+/*
+           
+            */
 //char arrays to format and send json to the web interface
-static char status[250];
-static char sendc[250];
+static char status[400];
+static char sendc[400];
 
 //Analog to digital converter can be connected to the Tinybee sd card pins. (Should not be used at same time)
 //Must tell the ads library to use pins 19 & 18 before starting the adc: Wire.setPins(19,18); scl -> tinybee SCK(18), sda -> tinybee MISO(19) 
@@ -156,6 +165,7 @@ static int ISR_TIMER_AUTO_OFF_A;
 static int ISR_TIMER_AUTO_ON_B;
 static int ISR_TIMER_AUTO_OFF_B;
 static int ISR_TIMER_ACID_ONOFF;
+static int ISR_TIMER_FLOC_ONOFF;
 
 void POOL::alarm_attachOnButton_a(){
   attachInterrupt(PIN_ON_INTERRUPT_A,POOL::alarm_onButtonPushed_a,FALLING);
@@ -164,6 +174,7 @@ void POOL::alarm_onButtonPushed_a(){
   detachInterrupt(PIN_ON_INTERRUPT_A);//detach interrupt to avoid bouncing
   ISR_Timer.setTimeout(1000,POOL::alarm_attachOnButton_a);//reattach interrupt after 1 second
   POOL::pumpOn(!pump_on);
+  updateWebUi = true;
 }
 void POOL::alarm_attachOnButton_b(){
   attachInterrupt(PIN_ON_INTERRUPT_B,POOL::alarm_onButtonPushed_b,FALLING);
@@ -172,6 +183,7 @@ void POOL::alarm_onButtonPushed_b(){
   detachInterrupt(PIN_ON_INTERRUPT_B);//detach interrupt to avoid bouncing
   ISR_Timer.setTimeout(1000,POOL::alarm_attachOnButton_b);//reattach interrupt after 1 second
   POOL::boosterOn(!booster_on);
+  updateWebUi = true;
 }
 void IRAM_ATTR alarm_invertChlorine(){
   chlorine_rev = !chlorine_rev;
@@ -195,6 +207,7 @@ void IRAM_ATTR alarm_autoOff_a(){
   if(S.auto_on_a){
     updateWebUi = true;
     pump_on = false;
+    booster_on = false;
     chlorine_on = false;
     ion_on = false;
     POOL::writeOutputs();
@@ -214,21 +227,31 @@ void IRAM_ATTR alarm_autoOff_b(){
     updateWebUi = true;
     booster_on = false;
     POOL::writeOutputs();
-    ISR_Timer.changeInterval(ISR_TIMER_AUTO_OFF_A,86400000);
+    ISR_Timer.changeInterval(ISR_TIMER_AUTO_OFF_B,86400000);
   }
 }
 void IRAM_ATTR alarm_acid(){
   if(acid_on_cycle){//turn acid off
     acid_on_cycle = false;
     POOL::writeAcid();
-    ISR_Timer.changeInterval(ISR_TIMER_ACID_ONOFF,10000);//600,000ms = 10min
+    ISR_Timer.changeInterval(ISR_TIMER_ACID_ONOFF,60000-S.duty_acid*50);//600,000ms = 10min
   }else{
     acid_on_cycle = true;
     POOL::writeAcid();
-    ISR_Timer.changeInterval(ISR_TIMER_ACID_ONOFF,S.duty_acid*100);//600,000ms = 10min
+    ISR_Timer.changeInterval(ISR_TIMER_ACID_ONOFF,S.duty_acid*50);//600,000ms = 10min
   }
 }
-
+void IRAM_ATTR alarm_floc(){
+  if(floc_on_cycle){//turn floc off
+    floc_on_cycle = false;
+    POOL::writeFloc();
+    ISR_Timer.changeInterval(ISR_TIMER_FLOC_ONOFF,10000);//600,000ms = 10min
+  }else{
+    floc_on_cycle = true;
+    POOL::writeFloc();
+    ISR_Timer.changeInterval(ISR_TIMER_FLOC_ONOFF,S.duty_floc*100);//600,000ms = 10min
+  }
+}
 //ISR_timer ticks 
 bool IRAM_ATTR hwTimerHandler(void * timerNo){
 	ISR_Timer.run();
@@ -253,15 +276,15 @@ void POOL::handleCommand(const int8_t c, String val){
         boosterOn(val.toInt()>0);
         sprintf(status, j_booster_on, booster_on);
         break;
-    case 3://Auto mode
+    case 3://Auto mode a
         sscanf(val.c_str(),"[%u,%u,%u]",&onS, &startS, &stopS);
         setAuto_a(onS>0,startS,stopS);
         sprintf(status, j_auto_a,S.auto_on_a,S.time_start_a, S.time_stop_a);
         break;
-    case 4://Auto mode
+    case 4://Auto mode b
         sscanf(val.c_str(),"[%u,%u,%u]",&onS, &startS, &stopS);
-        setAuto_a(onS>0,startS,stopS);
-        sprintf(status, j_auto_a,S.auto_on_a,S.time_start_a, S.time_stop_a);
+        setAuto_b(onS>0,startS,stopS);
+        sprintf(status, j_auto_b,S.auto_on_b,S.time_start_b, S.time_stop_b);
         break;
     case 5://Chlorinator
         sscanf(val.c_str(),"[%u,%u]",&onS, &dutyS);
@@ -278,23 +301,27 @@ void POOL::handleCommand(const int8_t c, String val){
         setAcid(onS>0,dutyS);
         sprintf(status, j_acid, S.acid_on, S.duty_acid);
         break;
-    case 8://chlorine cycle
+    case 8://floc doser
+        sscanf(val.c_str(),"[%u,%u]",&onS, &dutyS);
+        setFloc(onS>0,dutyS);
+        sprintf(status, j_floc, S.floc_on, S.duty_floc);
+    case 9://chlorine cycle
         cycleChlorine(val.toInt());
         sprintf(status, j_cycle_chlorine,S.cycle_chlorine);
         break;
-    case 9://ion cycle
+    case 10://ion cycle
         cycleIon(val.toInt());
         sprintf(status, j_cycle_ion,S.cycle_ion);
         break;
-    case 10://adc0
-        sprintf(status, j_adc0, 50.0/*sqrtf(fabsf(a0))/2*6*237*/);
+    case 11://temps
+        sprintf(status, j_temps, Temperature::temp_hotend[0].celsius,Temperature::temp_hotend[1].celsius,Temperature::temp_bed.celsius);
         break;
     case 113: 
         SERIAL_ECHO(j_ui);
         return;
     case 114://web interface requesting all settings
-        snprintf(sendc,sizeof(sendc),"%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",j_time_current, j_pump_on, j_booster_on, j_auto_a, j_auto_b, j_chlorine, j_ion, j_acid, j_cycle_chlorine, j_cycle_ion);
-        snprintf(status,sizeof(status),sendc,getTimeCurrent(),pump_on,booster_on,S.auto_on_a,S.time_start_a,S.time_stop_a,S.auto_on_b,S.time_start_b,S.time_stop_b,S.duty_chlorine,ion_on,S.duty_ion,S.acid_on,S.duty_acid,S.cycle_chlorine,S.cycle_ion);
+        snprintf(sendc,sizeof(sendc),"%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",j_time_current, j_pump_on, j_booster_on, j_auto_a, j_auto_b, j_chlorine, j_ion, j_acid, j_floc, j_cycle_chlorine, j_cycle_ion, j_temps);
+        snprintf(status,sizeof(status),sendc,getTimeCurrent(),pump_on,booster_on,S.auto_on_a,S.time_start_a,S.time_stop_a,S.auto_on_b,S.time_start_b,S.time_stop_b,chlorine_on,S.duty_chlorine,ion_on,S.duty_ion,S.acid_on,S.duty_acid,S.floc_on,S.duty_floc,S.cycle_chlorine,S.cycle_ion,Temperature::temp_hotend[0].celsius,Temperature::temp_hotend[1].celsius,Temperature::temp_bed.celsius);
         break;
     default:
         SERIAL_ECHOLN("unknown pool command");
@@ -339,10 +366,12 @@ void POOL::setup(uint32_t cycle_period_ms){
       S.time_stop_a = 55800;//60*15.5;//3:30 pm
       S.time_start_b = 30610;
       S.time_stop_b = 55790;
-      S.cycle_chlorine = 1;//30sec
-      S.cycle_ion = 2;//15sec
+      S.cycle_chlorine = 600;//10 min (600 sec)
+      S.cycle_ion = 600;//10 min (600 sec)
       S.acid_on = 0;
       S.duty_acid = 50;
+      S.floc_on = 0;
+      S.duty_floc = 50;
       saveSettings();
     }
    
@@ -351,12 +380,12 @@ void POOL::setup(uint32_t cycle_period_ms){
     /*Note - reading an i2s analog to digital converter cannot be performed inside an ISR*/
     ISR_TIMER_INVERT_CHLORINE = ISR_Timer.setInterval(S.cycle_chlorine*1000,alarm_invertChlorine); //chlorine reverse cycle timer
     ISR_TIMER_INVERT_ION = ISR_Timer.setInterval(S.cycle_ion*1000,alarm_invertIon);                //ionizer reverse cycle timer
-    ISR_TIMER_AUTO_ON_A = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOn_a);                      //auto on timer
-    ISR_TIMER_AUTO_OFF_A = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOff_a);                    //auto off timer
-    ISR_TIMER_AUTO_ON_B = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOn_b);                      //auto on timer
-    ISR_TIMER_AUTO_OFF_B = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOff_b);                    //auto off timer
+    ISR_TIMER_AUTO_ON_A = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOn_a);                  //auto on timer
+    ISR_TIMER_AUTO_OFF_A = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOff_a);                //auto off timer
+    ISR_TIMER_AUTO_ON_B = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOn_b);                  //auto on timer
+    ISR_TIMER_AUTO_OFF_B = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOff_b);                //auto off timer
     ISR_TIMER_ACID_ONOFF = ISR_Timer.setInterval(1000, alarm_acid);                                //acid dosing timer
- 
+    ISR_TIMER_FLOC_ONOFF = ISR_Timer.setInterval(1000, alarm_floc);                                //floc dosing timer
     setAutoTimers();//Auto on & off timers were initialized with arbitrary values above. Update them based on current time
     
     //setup chlorine pwm
@@ -394,7 +423,7 @@ void POOL::loop(){
 
 void POOL::setupClock(){
     sntp_set_time_sync_notification_cb(timeSyncCallback);//time server may take a 
-    configTime(10*60*60, 0, "pool.ntp.org");//brisbane time 10hrs ahead , 0 daylight saving
+    configTime(10*60*60, 0, "au.pool.ntp.org","pool.ntp.org");//brisbane time 10hrs ahead , 0 daylight saving
     struct tm timeinfo;
     if(!getLocalTime(&timeinfo)){//error getting time from ntp server. set it manually
       timeinfo.tm_year = 2023 - 1900;
@@ -479,11 +508,11 @@ void POOL::pumpOn(bool on){
   writeOutputs();
 }
 void POOL::boosterOn(bool on){
-  booster_on = pump_on?(on?true:false):false;
+  booster_on = on && pump_on;
   writeOutputs();
 }
 void POOL::setChlorine(bool on, int duty, bool write){
-  chlorine_on = pump_on?(on?true:false):false;
+  chlorine_on = on && pump_on;
   if(duty!=S.duty_chlorine){
     S.duty_chlorine= duty;
     saveSettings();//save to eeprom
@@ -492,7 +521,7 @@ void POOL::setChlorine(bool on, int duty, bool write){
 }
 
 void POOL::setIon(bool on, int duty, bool write){
-  ion_on = pump_on?(on?true:false):false;
+  ion_on = on && pump_on;
   if(duty!=S.duty_ion){
     S.duty_ion = duty;
     saveSettings();//save to eeprom
@@ -507,16 +536,24 @@ void POOL::setAcid(bool on, int duty){
   }
   writeAcid();
 }
+void POOL::setFloc(bool on, int duty){
+  S.floc_on = on;
+  if(duty!=S.duty_floc){
+    S.duty_floc = duty;
+    saveSettings();//save to eeprom
+  }
+  writeFloc();
+}
 void POOL::writeOutputs(){
-  WRITE(PIN_POWER_SUPPLY_ON, pump_on);
-  WRITE(PIN_PUMP_POWER, pump_on);
-  WRITE(PIN_LED_PUMP, pump_on);
-  WRITE(PIN_BOOSTER_POWER,booster_on);
-  WRITE(PIN_LED_BOOSTER, booster_on);
+  WRITE(PIN_POWER_SUPPLY_ON,  pump_on);
+  WRITE(PIN_PUMP_POWER,       pump_on);
+  WRITE(PIN_LED_PUMP,         pump_on);
+  WRITE(PIN_BOOSTER_POWER,    booster_on);
+  WRITE(PIN_LED_BOOSTER,      booster_on);
   writeChlorine();
   writeIon();
   writeAcid();
-  OUT_WRITE(147,pump_on);
+  writeFloc();
 }
 void POOL::writeChlorine(){
   ledcWrite(chlorinePWMChannel_fwd,S.duty_chlorine*128/100*chlorine_on*!chlorine_rev*pump_on);
@@ -527,8 +564,10 @@ void POOL::writeIon(){
   ledcWrite(ionPWMChannel_rev,S.duty_ion*128/100*ion_on*ion_rev*pump_on);
 }
 void POOL::writeAcid(){
-  //OUT_WRITE(2,S.acid_on);
   WRITE(PIN_ACID,S.acid_on*acid_on_cycle*pump_on);
+}
+void POOL::writeFloc(){
+  WRITE(PIN_FLOC,S.floc_on*floc_on_cycle*pump_on);
 }
 void POOL::cycleChlorine(int period_sec){
     if(period_sec!=S.cycle_chlorine){
