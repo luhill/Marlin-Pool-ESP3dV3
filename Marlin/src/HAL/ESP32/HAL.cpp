@@ -27,7 +27,7 @@
 #include <driver/adc.h>
 #include <esp_adc_cal.h>
 #include <HardwareSerial.h>
-#include "pool.h"
+#include "chilipad.h"
 
 #if ENABLED(USE_ESP32_TASK_WDT)
   #include <esp_task_wdt.h>
@@ -173,7 +173,7 @@ void MarlinHAL::init_board() {
   #elif ENABLED(I2S_STEPPER_STREAM)
     i2s_init();
   #endif
-  POOL::setup();
+  CHILIPAD::setup();
 }
 
 void MarlinHAL::idletask() {
@@ -181,7 +181,7 @@ void MarlinHAL::idletask() {
     OTA_handle();
   #endif
   TERN_(ESP3D_WIFISUPPORT, esp3dlib.idletask());
-  POOL::loop();
+  CHILIPAD::loop();
 }
 
 uint8_t MarlinHAL::get_reset_source() { return rtc_get_reset_reason(1); }

@@ -35,7 +35,7 @@ GcodeSuite gcode;
 #include "parser.h"
 #include "queue.h"
 #include "../module/motion.h"
-#include "../HAL/ESP32/pool.h"
+#include "../HAL/ESP32/chiliPad.h"
 #if ENABLED(PRINTCOUNTER)
   #include "../module/printcounter.h"
 #endif
@@ -1100,7 +1100,7 @@ void GcodeSuite::process_parsed_command(const bool no_ok/*=false*/) {
       default: parser.unknown_command_warning(); break;
     }
     break;
-    case 'P': POOL::handleCommand(parser.codenum,parser.string_arg); break;
+    case 'P': CHILIPAD::handleCommand(parser.codenum,parser.string_arg); break;
     case 'T': T(parser.codenum); break;                           // Tn: Tool Change
 
     #if ENABLED(MARLIN_DEV_MODE)
