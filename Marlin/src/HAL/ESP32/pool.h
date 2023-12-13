@@ -13,6 +13,7 @@ public:
     static void IRAM_ATTR writeOutputs();
     static void IRAM_ATTR pumpOn(bool on);
     static void IRAM_ATTR boosterOn(bool on);
+    static void IRAM_ATTR pump_12vOn(bool on);
     static void IRAM_ATTR alarm_attachOnButton_a();
     static void IRAM_ATTR alarm_onButtonPushed_a();
     static void IRAM_ATTR alarm_attachOnButton_b();

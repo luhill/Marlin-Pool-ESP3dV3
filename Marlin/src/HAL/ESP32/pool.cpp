@@ -68,6 +68,7 @@ struct PoolParameters{//26 bytes
 static PoolParameters S;
 static volatile bool pump_on = false;
 static volatile bool booster_on = false;
+static volatile bool pump_12v_on = false;
 static volatile bool chlorine_on = true;
 static volatile bool chlorine_rev = false;
 static volatile bool ion_on = true;
@@ -82,6 +83,7 @@ static const char j_end [] = "}}}\n";
 static const char j_time_current [] = "\"time_current\":\"%s\"";
 static const char j_pump_on [] = "\"pump\":%i";
 static const char j_booster_on [] = "\"booster\":%i";
+static const char j_pump_12v_on [] = "\"pump_12v\":%i";
 static const char j_auto_a [] = "\"auto_a\":[%i,%i,%i]";
 static const char j_auto_b [] = "\"auto_b\":[%i,%i,%i]";
 static const char j_chlorine [] = "\"chlorine\":[%i,%i]";
@@ -100,14 +102,14 @@ static const char j_ui [] = "{\"myPanel\":{\"name\":\"Pool\",\"ui\":{"
             "},\"auto_a\":{"
             "\"type\":\"onStartStop\","
             "\"label\":\"Auto\","
-            "\"cmd\":\"P3\""
+            "\"cmd\":\"P4\""
             "},\"auto_b\":{"
             "\"type\":\"onStartStop\","
             "\"label\":\"Auto 2\","
-            "\"cmd\":\"P4\""
+            "\"cmd\":\"P5\""
             "},\"temps\":{"
             "\"type\":\"temps\","
-            "\"cmd\":\"P11\""
+            "\"cmd\":\"P12\""
             "},\"pump\":{"
             "\"type\":\"boolean\","
             "\"label\":\"Pump\","
@@ -116,32 +118,36 @@ static const char j_ui [] = "{\"myPanel\":{\"name\":\"Pool\",\"ui\":{"
             "\"type\":\"boolean\","
             "\"label\":\"Booster\","
             "\"cmd\":\"P2\""
+            "},\"pump_12v\":{"
+            "\"type\":\"boolean\","
+            "\"label\":\"Rain Tank Pump\","
+            "\"cmd\":\"P3\""
             "},\"chlorine\":{"
             "\"type\":\"onDuty\","
             "\"label\":\"Chlorinator\","
-            "\"cmd\":\"P5\""
+            "\"cmd\":\"P6\""
             "},\"ion\":{"
             "\"type\":\"onDuty\","
             "\"label\":\"Ionizer\","
-            "\"cmd\":\"P6\""
+            "\"cmd\":\"P7\""
             "},\"acid\":{"
             "\"type\":\"onDuty\","
             "\"label\":\"Acid Doser\","
-            "\"cmd\":\"P7\""
+            "\"cmd\":\"P8\""
             "},\"floc\":{"
             "\"type\":\"onDuty\","
             "\"label\":\"Floc Doser\","
-            "\"cmd\":\"P8\""
+            "\"cmd\":\"P9\""
             "},\"cycle_chlorine\":{"
             "\"type\":\"number\","
             "\"label\":\"Chlorine Period\","
             "\"append\":\"sec\","
-            "\"cmd\":\"P9\""
+            "\"cmd\":\"P10\""
             "},\"cycle_ion\":{"
             "\"type\":\"number\","
             "\"label\":\"Ion Period\","
             "\"append\":\"sec\","
-            "\"cmd\":\"P10\""
+            "\"cmd\":\"P11\""
             "}}}}\n";
 /*
            
@@ -166,6 +172,7 @@ static int ISR_TIMER_AUTO_ON_B;
 static int ISR_TIMER_AUTO_OFF_B;
 static int ISR_TIMER_ACID_ONOFF;
 static int ISR_TIMER_FLOC_ONOFF;
+static int ISR_TIMER_PUMP_12v_OFF;
 
 void POOL::alarm_attachOnButton_a(){
   attachInterrupt(PIN_ON_INTERRUPT_A,POOL::alarm_onButtonPushed_a,FALLING);
@@ -252,6 +259,12 @@ void IRAM_ATTR alarm_floc(){
     ISR_Timer.changeInterval(ISR_TIMER_FLOC_ONOFF,S.duty_floc*100);//600,000ms = 10min
   }
 }
+void IRAM_ATTR alarm_pump_12v_off(){
+  pump_12v_on = false;
+  //ISR_Timer.disable(ISR_TIMER_PUMP_12v_OFF);
+  updateWebUi = true;
+  POOL::writeOutputs();
+}
 //ISR_timer ticks 
 bool IRAM_ATTR hwTimerHandler(void * timerNo){
 	ISR_Timer.run();
@@ -276,52 +289,57 @@ void POOL::handleCommand(const int8_t c, String val){
         boosterOn(val.toInt()>0);
         sprintf(status, j_booster_on, booster_on);
         break;
-    case 3://Auto mode a
+    case 3://12v rain tank pump
+        pump_12vOn(val.toInt()>0);
+        sprintf(status, j_pump_12v_on, pump_12v_on);
+        break;
+    case 4://Auto mode a
         sscanf(val.c_str(),"[%u,%u,%u]",&onS, &startS, &stopS);
         setAuto_a(onS>0,startS,stopS);
         sprintf(status, j_auto_a,S.auto_on_a,S.time_start_a, S.time_stop_a);
         break;
-    case 4://Auto mode b
+    case 5://Auto mode b
         sscanf(val.c_str(),"[%u,%u,%u]",&onS, &startS, &stopS);
         setAuto_b(onS>0,startS,stopS);
         sprintf(status, j_auto_b,S.auto_on_b,S.time_start_b, S.time_stop_b);
         break;
-    case 5://Chlorinator
+    case 6://Chlorinator
         sscanf(val.c_str(),"[%u,%u]",&onS, &dutyS);
         setChlorine(onS>0,dutyS);
         sprintf(status, j_chlorine,chlorine_on,S.duty_chlorine);
         break;
-    case 6://ionizer
+    case 7://ionizer
         sscanf(val.c_str(),"[%u,%u]",&onS, &dutyS);
         setIon(onS>0,dutyS);
         sprintf(status, j_ion,ion_on,S.duty_ion);
         break;
-    case 7://acid doser
+    case 8://acid doser
         sscanf(val.c_str(),"[%u,%u]",&onS, &dutyS);
         setAcid(onS>0,dutyS);
         sprintf(status, j_acid, S.acid_on, S.duty_acid);
         break;
-    case 8://floc doser
+    case 9://floc doser
         sscanf(val.c_str(),"[%u,%u]",&onS, &dutyS);
         setFloc(onS>0,dutyS);
         sprintf(status, j_floc, S.floc_on, S.duty_floc);
-    case 9://chlorine cycle
+        break;
+    case 10://chlorine cycle
         cycleChlorine(val.toInt());
         sprintf(status, j_cycle_chlorine,S.cycle_chlorine);
         break;
-    case 10://ion cycle
+    case 11://ion cycle
         cycleIon(val.toInt());
         sprintf(status, j_cycle_ion,S.cycle_ion);
         break;
-    case 11://temps
+    case 12://temps
         sprintf(status, j_temps, Temperature::temp_hotend[0].celsius,Temperature::temp_hotend[1].celsius,Temperature::temp_bed.celsius);
         break;
     case 113: 
         SERIAL_ECHO(j_ui);
         return;
     case 114://web interface requesting all settings
-        snprintf(sendc,sizeof(sendc),"%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",j_time_current, j_pump_on, j_booster_on, j_auto_a, j_auto_b, j_chlorine, j_ion, j_acid, j_floc, j_cycle_chlorine, j_cycle_ion, j_temps);
-        snprintf(status,sizeof(status),sendc,getTimeCurrent(),pump_on,booster_on,S.auto_on_a,S.time_start_a,S.time_stop_a,S.auto_on_b,S.time_start_b,S.time_stop_b,chlorine_on,S.duty_chlorine,ion_on,S.duty_ion,S.acid_on,S.duty_acid,S.floc_on,S.duty_floc,S.cycle_chlorine,S.cycle_ion,Temperature::temp_hotend[0].celsius,Temperature::temp_hotend[1].celsius,Temperature::temp_bed.celsius);
+        snprintf(sendc,sizeof(sendc),"%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",j_time_current, j_pump_on, j_booster_on,j_pump_12v_on, j_auto_a, j_auto_b, j_chlorine, j_ion, j_acid, j_floc, j_cycle_chlorine, j_cycle_ion, j_temps);
+        snprintf(status,sizeof(status),sendc,getTimeCurrent(),pump_on,booster_on,pump_12v_on,S.auto_on_a,S.time_start_a,S.time_stop_a,S.auto_on_b,S.time_start_b,S.time_stop_b,chlorine_on,S.duty_chlorine,ion_on,S.duty_ion,S.acid_on,S.duty_acid,S.floc_on,S.duty_floc,S.cycle_chlorine,S.cycle_ion,Temperature::temp_hotend[0].celsius,Temperature::temp_hotend[1].celsius,Temperature::temp_bed.celsius);
         break;
     default:
         SERIAL_ECHOLN("unknown pool command");
@@ -386,6 +404,7 @@ void POOL::setup(uint32_t cycle_period_ms){
     ISR_TIMER_AUTO_OFF_B = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOff_b);                //auto off timer
     ISR_TIMER_ACID_ONOFF = ISR_Timer.setInterval(1000, alarm_acid);                                //acid dosing timer
     ISR_TIMER_FLOC_ONOFF = ISR_Timer.setInterval(1000, alarm_floc);                                //floc dosing timer
+    //ISR_TIMER_PUMP_12v_OFF = ISR_Timer.setInterval(3600*1000, alarm_pump_12v_off);//1 hr timer
     setAutoTimers();//Auto on & off timers were initialized with arbitrary values above. Update them based on current time
     
     //setup chlorine pwm
@@ -408,7 +427,7 @@ void POOL::setup(uint32_t cycle_period_ms){
 void POOL::loop(){
   if(updateWebUi){
     updateWebUi = false;
-    POOL::handleCommand(1,"");//auto mode has turned the equipment on or off. Update the UI
+    POOL::handleCommand(114,"");//auto mode has turned the equipment on or off. Update the UI
   }
   return;
   /*
@@ -511,6 +530,18 @@ void POOL::boosterOn(bool on){
   booster_on = on && pump_on;
   writeOutputs();
 }
+void POOL::pump_12vOn(bool on){
+  pump_12v_on = on;
+  if(pump_12v_on){
+    //ISR_Timer.enable(ISR_TIMER_PUMP_12v_OFF);
+    //ISR_Timer.restartTimer(ISR_TIMER_PUMP_12v_OFF);
+    ISR_TIMER_PUMP_12v_OFF = ISR_Timer.setTimeout(3600*1000, alarm_pump_12v_off);
+    writeOutputs();
+  }else{
+    ISR_Timer.deleteTimer(ISR_TIMER_PUMP_12v_OFF);
+    alarm_pump_12v_off();
+  }
+}
 void POOL::setChlorine(bool on, int duty, bool write){
   chlorine_on = on && pump_on;
   if(duty!=S.duty_chlorine){
@@ -545,11 +576,12 @@ void POOL::setFloc(bool on, int duty){
   writeFloc();
 }
 void POOL::writeOutputs(){
-  WRITE(PIN_POWER_SUPPLY_ON,  pump_on);
+  WRITE(PIN_POWER_SUPPLY_ON,  pump_on || pump_12v_on);
   WRITE(PIN_PUMP_POWER,       pump_on);
   WRITE(PIN_LED_PUMP,         pump_on);
   WRITE(PIN_BOOSTER_POWER,    booster_on);
   WRITE(PIN_LED_BOOSTER,      booster_on);
+  WRITE(PIN_12V_PUMP, pump_12v_on);
   writeChlorine();
   writeIon();
   writeAcid();
