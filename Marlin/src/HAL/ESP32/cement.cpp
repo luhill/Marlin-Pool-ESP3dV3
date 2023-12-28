@@ -4,7 +4,7 @@
 #include <time.h>
 #include <sys/time.h>
 #include "esp_sntp.h"
-#include "../../core/serial.h"
+#include "../../core/serial.h"                             
 #include "../../core/macros.h"
 #include "../../pins/esp32/pins_MKS_TINYBEE.h"
 //#include "../../module/motion.h" //used to check position of the extruder
@@ -26,6 +26,23 @@
  */
 
 //Pin Definitions: #define PIN_NAME   pin_number
+/*------------Cat6 Cable 1------------------
+pin     extruder 1          extruder 2
+    en: green               blue
+  step: orange              brown
+   dir: striped green       striped blue
+   gnd: striped orange      striped brown
+*/
+
+/*------------Cat6 Cable 2------------------*/
+#define PIN_AUX  EXP1_03_PIN //striped green
+#define PIN_WATER     EXP1_04_PIN //green
+#define PIN_DOSE_A    EXP1_05_PIN //striped blue
+#define PIN_DOSE_B    EXP1_06_PIN //blue
+#define PIN_DOSE_C    EXP1_07_PIN //striped brown wire / blue screw terminal
+#define PIN_BLENDER   EXP1_08_PIN //orange
+//ground is EXP1 pin 9 to striped orange
+//5v is EXP1 pin 10 to solid brown
 
 struct Settings{//26 bytes
   byte initialized;//1 byte = flag, used to determine if the eeprom has been initialized with our settings yet
@@ -46,7 +63,12 @@ struct Addative{
 
 static const uint8_t NUM_ADDATIVES = 2;
 static volatile Addative addatives[NUM_ADDATIVES];
+
 #define SEC_PER_DAY 86400
+
+#define blenderPWMChannel 0
+#define auxPWMChannel 1
+
 static const int DOSE_INTERVAL_MS = 500;
 static volatile bool updateWebUi = false;
 static volatile bool on = false;
@@ -55,7 +77,13 @@ static const char j_start [] = "{\"myPanel\":{\"values\":{";
 static const char j_end [] = "}}}\n";
 static const char j_time_current [] = "\"time_current\":\"%s\"";
 static const char j_extrude_on [] = "\"extrude\":%i";
-static const char j_auto [] = "\"auto\":[%i,%i,%i]";
+static const char j_auto  [] = "\"auto\":[%i,%i,%i]";
+static const char j_blend [] = "\"blend\":[%i,%i]";
+static const char j_water [] = "\"water\":%i";
+static const char j_doseA [] = "\"doseA\":%i";
+static const char j_doseB [] = "\"doseB\":%i";
+static const char j_doseC [] = "\"doseC\":%i";
+static const char j_aux   [] = "\"aux\":[%i,%i]";
 
 static const char j_ui [] = "{\"myPanel\":{\"name\":\"Cement Printer\",\"ui\":{"
             "\"time_current\":{"
@@ -70,10 +98,34 @@ static const char j_ui [] = "{\"myPanel\":{\"name\":\"Cement Printer\",\"ui\":{"
             "\"type\":\"onStartStop\","
             "\"label\":\"Auto\","
             "\"cmd\":\"P3\""
+            "},\"blend\":{"
+            "\"type\":\"onDuty\","
+            "\"label\":\"Blender\","
+            "\"cmd\":\"P4\""
+            "},\"water\":{"
+            "\"type\":\"boolean\","
+            "\"label\":\"Water\","
+            "\"cmd\":\"P5\""
+            "},\"doseA\":{"
+            "\"type\":\"boolean\","
+            "\"label\":\"Dose A\","
+            "\"cmd\":\"P6\""
+            "},\"doseB\":{"
+            "\"type\":\"boolean\","
+            "\"label\":\"Dose B\","
+            "\"cmd\":\"P7\""
+            "},\"doseC\":{"
+            "\"type\":\"boolean\","
+            "\"label\":\"Dose C\","
+            "\"cmd\":\"P8\""
+            "},\"aux\":{"
+            "\"type\":\"onDuty\","
+            "\"label\":\"Auxilary\","
+            "\"cmd\":\"P9\""
             "}}}}\n";
 //char arrays to format and send json to the web interface
-static char status[250];
-static char sendc[250];
+static char status[800];
+static char sendc[800];
 
 //Timer library that creates up to 16 timers from a single hardware timer
 ESP32Timer hTimer3(3); //The timer library will use hardware timer 3 which is also used for tone() or beepers by the tinybee
@@ -82,7 +134,21 @@ ESP32_ISRTimer ISR_Timer;
 static int ISR_TIMER_AUTO_ON;
 static int ISR_TIMER_AUTO_OFF;
 static int ISR_TIMER_DOSER;
+static int ISR_TIMER_WATER_OFF;
+static int ISR_TIMER_DOSE_A_OFF;
+static int ISR_TIMER_DOSE_B_OFF;
+static int ISR_TIMER_DOSE_C_OFF;
+
 static volatile bool extrude_on = false;
+static volatile bool blender_on = false;
+static volatile bool water_on = false;
+static volatile bool doseA_on = false;
+static volatile bool doseB_on = false;
+static volatile bool doseC_on = false;
+static volatile bool aux_on = false;
+static volatile int duty_blender = 10;
+static volatile int duty_aux = 10;
+
 void IRAM_ATTR alarm_autoOn(){
   if(S.auto_on){
     updateWebUi = true;
@@ -98,6 +164,26 @@ void IRAM_ATTR alarm_autoOff(){
     CEMENT::writeOutputs();
     ISR_Timer.changeInterval(ISR_TIMER_AUTO_OFF,86400000);
   }
+}
+void IRAM_ATTR alarm_water_off(){
+  water_on = false;
+  updateWebUi = true;
+  CEMENT::writeWater();
+}
+void IRAM_ATTR alarm_doseA_off(){
+  doseA_on = false;
+  updateWebUi = true;
+  CEMENT::writeDoseA();
+}
+void IRAM_ATTR alarm_doseB_off(){
+  doseB_on = false;
+  updateWebUi = true;
+  CEMENT::writeDoseB();
+}
+void IRAM_ATTR alarm_doseC_off(){
+  doseC_on = false;
+  updateWebUi = true;
+  CEMENT::writeDoseC();
 }
 //Periodically check the extrusion position and dose chemicals if required
 void IRAM_ATTR alarm_dose(){// floating point calcs not allowed in ISR (hence doubles)
@@ -147,12 +233,38 @@ void CEMENT::handleCommand(const int8_t c, String val){
         setAuto(onS>0,startS,stopS);
         sprintf(status, j_auto,S.auto_on,S.time_start, S.time_stop);
         break;
+    case 4://blender
+        sscanf(val.c_str(),"[%u,%u]",&onS, &dutyS);
+        setBlender(onS>0,dutyS);
+        sprintf(status, j_blend,blender_on,duty_blender);
+        break;
+    case 5://water
+        waterOn(val.toInt()>0);
+        sprintf(status, j_water, water_on);
+        break;
+    case 6://dose A
+        doseAOn(val.toInt()>0);
+        sprintf(status, j_doseA, doseA_on);
+        break;
+    case 7://dose B
+        doseBOn(val.toInt()>0);
+        sprintf(status, j_doseB, doseB_on);
+        break;
+    case 8://dose C
+        doseCOn(val.toInt()>0);
+        sprintf(status, j_doseC, doseC_on);
+        break;
+    case 9://dose D
+        sscanf(val.c_str(),"[%u,%u]",&onS, &dutyS);
+        setAux(onS>0,dutyS);
+        sprintf(status, j_aux,aux_on,duty_aux);
+        break;
     case 113://update ui
         SERIAL_ECHO(j_ui);
         return;
     case 114://web interface requesting all settings
-        snprintf(sendc,sizeof(sendc),"%s,%s,%s",j_time_current, j_auto, j_extrude_on);
-        snprintf(status,sizeof(status),sendc,getTimeCurrent(),S.auto_on,S.time_start,S.time_stop,extrude_on);
+        snprintf(sendc,sizeof(sendc),"%s,%s,%s,%s,%s,%s,%s,%s,%s",j_time_current, j_auto, j_extrude_on,j_blend,j_water,j_doseA,j_doseB,j_doseC,j_aux);
+        snprintf(status,sizeof(status),sendc,getTimeCurrent(),S.auto_on,S.time_start,S.time_stop,extrude_on,blender_on,duty_blender,water_on,doseA_on,doseB_on,doseC_on,aux_on,duty_aux);
         break;
     default:
         SERIAL_ECHOLN("unknown cement command");
@@ -168,17 +280,24 @@ void CEMENT::initializeAddatives(){
   addatives[0].position = 0;
   addatives[0].targetPosition = 0;
   addatives[0].on = false;
-  addatives[0].pin = FAN_PIN; //black
+  addatives[0].pin = PIN_DOSE_A; 
 
   addatives[1].ratio = 0.5f;
   addatives[1].flow = 1.0f;
   addatives[1].position = 0;
   addatives[1].targetPosition = 0;
   addatives[1].on = false;
-  addatives[1].pin = FAN1_PIN;//blue
+  addatives[1].pin = PIN_DOSE_B;
 }
 void CEMENT::setup(){
     //Set Pin states
+    SET_OUTPUT(PIN_BLENDER);
+    SET_OUTPUT(PIN_WATER);
+    SET_OUTPUT(PIN_DOSE_A);
+    SET_OUTPUT(PIN_DOSE_B);
+    SET_OUTPUT(PIN_DOSE_C);
+    SET_OUTPUT(PIN_AUX);
+
     initializeAddatives();
     setupClock();
     loadSettings();//get saved settings from eeprom
@@ -198,13 +317,19 @@ void CEMENT::setup(){
     ISR_TIMER_DOSER = ISR_Timer.setInterval(DOSE_INTERVAL_MS, alarm_dose);
     setAutoTimers();//Auto on & off timers were initialized with arbitrary values above. Update them based on current time
     
+    ledcSetup(blenderPWMChannel, 3000, 7);//3khz 7bits (0-128)
+    ledcAttachPin(PIN_BLENDER, blenderPWMChannel);
+
+    ledcSetup(auxPWMChannel, 3000, 7);//3khz 7bits (0-128)
+    ledcAttachPin(PIN_AUX, auxPWMChannel);
+
     writeOutputs();
 }
 
 void CEMENT::loop(){
   if(updateWebUi){
     updateWebUi = false;
-    CEMENT::handleCommand(1,"");//auto mode has turned the equipment on or off. Update the UI
+    CEMENT::handleCommand(114,"");//auto mode has turned the equipment on or off. Update the UI
   }
   return;
 }
@@ -266,8 +391,81 @@ void CEMENT::setAuto(bool on, int start, int stop){
 void CEMENT::writeOutputs(){
   //Do not use 'digitalWrite' use macros defined in ESP32/fastio.h ('WRITE') as some mks tinybee pins are virtual shift register pins
   //WRITE(PIN_NAME,HIGH)
+  writeBlender();
+  writeWater();
+  writeDoseA();
+  writeDoseB();
+  writeDoseC();
+  writeAux();
 }
-
+void CEMENT::setBlender(bool on, int duty){
+  blender_on = on;
+  duty_blender = duty;
+  writeBlender();
+}
+void CEMENT::setAux(bool on, int duty){
+  aux_on = on;
+  duty_aux = duty;
+  writeAux();
+}
+void CEMENT::waterOn(bool on){
+  water_on = on;
+  if(water_on){
+    ISR_TIMER_WATER_OFF = ISR_Timer.setTimeout(3*1000, alarm_water_off);//3 sec on
+    writeWater();
+  }else{
+    ISR_Timer.deleteTimer(ISR_TIMER_WATER_OFF);
+    alarm_water_off();
+  }
+}
+void CEMENT::doseAOn(bool on){
+  doseA_on = on;
+  if(doseA_on){
+    ISR_TIMER_DOSE_A_OFF = ISR_Timer.setTimeout(3*1000, alarm_doseA_off);//3 sec on
+    writeDoseA();
+  }else{
+    ISR_Timer.deleteTimer(ISR_TIMER_DOSE_A_OFF);
+    alarm_doseA_off();
+  }
+}
+void CEMENT::doseBOn(bool on){
+  doseB_on = on;
+  if(doseB_on){
+    ISR_TIMER_DOSE_B_OFF = ISR_Timer.setTimeout(3*1000, alarm_doseB_off);//3 sec on
+    writeDoseB();
+  }else{
+    ISR_Timer.deleteTimer(ISR_TIMER_DOSE_B_OFF);
+    alarm_doseB_off();
+  }
+}
+void CEMENT::doseCOn(bool on){
+  doseC_on = on;
+  if(doseC_on){
+    ISR_TIMER_DOSE_C_OFF = ISR_Timer.setTimeout(3*1000, alarm_doseC_off);//3 sec on
+    writeDoseC();
+  }else{
+    ISR_Timer.deleteTimer(ISR_TIMER_DOSE_C_OFF);
+    alarm_doseC_off();
+  }
+}
+void CEMENT::writeBlender(){
+  ledcWrite(blenderPWMChannel,duty_blender*128/100*blender_on);
+}
+void CEMENT::writeWater(){
+  WRITE(PIN_WATER, water_on);
+}
+void CEMENT::writeDoseA(){
+  WRITE(PIN_DOSE_A, doseA_on);
+}
+void CEMENT::writeDoseB(){
+  WRITE(PIN_DOSE_B, doseB_on);
+}
+void CEMENT::writeDoseC(){
+  WRITE(PIN_DOSE_C, doseC_on);
+}
+void CEMENT::writeAux(){
+  ledcWrite(auxPWMChannel,duty_aux*128/100*aux_on);
+}
 void CEMENT::setTimeCurrent(const char *sDateTime){//2023-09-11T16:30:21
   struct tm ti;
   sscanf(sDateTime,"%d-%d-%dT%d:%d",&ti.tm_year,&ti.tm_mon,&ti.tm_mday,&ti.tm_hour,&ti.tm_min);
