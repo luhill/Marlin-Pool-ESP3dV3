@@ -202,7 +202,7 @@
   #define AXIS4_ROTATES
 #endif
 #ifdef J_DRIVER_TYPE
-  #define AXIS5_NAME 'B' // :['B', 'C', 'U', 'V', 'W']
+  #define AXIS5_NAME 'B' // :['B', 'C', 'U', 'V', 'W'] /*avoid naming 'B' as it causes conflict with */
   #define AXIS5_ROTATES
 #endif
 #ifdef K_DRIVER_TYPE
@@ -647,7 +647,7 @@
 
 // Enable PIDTEMP for PID control or MPCTEMP for Predictive Model.
 // temperature control. Disable both for bang-bang heating.
-#define PIDTEMP          // See the PID Tuning Guide at https://reprap.org/wiki/PID_Tuning
+//#define PIDTEMP          // See the PID Tuning Guide at https://reprap.org/wiki/PID_Tuning
 //#define MPCTEMP        // ** EXPERIMENTAL **
 
 #define BANG_MAX 255     // Limits current to nozzle while in bang-bang mode; 255=full current
@@ -1206,14 +1206,14 @@
 #define gear_reduction_ratio 50.0
 #define steps_per_unit full_steps_per_rotation * microsteps * gear_reduction_ratio / belt_pitch / pulley_teeth / DELTA_BICEP * DELTA_BICEP_DRIVE_RADIUS
 */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 200, 100, 111.11, 200} //500 teeth on spin table driven by 20 teeth. 500/20/360 degress*200 steps*8 microsteps
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 200, 100, 444.444, 200} //500 teeth on spin table driven by 20 teeth. 500/20/360 degress*200 steps*32 microsteps
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
  * Override with M203
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 167, 100, 30, 300, 300}
+#define DEFAULT_MAX_FEEDRATE          { 167, 100, 30, 10, 300}
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
@@ -1226,7 +1226,7 @@
  * Override with M201
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 200, 200, 150, 50, 200 }
+#define DEFAULT_MAX_ACCELERATION      { 200, 200, 150, 1, 200 }
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
@@ -1258,7 +1258,7 @@
   #define DEFAULT_XJERK 40.0
   #define DEFAULT_YJERK 40.0
   #define DEFAULT_ZJERK 40.0
-  //#define DEFAULT_IJERK  0.3
+  #define DEFAULT_IJERK  0.0
   //#define DEFAULT_JJERK  0.3
   //#define DEFAULT_KJERK  0.3
   //#define DEFAULT_UJERK  0.3
@@ -1273,7 +1273,7 @@
   #endif
 #endif
 
-#define DEFAULT_EJERK    5.0  // May be used by Linear Advance
+#define DEFAULT_EJERK    0.1  // May be used by Linear Advance
 
 /**
  * Junction Deviation Factor
@@ -1296,7 +1296,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-//#define S_CURVE_ACCELERATION
+#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================

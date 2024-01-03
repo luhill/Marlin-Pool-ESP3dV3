@@ -264,7 +264,7 @@ void GcodeSuite::M205() {
     return M205_report();
 
   //planner.synchronize();
-  if (parser.seenval('B')) planner.settings.min_segment_time_us = parser.value_ulong();
+  if (parser.seenval('Q')) planner.settings.min_segment_time_us = parser.value_ulong();
   if (parser.seenval('S')) planner.settings.min_feedrate_mm_s = parser.value_linear_units();
   if (parser.seenval('T')) planner.settings.min_travel_feedrate_mm_s = parser.value_linear_units();
   #if HAS_JUNCTION_DEVIATION
@@ -304,7 +304,7 @@ void GcodeSuite::M205() {
 
 void GcodeSuite::M205_report(const bool forReplay/*=true*/) {
   report_heading_etc(forReplay, F(
-    "Advanced (B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate>"
+    "Advanced (Q<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate>"
     TERN_(HAS_JUNCTION_DEVIATION, " J<junc_dev>")
     #if HAS_CLASSIC_JERK
       NUM_AXIS_GANG(
@@ -317,7 +317,7 @@ void GcodeSuite::M205_report(const bool forReplay/*=true*/) {
     ")"
   ));
   SERIAL_ECHOLNPGM_P(
-      PSTR("  M205 B"), LINEAR_UNIT(planner.settings.min_segment_time_us)
+      PSTR("  M205 Q"), LINEAR_UNIT(planner.settings.min_segment_time_us)
     , PSTR(" S"), LINEAR_UNIT(planner.settings.min_feedrate_mm_s)
     , SP_T_STR, LINEAR_UNIT(planner.settings.min_travel_feedrate_mm_s)
     #if HAS_JUNCTION_DEVIATION

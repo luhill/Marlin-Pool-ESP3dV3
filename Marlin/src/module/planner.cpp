@@ -2210,11 +2210,12 @@ bool Planner::_populate_block(
       #endif
 
       #if HAS_ROTATIONAL_AXES && NONE(FOAMCUTTER_XYUV, ARTICULATED_ROBOT_ARM)
-        if (UNEAR_ZERO(distance_sqr)) {
+
+        //if (UNEAR_ZERO(distance_sqr)) {
           // Move involves only rotational axes. Calculate angular distance in accordance with LinuxCNC
           TERN_(INCH_MODE_SUPPORT, cartesian_move = false);
-          distance_sqr = ROTATIONAL_AXIS_GANG(sq(steps_dist_mm.i), + sq(steps_dist_mm.j), + sq(steps_dist_mm.k), + sq(steps_dist_mm.u), + sq(steps_dist_mm.v), + sq(steps_dist_mm.w));
-        }
+          distance_sqr += ROTATIONAL_AXIS_GANG(sq(steps_dist_mm.i), + sq(steps_dist_mm.j), + sq(steps_dist_mm.k), + sq(steps_dist_mm.u), + sq(steps_dist_mm.v), + sq(steps_dist_mm.w));/*luke added to make sure distance includes total axis movement*/
+        //}
       #endif
 
       block->millimeters = SQRT(distance_sqr);
