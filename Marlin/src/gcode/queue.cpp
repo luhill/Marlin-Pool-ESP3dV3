@@ -36,7 +36,7 @@ GCodeQueue queue;
 #include "../module/temperature.h"
 #include "../MarlinCore.h"
 #include "../core/bug_on.h"
-
+#include "../HAL/ESP32/cement.h"
 #if ENABLED(PRINTER_EVENT_LEDS)
   #include "../feature/leds/printer_event_leds.h"
 #endif
@@ -679,6 +679,7 @@ void GCodeQueue::advance() {
       }
     }
     else
+      if(CEMENT::isBusy())return;//Dont continue until CEMENT is done. dont advance ring_buffer
       gcode.process_next_command();
 
   #else

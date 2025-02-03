@@ -1,0 +1,17 @@
+08:52:37.530 > [37m [37mExternal Reset
+08:52:37.531 >  Brown out Reset[37m
+08:52:37.533 > [37m Watchdog Reset
+08:52:37.533 > Marlin 2.1.2
+08:52:37.533 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+08:52:37.539 > ec[37mh[37mo: Compiled: Jan 12 2024
+08:52:37.542 > echo: [37mF[37mree Memory: 225352  PlannerBuff[37me[37mrBytes: 1344
+08:52:37.568 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+08:52:37.591 > [37me[37mcho:Settings Stored (870 bytes;[37m [37mcrc 37517)
+08:52:37.694 > [37me[37mcho:EEPROM Initialized
+08:52:37.709 > [37me[37mcho:SD card released
+08:52:50.129 > [37me[37mcho:No SD card
+08:52:50.138 > [37me[37mcho:Setup wifi
+08:52:50.271 > [37me[37mcho:Connecting
+08:52:53.292 > [37me[37mcho:10.0.0.110
+08:52:54.768 > [37me[37mcho:10.0.0.110
+08:53:05.989 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-16T08:53:05"}}}

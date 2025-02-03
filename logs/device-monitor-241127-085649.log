@@ -1,0 +1,17 @@
+08:56:49.861 > [37mstart
+08:56:49.861 >  External Reset
+08:56:49.861 >  Brown out Reset
+08:56:49.861 >  Watchdog Reset
+08:56:49.861 > Marlin 2.1.2
+08:56:49.861 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+08:56:49.861 > echo: Compiled: Nov 26 2024
+08:56:49.861 > echo: Free Memory: 230140  PlannerBufferBytes: 1344
+08:56:49.861 > echo:Hardcoded Default Settings Loaded
+08:56:49.861 > echo:Settings Stored (762 bytes; crc 37024)
+08:56:49.861 > echo:EEPROM Initialized
+08:56:49.861 > echo:SD card released
+08:56:58.682 > [37me[37mcho:No SD card
+08:56:58.694 > [37me[37mcho:Setup wifi
+08:56:58.813 > [37me[37mcho:Connecting
+08:57:01.840 > [37me[37mcho:10.0.0.54
+08:57:03.322 > [37me[37mcho:10.0.0.54

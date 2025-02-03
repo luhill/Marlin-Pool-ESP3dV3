@@ -1,0 +1,50 @@
+12:19:55.249 > [37me[37mcho:SD card ok
+12:20:00.812 > [37me[37mcho:Now fresh file: /TestMix.g
+12:20:00.816 > [37mF[37mile opened: TestMix.g Size: 118[37m7[37m9
+12:20:00.817 > File selected
+12:20:00.841 > [37m{[37m"myPanel":{"values":{"mix":[[60[37m0[37m,20,50],[500,33.65,10],[5,0.2,1[37m][37m,[0,1,1],[0,1,1]]}}}
+12:20:00.847 > echo:Star[37mt[37ming 1.0L print. Preparing mixtu[37mr[37me. Starting in 5sec
+12:20:05.934 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (Unhandled debug excepti[37mo[37mn). 
+12:20:05.939 > Debug exception reason: S[37mt[37mack canary watchpoint triggered[37m [37m(StepperTask) 
+12:20:05.945 > Core  1 registe[37mr[37m dump:
+12:20:05.948 > PC      : 0x400d7872  P[37mS[37m      : 0x00060636  A0      : 0[37mx[37m800dfef0  A1      : 0x3ffd3280 [37m [37m
+12:20:05.956 > A2      : 0x00006849  A3     [37m [37m: 0xffffffff  A4      : 0x3ffc5[37m6[37mf4  A5      : 0x00000000  
+12:20:05.961 > A6 [37m [37m    : 0x00000018  A7      : 0x0[37m0[37m000001  A8      : 0x3ffd0c60  A[37m9[37m      : 0x3ffcfc44  
+12:20:05.970 > A10     :[37m [37m0x3ffc56f8  A11     : 0x0000060[37m0[37m  A12     : 0x3ffc56f4  A13    [37m [37m: 0x00000000  
+12:20:05.978 > A14     : 0x000[37m0[37m0018  A15     : 0x00000001  SAR[37m [37m    : 0x00000013  EXCCAUSE: 0x0[37m0[37m000001  
+12:20:05.986 > EXCVADDR: 0x00000000 [37m [37mLBEG    : 0x400d7838  LEND    :[37m [37m0x400d785c  LCOUNT  : 0x0000000[37m0[37m  
+12:20:05.995 > 
+12:20:05.995 > 
+12:20:05.995 > Backtrace: 0x400d786f:0[37mx[37m3ffd3280 0x400dfeed:0x3ffd32a0 [37m0[37mx400d78b4:0x3ffd32d0
+12:20:06.000 > 
+12:20:06.000 > 
+12:20:06.000 > 
+12:20:06.000 > 
+12:20:06.000 > E[37mL[37mF file SHA256: 4c53eb31d6ee6367[37m[37m
+12:20:06.003 > 
+12:20:06.326 > [37mR[37mebooting...
+12:20:06.329 > [37me[37mts Jun  8 2016 00:22:57
+12:20:06.329 > 
+12:20:06.329 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+12:20:06.335 > configsip: 0[37m,[37m SPIWP:0xee
+12:20:06.337 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+12:20:06.343 > mode:DIO,[37m [37mclock div:2
+12:20:06.346 > load:0x3fff0030,le[37mn[37m:1184
+12:20:06.348 > load:0x40078000,len:1319[37m2[37m
+12:20:06.351 > load:0x40080400,len:3028
+12:20:06.351 > ent[37mr[37my 0x400805e4
+12:20:06.967 > [37ms[37mtart
+12:20:06.993 > [37m [37mB[37mr[37mown out Reset
+12:20:06.996 >  Watchdog Reset
+12:20:06.996 > M[37ma[37mrlin 2.1.2
+12:20:06.999 > echo: Last Updated: [37m2[37m022-12-17 | Author: (none, defa[37mu[37mlt config)
+12:20:07.004 > echo: Compiled: Jan [37m1[37m1 2024
+12:20:07.007 > echo: Free Memory: 22534[37m0[37m  PlannerBufferBytes: 1344
+12:20:07.054 > [37me[37mcho:V87 stored settings retriev[37me[37md (870 bytes; crc 803)
+12:20:07.581 > [37me[37mcho:SD card ok
+12:20:17.645 > [37me[37mcho:SD card ok
+12:20:17.661 > [37me[37mcho:Setup wifi
+12:20:17.796 > [37me[37mcho:Connecting
+12:20:20.833 > [37me[37mcho:10.0.0.110
+12:20:22.300 > [37me[37mcho:10.0.0.110
+12:20:26.494 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T12:20:26"}}}

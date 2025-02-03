@@ -1,0 +1,1232 @@
+13:34:27.044 > [37mstart
+13:34:27.044 >  Brown out Reset
+13:34:27.044 >  Watchdog Reset
+13:34:27.044 > Marlin 2.1.2
+13:34:27.044 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:34:27.044 > echo: Compiled: Dec 16 2024
+13:34:27.044 > echo: Free Memory: 3264  Pl
+13:34:27.044 > ***ERROR*** A stack overflow in task IDLE has been detected.
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > Backtrace: 0x40119c69:0x3ffbc6b0 0x4011a0cd:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > ELF file SHA256: db1d3a145775d28d
+13:34:27.044 > 
+13:34:27.044 > Rebooting...
+13:34:27.044 > ets Jun  8 2016 00:22:57
+13:34:27.044 > 
+13:34:27.044 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:34:27.044 > configsip: 0, SPIWP:0xee
+13:34:27.044 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:34:27.044 > mode:DIO, clock div:2
+13:34:27.044 > load:0x3fff0030,len:1184
+13:34:27.044 > load:0x40078000,len:13192
+13:34:27.044 > load:0x40080400,len:3028
+13:34:27.044 > entry 0x400805e4
+13:34:27.044 > start
+13:34:27.044 >  Brown out Reset
+13:34:27.044 >  Watchdog Reset
+13:34:27.044 > Marlin 2.1.2
+13:34:27.044 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:34:27.044 > echo: Compiled: Dec 16 2024
+13:34:27.044 > echo: Free Memory: 3264  Pl
+13:34:27.044 > *[37m**ERROR*** A stack overflow in task IDLE has been detected.
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > Backtrace: 0x40119c69:0x3ffbc6b0 0x4011a0cd:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > ELF file SHA256: db1d3a145775d28d
+13:34:27.044 > 
+13:34:27.044 > Rebooting...
+13:34:27.044 > ets Jun  8 2016 00:22:57
+13:34:27.044 > 
+13:34:27.044 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:34:27.044 > configsip: 0, SPIWP:0xee
+13:34:27.044 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:34:27.044 > mode:DIO, clock div:2
+13:34:27.044 > load:0x3fff0030,len:1184
+13:34:27.044 > load:0x40078000,len:13192
+13:34:27.044 > load:0x40080400,len:3028
+13:34:27.044 > entry 0x400805e4
+13:34:27.044 > start
+13:34:27.044 >  Brown out Reset
+13:34:27.044 >  Watchdog Reset
+13:34:27.044 > Marlin 2.1.2
+13:34:27.044 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:34:27.044 > echo: Compiled: Dec 16 2024
+13:34:27.044 > echo: Free Memory: 3264  Pl
+13:34:27.044 > ***ERROR*** A stack overflow in task IDLE has been detected.
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > Backtrace: 0x40119c69:0x3ffbc6b0 0x4011a0cd:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed[37m:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > ELF file SHA256: db1d3a145775d28d
+13:34:27.044 > 
+13:34:27.044 > Rebooting...
+13:34:27.044 > ets Jun  8 2016 00:22:57
+13:34:27.044 > 
+13:34:27.044 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:34:27.044 > configsip: 0, SPIWP:0xee
+13:34:27.044 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:34:27.044 > mode:DIO, clock div:2
+13:34:27.044 > load:0x3fff0030,len:1184
+13:34:27.044 > load:0x40078000,len:13192
+13:34:27.044 > load:0x40080400,len:3028
+13:34:27.044 > entry 0x400805e4
+13:34:27.044 > start
+13:34:27.044 >  Brown out Reset
+13:34:27.044 >  Watchdog Reset
+13:34:27.044 > Marlin 2.1.2
+13:34:27.044 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:34:27.044 > echo: Compiled: Dec 16 2024
+13:34:27.044 > echo: Free Memory: 3264  Pl
+13:34:27.044 > ***ERROR*** A stack overflow in task IDLE has been detected.
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > Backtrace: 0x40119c69:0x3ffbc6b0 0x4011a0cd:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > ELF file SHA256: db1d3a145775d[37m28d
+13:34:27.044 > 
+13:34:27.044 > Rebooting...
+13:34:27.044 > ets Jun  8 2016 00:22:57
+13:34:27.044 > 
+13:34:27.044 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:34:27.044 > configsip: 0, SPIWP:0xee
+13:34:27.044 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:34:27.044 > mode:DIO, clock div:2
+13:34:27.044 > load:0x3fff0030,len:1184
+13:34:27.044 > load:0x40078000,len:13192
+13:34:27.044 > load:0x40080400,len:3028
+13:34:27.044 > entry 0x400805e4
+13:34:27.044 > start
+13:34:27.044 >  Brown out Reset
+13:34:27.044 >  Watchdog Reset
+13:34:27.044 > Marlin 2.1.2
+13:34:27.044 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:34:27.044 > echo: Compiled: Dec 16 2024
+13:34:27.044 > echo: Free Memory: 3264  Pl
+13:34:27.044 > ***ERROR*** A stack overflow in task IDLE has been detected.
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > Backtrace: 0x40119c69:0x3ffbc6b0 0x4011a0cd:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > ELF file SHA256: db1d3a145775d28d
+13:34:27.044 > 
+13:34:27.044 > Rebooting...
+13:34:27.044 > ets Jun  8 2016 00:22:57
+13:34:27.044 > 
+13:34:27.044 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:34:27.044 > configsip: 0, SPIWP:0xee
+13:34:27.044 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:[37m0x00,hd_drv:0x00,wp_drv:0x00
+13:34:27.044 > mode:DIO, clock div:2
+13:34:27.044 > load:0x3fff0030,len:1184
+13:34:27.044 > load:0x40078000,len:13192
+13:34:27.044 > load:0x40080400,len:3028
+13:34:27.044 > entry 0x400805e4
+13:34:27.044 > start
+13:34:27.044 >  Brown out Reset
+13:34:27.044 >  Watchdog Reset
+13:34:27.044 > Marlin 2.1.2
+13:34:27.044 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:34:27.044 > echo: Compiled: Dec 16 2024
+13:34:27.044 > echo: Free Memory: 3264  Pl
+13:34:27.044 > ***ERROR*** A stack overflow in task IDLE has been detected.
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > Backtrace: 0x40119c69:0x3ffbc6b0 0x4011a0cd:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > 
+13:34:27.044 > ELF file SHA256: db1d3a145775d28d
+13:34:27.044 > 
+13:34:27.044 > Rebooting...
+13:34:27.044 > ets Jun  8 2016 00:22:57
+13:34:27.044 > 
+13:34:27.044 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:34:27.044 > configsip: 0, SPIWP:0xee
+13:34:27.044 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:34:27.044 > mode:DIO, clock div:2
+13:34:27.044 > load:0x3fff0030,len:1184
+13:34:27.044 > load:0x40078000,len:13192
+13:34:27.044 > load:0x40080400,len:3028
+13:34:27.044 > entry 0x400805e4
+13:34:27.300 > [37ms[37mtart
+13:34:27.318 > [37m [37mBrown out Reset
+13:34:27.318 >  Watchdog Reset[37m
+13:34:27.320 > [37mMarlin 2.1.2
+13:34:27.320 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:27.326 > echo: Compiled: De[37mc[37m 16 2024
+13:34:27.329 > echo: Free Memory: 326[37m4[37m  Plan
+13:34:27.331 > ***ERROR*** A stack ove[37mr[37mflow in task IDLE has been dete[37mc[37mted.
+13:34:27.337 > 
+13:34:27.337 > 
+13:34:27.337 > Backtrace: 0x40119c69[37m:[37m0x3ffbc6b0 0x4011a0cd:0x3ffbc6e[37m0[37m 0x40083f91:0x3ffbc730 0x40084f[37mf[37m4:0x3ffbc750 0x40083eed:0x3ffbc[37m8[37m10 0x4008decd:0x3ffbc830 0x4009[37m1[37m5ad:0x3ffbc850 0x4008faf1:0x3ff[37mb[37mc8d0 0x4008dfdc:0x3ffbc900 0x40[37m0[37m8df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:27.359 > [37m[37m
+13:34:27.359 > 
+13:34:27.359 > 
+13:34:27.359 > 
+13:34:27.359 > ELF file SHA256: db1d3a1[37m4[37m5775d28d
+13:34:27.362 > 
+13:34:27.478 > [37mR[37mebooting...
+13:34:27.478 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:27.481 > 
+13:34:27.481 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:27.486 > configsip: 0, SPIWP:0xee
+13:34:27.486 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:27.495 > mode:DIO, clock div:2
+13:34:27.495 > load[37m:[37m0x3fff0030,len:1184
+13:34:27.497 > load:0x400[37m7[37m8000,len:13192
+13:34:27.500 > load:0x40080400[37m,[37mlen:3028
+13:34:27.505 > entry 0x400805e4
+13:34:28.082 > [37ms[37mtart
+13:34:28.100 > [37m [37mBrown out Reset
+13:34:28.100 >  Watchdog Reset[37m
+13:34:28.103 > [37mMarlin 2.1.2
+13:34:28.103 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:28.108 > echo: Compiled: De[37mc[37m 16 2024
+13:34:28.111 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:28.114 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:28.119 > 
+13:34:28.119 > 
+13:34:28.119 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:28.139 > 
+13:34:28.141 > [37m[37m
+13:34:28.141 > 
+13:34:28.141 > 
+13:34:28.141 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:28.144 > 
+13:34:28.257 > [37mR[37mebooting...
+13:34:28.257 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:28.260 > 
+13:34:28.260 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:28.265 > configsip: 0, SPIWP:0xee
+13:34:28.265 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:28.274 > mode:DIO, clock div:2
+13:34:28.274 > load[37m:[37m0x3fff0030,len:1184
+13:34:28.277 > load:0x400[37m7[37m8000,len:13192
+13:34:28.279 > load:0x40080400[37m,[37mlen:3028
+13:34:28.284 > entry 0x400805e4
+13:34:28.861 > [37ms[37mtart
+13:34:28.879 > [37m [37mBrown out Reset
+13:34:28.879 >  Watchdog Reset[37m
+13:34:28.882 > [37mMarlin 2.1.2
+13:34:28.882 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:28.887 > echo: Compiled: De[37mc[37m 16 2024
+13:34:28.890 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:28.893 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:28.898 > 
+13:34:28.898 > 
+13:34:28.898 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:28.918 > 
+13:34:28.921 > [37m[37m
+13:34:28.921 > 
+13:34:28.921 > 
+13:34:28.921 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:28.923 > 
+13:34:29.043 > [37mR[37mebooting...
+13:34:29.043 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:29.045 > 
+13:34:29.045 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:29.051 > configsip: 0, SPIWP:0xee
+13:34:29.051 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:29.059 > mode:DIO, clock div:2
+13:34:29.059 > load[37m:[37m0x3fff0030,len:1184
+13:34:29.062 > load:0x400[37m7[37m8000,len:13192
+13:34:29.065 > load:0x40080400[37m,[37mlen:3028
+13:34:29.069 > entry 0x400805e4
+13:34:29.647 > [37ms[37mtart
+13:34:29.664 > [37m [37mBrown out Reset
+13:34:29.664 >  Watchdog Reset[37m
+13:34:29.667 > [37mMarlin 2.1.2
+13:34:29.667 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:29.673 > echo: Compiled: De[37mc[37m 16 2024
+13:34:29.675 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:29.678 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:29.684 > 
+13:34:29.684 > 
+13:34:29.684 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:29.703 > 
+13:34:29.706 > [37m[37m
+13:34:29.706 > 
+13:34:29.706 > 
+13:34:29.706 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:29.709 > 
+13:34:29.827 > [37mR[37mebooting...
+13:34:29.828 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:29.830 > 
+13:34:29.830 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:29.836 > configsip: 0, SPIWP:0xee
+13:34:29.836 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:29.844 > mode:DIO, clock div:2
+13:34:29.844 > load[37m:[37m0x3fff0030,len:1184
+13:34:29.847 > load:0x400[37m7[37m8000,len:13192
+13:34:29.850 > load:0x40080400[37m,[37mlen:3028
+13:34:29.854 > entry 0x400805e4
+13:34:30.431 > [37ms[37mtart
+13:34:30.449 > [37m [37mBrown out Reset
+13:34:30.449 >  Watchdog Reset[37m
+13:34:30.452 > [37mMarlin 2.1.2
+13:34:30.452 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:30.457 > echo: Compiled: De[37mc[37m 16 2024
+13:34:30.460 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:30.463 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:30.469 > 
+13:34:30.469 > 
+13:34:30.469 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:30.488 > 
+13:34:30.491 > [37m[37m
+13:34:30.491 > 
+13:34:30.491 > 
+13:34:30.491 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:30.494 > 
+13:34:30.615 > [37mR[37mebooting...
+13:34:30.615 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:30.618 > 
+13:34:30.618 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:30.623 > configsip: 0, SPIWP:0xee
+13:34:30.623 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:30.632 > mode:DIO, clock div:2
+13:34:30.632 > load[37m:[37m0x3fff0030,len:1184
+13:34:30.634 > load:0x400[37m7[37m8000,len:13192
+13:34:30.637 > load:0x40080400[37m,[37mlen:3028
+13:34:30.642 > entry 0x400805e4
+13:34:31.219 > [37ms[37mtart
+13:34:31.237 > [37m [37mBrown out Reset
+13:34:31.237 >  Watchdog Reset[37m
+13:34:31.240 > [37mMarlin 2.1.2
+13:34:31.240 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:31.245 > echo: Compiled: De[37mc[37m 16 2024
+13:34:31.248 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:31.251 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:31.256 > 
+13:34:31.256 > 
+13:34:31.256 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:31.276 > 
+13:34:31.278 > [37m[37m
+13:34:31.279 > 
+13:34:31.279 > 
+13:34:31.279 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:31.281 > 
+13:34:31.401 > [37mR[37mebooting...
+13:34:31.401 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:31.404 > 
+13:34:31.404 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:31.409 > configsip: 0, SPIWP:0xee
+13:34:31.409 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:31.418 > mode:DIO, clock div:2
+13:34:31.418 > load[37m:[37m0x3fff0030,len:1184
+13:34:31.420 > load:0x400[37m7[37m8000,len:13192
+13:34:31.423 > load:0x40080400[37m,[37mlen:3028
+13:34:31.428 > entry 0x400805e4
+13:34:32.005 > [37ms[37mtart
+13:34:32.023 > [37m [37mBrown out Reset
+13:34:32.023 >  Watchdog Reset[37m
+13:34:32.026 > [37mMarlin 2.1.2
+13:34:32.026 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:32.031 > echo: Compiled: De[37mc[37m 16 2024
+13:34:32.034 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:32.037 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:32.042 > 
+13:34:32.042 > 
+13:34:32.042 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:32.062 > 
+13:34:32.064 > [37m[37m
+13:34:32.064 > 
+13:34:32.064 > 
+13:34:32.064 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:32.067 > 
+13:34:32.188 > [37mR[37mebooting...
+13:34:32.188 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:32.191 > 
+13:34:32.191 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:32.196 > configsip: 0, SPIWP:0xee
+13:34:32.196 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:32.205 > mode:DIO, clock div:2
+13:34:32.205 > load[37m:[37m0x3fff0030,len:1184
+13:34:32.207 > load:0x400[37m7[37m8000,len:13192
+13:34:32.210 > load:0x40080400[37m,[37mlen:3028
+13:34:32.214 > entry 0x400805e4
+13:34:32.792 > [37ms[37mtart
+13:34:32.810 > [37m [37mBrown out Reset
+13:34:32.810 >  Watchdog Reset[37m
+13:34:32.813 > [37mMarlin 2.1.2
+13:34:32.813 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:32.818 > echo: Compiled: De[37mc[37m 16 2024
+13:34:32.821 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:32.824 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:32.829 > 
+13:34:32.829 > 
+13:34:32.829 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:32.848 > 
+13:34:32.851 > [37m[37m
+13:34:32.851 > 
+13:34:32.851 > 
+13:34:32.851 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:32.854 > 
+13:34:32.974 > [37mR[37mebooting...
+13:34:32.974 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:32.976 > 
+13:34:32.976 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:32.982 > configsip: 0, SPIWP:0xee
+13:34:32.982 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:32.990 > mode:DIO, clock div:2
+13:34:32.990 > load[37m:[37m0x3fff0030,len:1184
+13:34:32.993 > load:0x400[37m7[37m8000,len:13192
+13:34:32.996 > load:0x40080400[37m,[37mlen:3028
+13:34:33.000 > entry 0x400805e4
+13:34:33.578 > [37ms[37mtart
+13:34:33.595 > [37m [37mBrown out Reset
+13:34:33.596 >  Watchdog Reset[37m
+13:34:33.598 > [37mMarlin 2.1.2
+13:34:33.598 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:33.604 > echo: Compiled: De[37mc[37m 16 2024
+13:34:33.607 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:33.609 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:33.615 > 
+13:34:33.615 > 
+13:34:33.615 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:33.634 > 
+13:34:33.637 > [37m[37m
+13:34:33.637 > 
+13:34:33.637 > 
+13:34:33.637 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:33.640 > 
+13:34:33.754 > [37mR[37mebooting...
+13:34:33.754 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:33.757 > 
+13:34:33.757 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:33.762 > configsip: 0, SPIWP:0xee
+13:34:33.762 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:33.771 > mode:DIO, clock div:2
+13:34:33.771 > load[37m:[37m0x3fff0030,len:1184
+13:34:33.773 > load:0x400[37m7[37m8000,len:13192
+13:34:33.776 > load:0x40080400[37m,[37mlen:3028
+13:34:33.781 > entry 0x400805e4
+13:34:34.358 > [37ms[37mtart
+13:34:34.376 > [37m [37mBrown out Reset
+13:34:34.376 >  Watchdog Reset[37m
+13:34:34.379 > [37mMarlin 2.1.2
+13:34:34.379 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:34.384 > echo: Compiled: De[37mc[37m 16 2024
+13:34:34.387 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:34.390 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:34.395 > 
+13:34:34.395 > 
+13:34:34.395 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:34.415 > 
+13:34:34.417 > [37m[37m
+13:34:34.417 > 
+13:34:34.417 > 
+13:34:34.417 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:34.420 > 
+13:34:34.534 > [37mR[37mebooting...
+13:34:34.535 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:34.537 > 
+13:34:34.537 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:34.543 > configsip: 0, SPIWP:0xee
+13:34:34.543 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:34.551 > mode:DIO, clock div:2
+13:34:34.551 > load[37m:[37m0x3fff0030,len:1184
+13:34:34.554 > load:0x400[37m7[37m8000,len:13192
+13:34:34.557 > load:0x40080400[37m,[37mlen:3028
+13:34:34.561 > entry 0x400805e4
+13:34:35.139 > [37ms[37mtart
+13:34:35.156 > [37m [37mBrown out Reset
+13:34:35.156 >  Watchdog Reset[37m
+13:34:35.159 > [37mMarlin 2.1.2
+13:34:35.159 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:35.165 > echo: Compiled: De[37mc[37m 16 2024
+13:34:35.167 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:35.170 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:35.176 > 
+13:34:35.176 > 
+13:34:35.176 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:35.195 > 
+13:34:35.198 > [37m[37m
+13:34:35.198 > 
+13:34:35.198 > 
+13:34:35.198 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:35.201 > 
+13:34:35.313 > [37mR[37mebooting...
+13:34:35.313 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:35.316 > 
+13:34:35.316 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:35.321 > configsip: 0, SPIWP:0xee
+13:34:35.321 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:35.329 > mode:DIO, clock div:2
+13:34:35.329 > load[37m:[37m0x3fff0030,len:1184
+13:34:35.332 > load:0x400[37m7[37m8000,len:13192
+13:34:35.335 > load:0x40080400[37m,[37mlen:3028
+13:34:35.339 > entry 0x400805e4
+13:34:35.917 > [37ms[37mtart
+13:34:35.934 > [37m [37mBrown out Reset
+13:34:35.934 >  Watchdog Reset[37m
+13:34:35.937 > [37mMarlin 2.1.2
+13:34:35.937 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:35.942 > echo: Compiled: De[37mc[37m 16 2024
+13:34:35.945 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:35.948 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:35.954 > 
+13:34:35.954 > 
+13:34:35.954 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:35.973 > 
+13:34:35.976 > [37m[37m
+13:34:35.976 > 
+13:34:35.976 > 
+13:34:35.976 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:35.979 > 
+13:34:36.092 > [37mR[37mebooting...
+13:34:36.092 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:36.094 > 
+13:34:36.094 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:36.100 > configsip: 0, SPIWP:0xee
+13:34:36.100 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:36.108 > mode:DIO, clock div:2
+13:34:36.108 > load[37m:[37m0x3fff0030,len:1184
+13:34:36.111 > load:0x400[37m7[37m8000,len:13192
+13:34:36.114 > load:0x40080400[37m,[37mlen:3028
+13:34:36.118 > entry 0x400805e4
+13:34:36.696 > [37ms[37mtart
+13:34:36.713 > [37m [37mBrown out Reset
+13:34:36.713 >  Watchdog Reset[37m
+13:34:36.716 > [37mMarlin 2.1.2
+13:34:36.716 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:36.722 > echo: Compiled: De[37mc[37m 16 2024
+13:34:36.724 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:36.727 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:36.733 > 
+13:34:36.733 > 
+13:34:36.733 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:36.752 > 
+13:34:36.755 > [37m[37m
+13:34:36.755 > 
+13:34:36.755 > 
+13:34:36.755 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:36.758 > 
+13:34:36.871 > [37mR[37mebooting...
+13:34:36.871 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:36.874 > 
+13:34:36.874 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:36.880 > configsip: 0, SPIWP:0xee
+13:34:36.880 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:36.888 > mode:DIO, clock div:2
+13:34:36.888 > load[37m:[37m0x3fff0030,len:1184
+13:34:36.890 > load:0x400[37m7[37m8000,len:13192
+13:34:36.893 > load:0x40080400[37m,[37mlen:3028
+13:34:36.898 > entry 0x400805e4
+13:34:37.475 > [37ms[37mtart
+13:34:37.493 > [37m [37mBrown out Reset
+13:34:37.493 >  Watchdog Reset[37m
+13:34:37.496 > [37mMarlin 2.1.2
+13:34:37.496 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:37.501 > echo: Compiled: De[37mc[37m 16 2024
+13:34:37.504 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:37.507 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:37.512 > 
+13:34:37.512 > 
+13:34:37.512 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:37.532 > 
+13:34:37.535 > [37m[37m
+13:34:37.535 > 
+13:34:37.535 > 
+13:34:37.535 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:37.537 > 
+13:34:37.657 > [37mR[37mebooting...
+13:34:37.657 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:37.660 > 
+13:34:37.660 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:37.666 > configsip: 0, SPIWP:0xee
+13:34:37.666 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:37.674 > mode:DIO, clock div:2
+13:34:37.674 > load[37m:[37m0x3fff0030,len:1184
+13:34:37.677 > load:0x400[37m7[37m8000,len:13192
+13:34:37.679 > load:0x40080400[37m,[37mlen:3028
+13:34:37.684 > entry 0x400805e4
+13:34:38.261 > [37ms[37mtart
+13:34:38.279 > [37m [37mBrown out Reset
+13:34:38.279 >  Watchdog Reset[37m
+13:34:38.282 > [37mMarlin 2.1.2
+13:34:38.282 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:38.287 > echo: Compiled: De[37mc[37m 16 2024
+13:34:38.290 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:38.293 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:38.298 > 
+13:34:38.298 > 
+13:34:38.298 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:38.318 > 
+13:34:38.321 > [37m[37m
+13:34:38.321 > 
+13:34:38.321 > 
+13:34:38.321 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:38.324 > 
+13:34:38.441 > [37mR[37mebooting...
+13:34:38.441 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:38.443 > 
+13:34:38.443 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:38.449 > configsip: 0, SPIWP:0xee
+13:34:38.449 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:38.457 > mode:DIO, clock div:2
+13:34:38.457 > load[37m:[37m0x3fff0030,len:1184
+13:34:38.460 > load:0x400[37m7[37m8000,len:13192
+13:34:38.463 > load:0x40080400[37m,[37mlen:3028
+13:34:38.467 > entry 0x400805e4
+13:34:39.045 > [37ms[37mtart
+13:34:39.062 > [37m [37mBrown out Reset
+13:34:39.062 >  Watchdog Reset[37m
+13:34:39.065 > [37mMarlin 2.1.2
+13:34:39.065 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:39.071 > echo: Compiled: De[37mc[37m 16 2024
+13:34:39.073 > echo: Free Memory: 326[37m4[37m  Plan
+13:34:39.076 > ***ERROR*** A stack ove[37mr[37mflow in task IDLE has been dete[37mc[37mted.
+13:34:39.082 > 
+13:34:39.082 > 
+13:34:39.082 > Backtrace: 0x40119c69[37m:[37m0x3ffbc6b0 0x4011a0cd:0x3ffbc6e[37m0[37m 0x40083f91:0x3ffbc730 0x40084f[37mf[37m4:0x3ffbc750 0x40083eed:0x3ffbc[37m8[37m10 0x4008decd:0x3ffbc830 0x4009[37m1[37m5ad:0x3ffbc850 0x4008faf1:0x3ff[37mb[37mc8d0 0x4008dfdc:0x3ffbc900 0x40[37m0[37m8df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:39.104 > [37m[37m
+13:34:39.104 > 
+13:34:39.104 > 
+13:34:39.104 > 
+13:34:39.104 > ELF file SHA256: db1d3a1[37m4[37m5775d28d
+13:34:39.107 > 
+13:34:39.227 > [37mR[37mebooting...
+13:34:39.227 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:39.230 > 
+13:34:39.230 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:39.235 > configsip: 0, SPIWP:0xee
+13:34:39.235 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:39.243 > mode:DIO, clock div:2
+13:34:39.243 > load[37m:[37m0x3fff0030,len:1184
+13:34:39.246 > load:0x400[37m7[37m8000,len:13192
+13:34:39.249 > load:0x40080400[37m,[37mlen:3028
+13:34:39.254 > entry 0x400805e4
+13:34:39.831 > [37ms[37mtart
+13:34:39.849 > [37m [37mBrown out Reset
+13:34:39.849 >  Watchdog Reset[37m
+13:34:39.851 > [37mMarlin 2.1.2
+13:34:39.851 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:39.857 > echo: Compiled: De[37mc[37m 16 2024
+13:34:39.860 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:39.862 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:39.868 > 
+13:34:39.868 > 
+13:34:39.868 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:39.888 > 
+13:34:39.890 > [37m[37m
+13:34:39.890 > 
+13:34:39.890 > 
+13:34:39.890 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:39.893 > 
+13:34:40.007 > [37mR[37mebooting...
+13:34:40.007 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:40.010 > 
+13:34:40.010 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:40.015 > configsip: 0, SPIWP:0xee
+13:34:40.015 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:40.024 > mode:DIO, clock div:2
+13:34:40.024 > load[37m:[37m0x3fff0030,len:1184
+13:34:40.027 > load:0x400[37m7[37m8000,len:13192
+13:34:40.029 > load:0x40080400[37m,[37mlen:3028
+13:34:40.034 > entry 0x400805e4
+13:34:40.611 > [37ms[37mtart
+13:34:40.629 > [37m [37mBrown out Reset
+13:34:40.629 >  Watchdog Reset[37m
+13:34:40.632 > [37mMarlin 2.1.2
+13:34:40.632 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:40.637 > echo: Compiled: De[37mc[37m 16 2024
+13:34:40.640 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:40.643 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:40.648 > 
+13:34:40.648 > 
+13:34:40.648 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:40.668 > 
+13:34:40.671 > [37m[37m
+13:34:40.671 > 
+13:34:40.671 > 
+13:34:40.671 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:40.674 > 
+13:34:40.788 > [37mR[37mebooting...
+13:34:40.788 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:40.791 > 
+13:34:40.791 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:40.796 > configsip: 0, SPIWP:0xee
+13:34:40.796 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:40.805 > mode:DIO, clock div:2
+13:34:40.805 > load[37m:[37m0x3fff0030,len:1184
+13:34:40.807 > load:0x400[37m7[37m8000,len:13192
+13:34:40.810 > load:0x40080400[37m,[37mlen:3028
+13:34:40.815 > entry 0x400805e4
+13:34:41.392 > [37ms[37mtart
+13:34:41.410 > [37m [37mBrown out Reset
+13:34:41.410 >  Watchdog Reset[37m
+13:34:41.412 > [37mMarlin 2.1.2
+13:34:41.412 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:41.418 > echo: Compiled: De[37mc[37m 16 2024
+13:34:41.421 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:41.424 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:41.430 > 
+13:34:41.430 > 
+13:34:41.430 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0x40085216 |<-CORRUPTED
+13:34:41.449 > 
+13:34:41.451 > [37m[37m
+13:34:41.451 > 
+13:34:41.451 > 
+13:34:41.451 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:41.454 > 
+13:34:41.570 > [37mR[37mebooting...
+13:34:41.570 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:41.572 > 
+13:34:41.572 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:41.578 > configsip: 0, SPIWP:0xee
+13:34:41.578 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:41.586 > mode:DIO, clock div:2
+13:34:41.586 > load[37m:[37m0x3fff0030,len:1184
+13:34:41.589 > load:0x400[37m7[37m8000,len:13192
+13:34:41.592 > load:0x40080400[37m,[37mlen:3028
+13:34:41.596 > entry 0x400805e4
+13:34:42.174 > [37ms[37mtart
+13:34:42.191 > [37m [37mBrown out Reset
+13:34:42.192 >  Watchdog Reset[37m
+13:34:42.194 > [37mMarlin 2.1.2
+13:34:42.194 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:42.200 > echo: Compiled: De[37mc[37m 16 2024
+13:34:42.202 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:42.205 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:42.211 > 
+13:34:42.211 > 
+13:34:42.211 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:42.230 > 
+13:34:42.233 > [37m[37m
+13:34:42.233 > 
+13:34:42.233 > 
+13:34:42.233 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:42.236 > 
+13:34:42.349 > [37mR[37mebooting...
+13:34:42.349 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:42.352 > 
+13:34:42.352 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:42.357 > configsip: 0, SPIWP:0xee
+13:34:42.357 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:42.366 > mode:DIO, clock div:2
+13:34:42.366 > load[37m:[37m0x3fff0030,len:1184
+13:34:42.368 > load:0x400[37m7[37m8000,len:13192
+13:34:42.371 > load:0x40080400[37m,[37mlen:3028
+13:34:42.376 > entry 0x400805e4
+13:34:42.953 > [37ms[37mtart
+13:34:42.971 > [37m [37mBrown out Reset
+13:34:42.971 >  Watchdog Reset[37m
+13:34:42.974 > [37mMarlin 2.1.2
+13:34:42.974 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:42.979 > echo: Compiled: De[37mc[37m 16 2024
+13:34:42.982 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:42.985 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:42.990 > 
+13:34:42.990 > 
+13:34:42.990 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:43.010 > 
+13:34:43.012 > [37m[37m
+13:34:43.012 > 
+13:34:43.012 > 
+13:34:43.012 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:43.015 > 
+13:34:43.128 > [37mR[37mebooting...
+13:34:43.128 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:43.131 > 
+13:34:43.131 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:43.137 > configsip: 0, SPIWP:0xee
+13:34:43.137 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:43.145 > mode:DIO, clock div:2
+13:34:43.145 > load[37m:[37m0x3fff0030,len:1184
+13:34:43.148 > load:0x400[37m7[37m8000,len:13192
+13:34:43.150 > load:0x40080400[37m,[37mlen:3028
+13:34:43.155 > entry 0x400805e4
+13:34:43.732 > [37ms[37mtart
+13:34:43.750 > [37m [37mBrown out Reset
+13:34:43.750 >  Watchdog Reset[37m
+13:34:43.753 > [37mMarlin 2.1.2
+13:34:43.753 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:43.758 > echo: Compiled: De[37mc[37m 16 2024
+13:34:43.761 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:43.764 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:43.769 > 
+13:34:43.769 > 
+13:34:43.769 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:43.789 > 
+13:34:43.792 > [37m[37m
+13:34:43.792 > 
+13:34:43.792 > 
+13:34:43.792 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:43.795 > 
+13:34:43.910 > [37mR[37mebooting...
+13:34:43.910 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:43.913 > 
+13:34:43.913 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:43.918 > configsip: 0, SPIWP:0xee
+13:34:43.918 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:43.927 > mode:DIO, clock div:2
+13:34:43.927 > load[37m:[37m0x3fff0030,len:1184
+13:34:43.929 > load:0x400[37m7[37m8000,len:13192
+13:34:43.932 > load:0x40080400[37m,[37mlen:3028
+13:34:43.937 > entry 0x400805e4
+13:34:44.514 > [37ms[37mtart
+13:34:44.532 > [37m [37mBrown out Reset
+13:34:44.532 >  Watchdog Reset[37m
+13:34:44.534 > [37mMarlin 2.1.2
+13:34:44.534 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:44.540 > echo: Compiled: De[37mc[37m 16 2024
+13:34:44.543 > echo: Free Memory: 326[37m4[37m  Plan
+13:34:44.546 > ***ERROR*** A stack ove[37mr[37mflow in task IDLE has been dete[37mc[37mted.
+13:34:44.551 > 
+13:34:44.551 > 
+13:34:44.551 > Backtrace: 0x40119c69[37m:[37m0x3ffbc6b0 0x4011a0cd:0x3ffbc6e[37m0[37m 0x40083f91:0x3ffbc730 0x40084f[37mf[37m4:0x3ffbc750 0x40083eed:0x3ffbc[37m8[37m10 0x4008decd:0x3ffbc830 0x4009[37m1[37m5ad:0x3ffbc850 0x4008faf1:0x3ff[37mb[37mc8d0 0x4008dfdc:0x3ffbc900 0x40[37m0[37m8df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:44.573 > [37m[37m
+13:34:44.573 > 
+13:34:44.573 > 
+13:34:44.573 > 
+13:34:44.573 > ELF file SHA256: db1d3a1[37m4[37m5775d28d
+13:34:44.576 > 
+13:34:44.691 > [37mR[37mebooting...
+13:34:44.691 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:44.693 > 
+13:34:44.693 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:44.699 > configsip: 0, SPIWP:0xee
+13:34:44.699 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:44.707 > mode:DIO, clock div:2
+13:34:44.707 > load[37m:[37m0x3fff0030,len:1184
+13:34:44.710 > load:0x400[37m7[37m8000,len:13192
+13:34:44.713 > load:0x40080400[37m,[37mlen:3028
+13:34:44.717 > entry 0x400805e4
+13:34:45.295 > [37ms[37mtart
+13:34:45.313 > [37m [37mBrown out Reset
+13:34:45.313 >  Watchdog Reset[37m
+13:34:45.315 > [37mMarlin 2.1.2
+13:34:45.315 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:45.321 > echo: Compiled: De[37mc[37m 16 2024
+13:34:45.324 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:45.326 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:45.332 > 
+13:34:45.332 > 
+13:34:45.332 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:45.351 > 
+13:34:45.354 > [37m[37m
+13:34:45.354 > 
+13:34:45.354 > 
+13:34:45.354 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:45.357 > 
+13:34:45.474 > [37mR[37mebooting...
+13:34:45.474 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:45.477 > 
+13:34:45.477 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:45.482 > configsip: 0, SPIWP:0xee
+13:34:45.482 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:45.491 > mode:DIO, clock div:2
+13:34:45.491 > load[37m:[37m0x3fff0030,len:1184
+13:34:45.493 > load:0x400[37m7[37m8000,len:13192
+13:34:45.496 > load:0x40080400[37m,[37mlen:3028
+13:34:45.501 > entry 0x400805e4
+13:34:46.078 > [37ms[37mtart
+13:34:46.096 > [37m [37mBrown out Reset
+13:34:46.096 >  Watchdog Reset[37m
+13:34:46.099 > [37mMarlin 2.1.2
+13:34:46.099 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:46.104 > echo: Compiled: De[37mc[37m 16 2024
+13:34:46.107 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:46.109 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:46.115 > 
+13:34:46.115 > 
+13:34:46.115 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:46.135 > 
+13:34:46.137 > [37m[37m
+13:34:46.137 > 
+13:34:46.137 > 
+13:34:46.137 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:46.140 > 
+13:34:46.260 > [37mR[37mebooting...
+13:34:46.260 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:46.262 > 
+13:34:46.262 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:46.268 > configsip: 0, SPIWP:0xee
+13:34:46.268 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:46.276 > mode:DIO, clock div:2
+13:34:46.276 > load[37m:[37m0x3fff0030,len:1184
+13:34:46.279 > load:0x400[37m7[37m8000,len:13192
+13:34:46.282 > load:0x40080400[37m,[37mlen:3028
+13:34:46.286 > entry 0x400805e4
+13:34:46.864 > [37ms[37mtart
+13:34:46.881 > [37m [37mBrown out Reset
+13:34:46.882 >  Watchdog Reset[37m
+13:34:46.884 > [37mMarlin 2.1.2
+13:34:46.884 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:46.890 > echo: Compiled: De[37mc[37m 16 2024
+13:34:46.893 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:46.895 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:46.901 > 
+13:34:46.901 > 
+13:34:46.901 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:46.920 > 
+13:34:46.923 > [37m[37m
+13:34:46.923 > 
+13:34:46.923 > 
+13:34:46.923 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:46.926 > 
+13:34:47.045 > [37mR[37mebooting...
+13:34:47.046 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:47.048 > 
+13:34:47.048 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:47.054 > configsip: 0, SPIWP:0xee
+13:34:47.054 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:47.062 > mode:DIO, clock div:2
+13:34:47.062 > load[37m:[37m0x3fff0030,len:1184
+13:34:47.065 > load:0x400[37m7[37m8000,len:13192
+13:34:47.068 > load:0x40080400[37m,[37mlen:3028
+13:34:47.072 > entry 0x400805e4
+13:34:47.649 > [37ms[37mtart
+13:34:47.667 > [37m [37mBrown out Reset
+13:34:47.667 >  Watchdog Reset[37m
+13:34:47.670 > [37mMarlin 2.1.2
+13:34:47.670 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:47.675 > echo: Compiled: De[37mc[37m 16 2024
+13:34:47.678 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:47.681 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:47.687 > 
+13:34:47.687 > 
+13:34:47.687 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:47.706 > 
+13:34:47.709 > [37m[37m
+13:34:47.709 > 
+13:34:47.709 > 
+13:34:47.709 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:47.712 > 
+13:34:47.832 > [37mR[37mebooting...
+13:34:47.832 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:47.834 > 
+13:34:47.834 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:47.840 > configsip: 0, SPIWP:0xee
+13:34:47.840 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:47.848 > mode:DIO, clock div:2
+13:34:47.848 > load[37m:[37m0x3fff0030,len:1184
+13:34:47.851 > load:0x400[37m7[37m8000,len:13192
+13:34:47.854 > load:0x40080400[37m,[37mlen:3028
+13:34:47.858 > entry 0x400805e4
+13:34:48.435 > [37ms[37mtart
+13:34:48.453 > [37m [37mBrown out Reset
+13:34:48.454 >  Watchdog Reset[37m
+13:34:48.456 > [37mMarlin 2.1.2
+13:34:48.456 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:48.462 > echo: Compiled: De[37mc[37m 16 2024
+13:34:48.464 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:48.467 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:48.473 > 
+13:34:48.473 > 
+13:34:48.473 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:48.492 > 
+13:34:48.495 > [37m[37m
+13:34:48.495 > 
+13:34:48.495 > 
+13:34:48.495 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:48.498 > 
+13:34:48.617 > [37mR[37mebooting...
+13:34:48.618 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:48.620 > 
+13:34:48.620 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:48.626 > configsip: 0, SPIWP:0xee
+13:34:48.626 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:48.634 > mode:DIO, clock div:2
+13:34:48.634 > load[37m:[37m0x3fff0030,len:1184
+13:34:48.637 > load:0x400[37m7[37m8000,len:13192
+13:34:48.639 > load:0x40080400[37m,[37mlen:3028
+13:34:48.644 > entry 0x400805e4
+13:34:49.221 > [37ms[37mtart
+13:34:49.239 > [37m [37mBrown out Reset
+13:34:49.239 >  Watchdog Reset[37m
+13:34:49.242 > [37mMarlin 2.1.2
+13:34:49.242 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:49.247 > echo: Compiled: De[37mc[37m 16 2024
+13:34:49.250 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:49.253 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:49.258 > 
+13:34:49.258 > 
+13:34:49.258 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:49.278 > 
+13:34:49.281 > [37m[37m
+13:34:49.281 > 
+13:34:49.281 > 
+13:34:49.281 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:49.283 > 
+13:34:49.403 > [37mR[37mebooting...
+13:34:49.404 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:49.406 > 
+13:34:49.406 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:49.412 > configsip: 0, SPIWP:0xee
+13:34:49.412 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:49.420 > mode:DIO, clock div:2
+13:34:49.420 > load[37m:[37m0x3fff0030,len:1184
+13:34:49.423 > load:0x400[37m7[37m8000,len:13192
+13:34:49.426 > load:0x40080400[37m,[37mlen:3028
+13:34:49.430 > entry 0x400805e4
+13:34:50.007 > [37ms[37mtart
+13:34:50.025 > [37m [37mBrown out Reset
+13:34:50.025 >  Watchdog Reset[37m
+13:34:50.028 > [37mMarlin 2.1.2
+13:34:50.028 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:50.034 > echo: Compiled: De[37mc[37m 16 2024
+13:34:50.036 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:50.039 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:50.044 > 
+13:34:50.044 > 
+13:34:50.044 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:50.064 > 
+13:34:50.067 > [37m[37m
+13:34:50.067 > 
+13:34:50.067 > 
+13:34:50.067 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:50.070 > 
+13:34:50.185 > [37mR[37mebooting...
+13:34:50.185 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:50.188 > 
+13:34:50.188 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:50.194 > configsip: 0, SPIWP:0xee
+13:34:50.194 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:50.202 > mode:DIO, clock div:2
+13:34:50.202 > load[37m:[37m0x3fff0030,len:1184
+13:34:50.205 > load:0x400[37m7[37m8000,len:13192
+13:34:50.207 > load:0x40080400[37m,[37mlen:3028
+13:34:50.212 > entry 0x400805e4
+13:34:50.789 > [37ms[37mtart
+13:34:50.807 > [37m [37mBrown out Reset
+13:34:50.807 >  Watchdog Reset[37m
+13:34:50.810 > [37mMarlin 2.1.2
+13:34:50.810 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:50.815 > echo: Compiled: De[37mc[37m 16 2024
+13:34:50.818 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:50.821 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:50.826 > 
+13:34:50.826 > 
+13:34:50.826 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:50.846 > 
+13:34:50.849 > [37m[37m
+13:34:50.849 > 
+13:34:50.849 > 
+13:34:50.849 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:50.852 > 
+13:34:50.964 > [37mR[37mebooting...
+13:34:50.965 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:50.967 > 
+13:34:50.967 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:50.973 > configsip: 0, SPIWP:0xee
+13:34:50.973 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:50.982 > mode:DIO, clock div:2
+13:34:50.982 > load[37m:[37m0x3fff0030,len:1184
+13:34:50.984 > load:0x400[37m7[37m8000,len:13192
+13:34:50.987 > load:0x40080400[37m,[37mlen:3028
+13:34:50.991 > entry 0x400805e4
+13:34:51.569 > [37ms[37mtart
+13:34:51.586 > [37m [37mBrown out Reset
+13:34:51.586 >  Watchdog Reset[37m
+13:34:51.589 > [37mMarlin 2.1.2
+13:34:51.589 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:51.594 > echo: Compiled: De[37mc[37m 16 2024
+13:34:51.597 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:51.600 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:51.606 > 
+13:34:51.606 > 
+13:34:51.606 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:51.625 > 
+13:34:51.628 > [37m[37m
+13:34:51.628 > 
+13:34:51.628 > 
+13:34:51.628 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:51.631 > 
+13:34:51.748 > [37mR[37mebooting...
+13:34:51.748 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:51.750 > 
+13:34:51.750 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:51.756 > configsip: 0, SPIWP:0xee
+13:34:51.756 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:51.765 > mode:DIO, clock div:2
+13:34:51.765 > load[37m:[37m0x3fff0030,len:1184
+13:34:51.767 > load:0x400[37m7[37m8000,len:13192
+13:34:51.770 > load:0x40080400[37m,[37mlen:3028
+13:34:51.774 > entry 0x400805e4
+13:34:52.351 > [37ms[37mtart
+13:34:52.369 > [37m [37mBrown out Reset
+13:34:52.370 >  Watchdog Reset[37m
+13:34:52.372 > [37mMarlin 2.1.2
+13:34:52.372 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:52.378 > echo: Compiled: De[37mc[37m 16 2024
+13:34:52.381 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:52.383 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:52.389 > 
+13:34:52.389 > 
+13:34:52.389 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:52.408 > 
+13:34:52.411 > [37m[37m
+13:34:52.411 > 
+13:34:52.411 > 
+13:34:52.411 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:52.414 > 
+13:34:52.530 > [37mR[37mebooting...
+13:34:52.530 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:52.532 > 
+13:34:52.532 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:52.538 > configsip: 0, SPIWP:0xee
+13:34:52.538 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:52.546 > mode:DIO, clock div:2
+13:34:52.546 > load[37m:[37m0x3fff0030,len:1184
+13:34:52.549 > load:0x400[37m7[37m8000,len:13192
+13:34:52.552 > load:0x40080400[37m,[37mlen:3028
+13:34:52.556 > entry 0x400805e4
+13:34:53.133 > [37ms[37mtart
+13:34:53.151 > [37m [37mBrown out Reset
+13:34:53.151 >  Watchdog Reset[37m
+13:34:53.154 > [37mMarlin 2.1.2
+13:34:53.154 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:53.159 > echo: Compiled: De[37mc[37m 16 2024
+13:34:53.162 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:53.165 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:53.171 > 
+13:34:53.171 > 
+13:34:53.171 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:53.190 > 
+13:34:53.193 > [37m[37m
+13:34:53.193 > 
+13:34:53.193 > 
+13:34:53.193 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:53.196 > 
+13:34:53.314 > [37mR[37mebooting...
+13:34:53.314 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:53.317 > 
+13:34:53.317 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:53.322 > configsip: 0, SPIWP:0xee
+13:34:53.322 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:53.330 > mode:DIO, clock div:2
+13:34:53.330 > load[37m:[37m0x3fff0030,len:1184
+13:34:53.333 > load:0x400[37m7[37m8000,len:13192
+13:34:53.336 > load:0x40080400[37m,[37mlen:3028
+13:34:53.341 > entry 0x400805e4
+13:34:53.918 > [37ms[37mtart
+13:34:53.936 > [37m [37mBrown out Reset
+13:34:53.936 >  Watchdog Reset[37m
+13:34:53.939 > [37mMarlin 2.1.2
+13:34:53.939 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:53.944 > echo: Compiled: De[37mc[37m 16 2024
+13:34:53.947 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:53.950 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:53.955 > 
+13:34:53.955 > 
+13:34:53.955 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:53.975 > 
+13:34:53.977 > [37m[37m
+13:34:53.977 > 
+13:34:53.977 > 
+13:34:53.977 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:53.980 > 
+13:34:54.104 > [37mR[37mebooting...
+13:34:54.106 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:54.107 > 
+13:34:54.107 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:54.112 > configsip: 0, SPIWP:0xee
+13:34:54.112 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:54.120 > mode:DIO, clock div:2
+13:34:54.120 > load[37m:[37m0x3fff0030,len:1184
+13:34:54.123 > load:0x400[37m7[37m8000,len:13192
+13:34:54.126 > load:0x40080400[37m,[37mlen:3028
+13:34:54.130 > entry 0x400805e4
+13:34:54.708 > [37ms[37mtart
+13:34:54.725 > [37m [37mBrown out Reset
+13:34:54.725 >  Watchdog Reset[37m
+13:34:54.728 > [37mMarlin 2.1.2
+13:34:54.728 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:54.734 > echo: Compiled: De[37mc[37m 16 2024
+13:34:54.737 > echo: Free Memory: 326[37m4[37m  Plan
+13:34:54.739 > ***ERROR*** A stack ove[37mr[37mflow in task IDLE has been dete[37mc[37mted.
+13:34:54.745 > 
+13:34:54.745 > 
+13:34:54.745 > Backtrace: 0x40119c69[37m:[37m0x3ffbc6b0 0x4011a0cd:0x3ffbc6e[37m0[37m 0x40083f91:0x3ffbc730 0x40084f[37mf[37m4:0x3ffbc750 0x40083eed:0x3ffbc[37m8[37m10 0x4008decd:0x3ffbc830 0x4009[37m1[37m5ad:0x3ffbc850 0x4008faf1:0x3ff[37mb[37mc8d0 0x4008dfdc:0x3ffbc900 0x40[37m0[37m8df8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:54.767 > [37m[37m
+13:34:54.767 > 
+13:34:54.767 > 
+13:34:54.767 > 
+13:34:54.767 > ELF file SHA256: db1d3a1[37m4[37m5775d28d
+13:34:54.770 > 
+13:34:54.891 > [37mR[37mebooting...
+13:34:54.891 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:54.894 > 
+13:34:54.894 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:54.899 > configsip: 0, SPIWP:0xee
+13:34:54.899 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:54.908 > mode:DIO, clock div:2
+13:34:54.908 > load[37m:[37m0x3fff0030,len:1184
+13:34:54.910 > load:0x400[37m7[37m8000,len:13192
+13:34:54.913 > load:0x40080400[37m,[37mlen:3028
+13:34:54.918 > entry 0x400805e4
+13:34:55.495 > [37ms[37mtart
+13:34:55.513 > [37m [37mBrown out Reset
+13:34:55.513 >  Watchdog Reset[37m
+13:34:55.516 > [37mMarlin 2.1.2
+13:34:55.516 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:55.521 > echo: Compiled: De[37mc[37m 16 2024
+13:34:55.524 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:55.527 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:55.532 > 
+13:34:55.532 > 
+13:34:55.532 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:55.552 > 
+13:34:55.554 > [37m[37m
+13:34:55.554 > 
+13:34:55.554 > 
+13:34:55.554 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:55.557 > 
+13:34:55.678 > [37mR[37mebooting...
+13:34:55.678 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:55.681 > 
+13:34:55.681 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:55.687 > configsip: 0, SPIWP:0xee
+13:34:55.687 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:55.695 > mode:DIO, clock div:2
+13:34:55.695 > load[37m:[37m0x3fff0030,len:1184
+13:34:55.698 > load:0x400[37m7[37m8000,len:13192
+13:34:55.700 > load:0x40080400[37m,[37mlen:3028
+13:34:55.705 > entry 0x400805e4
+13:34:56.282 > [37ms[37mtart
+13:34:56.300 > [37m [37mBrown out Reset
+13:34:56.300 >  Watchdog Reset[37m
+13:34:56.303 > [37mMarlin 2.1.2
+13:34:56.303 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:34:56.308 > echo: Compiled: De[37mc[37m 16 2024
+13:34:56.311 > echo: Free Memory: 326[37m4[37m  Pl
+13:34:56.314 > ***ERROR*** A stack overf[37ml[37mow in task IDLE has been detect[37me[37md.
+13:34:56.319 > 
+13:34:56.319 > 
+13:34:56.319 > Backtrace: 0x40119c69:0[37mx[37m3ffbc6b0 0x4011a0cd:0x3ffbc6e0 [37m0[37mx40083f91:0x3ffbc730 0x40084ff4[37m:[37m0x3ffbc750 0x40083eed:0x3ffbc81[37m0[37m 0x4008decd:0x3ffbc830 0x400915[37ma[37md:0x3ffbc850 0x4008faf1:0x3ffbc[37m8[37md0 0x4008dfdc:0x3ffbc900 0x4008[37md[37mf8c:0xa5a5a5a5 |<-CORRUPTED
+13:34:56.339 > 
+13:34:56.342 > [37m[37m
+13:34:56.342 > 
+13:34:56.342 > 
+13:34:56.342 > ELF file SHA256: db1d3a145[37m7[37m75d28d
+13:34:56.345 > 
+13:34:56.466 > [37mR[37mebooting...
+13:34:56.466 > ets Jun  8 2016 00[37m:[37m22:57
+13:34:56.468 > 
+13:34:56.468 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:34:56.474 > configsip: 0, SPIWP:0xee
+13:34:56.474 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:34:56.482 > mode:DIO, clock div:2
+13:34:56.482 > load[37m:[37m0x3fff0030,len:1184
+13:34:56.485 > load:0x400[37m7[37m8000,len:13192
+13:34:56.488 > load:0x40080400[37m,[37mlen:3028
+13:34:56.492 > entry 0x400805e4

@@ -25,5 +25,9 @@
 // Board-specific options need to be defined before HAL.h
 //
 #if MB(MKS_TINYBEE)
-  #define MAX_EXPANDER_BITS 24  // TinyBee has 3 x HC595
+  #if defined(TINYBEE_MASTER)
+    #define MAX_EXPANDER_BITS 64  // Master and slave has 6 total HC595 for 48 bits. However the communication protocol for sending 48 bits via i2s requires sending 2 lots of 32 bits. 
+  #else
+    #define MAX_EXPANDER_BITS 24 // TinyBee has 3 x HC595
+  #endif
 #endif

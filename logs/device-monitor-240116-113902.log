@@ -1,0 +1,35 @@
+11:39:03.781 > [37m [37mExternal Reset
+11:39:03.782 >  Brown out Reset[37m
+11:39:03.784 > [37m Watchdog Reset
+11:39:03.784 > Marlin 2.1.2
+11:39:03.784 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+11:39:03.790 > ec[37mh[37mo: Compiled: Jan 16 2024
+11:39:03.792 > echo: [37mF[37mree Memory: 225352  PlannerBuff[37me[37mrBytes: 1344
+11:39:03.818 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+11:39:03.841 > [37me[37mcho:Settings Stored (870 bytes;[37m [37mcrc 37517)
+11:39:03.943 > [37me[37mcho:EEPROM Initialized
+11:39:04.476 > [37me[37mcho:SD card ok
+11:39:14.538 > [37me[37mcho:SD card ok
+11:39:14.546 > [37me[37mcho:Setup wifi
+11:39:14.682 > [37me[37mcho:Connecting
+11:39:17.697 > [37me[37mcho:10.0.0.110
+11:39:19.187 > [37me[37mcho:10.0.0.110
+11:39:27.370 > [37me[37mcho:SD card ok
+11:39:29.465 > [37me[37mcho:Now fresh file: /TestMix.g
+11:39:29.469 > [37mF[37mile opened: TestMix.g Size: 119[37m0[37m1
+11:39:29.471 > File selected
+11:39:29.526 > [37mi[37mndex: 3, destination:70.00
+11:39:31.581 > [37me[37mcho:busy: processing
+11:39:33.582 > [37me[37mcho:busy: processing
+11:39:35.583 > [37me[37mcho:busy: processing
+11:39:37.583 > [37me[37mcho:busy: processing
+11:39:39.584 > [37me[37mcho:busy: processing
+11:39:41.585 > [37me[37mcho:busy: processing
+11:39:43.586 > [37me[37mcho:busy: processing
+11:39:45.587 > [37me[37mcho:busy: processing
+11:39:47.588 > [37me[37mcho:busy: processing
+11:39:49.589 > [37me[37mcho:busy: processing
+11:39:51.590 > [37me[37mcho:busy: processing
+11:39:53.591 > [37me[37mcho:busy: processing
+11:39:53.772 > [37mD[37mone printing file
+11:40:25.682 > [37me[37mcho:SD card released

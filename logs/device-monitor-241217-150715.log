@@ -1,0 +1,928 @@
+15:07:15.304 > [37mstart
+15:07:15.304 > 
+15:07:15.304 > ***ERROR*** A stack overflow in task IDLE has been detected.
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > Backtrace: 0x40119c4d:0x3ffbc6b0 0x4011a0b1:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > ELF file SHA256: ed512884a3148a3d
+15:07:15.304 > 
+15:07:15.304 > Rebooting...
+15:07:15.304 > ets Jun  8 2016 00:22:57
+15:07:15.304 > 
+15:07:15.304 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:07:15.304 > configsip: 0, SPIWP:0xee
+15:07:15.304 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:07:15.304 > mode:DIO, clock div:2
+15:07:15.304 > load:0x3fff0030,len:1184
+15:07:15.304 > load:0x40078000,len:13192
+15:07:15.304 > load:0x40080400,len:3028
+15:07:15.304 > entry 0x400805e4
+15:07:15.304 > start
+15:07:15.304 > 
+15:07:15.304 > ***ERROR*** A stack overflow in task IDLE has been detected.
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > Backtrace: 0x40119c4d:0x3ffbc6b0 0x4011a0b1:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > ELF file SHA[37m256: ed512884a3148a3d
+15:07:15.304 > 
+15:07:15.304 > Rebooting...
+15:07:15.304 > ets Jun  8 2016 00:22:57
+15:07:15.304 > 
+15:07:15.304 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:07:15.304 > configsip: 0, SPIWP:0xee
+15:07:15.304 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:07:15.304 > mode:DIO, clock div:2
+15:07:15.304 > load:0x3fff0030,len:1184
+15:07:15.304 > load:0x40078000,len:13192
+15:07:15.304 > load:0x40080400,len:3028
+15:07:15.304 > entry 0x400805e4
+15:07:15.304 > start
+15:07:15.304 > 
+15:07:15.304 > ***ERROR*** A stack overflow in task IDLE has been detected.
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > Backtrace: 0x40119c4d:0x3ffbc6b0 0x4011a0b1:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > 
+15:07:15.304 > ELF file SHA256: ed512884a3148a3d
+15:07:15.304 > 
+15:07:15.304 > Rebooting...
+15:07:15.304 > ets Jun  8 2016 00:22:57
+15:07:15.304 > 
+15:07:15.304 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:07:15.304 > configsip: 0, SPIWP:0xee
+15:07:15.304 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:07:15.304 > mode:DIO, clock div:2
+15:07:15.304 > load:0x3fff0030,len:1184
+15:07:15.304 > load:0x40078000,len:13192
+15:07:15.304 > load:0x40080400,len:3028
+15:07:15.304 > entry 0x400805e[37m4
+15:07:15.305 > start
+15:07:15.305 > 
+15:07:15.305 > ***ERROR*** A stack overflow in task IDLE has been detected.
+15:07:15.305 > 
+15:07:15.305 > 
+15:07:15.305 > Backtrace: 0x40119c4d:0x3ffbc6b0 0x4011a0b1:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+15:07:15.305 > 
+15:07:15.305 > 
+15:07:15.305 > 
+15:07:15.305 > 
+15:07:15.305 > ELF file SHA256: ed512884a3148a3d
+15:07:15.305 > 
+15:07:15.305 > Rebooting...
+15:07:15.305 > ets Jun  8 2016 00:22:57
+15:07:15.305 > 
+15:07:15.305 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:07:15.305 > configsip: 0, SPIWP:0xee
+15:07:15.305 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:07:15.305 > mode:DIO, clock div:2
+15:07:15.305 > load:0x3fff0030,len:1184
+15:07:15.305 > load:0x40078000,len:13192
+15:07:15.305 > load:0x40080400,len:3028
+15:07:15.305 > entry 0x400805e4
+15:07:15.305 > start
+15:07:15.305 > 
+15:07:15.305 > ***ERROR*** A stack overflow in task IDLE has been detected.
+15:07:15.305 > 
+15:07:15.305 > 
+15:07:15.305 > Backtrace: 0x40119c4d:0x3ffbc6b0 0x4011a0b1:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+15:07:15.305 > 
+15:07:15.305 > 
+15:07:15.305 > 
+15:07:15.305 > 
+15:07:15.305 > ELF file [37mSHA256: ed512884a3148a3d
+15:07:15.305 > 
+15:07:15.305 > Rebooting...
+15:07:15.305 > ets Jun  8 2016 00:22:57
+15:07:15.305 > 
+15:07:15.305 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:07:15.305 > configsip: 0, SPIWP:0xee
+15:07:15.305 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:07:15.305 > mode:DIO, clock div:2
+15:07:15.305 > load:0x3fff0030,len:1184
+15:07:15.305 > load:0x40078000,len:13192
+15:07:15.305 > load:0x40080400,len:3028
+15:07:15.305 > entry 0x400805e4
+15:07:15.552 > [37ms[37mtart
+15:07:15.564 > [37m[37m
+15:07:15.565 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:15.570 > [37m[37m
+15:07:15.570 > 
+15:07:15.570 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:15.590 > 
+15:07:15.590 > 
+15:07:15.590 > 
+15:07:15.590 > [37m
+15:07:15.592 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:15.595 > 
+15:07:15.716 > [37mR[37mebooting...
+15:07:15.716 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:15.719 > 
+15:07:15.719 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:15.724 > configsip: 0, SPIWP:0xee
+15:07:15.724 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:15.733 > mode:DIO, clock div:2
+15:07:15.733 > load[37m:[37m0x3fff0030,len:1184
+15:07:15.735 > load:0x400[37m7[37m8000,len:13192
+15:07:15.738 > load:0x40080400[37m,[37mlen:3028
+15:07:15.743 > entry 0x400805e4
+15:07:16.320 > [37ms[37mtart
+15:07:16.334 > [37m[37m
+15:07:16.334 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:16.339 > [37m[37m
+15:07:16.339 > 
+15:07:16.339 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:16.359 > 
+15:07:16.359 > 
+15:07:16.359 > 
+15:07:16.359 > [37m
+15:07:16.361 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:16.364 > 
+15:07:16.515 > [37mR[37mebooting...
+15:07:16.516 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:16.518 > 
+15:07:16.518 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:16.523 > configsip: 0, SPIWP:0xee
+15:07:16.523 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:16.532 > mode:DIO, clock div:2
+15:07:16.532 > load[37m:[37m0x3fff0030,len:1184
+15:07:16.535 > load:0x400[37m7[37m8000,len:13192
+15:07:16.537 > load:0x40080400[37m,[37mlen:3028
+15:07:16.542 > entry 0x400805e4
+15:07:17.120 > [37ms[37mtart
+15:07:17.133 > [37m[37m
+15:07:17.133 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:17.138 > [37m[37m
+15:07:17.138 > 
+15:07:17.138 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:17.158 > 
+15:07:17.158 > 
+15:07:17.158 > 
+15:07:17.158 > [37m
+15:07:17.160 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:17.163 > 
+15:07:17.287 > [37mR[37mebooting...
+15:07:17.288 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:17.290 > 
+15:07:17.290 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:17.296 > configsip: 0, SPIWP:0xee
+15:07:17.296 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:17.304 > mode:DIO, clock div:2
+15:07:17.304 > load[37m:[37m0x3fff0030,len:1184
+15:07:17.307 > load:0x400[37m7[37m8000,len:13192
+15:07:17.310 > load:0x40080400[37m,[37mlen:3028
+15:07:17.314 > entry 0x400805e4
+15:07:17.892 > [37ms[37mtart
+15:07:17.904 > [37m[37m
+15:07:17.904 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:17.910 > [37m[37m
+15:07:17.910 > 
+15:07:17.910 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:17.929 > 
+15:07:17.929 > 
+15:07:17.929 > 
+15:07:17.929 > [37m
+15:07:17.932 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:17.934 > 
+15:07:18.060 > [37mR[37mebooting...
+15:07:18.061 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:18.063 > 
+15:07:18.063 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:18.069 > configsip: 0, SPIWP:0xee
+15:07:18.069 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:18.077 > mode:DIO, clock div:2
+15:07:18.077 > load[37m:[37m0x3fff0030,len:1184
+15:07:18.080 > load:0x400[37m7[37m8000,len:13192
+15:07:18.083 > load:0x40080400[37m,[37mlen:3028
+15:07:18.087 > entry 0x400805e4
+15:07:18.665 > [37ms[37mtart
+15:07:18.678 > [37m[37m
+15:07:18.678 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:18.683 > [37m[37m
+15:07:18.684 > 
+15:07:18.684 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:18.702 > 
+15:07:18.702 > 
+15:07:18.702 > 
+15:07:18.702 > [37m
+15:07:18.705 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:18.708 > 
+15:07:18.829 > [37mR[37mebooting...
+15:07:18.830 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:18.832 > 
+15:07:18.832 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:18.838 > configsip: 0, SPIWP:0xee
+15:07:18.838 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:18.846 > mode:DIO, clock div:2
+15:07:18.846 > load[37m:[37m0x3fff0030,len:1184
+15:07:18.849 > load:0x400[37m7[37m8000,len:13192
+15:07:18.852 > load:0x40080400[37m,[37mlen:3028
+15:07:18.856 > entry 0x400805e4
+15:07:19.434 > [37ms[37mtart
+15:07:19.446 > [37m[37m
+15:07:19.447 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:19.452 > [37m[37m
+15:07:19.452 > 
+15:07:19.452 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:19.471 > 
+15:07:19.471 > 
+15:07:19.471 > 
+15:07:19.471 > [37m
+15:07:19.474 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:19.477 > 
+15:07:19.597 > [37mR[37mebooting...
+15:07:19.597 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:19.600 > 
+15:07:19.600 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:19.605 > configsip: 0, SPIWP:0xee
+15:07:19.605 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:19.613 > mode:DIO, clock div:2
+15:07:19.613 > load[37m:[37m0x3fff0030,len:1184
+15:07:19.616 > load:0x400[37m7[37m8000,len:13192
+15:07:19.619 > load:0x40080400[37m,[37mlen:3028
+15:07:19.624 > entry 0x400805e4
+15:07:20.201 > [37ms[37mtart
+15:07:21.216 > [37me[37mts Jun  8 2016 00:22:57
+15:07:21.216 > 
+15:07:21.216 > rst:[37m0[37mx7 (TG0WDT_SYS_RESET),boot:0x13[37m [37m(SPI_FAST_FLASH_BOOT)
+15:07:21.221 > configsi[37mp[37m: 0, SPIWP:0xee
+15:07:21.224 > clk_drv:0x00,q[37m_[37mdrv:0x00,d_drv:0x00,cs0_drv:0x0[37m0[37m,hd_drv:0x00,wp_drv:0x00
+15:07:21.230 > mode:[37mD[37mIO, clock div:2
+15:07:21.232 > load:0x3fff003[37m0[37m,len:1184
+15:07:21.235 > load:0x40078000,len:[37m1[37m3192
+15:07:21.238 > load:0x40080400,len:3028[37m
+15:07:21.242 > [37mentry 0x400805e4
+15:07:21.820 > [37ms[37mtart
+15:07:21.832 > [37m[37m
+15:07:21.832 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:21.837 > [37m[37m
+15:07:21.838 > 
+15:07:21.838 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:21.857 > 
+15:07:21.857 > 
+15:07:21.857 > 
+15:07:21.857 > [37m
+15:07:21.860 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:21.862 > 
+15:07:21.985 > [37mR[37mebooting...
+15:07:21.985 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:21.988 > 
+15:07:21.988 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:21.993 > configsip: 0, SPIWP:0xee
+15:07:21.993 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:22.002 > mode:DIO, clock div:2
+15:07:22.002 > load[37m:[37m0x3fff0030,len:1184
+15:07:22.005 > load:0x400[37m7[37m8000,len:13192
+15:07:22.007 > load:0x40080400[37m,[37mlen:3028
+15:07:22.012 > entry 0x400805e4
+15:07:22.589 > [37ms[37mtart
+15:07:23.602 > [37me[37mts Jun  8 2016 00:22:57
+15:07:23.602 > 
+15:07:23.602 > rst:[37m0[37mx7 (TG0WDT_SYS_RESET),boot:0x13[37m [37m(SPI_FAST_FLASH_BOOT)
+15:07:23.607 > configsi[37mp[37m: 0, SPIWP:0xee
+15:07:23.610 > clk_drv:0x00,q[37m_[37mdrv:0x00,d_drv:0x00,cs0_drv:0x0[37m0[37m,hd_drv:0x00,wp_drv:0x00
+15:07:23.616 > mode:[37mD[37mIO, clock div:2
+15:07:23.619 > load:0x3fff003[37m0[37m,len:1184
+15:07:23.621 > load:0x40078000,len:[37m1[37m3192
+15:07:23.624 > load:0x40080400,len:3028[37m
+15:07:23.628 > [37mentry 0x400805e4
+15:07:24.206 > [37ms[37mtart
+15:07:24.218 > [37m[37m
+15:07:24.218 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:24.224 > [37m[37m
+15:07:24.224 > 
+15:07:24.224 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:24.243 > 
+15:07:24.243 > 
+15:07:24.243 > 
+15:07:24.243 > [37m
+15:07:24.246 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:24.248 > 
+15:07:24.366 > [37mR[37mebooting...
+15:07:24.366 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:24.369 > 
+15:07:24.369 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:24.374 > configsip: 0, SPIWP:0xee
+15:07:24.374 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:24.383 > mode:DIO, clock div:2
+15:07:24.383 > load[37m:[37m0x3fff0030,len:1184
+15:07:24.385 > load:0x400[37m7[37m8000,len:13192
+15:07:24.388 > load:0x40080400[37m,[37mlen:3028
+15:07:24.393 > entry 0x400805e4
+15:07:24.970 > [37ms[37mtart
+15:07:24.984 > [37m[37m
+15:07:24.984 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:24.989 > [37m[37m
+15:07:24.989 > 
+15:07:24.989 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:25.009 > 
+15:07:25.009 > 
+15:07:25.009 > 
+15:07:25.009 > [37m
+15:07:25.011 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:25.014 > 
+15:07:25.135 > [37mR[37mebooting...
+15:07:25.135 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:25.137 > 
+15:07:25.137 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:25.143 > configsip: 0, SPIWP:0xee
+15:07:25.143 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:25.151 > mode:DIO, clock div:2
+15:07:25.151 > load[37m:[37m0x3fff0030,len:1184
+15:07:25.154 > load:0x400[37m7[37m8000,len:13192
+15:07:25.157 > load:0x40080400[37m,[37mlen:3028
+15:07:25.161 > entry 0x400805e4
+15:07:25.739 > [37ms[37mtart
+15:07:25.753 > [37m[37m
+15:07:25.753 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:25.758 > [37m[37m
+15:07:25.758 > 
+15:07:25.758 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:25.778 > 
+15:07:25.778 > 
+15:07:25.778 > 
+15:07:25.778 > [37m
+15:07:25.780 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:25.783 > 
+15:07:25.933 > [37mR[37mebooting...
+15:07:25.933 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:25.936 > 
+15:07:25.936 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:25.942 > configsip: 0, SPIWP:0xee
+15:07:25.942 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:25.950 > mode:DIO, clock div:2
+15:07:25.950 > load[37m:[37m0x3fff0030,len:1184
+15:07:25.952 > load:0x400[37m7[37m8000,len:13192
+15:07:25.955 > load:0x40080400[37m,[37mlen:3028
+15:07:25.960 > entry 0x400805e4
+15:07:26.538 > [37ms[37mtart
+15:07:26.551 > [37m[37m
+15:07:26.551 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:26.557 > [37m[37m
+15:07:26.557 > 
+15:07:26.557 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:26.576 > 
+15:07:26.576 > 
+15:07:26.576 > 
+15:07:26.576 > [37m
+15:07:26.579 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:26.581 > 
+15:07:26.708 > [37mR[37mebooting...
+15:07:26.708 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:26.711 > 
+15:07:26.711 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:26.716 > configsip: 0, SPIWP:0xee
+15:07:26.716 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:26.725 > mode:DIO, clock div:2
+15:07:26.725 > load[37m:[37m0x3fff0030,len:1184
+15:07:26.727 > load:0x400[37m7[37m8000,len:13192
+15:07:26.730 > load:0x40080400[37m,[37mlen:3028
+15:07:26.735 > entry 0x400805e4
+15:07:27.313 > [37ms[37mtart
+15:07:27.325 > [37m[37m
+15:07:27.325 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:27.331 > [37m[37m
+15:07:27.331 > 
+15:07:27.331 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:27.350 > 
+15:07:27.350 > 
+15:07:27.350 > 
+15:07:27.350 > [37m
+15:07:27.353 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:27.355 > 
+15:07:27.484 > [37mR[37mebooting...
+15:07:27.484 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:27.486 > 
+15:07:27.486 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:27.492 > configsip: 0, SPIWP:0xee
+15:07:27.492 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:27.500 > mode:DIO, clock div:2
+15:07:27.500 > load[37m:[37m0x3fff0030,len:1184
+15:07:27.503 > load:0x400[37m7[37m8000,len:13192
+15:07:27.506 > load:0x40080400[37m,[37mlen:3028
+15:07:27.510 > entry 0x400805e4
+15:07:28.088 > [37ms[37mtart
+15:07:28.103 > [37m[37m
+15:07:28.103 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:28.108 > [37m[37m
+15:07:28.108 > 
+15:07:28.108 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:28.128 > 
+15:07:28.128 > 
+15:07:28.128 > 
+15:07:28.128 > [37m
+15:07:28.130 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:28.133 > 
+15:07:28.278 > [37mR[37mebooting...
+15:07:28.278 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:28.281 > 
+15:07:28.281 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:28.286 > configsip: 0, SPIWP:0xee
+15:07:28.286 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:28.295 > mode:DIO, clock div:2
+15:07:28.295 > load[37m:[37m0x3fff0030,len:1184
+15:07:28.297 > load:0x400[37m7[37m8000,len:13192
+15:07:28.300 > load:0x40080400[37m,[37mlen:3028
+15:07:28.305 > entry 0x400805e4
+15:07:28.883 > [37ms[37mtart
+15:07:29.896 > [37me[37mts Jun  8 2016 00:22:57
+15:07:29.896 > 
+15:07:29.896 > rst:[37m0[37mx7 (TG0WDT_SYS_RESET),boot:0x13[37m [37m(SPI_FAST_FLASH_BOOT)
+15:07:29.902 > configsi[37mp[37m: 0, SPIWP:0xee
+15:07:29.904 > clk_drv:0x00,q[37m_[37mdrv:0x00,d_drv:0x00,cs0_drv:0x0[37m0[37m,hd_drv:0x00,wp_drv:0x00
+15:07:29.910 > mode:[37mD[37mIO, clock div:2
+15:07:29.913 > load:0x3fff003[37m0[37m,len:1184
+15:07:29.916 > load:0x40078000,len:[37m1[37m3192
+15:07:29.918 > load:0x40080400,len:3028[37m
+15:07:29.922 > [37mentry 0x400805e4
+15:07:30.500 > [37ms[37mtart
+15:07:31.513 > [37me[37mts Jun  8 2016 00:22:57
+15:07:31.513 > 
+15:07:31.513 > rst:[37m0[37mx7 (TG0WDT_SYS_RESET),boot:0x13[37m [37m(SPI_FAST_FLASH_BOOT)
+15:07:31.518 > configsi[37mp[37m: 0, SPIWP:0xee
+15:07:31.521 > clk_drv:0x00,q[37m_[37mdrv:0x00,d_drv:0x00,cs0_drv:0x0[37m0[37m,hd_drv:0x00,wp_drv:0x00
+15:07:31.527 > mode:[37mD[37mIO, clock div:2
+15:07:31.530 > load:0x3fff003[37m0[37m,len:1184
+15:07:31.532 > load:0x40078000,len:[37m1[37m3192
+15:07:31.535 > load:0x40080400,len:3028[37m
+15:07:31.538 > [37mentry 0x400805e4
+15:07:32.117 > [37ms[37mtart
+15:07:32.131 > [37m[37m
+15:07:32.131 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:32.137 > [37m[37m
+15:07:32.137 > 
+15:07:32.137 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:32.156 > 
+15:07:32.156 > 
+15:07:32.156 > 
+15:07:32.156 > [37m
+15:07:32.159 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:32.162 > 
+15:07:32.306 > [37mR[37mebooting...
+15:07:32.306 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:32.308 > 
+15:07:32.308 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:32.314 > configsip: 0, SPIWP:0xee
+15:07:32.314 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:32.322 > mode:DIO, clock div:2
+15:07:32.322 > load[37m:[37m0x3fff0030,len:1184
+15:07:32.325 > load:0x400[37m7[37m8000,len:13192
+15:07:32.328 > load:0x40080400[37m,[37mlen:3028
+15:07:32.332 > entry 0x400805e4
+15:07:32.910 > [37ms[37mtart
+15:07:33.923 > [37me[37mts Jun  8 2016 00:22:57
+15:07:33.923 > 
+15:07:33.923 > rst:[37m0[37mx7 (TG0WDT_SYS_RESET),boot:0x13[37m [37m(SPI_FAST_FLASH_BOOT)
+15:07:33.928 > configsi[37mp[37m: 0, SPIWP:0xee
+15:07:33.931 > clk_drv:0x00,q[37m_[37mdrv:0x00,d_drv:0x00,cs0_drv:0x0[37m0[37m,hd_drv:0x00,wp_drv:0x00
+15:07:33.937 > mode:[37mD[37mIO, clock div:2
+15:07:33.940 > load:0x3fff003[37m0[37m,len:1184
+15:07:33.942 > load:0x40078000,len:[37m1[37m3192
+15:07:33.945 > load:0x40080400,len:3028[37m
+15:07:33.949 > [37mentry 0x400805e4
+15:07:34.527 > [37ms[37mtart
+15:07:34.540 > [37m[37m
+15:07:34.541 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:34.546 > [37m[37m
+15:07:34.546 > 
+15:07:34.546 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:34.565 > 
+15:07:34.565 > 
+15:07:34.565 > 
+15:07:34.565 > [37m
+15:07:34.568 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:34.570 > 
+15:07:34.694 > [37mR[37mebooting...
+15:07:34.694 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:34.697 > 
+15:07:34.697 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:34.702 > configsip: 0, SPIWP:0xee
+15:07:34.702 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:34.710 > mode:DIO, clock div:2
+15:07:34.710 > load[37m:[37m0x3fff0030,len:1184
+15:07:34.713 > load:0x400[37m7[37m8000,len:13192
+15:07:34.716 > load:0x40080400[37m,[37mlen:3028
+15:07:34.721 > entry 0x400805e4
+15:07:35.299 > [37ms[37mtart
+15:07:35.314 > [37m[37m
+15:07:35.314 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:35.320 > [37m[37m
+15:07:35.320 > 
+15:07:35.320 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:35.339 > 
+15:07:35.339 > 
+15:07:35.339 > 
+15:07:35.339 > [37m
+15:07:35.342 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:35.344 > 
+15:07:35.486 > [37mR[37mebooting...
+15:07:35.486 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:35.488 > 
+15:07:35.488 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:35.494 > configsip: 0, SPIWP:0xee
+15:07:35.494 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:35.502 > mode:DIO, clock div:2
+15:07:35.502 > load[37m:[37m0x3fff0030,len:1184
+15:07:35.505 > load:0x400[37m7[37m8000,len:13192
+15:07:35.508 > load:0x40080400[37m,[37mlen:3028
+15:07:35.512 > entry 0x400805e4
+15:07:36.090 > [37ms[37mtart
+15:07:36.104 > [37m[37m
+15:07:36.104 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:36.109 > [37m[37m
+15:07:36.109 > 
+15:07:36.109 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:36.129 > 
+15:07:36.129 > 
+15:07:36.129 > 
+15:07:36.129 > [37m
+15:07:36.131 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:36.134 > 
+15:07:36.257 > [37mR[37mebooting...
+15:07:36.258 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:36.260 > 
+15:07:36.260 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:36.266 > configsip: 0, SPIWP:0xee
+15:07:36.266 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:36.274 > mode:DIO, clock div:2
+15:07:36.274 > load[37m:[37m0x3fff0030,len:1184
+15:07:36.277 > load:0x400[37m7[37m8000,len:13192
+15:07:36.279 > load:0x40080400[37m,[37mlen:3028
+15:07:36.284 > entry 0x400805e4
+15:07:36.862 > [37ms[37mtart
+15:07:36.877 > [37m[37m
+15:07:36.877 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:36.882 > [37m[37m
+15:07:36.882 > 
+15:07:36.882 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:36.901 > 
+15:07:36.901 > 
+15:07:36.901 > 
+15:07:36.901 > [37m
+15:07:36.904 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:36.907 > 
+15:07:37.028 > [37mR[37mebooting...
+15:07:37.028 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:37.030 > 
+15:07:37.030 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:37.036 > configsip: 0, SPIWP:0xee
+15:07:37.036 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:37.044 > mode:DIO, clock div:2
+15:07:37.044 > load[37m:[37m0x3fff0030,len:1184
+15:07:37.047 > load:0x400[37m7[37m8000,len:13192
+15:07:37.050 > load:0x40080400[37m,[37mlen:3028
+15:07:37.054 > entry 0x400805e4
+15:07:37.632 > [37ms[37mtart
+15:07:37.646 > [37m[37m
+15:07:37.646 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:37.651 > [37m[37m
+15:07:37.651 > 
+15:07:37.651 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:37.670 > 
+15:07:37.670 > 
+15:07:37.670 > 
+15:07:37.670 > [37m
+15:07:37.673 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:37.676 > 
+15:07:37.796 > [37mR[37mebooting...
+15:07:37.797 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:37.799 > 
+15:07:37.799 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:37.805 > configsip: 0, SPIWP:0xee
+15:07:37.805 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:37.813 > mode:DIO, clock div:2
+15:07:37.813 > load[37m:[37m0x3fff0030,len:1184
+15:07:37.816 > load:0x400[37m7[37m8000,len:13192
+15:07:37.819 > load:0x40080400[37m,[37mlen:3028
+15:07:37.823 > entry 0x400805e4
+15:07:38.401 > [37ms[37mtart
+15:07:38.414 > [37m[37m
+15:07:38.414 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:38.419 > [37m[37m
+15:07:38.419 > 
+15:07:38.419 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:38.439 > 
+15:07:38.439 > 
+15:07:38.439 > 
+15:07:38.439 > [37m
+15:07:38.441 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:38.444 > 
+15:07:38.566 > [37mR[37mebooting...
+15:07:38.567 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:38.569 > 
+15:07:38.569 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:38.575 > configsip: 0, SPIWP:0xee
+15:07:38.575 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:38.583 > mode:DIO, clock div:2
+15:07:38.583 > load[37m:[37m0x3fff0030,len:1184
+15:07:38.586 > load:0x400[37m7[37m8000,len:13192
+15:07:38.589 > load:0x40080400[37m,[37mlen:3028
+15:07:38.593 > entry 0x400805e4
+15:07:39.171 > [37ms[37mtart
+15:07:39.183 > [37m[37m
+15:07:39.184 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:39.189 > [37m[37m
+15:07:39.189 > 
+15:07:39.189 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:39.208 > 
+15:07:39.208 > 
+15:07:39.208 > 
+15:07:39.208 > [37m
+15:07:39.211 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:39.214 > 
+15:07:39.340 > [37mR[37mebooting...
+15:07:39.341 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:39.343 > 
+15:07:39.343 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:39.349 > configsip: 0, SPIWP:0xee
+15:07:39.349 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:39.357 > mode:DIO, clock div:2
+15:07:39.357 > load[37m:[37m0x3fff0030,len:1184
+15:07:39.360 > load:0x400[37m7[37m8000,len:13192
+15:07:39.363 > load:0x40080400[37m,[37mlen:3028
+15:07:39.367 > entry 0x400805e4
+15:07:39.945 > [37ms[37mtart
+15:07:39.957 > [37m[37m
+15:07:39.957 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:39.963 > [37m[37m
+15:07:39.963 > 
+15:07:39.963 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:39.982 > 
+15:07:39.982 > 
+15:07:39.982 > 
+15:07:39.982 > [37m
+15:07:39.985 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:39.988 > 
+15:07:40.119 > [37mR[37mebooting...
+15:07:40.120 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:40.122 > 
+15:07:40.122 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:40.128 > configsip: 0, SPIWP:0xee
+15:07:40.128 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:40.136 > mode:DIO, clock div:2
+15:07:40.136 > load[37m:[37m0x3fff0030,len:1184
+15:07:40.139 > load:0x400[37m7[37m8000,len:13192
+15:07:40.142 > load:0x40080400[37m,[37mlen:3028
+15:07:40.146 > entry 0x400805e4
+15:07:40.724 > [37ms[37mtart
+15:07:40.736 > [37m[37m
+15:07:40.736 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:40.742 > [37m[37m
+15:07:40.742 > 
+15:07:40.742 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:40.761 > 
+15:07:40.761 > 
+15:07:40.761 > 
+15:07:40.761 > [37m
+15:07:40.764 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:40.767 > 
+15:07:40.895 > [37mR[37mebooting...
+15:07:40.895 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:40.897 > 
+15:07:40.897 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:40.903 > configsip: 0, SPIWP:0xee
+15:07:40.903 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:40.911 > mode:DIO, clock div:2
+15:07:40.911 > load[37m:[37m0x3fff0030,len:1184
+15:07:40.914 > load:0x400[37m7[37m8000,len:13192
+15:07:40.917 > load:0x40080400[37m,[37mlen:3028
+15:07:40.921 > entry 0x400805e4
+15:07:41.499 > [37ms[37mtart
+15:07:41.512 > [37m[37m
+15:07:41.512 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:41.518 > [37m[37m
+15:07:41.518 > 
+15:07:41.518 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:41.537 > 
+15:07:41.537 > 
+15:07:41.537 > 
+15:07:41.537 > [37m
+15:07:41.540 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:41.542 > 
+15:07:41.672 > [37mR[37mebooting...
+15:07:41.672 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:41.675 > 
+15:07:41.675 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:41.681 > configsip: 0, SPIWP:0xee
+15:07:41.681 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:41.689 > mode:DIO, clock div:2
+15:07:41.689 > load[37m:[37m0x3fff0030,len:1184
+15:07:41.692 > load:0x400[37m7[37m8000,len:13192
+15:07:41.694 > load:0x40080400[37m,[37mlen:3028
+15:07:41.699 > entry 0x400805e4
+15:07:42.277 > [37ms[37mtart
+15:07:42.290 > [37m[37m
+15:07:42.290 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:42.296 > [37m[37m
+15:07:42.296 > 
+15:07:42.296 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:42.315 > 
+15:07:42.315 > 
+15:07:42.315 > 
+15:07:42.315 > [37m
+15:07:42.318 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:42.321 > 
+15:07:42.447 > [37mR[37mebooting...
+15:07:42.447 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:42.449 > 
+15:07:42.449 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:42.455 > configsip: 0, SPIWP:0xee
+15:07:42.455 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:42.464 > mode:DIO, clock div:2
+15:07:42.464 > load[37m:[37m0x3fff0030,len:1184
+15:07:42.466 > load:0x400[37m7[37m8000,len:13192
+15:07:42.469 > load:0x40080400[37m,[37mlen:3028
+15:07:42.473 > entry 0x400805e4
+15:07:43.051 > [37ms[37mtart
+15:07:43.064 > [37m[37m
+15:07:43.064 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:43.069 > [37m[37m
+15:07:43.070 > 
+15:07:43.070 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:43.089 > 
+15:07:43.089 > 
+15:07:43.089 > 
+15:07:43.089 > [37m
+15:07:43.091 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:43.094 > 
+15:07:43.215 > [37mR[37mebooting...
+15:07:43.216 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:43.218 > 
+15:07:43.218 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:43.224 > configsip: 0, SPIWP:0xee
+15:07:43.224 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:43.232 > mode:DIO, clock div:2
+15:07:43.232 > load[37m:[37m0x3fff0030,len:1184
+15:07:43.235 > load:0x400[37m7[37m8000,len:13192
+15:07:43.238 > load:0x40080400[37m,[37mlen:3028
+15:07:43.242 > entry 0x400805e4
+15:07:43.820 > [37ms[37mtart
+15:07:43.833 > [37m[37m
+15:07:43.833 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:43.839 > [37m[37m
+15:07:43.839 > 
+15:07:43.839 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:43.858 > 
+15:07:43.858 > 
+15:07:43.858 > 
+15:07:43.858 > [37m
+15:07:43.861 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:43.863 > 
+15:07:43.989 > [37mR[37mebooting...
+15:07:43.989 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:43.992 > 
+15:07:43.992 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:43.997 > configsip: 0, SPIWP:0xee
+15:07:43.997 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:44.006 > mode:DIO, clock div:2
+15:07:44.006 > load[37m:[37m0x3fff0030,len:1184
+15:07:44.009 > load:0x400[37m7[37m8000,len:13192
+15:07:44.011 > load:0x40080400[37m,[37mlen:3028
+15:07:44.016 > entry 0x400805e4
+15:07:44.594 > [37ms[37mtart
+15:07:45.609 > [37me[37mts Jun  8 2016 00:22:57
+15:07:45.609 > 
+15:07:45.609 > rst:[37m0[37mx7 (TG0WDT_SYS_RESET),boot:0x13[37m [37m(SPI_FAST_FLASH_BOOT)
+15:07:45.615 > configsi[37mp[37m: 0, SPIWP:0xee
+15:07:45.617 > clk_drv:0x00,q[37m_[37mdrv:0x00,d_drv:0x00,cs0_drv:0x0[37m0[37m,hd_drv:0x00,wp_drv:0x00
+15:07:45.623 > mode:[37mD[37mIO, clock div:2
+15:07:45.626 > load:0x3fff003[37m0[37m,len:1184
+15:07:45.629 > load:0x40078000,len:[37m1[37m3192
+15:07:45.631 > load:0x40080400,len:3028[37m
+15:07:45.635 > [37mentry 0x400805e4
+15:07:46.213 > [37ms[37mtart
+15:07:47.226 > [37me[37mts Jun  8 2016 00:22:57
+15:07:47.226 > 
+15:07:47.226 > rst:[37m0[37mx7 (TG0WDT_SYS_RESET),boot:0x13[37m [37m(SPI_FAST_FLASH_BOOT)
+15:07:47.232 > configsi[37mp[37m: 0, SPIWP:0xee
+15:07:47.234 > clk_drv:0x00,q[37m_[37mdrv:0x00,d_drv:0x00,cs0_drv:0x0[37m0[37m,hd_drv:0x00,wp_drv:0x00
+15:07:47.240 > mode:[37mD[37mIO, clock div:2
+15:07:47.242 > load:0x3fff003[37m0[37m,len:1184
+15:07:47.245 > load:0x40078000,len:[37m1[37m3192
+15:07:47.248 > load:0x40080400,len:3028[37m
+15:07:47.251 > [37mentry 0x400805e4
+15:07:47.830 > [37ms[37mtart
+15:07:47.843 > [37m[37m
+15:07:47.843 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:47.848 > [37m[37m
+15:07:47.849 > 
+15:07:47.849 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:47.868 > 
+15:07:47.868 > 
+15:07:47.868 > 
+15:07:47.868 > [37m
+15:07:47.871 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:47.873 > 
+15:07:48.000 > [37mR[37mebooting...
+15:07:48.000 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:48.003 > 
+15:07:48.003 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:48.008 > configsip: 0, SPIWP:0xee
+15:07:48.008 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:48.016 > mode:DIO, clock div:2
+15:07:48.016 > load[37m:[37m0x3fff0030,len:1184
+15:07:48.019 > load:0x400[37m7[37m8000,len:13192
+15:07:48.022 > load:0x40080400[37m,[37mlen:3028
+15:07:48.027 > entry 0x400805e4
+15:07:48.605 > [37ms[37mtart
+15:07:48.617 > [37m[37m
+15:07:48.617 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:48.623 > [37m[37m
+15:07:48.623 > 
+15:07:48.623 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:48.642 > 
+15:07:48.642 > 
+15:07:48.642 > 
+15:07:48.642 > [37m
+15:07:48.645 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:48.647 > 
+15:07:48.771 > [37mR[37mebooting...
+15:07:48.771 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:48.774 > 
+15:07:48.774 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:48.780 > configsip: 0, SPIWP:0xee
+15:07:48.780 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:48.788 > mode:DIO, clock div:2
+15:07:48.788 > load[37m:[37m0x3fff0030,len:1184
+15:07:48.791 > load:0x400[37m7[37m8000,len:13192
+15:07:48.793 > load:0x40080400[37m,[37mlen:3028
+15:07:48.798 > entry 0x400805e4
+15:07:49.375 > [37ms[37mtart
+15:07:49.388 > [37m[37m
+15:07:49.388 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:49.394 > [37m[37m
+15:07:49.394 > 
+15:07:49.394 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:49.413 > 
+15:07:49.413 > 
+15:07:49.413 > 
+15:07:49.413 > [37m
+15:07:49.416 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:49.418 > 
+15:07:49.544 > [37mR[37mebooting...
+15:07:49.544 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:49.547 > 
+15:07:49.547 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:49.552 > configsip: 0, SPIWP:0xee
+15:07:49.552 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:49.561 > mode:DIO, clock div:2
+15:07:49.561 > load[37m:[37m0x3fff0030,len:1184
+15:07:49.563 > load:0x400[37m7[37m8000,len:13192
+15:07:49.566 > load:0x40080400[37m,[37mlen:3028
+15:07:49.571 > entry 0x400805e4
+15:07:50.148 > [37ms[37mtart
+15:07:50.162 > [37m[37m
+15:07:50.162 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:50.167 > [37m[37m
+15:07:50.167 > 
+15:07:50.167 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:50.187 > 
+15:07:50.187 > 
+15:07:50.187 > 
+15:07:50.187 > [37m
+15:07:50.189 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:50.192 > 
+15:07:50.343 > [37mR[37mebooting...
+15:07:50.343 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:50.346 > 
+15:07:50.346 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:50.352 > configsip: 0, SPIWP:0xee
+15:07:50.352 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:50.360 > mode:DIO, clock div:2
+15:07:50.360 > load[37m:[37m0x3fff0030,len:1184
+15:07:50.362 > load:0x400[37m7[37m8000,len:13192
+15:07:50.365 > load:0x40080400[37m,[37mlen:3028
+15:07:50.370 > entry 0x400805e4
+15:07:50.948 > [37ms[37mtart
+15:07:50.961 > [37m[37m
+15:07:50.961 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+15:07:50.967 > [37m[37m
+15:07:50.967 > 
+15:07:50.967 > Backtrace: 0x40119c4d:0x3ffb[37mc[37m6b0 0x4011a0b1:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+15:07:50.986 > 
+15:07:50.986 > 
+15:07:50.986 > 
+15:07:50.986 > [37m
+15:07:50.989 > [37mELF file SHA256: ed512884a3148a[37m3[37md
+15:07:50.991 > 
+15:07:51.120 > [37mR[37mebooting...
+15:07:51.120 > ets Jun  8 2016 00[37m:[37m22:57
+15:07:51.123 > 
+15:07:51.123 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:07:51.128 > configsip: 0, SPIWP:0xee
+15:07:51.128 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:07:51.137 > mode:DIO, clock div:2
+15:07:51.137 > load[37m:[37m0x3fff0030,len:1184
+15:07:51.140 > load:0x400[37m7[37m8000,len:13192
+15:07:51.142 > load:0x40080400[37m,[37mlen:3028
+15:07:51.147 > entry 0x400805e4

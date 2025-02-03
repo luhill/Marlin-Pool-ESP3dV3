@@ -1,0 +1,30 @@
+09:31:06.805 > [37me[37mcho:No SD card
+09:31:06.812 > [37me[37mcho:Setup wifi
+09:31:06.938 > [37me[37mcho:Connecting
+09:31:09.970 > [37me[37mcho:10.0.0.212
+09:31:11.442 > [37me[37mcho:10.0.0.212
+09:32:58.210 > [37me[37mcho:Disconnected
+09:32:58.234 > [37me[37mts Jun  8 2016 00:22:57
+09:32:58.234 > 
+09:32:58.234 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x13 (SP[37mI[37m_FAST_FLASH_BOOT)
+09:32:58.239 > configsip: 0[37m,[37m SPIWP:0xee
+09:32:58.242 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+09:32:58.248 > mode:DIO,[37m [37mclock div:2
+09:32:58.250 > load:0x3fff0030,le[37mn[37m:1184
+09:32:58.253 > load:0x40078000,len:1319[37m2[37m
+09:32:58.256 > load:0x40080400,len:3028
+09:32:58.256 > ent[37mr[37my 0x400805e4
+09:32:58.832 > [37ms[37mtart
+09:32:58.854 > [37m [37mBrown out Reset
+09:32:58.855 >  Watchdog Reset[37m
+09:32:58.857 > [37mMarlin 2.1.2
+09:32:58.857 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+09:32:58.863 > echo: Compiled: Ja[37mn[37m 11 2025
+09:32:58.865 > echo: Free Memory: 232[37m8[37m36  PlannerBufferBytes: 1344
+09:32:58.910 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+09:32:58.921 > [37me[37mcho:SD card released
+09:33:10.936 > [37me[37mcho:No SD card
+09:33:10.946 > [37me[37mcho:Setup wifi
+09:33:11.077 > [37me[37mcho:Connecting
+09:33:14.096 > [37me[37mcho:10.0.0.212
+09:33:15.581 > [37me[37mcho:10.0.0.212

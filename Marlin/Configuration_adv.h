@@ -877,8 +877,14 @@
 
 //#define SENSORLESS_BACKOFF_MM  { 2, 2, 0 }  // (linear=mm, rotational=°) Backoff from endstops before sensorless homing
 
-#define HOMING_BUMP_MM      { 5, 5, 2 }       // (linear=mm, rotational=°) Backoff from endstops after first bump
-#define HOMING_BUMP_DIVISOR { 2, 2, 4 }       // Re-Bump Speed Divisor (Divides the Homing Feedrate)
+
+#ifdef TINYBEE_MASTER
+  #define HOMING_BUMP_MM      {2, 2, 2, 2,   2,2,2,2,2}       // (linear=mm, rotational=°) Backoff from endstops after first bump
+  #define HOMING_BUMP_DIVISOR {2, 2, 2, 2,   2,2,2,2,2}       // Re-Bump Speed Divisor (Divides the Homing Feedrate)
+#else
+  #define HOMING_BUMP_MM      {2, 2, 2, 2}       // (linear=mm, rotational=°) Backoff from endstops after first bump
+  #define HOMING_BUMP_DIVISOR {2, 2, 2, 2}       // Re-Bump Speed Divisor (Divides the Homing Feedrate)
+#endif
 
 //#define HOMING_BACKOFF_POST_MM { 2, 2, 2 }  // (linear=mm, rotational=°) Backoff from endstops after homing
 //#define XY_COUNTERPART_BACKOFF_MM 0         // (mm) Backoff X after homing Y, and vice-versa
@@ -1095,7 +1101,12 @@
   //#define SHAPING_MENU                // Add a menu to the LCD to set shaping parameters.
 #endif
 
-#define AXIS_RELATIVE_MODES { false, false, false, false }
+
+#ifdef TINYBEE_MASTER
+  #define AXIS_RELATIVE_MODES { false, false, false, false, false,   false, false, false, false, false }
+#else
+  #define AXIS_RELATIVE_MODES { false, false, false, false, false}
+#endif
 
 // Add a Duplicate option for well-separated conjoined nozzles
 //#define MULTI_NOZZLE_DUPLICATION
@@ -2392,7 +2403,7 @@
 // @section serial
 
 // The ASCII buffer for serial input
-#define MAX_CMD_SIZE 96
+#define MAX_CMD_SIZE 256 //increased to handle cement 'prepare' command
 #define BUFSIZE 4
 
 // Transmission to Host Buffer Size
@@ -2402,7 +2413,7 @@
 // For debug-echo: 128 bytes for the optimal speed.
 // Other output doesn't need to be that speedy.
 // :[0, 2, 4, 8, 16, 32, 64, 128, 256]
-#define TX_BUFFER_SIZE 128
+#define TX_BUFFER_SIZE 256
 
 // Host Receive Buffer Size
 // Without XON/XOFF flow control (see SERIAL_XON_XOFF below) 32 bytes should be enough.
@@ -4066,7 +4077,7 @@
  */
 //#define WIFISUPPORT         // Marlin embedded WiFi management
 #define ESP3D_WIFISUPPORT   // ESP3D Library WiFi management (https://github.com/luc-github/ESP3DLib)
-
+#define ENABLE_WDT_ESP3DLIB_TASK //luke
 #if EITHER(WIFISUPPORT, ESP3D_WIFISUPPORT)
 #define WEBSUPPORT          // Start a webserver (which may include auto-discovery)
 //#define OTASUPPORT          // Support over-the-air firmware updates

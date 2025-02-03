@@ -1,0 +1,135 @@
+08:04:17.549 > [37mets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 37[37m1 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.549 > ets Jun  8 2016 00:22:57
+08:04:17.549 > 
+08:04:17.549 > rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:04:17.549 > flash read err, 1000
+08:04:17.549 > ets_main.c 371 
+08:04:17.619 > [37me[37mts Jun  8 2016 00:22:57
+08:04:17.619 > 
+08:04:17.619 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:17.624 > flash r[37me[37mad err, 1000
+08:04:17.627 > ets_main.c 371 
+08:04:17.966 > [37me[37mts Jun  8 2016 00:22:57
+08:04:17.966 > 
+08:04:17.966 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:17.972 > flash r[37me[37mad err, 1000
+08:04:17.974 > ets_main.c 371 
+08:04:18.314 > [37me[37mts Jun  8 2016 00:22:57
+08:04:18.314 > 
+08:04:18.314 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:18.319 > flash r[37me[37mad err, 1000
+08:04:18.322 > ets_main.c 371 
+08:04:18.661 > [37me[37mts Jun  8 2016 00:22:57
+08:04:18.661 > 
+08:04:18.661 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:18.666 > flash r[37me[37mad err, 1000
+08:04:18.669 > ets_main.c 371 
+08:04:19.008 > [37me[37mts Jun  8 2016 00:22:57
+08:04:19.008 > 
+08:04:19.008 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:19.013 > flash r[37me[37mad err, 1000
+08:04:19.017 > ets_main.c 371 
+08:04:19.355 > [37me[37mts Jun  8 2016 00:22:57
+08:04:19.355 > 
+08:04:19.355 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:19.362 > flash r[37me[37mad err, 1000
+08:04:19.363 > ets_main.c 371 
+08:04:19.702 > [37me[37mts Jun  8 2016 00:22:57
+08:04:19.702 > 
+08:04:19.702 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:19.707 > flash r[37me[37mad err, 1000
+08:04:19.710 > ets_main.c 371 
+08:04:20.049 > [37me[37mts Jun  8 2016 00:22:57
+08:04:20.049 > 
+08:04:20.049 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:20.054 > flash r[37me[37mad err, 1000
+08:04:20.057 > ets_main.c 371 
+08:04:20.396 > [37me[37mts Jun  8 2016 00:22:57
+08:04:20.396 > 
+08:04:20.396 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:20.401 > flash r[37me[37mad err, 1000
+08:04:20.404 > ets_main.c 371 
+08:04:20.743 > [37me[37mts Jun  8 2016 00:22:57
+08:04:20.743 > 
+08:04:20.743 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:20.748 > flash r[37me[37mad err, 1000
+08:04:20.751 > ets_main.c 371 
+08:04:21.090 > [37me[37mts Jun  8 2016 00:22:57
+08:04:21.091 > 
+08:04:21.091 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:21.096 > flash r[37me[37mad err, 1000
+08:04:21.098 > ets_main.c 371 
+08:04:21.437 > [37me[37mts Jun  8 2016 00:22:57
+08:04:21.437 > 
+08:04:21.437 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:21.443 > flash r[37me[37mad err, 1000
+08:04:21.445 > ets_main.c 371 
+08:04:21.784 > [37me[37mts Jun  8 2016 00:22:57
+08:04:21.784 > 
+08:04:21.784 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:21.790 > flash r[37me[37mad err, 1000
+08:04:21.793 > ets_main.c 371 
+08:04:22.131 > [37me[37mts Jun  8 2016 00:22:57
+08:04:22.131 > 
+08:04:22.131 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:22.137 > flash r[37me[37mad err, 1000
+08:04:22.139 > ets_main.c 371 
+08:04:22.478 > [37me[37mts Jun  8 2016 00:22:57
+08:04:22.479 > 
+08:04:22.479 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:22.484 > flash r[37me[37mad err, 1000
+08:04:22.487 > ets_main.c 371 
+08:04:22.825 > [37me[37mts Jun  8 2016 00:22:57
+08:04:22.826 > 
+08:04:22.826 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0x1[37m3[37m (SPI_FAST_FLASH_BOOT)
+08:04:22.831 > flash r[37me[37mad err, 1000
+08:04:22.834 > ets_main.c 371 

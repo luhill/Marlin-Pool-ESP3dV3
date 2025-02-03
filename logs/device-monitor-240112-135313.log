@@ -1,0 +1,70 @@
+13:53:14.513 > [37m [37mExternal Reset
+13:53:14.513 >  Brown out Reset[37m
+13:53:14.516 > [37m Watchdog Reset
+13:53:14.516 > Marlin 2.1.2
+13:53:14.516 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+13:53:14.521 > ec[37mh[37mo: Compiled: Jan 12 2024
+13:53:14.524 > echo: [37mF[37mree [37mM[37memory: 225352  PlannerBufferByt[37me[37ms: 1344
+13:53:14.550 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+13:53:14.573 > [37me[37mcho:Settings Stored (870 bytes;[37m [37mcrc 37517)
+13:53:14.746 > [37me[37mcho:EEPROM Initialized
+13:53:15.281 > [37me[37mcho:SD card ok
+13:53:25.344 > [37me[37mcho:SD card ok
+13:53:25.353 > [37me[37mcho:Setup wifi
+13:53:25.485 > [37me[37mcho:Connecting
+13:53:28.503 > [37me[37mcho:10.0.0.110
+13:53:29.980 > [37me[37mcho:10.0.0.110
+13:53:41.643 > [37me[37mcho:SD card ok
+13:53:42.436 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T13:53:42"}}}
+13:53:44.896 > [37me[37mcho:Now fresh file: /TestMix.g
+13:53:44.899 > [37mF[37mile opened: TestMix.g Size: 118[37m8[37m1
+13:53:44.901 > File selected
+13:53:47.006 > [37me[37mcho:busy: processing
+13:53:49.007 > [37me[37mcho:busy: processing
+13:53:51.008 > [37me[37mcho:busy: processing
+13:53:53.009 > [37me[37mcho:busy: processing
+13:53:55.010 > [37me[37mcho:busy: processing
+13:53:57.011 > [37me[37mcho:busy: processing
+13:53:59.012 > [37me[37mcho:busy: processing
+13:54:01.013 > [37me[37mcho:busy: processing
+13:54:03.014 > [37me[37mcho:busy: processing
+13:54:05.015 > [37me[37mcho:busy: processing
+13:54:07.016 > [37me[37mcho:busy: processing
+13:54:09.017 > [37me[37mcho:busy: processing
+13:54:09.137 > [37mD[37mo[37mn[37me printing file
+13:55:02.906 > [37me[37mcho:SD card ok
+13:55:03.035 > [37me[37mc[37mho:SD card ok
+13:55:14.373 > [37me[37mcho:Now fresh file: /TestMix.g
+13:55:14.377 > [37mF[37mile opened: TestMix.g Size: 118[37m8[37m3
+13:55:14.378 > File selected
+13:55:16.485 > [37me[37mcho:busy: processing
+13:55:18.486 > [37me[37mcho:busy: processing
+13:55:20.487 > [37me[37mcho:busy: processing
+13:55:22.487 > [37me[37mcho:busy: processing
+13:55:24.488 > [37me[37mcho:busy: processing
+13:55:26.489 > [37me[37mcho:busy: processing
+13:55:28.490 > [37me[37mcho:busy: processing
+13:55:30.491 > [37me[37mcho:busy: processing
+13:55:32.492 > [37me[37mcho:busy: processing
+13:55:34.494 > [37me[37mcho:busy: processing
+13:55:36.495 > [37me[37mcho:busy: processing
+13:55:38.496 > [37me[37mcho:busy: processing
+13:55:38.676 > [37mD[37mone printing file
+13:56:02.557 > [37me[37mcho:SD card released
+16:53:42.285 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T16:53:42"}}}
+19:53:42.356 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T19:53:42"}}}
+22:53:42.453 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T22:53:42"}}}
+23:59:59.414 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T23:59:59","auto":[0,1,1[37m][37m,"extrude":0,"blend":[0,10],"au[37mx[37m":[0,10],"freq":3000,"mix":[[70[37m0[37m,20,50],[300,33.65,10],[1,0.2,1[37m][37m,[0,1,1],[1,1,1]]}}}
+01:53:42.545 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-13T01:53:42"}}}
+04:53:43.037 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-13T04:53:43"}}}
+07:53:43.123 > [37m{[37m"myPanel":{"values":{"time":"20[37m24-01-13T07:53:43"}}}
+10:53:43.231 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-13T10:53:43"}}}
+13:53:43.330 > [37m{[37m"myPanel":{"values":{"time":"2024-01-13T13:53:43"}}}
+16:53:43.476 > [37m{[37m"myPanel":{"values":{"time":"20[37m24-01-13T16:53:43"}}}
+19:53:43.564 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-13T19:53:43"}}}
+22:53:43.688 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-13T22:53:43"}}}
+23:59:59.734 > [37m{[37m"[37mmyPanel":{"values":{"time":"202[37m4[37m-01-13T23:59:59","auto":[0,1,1][37m,[37m"extrude":0,"blend":[0,10],"aux[37m"[37m:[0,10],"freq":3000,"mix":[[700[37m,[37m20,50],[300,33.65,10],[1,0.2,1][37m,[37m[0,1,1],[1,1,1]]}}}
+01:53:43.788 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-14T01:53:43"}}}
+04:53:43.963 > [37m{[37m"myPanel":{"values":{"time":"2024-01-14T04:53:43"}}}
+07:53:43.690 > [37m{[37m"myPanel":{"values":{"time":"20[37m24-01-14T07:53:44"}}}
+10:53:43.865 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-14T10:53:44"}}}

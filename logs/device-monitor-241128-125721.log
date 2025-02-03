@@ -1,0 +1,116 @@
+12:57:27.822 > [37me[37mcho:No SD card
+12:57:27.829 > [37me[37mcho:Setup wifi
+12:57:28.500 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+12:57:30.504 > [37me[37mcho:192.168.0.1
+12:57:31.520 > [37me[37mcho:192.168.0.1
+12:57:37.967 > [37me[37mcho:New client
+12:57:58.040 > [37mE[37m (55636) task_wdt: Task watchdo[37mg[37m got triggered. The following t[37ma[37msks did not reset the watchdog [37mi[37mn time:
+12:57:58.048 > E (55636) task_wdt:  -[37m [37mIDLE (CPU 0)
+12:57:58.051 > E (55636) task_wd[37mt[37m: Tasks currently running:
+12:57:58.053 > E ([37m5[37m5636) task_wdt: CPU 0: ESP3DLib[37m [37mTask
+12:57:58.059 > E (55636) task_wdt: CPU 1[37m:[37m IDLE
+12:57:58.062 > E (55636) task_wdt: Abor[37mt[37ming.
+12:57:58.064 > 
+12:57:58.064 > abort() was called at P[37mC[37m 0x40117a5c on core 0
+12:57:58.067 > 
+12:57:58.067 > 
+12:57:58.067 > Back[37mt[37mrace: 0x40083f49:0x3ffbf3fc |<-[37mC[37mORRUPTED
+12:57:58.073 > 
+12:57:58.073 > 
+12:57:58.073 > 
+12:57:58.073 > 
+12:57:58.073 > ELF file SHA2[37m5[37m6: c249c33a26c3fff4
+12:57:58.077 > 
+12:57:58.261 > [37mR[37mebooting...
+12:57:58.261 > ets Jun  8 2016 00[37m:[37m22:57
+12:57:58.264 > 
+12:57:58.264 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+12:57:58.269 > configsip: 0, SPIWP:0xee
+12:57:58.269 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:57:58.278 > mode:DIO, clock div:2
+12:57:58.278 > load[37m:[37m0x3fff0030,len:1184
+12:57:58.280 > load:0x400[37m7[37m8000,len:13192
+12:57:58.283 > load:0x40080400[37m,[37mlen:3028
+12:57:58.287 > entry 0x400805e4
+12:57:58.870 > [37ms[37mtart
+12:57:58.892 > [37m [37mBrown out Reset
+12:57:58.892 >  Watchdog Reset[37m
+12:57:58.895 > [37mMarlin 2.1.2
+12:57:58.895 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+12:57:58.900 > echo: Compiled: No[37mv[37m 28 2024
+12:57:58.903 > echo: Free Memory: 230[37m0[37m72  PlannerBufferBytes: 1344
+12:57:58.939 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+12:57:58.950 > [37me[37mcho:SD card released
+12:58:11.374 > [37me[37mcho:No SD card
+12:58:11.381 > [37me[37mcho:Setup wifi
+12:58:12.053 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+12:58:14.056 > [37me[37mcho:192.168.0.1
+12:58:15.073 > [37me[37mcho:192.168.0.1
+12:58:18.809 > [37me[37mcho:New client
+12:59:33.117 > [37mE[37m (107181) task_wdt: Task watchd[37mo[37mg got triggered. The following [37mt[37masks did not reset the watchdog[37m [37min time:
+12:59:33.126 > E (107181) task_wdt: [37m [37m- IDLE (CPU 0)
+12:59:33.128 > E (107181) task[37m_[37mwdt: Tasks currently running:
+12:59:33.134 > [37mE[37m (107181) task_wdt: CPU 0: ESP3[37mD[37mLib Task
+12:59:33.137 > E (107181) task_wdt: [37mC[37mPU 1: IDLE
+12:59:33.140 > E (107181) task_wdt[37m:[37m Aborting.
+12:59:33.142 > 
+12:59:33.142 > abort() was calle[37md[37m at PC 0x40117a5c on core 0
+12:59:33.145 > 
+12:59:33.148 > [37m[37m
+12:59:33.148 > Backtrace: 0x40083f49:0x3ffbf3[37mf[37mc |<-CORRUPTED
+12:59:33.150 > 
+12:59:33.150 > 
+12:59:33.150 > 
+12:59:33.150 > 
+12:59:33.150 > ELF fil[37me[37m SHA256: c249c33a26c3fff4
+12:59:33.155 > 
+12:59:33.328 > [37mR[37mebooting...
+12:59:33.329 > ets Jun  8 2016 00[37m:[37m22:57
+12:59:33.331 > 
+12:59:33.331 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+12:59:33.337 > configsip: 0, SPIWP:0xee
+12:59:33.337 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:59:33.345 > mode:DIO, clock div:2
+12:59:33.345 > load[37m:[37m0x3fff0030,len:1184
+12:59:33.348 > load:0x400[37m7[37m8000,len:13192
+12:59:33.350 > load:0x40080400[37m,[37mlen:3028
+12:59:33.355 > entry 0x400805e4
+12:59:33.938 > [37ms[37mtart
+12:59:33.960 > [37m [37mBrown out Reset
+12:59:33.960 >  Watchdog Reset[37m
+12:59:33.963 > [37mMarlin 2.1.2
+12:59:33.963 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+12:59:33.969 > echo: Compiled: No[37mv[37m 28 2024
+12:59:33.971 > echo: Free Memory: 230[37m0[37m72  PlannerBufferBytes: 1344
+12:59:34.018 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+12:59:34.029 > [37me[37mcho:SD card released
+12:59:46.453 > [37me[37mcho:No SD card
+12:59:46.461 > [37me[37mcho:Setup wifi
+12:59:47.135 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+12:59:49.139 > [37me[37mcho:192.168.0.1
+12:59:50.155 > [37me[37mcho:192.168.0.1
+12:59:56.332 > [37me[37mcho:New client
+13:00:51.771 > [37me[37mts Jun  8 2016 00:22:57
+13:00:51.772 > 
+13:00:51.772 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+13:00:51.777 > configsip: 0[37m, SPIWP:0xee
+13:00:51.780 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+13:00:51.785 > mode:DIO,[37m [37mclock div:2
+13:00:51.790 > load:0x3fff0030,le[37mn[37m:1184
+13:00:51.790 > load:0x40078000,len:1319[37m2[37m
+13:00:51.793 > load:0x40080400,len:3028
+13:00:51.793 > ent[37mr[37my 0x400805e4
+13:00:52.380 > [37ms[37mtart
+13:00:52.402 > [37m [37mBrown out Reset
+13:00:52.402 >  Watchdog Reset[37m
+13:00:52.405 > [37mMarlin 2.1.2
+13:00:52.405 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:00:52.410 > echo: Compiled: No[37mv[37m 28 2024
+13:00:52.413 > echo: Free Memory: 230[37m0[37m72  PlannerBufferBytes: 1344
+13:00:52.457 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+13:00:52.469 > [37me[37mcho:SD card released
+13:01:04.888 > [37me[37mcho:No SD card
+13:01:04.897 > [37me[37mcho:Setup wifi
+13:01:05.016 > [37me[37mcho:Connecting
+13:01:11.278 > [37me[37mcho:10.0.0.151
+13:01:12.522 > [37me[37mcho:10.0.0.151

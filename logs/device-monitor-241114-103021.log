@@ -1,0 +1,403 @@
+10:30:21.511 > [37mkF�TC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BO[37mOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read err, 1000
+10:30:21.511 > ets_main.c 371 
+10:30:21.511 > ets Jun  8 2016 00:22:57
+10:30:21.511 > 
+10:30:21.511 > rst:0x10 (RTCWDT_RTC_RESET),boot:0xb (HSPI_FLASH_BOOT)
+10:30:21.511 > flash read e[37mr[37mr, 1000
+10:30:21.512 > ets_main.c 371 
+10:30:21.841 > [37me[37mts Jun  8 2016 00:22:57
+10:30:21.841 > 
+10:30:21.841 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:21.847 > flash read e[37mr[37mr, 1000
+10:30:21.851 > ets_main.c 371 
+10:30:22.181 > [37me[37mts Jun  8 2016 00:22:57
+10:30:22.181 > 
+10:30:22.181 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:22.186 > flash read e[37mr[37mr, 1000
+10:30:22.191 > ets_main.c 371 
+10:30:22.520 > [37me[37mts Jun  8 2016 00:22:57
+10:30:22.520 > 
+10:30:22.520 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:22.526 > flash read e[37mr[37mr, 1000
+10:30:22.530 > ets_main.c 371 
+10:30:22.860 > [37me[37mts Jun  8 2016 00:22:57
+10:30:22.860 > 
+10:30:22.860 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:22.865 > flash read e[37mr[37mr, 1000
+10:30:22.869 > ets_main.c 371 
+10:30:23.199 > [37me[37mts Jun  8 2016 00:22:57
+10:30:23.199 > 
+10:30:23.199 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:23.204 > flash read e[37mr[37mr, 1000
+10:30:23.209 > ets_main.c 371 
+10:30:23.538 > [37me[37mts Jun  8 2016 00:22:57
+10:30:23.539 > 
+10:30:23.539 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:23.544 > flash read e[37mr[37mr, 1000
+10:30:23.548 > ets_main.c 371 
+10:30:23.878 > [37me[37mts Jun  8 2016 00:22:57
+10:30:23.878 > 
+10:30:23.878 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:23.883 > flash read e[37mr[37mr, 1000
+10:30:23.888 > ets_main.c 371 
+10:30:24.218 > [37me[37mts Jun  8 2016 00:22:57
+10:30:24.218 > 
+10:30:24.218 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:24.223 > flash read e[37mr[37mr, 1000
+10:30:24.227 > ets_main.c 371 
+10:30:24.557 > [37me[37mts Jun  8 2016 00:22:57
+10:30:24.557 > 
+10:30:24.557 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:24.562 > flash read e[37mr[37mr, 1000
+10:30:24.567 > ets_main.c 371 
+10:30:24.896 > [37me[37mts Jun  8 2016 00:22:57
+10:30:24.897 > 
+10:30:24.897 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:24.902 > flash read e[37mr[37mr, 1000
+10:30:24.906 > ets_main.c 371 
+10:30:25.236 > [37me[37mts Jun  8 2016 00:22:57
+10:30:25.236 > 
+10:30:25.236 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:25.241 > flash read e[37mr[37mr, 1000
+10:30:25.246 > ets_main.c 371 
+10:30:25.575 > [37me[37mts Jun  8 2016 00:22:57
+10:30:25.576 > 
+10:30:25.576 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:25.581 > flash read e[37mr[37mr, 1000
+10:30:25.585 > ets_main.c 371 
+10:30:25.915 > [37me[37mts Jun  8 2016 00:22:57
+10:30:25.915 > 
+10:30:25.915 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:25.920 > flash read e[37mr[37mr, 1000
+10:30:25.925 > ets_main.c 371 
+10:30:26.254 > [37me[37mts Jun  8 2016 00:22:57
+10:30:26.254 > 
+10:30:26.254 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:26.260 > flash read e[37mr[37mr, 1000
+10:30:26.264 > ets_main.c 371 
+10:30:26.594 > [37me[37mts Jun  8 2016 00:22:57
+10:30:26.594 > 
+10:30:26.594 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:26.600 > flash read e[37mr[37mr, 1000
+10:30:26.603 > ets_main.c 371 
+10:30:26.933 > [37me[37mts Jun  8 2016 00:22:57
+10:30:26.933 > 
+10:30:26.933 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:26.938 > flash read e[37mr[37mr, 1000
+10:30:26.943 > ets_main.c 371 
+10:30:27.272 > [37me[37mts Jun  8 2016 00:22:57
+10:30:27.273 > 
+10:30:27.273 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:27.278 > flash read e[37mr[37mr, 1000
+10:30:27.282 > ets_main.c 371 
+10:30:27.612 > [37me[37mts Jun  8 2016 00:22:57
+10:30:27.612 > 
+10:30:27.612 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:27.617 > flash read e[37mr[37mr, 1000
+10:30:27.621 > ets_main.c 371 
+10:30:27.951 > [37me[37mts Jun  8 2016 00:22:57
+10:30:27.951 > 
+10:30:27.951 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:27.957 > flash read e[37mr[37mr, 1000
+10:30:27.961 > ets_main.c 371 
+10:30:28.291 > [37me[37mts Jun  8 2016 00:22:57
+10:30:28.291 > 
+10:30:28.291 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:28.296 > flash read e[37mr[37mr, 1000
+10:30:28.300 > ets_main.c 371 
+10:30:28.630 > [37me[37mts Jun  8 2016 00:22:57
+10:30:28.630 > 
+10:30:28.630 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:28.635 > flash read e[37mr[37mr, 1000
+10:30:28.640 > ets_main.c 371 
+10:30:28.969 > [37me[37mts Jun  8 2016 00:22:57
+10:30:28.970 > 
+10:30:28.970 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:28.975 > flash read e[37mr[37mr, 1000
+10:30:28.979 > ets_main.c 371 
+10:30:29.309 > [37me[37mts Jun  8 2016 00:22:57
+10:30:29.309 > 
+10:30:29.309 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:29.314 > flash read e[37mr[37mr, 1000
+10:30:29.318 > ets_main.c 371 
+10:30:29.648 > [37me[37mts Jun  8 2016 00:22:57
+10:30:29.648 > 
+10:30:29.648 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:29.653 > flash read e[37mr[37mr, 1000
+10:30:29.658 > ets_main.c 371 
+10:30:29.987 > [37me[37mts Jun  8 2016 00:22:57
+10:30:29.988 > 
+10:30:29.988 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:29.993 > flash read e[37mr[37mr, 1000
+10:30:29.997 > ets_main.c 371 
+10:30:30.327 > [37me[37mts Jun  8 2016 00:22:57
+10:30:30.327 > 
+10:30:30.327 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:30.332 > flash read e[37mr[37mr, 1000
+10:30:30.336 > ets_main.c 371 
+10:30:30.666 > [37me[37mts Jun  8 2016 00:22:57
+10:30:30.666 > 
+10:30:30.666 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:30.671 > flash read e[37mr[37mr, 1000
+10:30:30.676 > ets_main.c 371 
+10:30:31.005 > [37me[37mts Jun  8 2016 00:22:57
+10:30:31.006 > 
+10:30:31.006 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:31.011 > flash read e[37mr[37mr, 1000
+10:30:31.015 > ets_main.c 371 
+10:30:31.345 > [37me[37mts Jun  8 2016 00:22:57
+10:30:31.345 > 
+10:30:31.345 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:31.350 > flash read e[37mr[37mr, 1000
+10:30:31.355 > ets_main.c 371 
+10:30:31.684 > [37me[37mts Jun  8 2016 00:22:57
+10:30:31.685 > 
+10:30:31.685 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:31.690 > flash read e[37mr[37mr, 1000
+10:30:31.694 > ets_main.c 371 
+10:30:32.023 > [37me[37mts Jun  8 2016 00:22:57
+10:30:32.024 > 
+10:30:32.024 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:32.029 > flash read e[37mr[37mr, 1000
+10:30:32.033 > ets_main.c 371 
+10:30:32.363 > [37me[37mts Jun  8 2016 00:22:57
+10:30:32.363 > 
+10:30:32.363 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:32.369 > flash read e[37mr[37mr, 1000
+10:30:32.373 > ets_main.c 371 
+10:30:32.702 > [37me[37mts Jun  8 2016 00:22:57
+10:30:32.702 > 
+10:30:32.702 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:32.707 > flash read e[37mr[37mr, 1000
+10:30:32.712 > ets_main.c 371 
+10:30:33.041 > [37me[37mts Jun  8 2016 00:22:57
+10:30:33.042 > 
+10:30:33.042 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:33.047 > flash read e[37mr[37mr, 1000
+10:30:33.051 > ets_main.c 371 
+10:30:33.381 > [37me[37mts Jun  8 2016 00:22:57
+10:30:33.381 > 
+10:30:33.381 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:33.386 > flash read e[37mr[37mr, 1000
+10:30:33.391 > ets_main.c 371 
+10:30:33.720 > [37me[37mts Jun  8 2016 00:22:57
+10:30:33.721 > 
+10:30:33.721 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:33.726 > flash read e[37mr[37mr, 1000
+10:30:33.730 > ets_main.c 371 
+10:30:34.060 > [37me[37mts Jun  8 2016 00:22:57
+10:30:34.060 > 
+10:30:34.060 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:34.065 > flash read e[37mr[37mr, 1000
+10:30:34.070 > ets_main.c 371 
+10:30:34.399 > [37me[37mts Jun  8 2016 00:22:57
+10:30:34.400 > 
+10:30:34.400 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:34.406 > flash read e[37mr[37mr, 1000
+10:30:34.409 > ets_main.c 371 
+10:30:34.739 > [37me[37mts Jun  8 2016 00:22:57
+10:30:34.739 > 
+10:30:34.739 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:34.744 > flash read e[37mr[37mr, 1000
+10:30:34.748 > ets_main.c 371 
+10:30:35.078 > [37me[37mts Jun  8 2016 00:22:57
+10:30:35.078 > 
+10:30:35.078 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:35.083 > flash read e[37mr[37mr, 1000
+10:30:35.088 > ets_main.c 371 
+10:30:35.417 > [37me[37mts Jun  8 2016 00:22:57
+10:30:35.418 > 
+10:30:35.418 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:35.423 > flash read e[37mr[37mr, 1000
+10:30:35.427 > ets_main.c 371 
+10:30:35.757 > [37me[37mts Jun  8 2016 00:22:57
+10:30:35.757 > 
+10:30:35.757 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:35.762 > flash read e[37mr[37mr, 1000
+10:30:35.766 > ets_main.c 371 
+10:30:36.096 > [37me[37mts Jun  8 2016 00:22:57
+10:30:36.096 > 
+10:30:36.096 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:36.101 > flash read e[37mr[37mr, 1000
+10:30:36.106 > ets_main.c 371 
+10:30:36.435 > [37me[37mts Jun  8 2016 00:22:57
+10:30:36.436 > 
+10:30:36.436 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:36.441 > flash read e[37mr[37mr, 1000
+10:30:36.445 > ets_main.c 371 
+10:30:36.775 > [37me[37mts Jun  8 2016 00:22:57
+10:30:36.775 > 
+10:30:36.775 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:36.780 > flash read e[37mr[37mr, 1000
+10:30:36.785 > ets_main.c 371 
+10:30:37.114 > [37me[37mts Jun  8 2016 00:22:57
+10:30:37.114 > 
+10:30:37.114 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:37.120 > flash read e[37mr[37mr, 1000
+10:30:37.124 > ets_main.c 371 
+10:30:37.454 > [37me[37mts Jun  8 2016 00:22:57
+10:30:37.454 > 
+10:30:37.454 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:37.459 > flash read e[37mr[37mr, 1000
+10:30:37.463 > ets_main.c 371 
+10:30:37.793 > [37me[37mts Jun  8 2016 00:22:57
+10:30:37.793 > 
+10:30:37.793 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:37.798 > flash read e[37mr[37mr, 1000
+10:30:37.803 > ets_main.c 371 
+10:30:38.117 > [37me[37mts Jun  8 2016 00:22:57
+10:30:38.117 > 
+10:30:38.117 > rst:[37m0[37mx1 (POWERON_RESET),boot:0xb (HS[37mP[37mI_FLASH_BOOT)
+10:30:38.122 > flash read err, [37m1[37m000
+10:30:38.126 > ets_main.c 371 
+10:30:38.456 > [37me[37mts Jun  8 2016 00:22:57
+10:30:38.456 > 
+10:30:38.456 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:38.462 > flash read e[37mr[37mr, 1000
+10:30:38.466 > ets_main.c 371 
+10:30:38.795 > [37me[37mts Jun  8 2016 00:22:57
+10:30:38.795 > 
+10:30:38.795 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:38.801 > flash read e[37mr[37mr, 1000
+10:30:38.805 > ets_main.c 371 
+10:30:39.135 > [37me[37mts Jun  8 2016 00:22:57
+10:30:39.135 > 
+10:30:39.135 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:39.140 > flash read e[37mr[37mr, 1000
+10:30:39.144 > ets_main.c 371 
+10:30:39.474 > [37me[37mts Jun  8 2016 00:22:57
+10:30:39.475 > 
+10:30:39.475 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:39.479 > flash read e[37mr[37mr, 1000
+10:30:39.484 > ets_main.c 371 
+10:30:39.813 > [37me[37mts Jun  8 2016 00:22:57
+10:30:39.814 > 
+10:30:39.814 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:39.819 > flash read e[37mr[37mr, 1000
+10:30:39.823 > ets_main.c 371 
+10:30:40.153 > [37me[37mts Jun  8 2016 00:22:57
+10:30:40.153 > 
+10:30:40.153 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:40.159 > flash read e[37mr[37mr, 1000
+10:30:40.163 > ets_main.c 371 
+10:30:40.492 > [37me[37mts Jun  8 2016 00:22:57
+10:30:40.493 > 
+10:30:40.493 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:40.497 > flash read e[37mr[37mr, 1000
+10:30:40.502 > ets_main.c 371 
+10:30:40.832 > [37me[37mts Jun  8 2016 00:22:57
+10:30:40.832 > 
+10:30:40.832 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:40.837 > flash read e[37mr[37mr, 1000
+10:30:40.841 > ets_main.c 371 
+10:30:41.171 > [37me[37mts Jun  8 2016 00:22:57
+10:30:41.171 > 
+10:30:41.171 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:41.176 > flash read e[37mr[37mr, 1000
+10:30:41.181 > ets_main.c 371 
+10:30:41.510 > [37me[37mts Jun  8 2016 00:22:57
+10:30:41.511 > 
+10:30:41.511 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:41.516 > flash read e[37mr[37mr, 1000
+10:30:41.520 > ets_main.c 371 
+10:30:41.850 > [37me[37mts Jun  8 2016 00:22:57
+10:30:41.850 > 
+10:30:41.850 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:41.855 > flash read e[37mr[37mr, 1000
+10:30:41.860 > ets_main.c 371 
+10:30:42.189 > [37me[37mts Jun  8 2016 00:22:57
+10:30:42.189 > 
+10:30:42.189 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:42.195 > flash read e[37mr[37mr, 1000
+10:30:42.199 > ets_main.c 371 
+10:30:42.528 > [37me[37mts Jun  8 2016 00:22:57
+10:30:42.529 > 
+10:30:42.529 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:42.534 > flash read e[37mr[37mr, 1000
+10:30:42.538 > ets_main.c 371 
+10:30:42.868 > [37me[37mts Jun  8 2016 00:22:57
+10:30:42.868 > 
+10:30:42.868 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:42.873 > flash read e[37mr[37mr, 1000
+10:30:42.878 > ets_main.c 371 
+10:30:43.207 > [37me[37mts Jun  8 2016 00:22:57
+10:30:43.207 > 
+10:30:43.207 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:43.213 > flash read e[37mr[37mr, 1000
+10:30:43.217 > ets_main.c 371 
+10:30:43.547 > [37me[37mts Jun  8 2016 00:22:57
+10:30:43.547 > 
+10:30:43.547 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:43.552 > flash read e[37mr[37mr, 1000
+10:30:43.556 > ets_main.c 371 
+10:30:43.886 > [37me[37mts Jun  8 2016 00:22:57
+10:30:43.886 > 
+10:30:43.886 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:43.891 > flash read e[37mr[37mr, 1000
+10:30:43.896 > ets_main.c 371 
+10:30:44.225 > [37me[37mts Jun  8 2016 00:22:57
+10:30:44.226 > 
+10:30:44.226 > rst:[37m0[37mx10 (RTCWDT_RTC_RESET),boot:0xb[37m [37m(HSPI_FLASH_BOOT)
+10:30:44.231 > flash read e[37mr[37mr, 1000
+10:30:44.235 > ets_main.c 371 

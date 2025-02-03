@@ -623,30 +623,31 @@ struct XYZEval {
   // Setters for some number of linear axes, not all
   FI void set(const T px)                                                                                       { x = px; }
   FI void set(const T px, const T py)                                                                           { x = px; y = py; }
+  FI void set(const T px, const T py, const T pz)                                                               { x = px; y = py; z = pz; }
   #if HAS_I_AXIS
-    FI void set(const T px, const T py, const T pz)                                                             { x = px; y = py; z = pz; }
-  #endif
-  #if HAS_J_AXIS
     FI void set(const T px, const T py, const T pz, const T pi)                                                 { x = px; y = py; z = pz; i = pi; }
   #endif
-  #if HAS_K_AXIS
+  #if HAS_J_AXIS
     FI void set(const T px, const T py, const T pz, const T pi, const T pj)                                     { x = px; y = py; z = pz; i = pi; j = pj; }
   #endif
-  #if HAS_U_AXIS
+  #if HAS_K_AXIS
     FI void set(const T px, const T py, const T pz, const T pi, const T pj, const T pk)                         { x = px; y = py; z = pz; i = pi; j = pj; k = pk; }
   #endif
-  #if HAS_V_AXIS
+  #if HAS_U_AXIS
     FI void set(const T px, const T py, const T pz, const T pi, const T pj, const T pk, const T pu)             { x = px; y = py; z = pz; i = pi; j = pj; k = pk; u = pu; }
   #endif
-  #if HAS_W_AXIS
+  #if HAS_V_AXIS
     FI void set(const T px, const T py, const T pz, const T pi, const T pj, const T pk, const T pu, const T pv) { x = px; y = py; z = pz; i = pi; j = pj; k = pk; u = pu; v = pv; }
+  #endif
+  #if HAS_W_AXIS
+    FI void set(const T px, const T py, const T pz, const T pi, const T pj, const T pk, const T pu, const T pv, const T pw) { x = px; y = py; z = pz; i = pi; j = pj; k = pk; u = pu; v = pv; w=pw; }
   #endif
 
   // Setters taking struct types and arrays
   FI void set(const XYval<T> pxy)                           { x = pxy.x; y = pxy.y; }
   FI void set(const XYZval<T> pxyz)                         { set(NUM_AXIS_ELEM(pxyz)); }
-  #if HAS_Z_AXIS
-    FI void set(NUM_AXIS_ARGS(const T))                     { NUM_AXIS_CODE(a = x, b = y, c = z, _i = i, _j = j, _k = k, _u = u, _v = v, _w = w); }
+  #if HAS_I_AXIS
+    //FI void set(NUM_AXIS_ARGS(const T))                     { NUM_AXIS_CODE(a = x, b = y, c = z, _i = i, _j = j, _k = k, _u = u, _v = v, _w = w); }
   #endif
   FI void set(const XYval<T> pxy, const T pz)               { set(pxy); TERN_(HAS_Z_AXIS, z = pz); }
   #if LOGICAL_AXES > NUM_AXES

@@ -1,0 +1,850 @@
+08:12:56.833 > [37mE (568) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+08:12:56.833 > 
+08:12:56.833 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > Backtrace: 0x40083eed:0x3ffe3aa0 0x4008decd:0x3ffe3ac0 0x40093c1d:0x3ffe3ae0 0x40119cf2:0x3ffe3c10 0x400835f2:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > ELF file SHA256: bd9c3cbc1c8e7b8a
+08:12:56.833 > 
+08:12:56.833 > E (590) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+08:12:56.833 > Rebooting...
+08:12:56.833 > ets Jul 29 2019 12:21:46
+08:12:56.833 > 
+08:12:56.833 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:12:56.833 > configsip: 0, SPIWP:0xee
+08:12:56.833 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:12:56.833 > mode:DIO, clock div:2
+08:12:56.833 > load:0x3fff0030,len:1184
+08:12:56.833 > load:0x40078000,len:13192
+08:12:56.833 > load:0x40080400,len:3028
+08:12:56.833 > entry 0x400805e4
+08:12:56.833 > E (568) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+08:12:56.833 > 
+08:12:56.833 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > Backtrace: 0x40083eed:0x3ffe3aa0 0x400[37m8decd:0x3ffe3ac0 0x40093c1d:0x3ffe3ae0 0x40119cf2:0x3ffe3c10 0x400835f2:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > ELF file SHA256: bd9c3cbc1c8e7b8a
+08:12:56.833 > 
+08:12:56.833 > E (590) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+08:12:56.833 > Rebooting...
+08:12:56.833 > ets Jul 29 2019 12:21:46
+08:12:56.833 > 
+08:12:56.833 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:12:56.833 > configsip: 0, SPIWP:0xee
+08:12:56.833 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:12:56.833 > mode:DIO, clock div:2
+08:12:56.833 > load:0x3fff0030,len:1184
+08:12:56.833 > load:0x40078000,len:13192
+08:12:56.833 > load:0x40080400,len:3028
+08:12:56.833 > entry 0x400805e4
+08:12:56.833 > E (568) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+08:12:56.833 > 
+08:12:56.833 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > Backtrace: 0x40083eed:0x3ffe3aa0 0x4008decd:0x3ffe3ac0 0x40093c1d:0x3ffe3ae0 0x40119cf2:0x3ffe3c10 0x400835f2:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > ELF file SHA256: bd9c3cbc1c8e7b8a
+08:12:56.833 > 
+08:12:56.833 > E (590) esp_core_dump_flash: Core dump flash config is co[37mrrupted! CRC=0x7bd5c66f instead of 0x0
+08:12:56.833 > Rebooting...
+08:12:56.833 > ets Jul 29 2019 12:21:46
+08:12:56.833 > 
+08:12:56.833 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:12:56.833 > configsip: 0, SPIWP:0xee
+08:12:56.833 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:12:56.833 > mode:DIO, clock div:2
+08:12:56.833 > load:0x3fff0030,len:1184
+08:12:56.833 > load:0x40078000,len:13192
+08:12:56.833 > load:0x40080400,len:3028
+08:12:56.833 > entry 0x400805e4
+08:12:56.833 > E (568) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+08:12:56.833 > 
+08:12:56.833 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > Backtrace: 0x40083eed:0x3ffe3aa0 0x4008decd:0x3ffe3ac0 0x40093c1d:0x3ffe3ae0 0x40119cf2:0x3ffe3c10 0x400835f2:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > ELF file SHA256: bd9c3cbc1c8e7b8a
+08:12:56.833 > 
+08:12:56.833 > E (590) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+08:12:56.833 > Rebooting...
+08:12:56.833 > ets Jul 29 2019 12:21:46
+08:12:56.833 > 
+08:12:56.833 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:12:56.833 > configsip: 0, SPIWP:0xee
+08:12:56.833 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x[37m00,wp_drv:0x00
+08:12:56.833 > mode:DIO, clock div:2
+08:12:56.833 > load:0x3fff0030,len:1184
+08:12:56.833 > load:0x40078000,len:13192
+08:12:56.833 > load:0x40080400,len:3028
+08:12:56.833 > entry 0x400805e4
+08:12:56.833 > E (568) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+08:12:56.833 > 
+08:12:56.833 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > Backtrace: 0x40083eed:0x3ffe3aa0 0x4008decd:0x3ffe3ac0 0x40093c1d:0x3ffe3ae0 0x40119cf2:0x3ffe3c10 0x400835f2:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > ELF file SHA256: bd9c3cbc1c8e7b8a
+08:12:56.833 > 
+08:12:56.833 > E (590) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+08:12:56.833 > Rebooting...
+08:12:56.833 > ets Jul 29 2019 12:21:46
+08:12:56.833 > 
+08:12:56.833 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:12:56.833 > configsip: 0, SPIWP:0xee
+08:12:56.833 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:12:56.833 > mode:DIO, clock div:2
+08:12:56.833 > load:0x3fff0030,len:1184
+08:12:56.833 > load:0x40078000,len:13192
+08:12:56.833 > load:0x40080400,len:3028
+08:12:56.833 > entry 0x400805e4
+08:12:56.833 > E (568) spi_flash: Detected size(4096k) smaller than the size in the binary image hea[37mder(8192k). Probe failed.
+08:12:56.833 > 
+08:12:56.833 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > Backtrace: 0x40083eed:0x3ffe3aa0 0x4008decd:0x3ffe3ac0 0x40093c1d:0x3ffe3ae0 0x40119cf2:0x3ffe3c10 0x400835f2:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > ELF file SHA256: bd9c3cbc1c8e7b8a
+08:12:56.833 > 
+08:12:56.833 > E (590) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+08:12:56.833 > Rebooting...
+08:12:56.833 > ets Jul 29 2019 12:21:46
+08:12:56.833 > 
+08:12:56.833 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:12:56.833 > configsip: 0, SPIWP:0xee
+08:12:56.833 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:12:56.833 > mode:DIO, clock div:2
+08:12:56.833 > load:0x3fff0030,len:1184
+08:12:56.833 > load:0x40078000,len:13192
+08:12:56.833 > load:0x40080400,len:3028
+08:12:56.833 > entry 0x400805e4
+08:12:56.833 > E (568) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+08:12:56.833 > 
+08:12:56.833 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > Backtrace: 0x40083eed:0x3ffe3aa0 0x4008decd:0x3ffe3ac0 0x40093c1d:0x3ffe3ae0 0x40119cf2:0x3ffe3c10 0x400835f2:0x3ffe3c40 0x[37m40079266:0x3ffe3c90 |<-CORRUPTED
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > 
+08:12:56.833 > ELF file SHA256: bd9c3cbc1c8e7b8a
+08:12:56.833 > 
+08:12:56.833 > E (590) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+08:12:56.833 > Rebooting...
+08:12:56.833 > ets Jul 29 2019 12:21:46
+08:12:56.833 > 
+08:12:56.833 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:12:56.833 > configsip: 0, SPIWP:0xee
+08:12:56.833 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:12:56.833 > mode:DIO, clock div:2
+08:12:56.833 > load:0x3fff0030,len:1184
+08:12:56.833 > load:0x40078000,len:13192
+08:12:56.833 > load:0x40080400,len:3028
+08:12:56.833 > entry 0x400805e4
+08:12:57.319 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:12:57.327 > 
+08:12:57.327 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:12:57.333 > 
+08:12:57.333 > 
+08:12:57.333 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:12:57.347 > 
+08:12:57.347 > 
+08:12:57.347 > 
+08:12:57.347 > 
+08:12:57.347 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:12:57.349 > [37m
+08:12:57.352 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:12:57.361 > Rebooting...
+08:12:57.361 > ets Jul 29 2019 [37m1[37m2:21:46
+08:12:57.364 > 
+08:12:57.364 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:12:57.369 > configsip: 0, SPIWP:0xee
+08:12:57.369 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:12:57.377 > mode:DIO, clock div:2
+08:12:57.377 > lo[37ma[37md:0x3fff0030,len:1184
+08:12:57.380 > load:0x4[37m0[37m078000,len:13192
+08:12:57.383 > load:0x400804[37m0[37m0,len:3028
+08:12:57.388 > entry 0x400805e4
+08:12:57.930 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:12:57.938 > 
+08:12:57.938 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:12:57.944 > 
+08:12:57.944 > 
+08:12:57.944 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:12:57.958 > 
+08:12:57.958 > 
+08:12:57.958 > 
+08:12:57.958 > 
+08:12:57.958 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:12:57.960 > [37m
+08:12:57.963 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:12:57.972 > Rebooting...
+08:12:57.972 > ets Jul 29 2019 [37m1[37m2:21:46
+08:12:57.975 > 
+08:12:57.975 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:12:57.981 > configsip: 0, SPIWP:0xee
+08:12:57.981 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:12:57.989 > mode:DIO, clock div:2
+08:12:57.989 > lo[37ma[37md:0x3fff0030,len:1184
+08:12:57.992 > load:0x4[37m0[37m078000,len:13192
+08:12:57.994 > load:0x400804[37m0[37m0,len:3028
+08:12:57.999 > entry 0x400805e4
+08:12:58.541 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:12:58.550 > 
+08:12:58.550 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:12:58.555 > 
+08:12:58.555 > 
+08:12:58.555 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:12:58.569 > 
+08:12:58.569 > 
+08:12:58.569 > 
+08:12:58.569 > 
+08:12:58.569 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:12:58.572 > [37m
+08:12:58.575 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:12:58.583 > Rebooting...
+08:12:58.583 > ets Jul 29 2019 [37m1[37m2:21:46
+08:12:58.586 > 
+08:12:58.586 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:12:58.592 > configsip: 0, SPIWP:0xee
+08:12:58.592 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:12:58.600 > mode:DIO, clock div:2
+08:12:58.600 > lo[37ma[37md:0x3fff0030,len:1184
+08:12:58.603 > load:0x4[37m0[37m078000,len:13192
+08:12:58.606 > load:0x400804[37m0[37m0,len:3028
+08:12:58.610 > entry 0x400805e4
+08:12:59.153 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:12:59.161 > 
+08:12:59.161 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:12:59.166 > 
+08:12:59.166 > 
+08:12:59.166 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:12:59.181 > 
+08:12:59.181 > 
+08:12:59.181 > 
+08:12:59.181 > 
+08:12:59.181 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:12:59.183 > [37m
+08:12:59.186 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:12:59.195 > Rebooting...
+08:12:59.195 > ets Jul 29 2019 [37m1[37m2:21:46
+08:12:59.198 > 
+08:12:59.198 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:12:59.203 > configsip: 0, SPIWP:0xee
+08:12:59.203 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:12:59.212 > mode:DIO, clock div:2
+08:12:59.212 > lo[37ma[37md:0x3fff0030,len:1184
+08:12:59.214 > load:0x4[37m0[37m078000,len:13192
+08:12:59.217 > load:0x400804[37m0[37m0,len:3028
+08:12:59.222 > entry 0x400805e4
+08:12:59.764 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:12:59.772 > 
+08:12:59.772 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:12:59.778 > 
+08:12:59.778 > 
+08:12:59.778 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:12:59.792 > 
+08:12:59.792 > 
+08:12:59.792 > 
+08:12:59.792 > 
+08:12:59.792 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:12:59.795 > [37m
+08:12:59.797 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:12:59.806 > Rebooting...
+08:12:59.806 > ets Jul 29 2019 [37m1[37m2:21:46
+08:12:59.809 > 
+08:12:59.809 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:12:59.815 > configsip: 0, SPIWP:0xee
+08:12:59.815 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:12:59.823 > mode:DIO, clock div:2
+08:12:59.823 > lo[37ma[37md:0x3fff0030,len:1184
+08:12:59.826 > load:0x4[37m0[37m078000,len:13192
+08:12:59.828 > load:0x400804[37m0[37m0,len:3028
+08:12:59.833 > entry 0x400805e4
+08:13:00.376 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:00.384 > 
+08:13:00.384 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:00.389 > 
+08:13:00.389 > 
+08:13:00.389 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:00.403 > 
+08:13:00.403 > 
+08:13:00.403 > 
+08:13:00.403 > 
+08:13:00.403 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:00.406 > [37m
+08:13:00.409 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:00.418 > Rebooting...
+08:13:00.418 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:00.420 > 
+08:13:00.420 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:00.426 > configsip: 0, SPIWP:0xee
+08:13:00.426 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:00.434 > mode:DIO, clock div:2
+08:13:00.434 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:00.437 > load:0x4[37m0[37m078000,len:13192
+08:13:00.440 > load:0x400804[37m0[37m0,len:3028
+08:13:00.444 > entry 0x400805e4
+08:13:00.987 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:00.995 > 
+08:13:00.995 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:01.001 > 
+08:13:01.001 > 
+08:13:01.001 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:01.015 > 
+08:13:01.015 > 
+08:13:01.015 > 
+08:13:01.015 > 
+08:13:01.015 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:01.017 > [37m
+08:13:01.020 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:01.029 > Rebooting...
+08:13:01.029 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:01.032 > 
+08:13:01.032 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:01.037 > configsip: 0, SPIWP:0xee
+08:13:01.037 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:01.046 > mode:DIO, clock div:2
+08:13:01.046 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:01.048 > load:0x4[37m0[37m078000,len:13192
+08:13:01.051 > load:0x400804[37m0[37m0,len:3028
+08:13:01.056 > entry 0x400805e4
+08:13:01.598 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:01.607 > 
+08:13:01.607 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:01.612 > 
+08:13:01.612 > 
+08:13:01.612 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:01.626 > 
+08:13:01.626 > 
+08:13:01.626 > 
+08:13:01.626 > 
+08:13:01.626 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:01.629 > [37m
+08:13:01.632 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:01.640 > Rebooting...
+08:13:01.640 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:01.643 > 
+08:13:01.643 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:01.649 > configsip: 0, SPIWP:0xee
+08:13:01.649 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:01.657 > mode:DIO, clock div:2
+08:13:01.657 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:01.660 > load:0x4[37m0[37m078000,len:13192
+08:13:01.662 > load:0x400804[37m0[37m0,len:3028
+08:13:01.667 > entry 0x400805e4
+08:13:02.210 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:02.218 > 
+08:13:02.218 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:02.223 > 
+08:13:02.223 > 
+08:13:02.223 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:02.237 > 
+08:13:02.237 > 
+08:13:02.237 > 
+08:13:02.237 > 
+08:13:02.237 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:02.240 > [37m
+08:13:02.243 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:02.252 > Rebooting...
+08:13:02.252 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:02.255 > 
+08:13:02.255 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:02.260 > configsip: 0, SPIWP:0xee
+08:13:02.260 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:02.268 > mode:DIO, clock div:2
+08:13:02.268 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:02.271 > load:0x4[37m0[37m078000,len:13192
+08:13:02.274 > load:0x400804[37m0[37m0,len:3028
+08:13:02.279 > entry 0x400805e4
+08:13:02.821 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:02.829 > 
+08:13:02.829 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:02.835 > 
+08:13:02.835 > 
+08:13:02.835 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:02.849 > 
+08:13:02.849 > 
+08:13:02.849 > 
+08:13:02.849 > 
+08:13:02.849 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:02.851 > [37m
+08:13:02.854 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:02.863 > Rebooting...
+08:13:02.863 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:02.866 > 
+08:13:02.866 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:02.871 > configsip: 0, SPIWP:0xee
+08:13:02.871 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:02.880 > mode:DIO, clock div:2
+08:13:02.880 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:02.882 > load:0x4[37m0[37m078000,len:13192
+08:13:02.885 > load:0x400804[37m0[37m0,len:3028
+08:13:02.890 > entry 0x400805e4
+08:13:03.432 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:03.441 > 
+08:13:03.441 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:03.446 > 
+08:13:03.446 > 
+08:13:03.446 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:03.460 > 
+08:13:03.460 > 
+08:13:03.460 > 
+08:13:03.460 > 
+08:13:03.460 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:03.463 > [37m
+08:13:03.465 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:03.474 > Rebooting...
+08:13:03.474 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:03.477 > 
+08:13:03.477 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:03.483 > configsip: 0, SPIWP:0xee
+08:13:03.483 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:03.491 > mode:DIO, clock div:2
+08:13:03.491 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:03.494 > load:0x4[37m0[37m078000,len:13192
+08:13:03.497 > load:0x400804[37m0[37m0,len:3028
+08:13:03.501 > entry 0x400805e4
+08:13:04.044 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:04.052 > 
+08:13:04.052 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:04.057 > 
+08:13:04.057 > 
+08:13:04.057 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:04.071 > 
+08:13:04.071 > 
+08:13:04.071 > 
+08:13:04.071 > 
+08:13:04.071 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:04.074 > [37m
+08:13:04.077 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:04.086 > Rebooting...
+08:13:04.086 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:04.088 > 
+08:13:04.088 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:04.094 > configsip: 0, SPIWP:0xee
+08:13:04.094 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:04.102 > mode:DIO, clock div:2
+08:13:04.102 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:04.105 > load:0x4[37m0[37m078000,len:13192
+08:13:04.108 > load:0x400804[37m0[37m0,len:3028
+08:13:04.113 > entry 0x400805e4
+08:13:04.655 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:04.663 > 
+08:13:04.663 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:04.669 > 
+08:13:04.669 > 
+08:13:04.669 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:04.683 > 
+08:13:04.683 > 
+08:13:04.683 > 
+08:13:04.683 > 
+08:13:04.683 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:04.685 > [37m
+08:13:04.688 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:04.697 > Rebooting...
+08:13:04.697 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:04.700 > 
+08:13:04.700 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:04.705 > configsip: 0, SPIWP:0xee
+08:13:04.705 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:04.714 > mode:DIO, clock div:2
+08:13:04.714 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:04.717 > load:0x4[37m0[37m078000,len:13192
+08:13:04.719 > load:0x400804[37m0[37m0,len:3028
+08:13:04.724 > entry 0x400805e4
+08:13:05.266 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:05.275 > 
+08:13:05.275 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:05.280 > 
+08:13:05.280 > 
+08:13:05.280 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:05.294 > 
+08:13:05.294 > 
+08:13:05.294 > 
+08:13:05.294 > 
+08:13:05.294 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:05.297 > [37m
+08:13:05.299 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:05.308 > Rebooting...
+08:13:05.308 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:05.311 > 
+08:13:05.311 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:05.317 > configsip: 0, SPIWP:0xee
+08:13:05.317 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:05.325 > mode:DIO, clock div:2
+08:13:05.325 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:05.328 > load:0x4[37m0[37m078000,len:13192
+08:13:05.331 > load:0x400804[37m0[37m0,len:3028
+08:13:05.335 > entry 0x400805e4
+08:13:05.878 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:05.886 > 
+08:13:05.886 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:05.892 > 
+08:13:05.892 > 
+08:13:05.892 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:05.905 > 
+08:13:05.905 > 
+08:13:05.905 > 
+08:13:05.905 > 
+08:13:05.905 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:05.908 > [37m
+08:13:05.911 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:05.920 > Rebooting...
+08:13:05.920 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:05.923 > 
+08:13:05.923 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:05.928 > configsip: 0, SPIWP:0xee
+08:13:05.928 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:05.937 > mode:DIO, clock div:2
+08:13:05.937 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:05.939 > load:0x4[37m0[37m078000,len:13192
+08:13:05.942 > load:0x400804[37m0[37m0,len:3028
+08:13:05.947 > entry 0x400805e4
+08:13:06.489 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:06.497 > 
+08:13:06.497 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:06.503 > 
+08:13:06.503 > 
+08:13:06.503 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:06.517 > 
+08:13:06.517 > 
+08:13:06.517 > 
+08:13:06.517 > 
+08:13:06.517 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:06.519 > [37m
+08:13:06.522 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:06.531 > Rebooting...
+08:13:06.531 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:06.534 > 
+08:13:06.534 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:06.539 > configsip: 0, SPIWP:0xee
+08:13:06.539 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:06.548 > mode:DIO, clock div:2
+08:13:06.548 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:06.551 > load:0x4[37m0[37m078000,len:13192
+08:13:06.553 > load:0x400804[37m0[37m0,len:3028
+08:13:06.558 > entry 0x400805e4
+08:13:07.100 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:07.109 > 
+08:13:07.109 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:07.114 > 
+08:13:07.114 > 
+08:13:07.114 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:07.128 > 
+08:13:07.128 > 
+08:13:07.128 > 
+08:13:07.128 > 
+08:13:07.128 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:07.131 > [37m
+08:13:07.133 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:07.142 > Rebooting...
+08:13:07.142 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:07.145 > 
+08:13:07.145 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:07.151 > configsip: 0, SPIWP:0xee
+08:13:07.151 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:07.159 > mode:DIO, clock div:2
+08:13:07.159 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:07.162 > load:0x4[37m0[37m078000,len:13192
+08:13:07.165 > load:0x400804[37m0[37m0,len:3028
+08:13:07.169 > entry 0x400805e4
+08:13:07.712 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:07.720 > 
+08:13:07.720 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:07.725 > 
+08:13:07.725 > 
+08:13:07.725 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:07.739 > 
+08:13:07.739 > 
+08:13:07.739 > 
+08:13:07.739 > 
+08:13:07.739 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:07.742 > [37m
+08:13:07.745 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:07.754 > Rebooting...
+08:13:07.754 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:07.757 > 
+08:13:07.757 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:07.762 > configsip: 0, SPIWP:0xee
+08:13:07.762 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:07.770 > mode:DIO, clock div:2
+08:13:07.770 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:07.773 > load:0x4[37m0[37m078000,len:13192
+08:13:07.776 > load:0x400804[37m0[37m0,len:3028
+08:13:07.781 > entry 0x400805e4
+08:13:08.323 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:08.331 > 
+08:13:08.331 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:08.337 > 
+08:13:08.337 > 
+08:13:08.337 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:08.351 > 
+08:13:08.351 > 
+08:13:08.351 > 
+08:13:08.351 > 
+08:13:08.351 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:08.353 > [37m
+08:13:08.356 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:08.365 > Rebooting...
+08:13:08.365 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:08.368 > 
+08:13:08.368 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:08.374 > configsip: 0, SPIWP:0xee
+08:13:08.374 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:08.382 > mode:DIO, clock div:2
+08:13:08.382 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:08.385 > load:0x4[37m0[37m078000,len:13192
+08:13:08.387 > load:0x400804[37m0[37m0,len:3028
+08:13:08.392 > entry 0x400805e4
+08:13:08.935 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:08.964 > 
+08:13:08.964 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+08:13:08.964 > 
+08:13:08.964 > 
+08:13:08.964 > Backtrace[37m: 0x40083eed:0x3ffe3aa0 0x4008decd:0x3ffe3ac0 0x40093c1d:0x3ffe3ae0 0x40119cf2:0x3ffe3c10 0x400835f2:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+08:13:08.967 > 
+08:13:08.967 > 
+08:13:08.967 > 
+08:13:08.967 > 
+08:13:08.967 > ELF file SHA256: bd9c3cbc1c8e7b8a
+08:13:08.967 > [37m
+08:13:08.968 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:08.977 > Rebooting...
+08:13:08.977 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:08.979 > 
+08:13:08.979 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:08.985 > configsip: 0, SPIWP:0xee
+08:13:08.985 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:08.993 > mode:DIO, clock div:2
+08:13:08.993 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:08.996 > load:0x4[37m0[37m078000,len:13192
+08:13:08.999 > load:0x400804[37m0[37m0,len:3028
+08:13:09.003 > entry 0x400805e4
+08:13:09.546 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:09.554 > 
+08:13:09.554 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:09.560 > 
+08:13:09.560 > 
+08:13:09.560 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:09.573 > 
+08:13:09.573 > 
+08:13:09.573 > 
+08:13:09.573 > 
+08:13:09.573 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:09.576 > [37m
+08:13:09.579 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:09.588 > Rebooting...
+08:13:09.588 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:09.591 > 
+08:13:09.591 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:09.596 > configsip: 0, SPIWP:0xee
+08:13:09.596 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:09.604 > mode:DIO, clock div:2
+08:13:09.604 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:09.607 > load:0x4[37m0[37m078000,len:13192
+08:13:09.610 > load:0x400804[37m0[37m0,len:3028
+08:13:09.615 > entry 0x400805e4
+08:13:10.157 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:10.166 > 
+08:13:10.166 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:10.171 > 
+08:13:10.171 > 
+08:13:10.171 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:10.185 > 
+08:13:10.185 > 
+08:13:10.185 > 
+08:13:10.185 > 
+08:13:10.185 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:10.188 > [37m
+08:13:10.190 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:10.199 > Rebooting...
+08:13:10.199 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:10.202 > 
+08:13:10.202 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:10.208 > configsip: 0, SPIWP:0xee
+08:13:10.208 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:10.216 > mode:DIO, clock div:2
+08:13:10.216 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:10.219 > load:0x4[37m0[37m078000,len:13192
+08:13:10.221 > load:0x400804[37m0[37m0,len:3028
+08:13:10.226 > entry 0x400805e4
+08:13:10.769 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:10.777 > 
+08:13:10.777 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:10.782 > 
+08:13:10.782 > 
+08:13:10.782 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:10.796 > 
+08:13:10.796 > 
+08:13:10.796 > 
+08:13:10.796 > 
+08:13:10.796 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:10.799 > [37m
+08:13:10.802 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:10.811 > Rebooting...
+08:13:10.811 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:10.813 > 
+08:13:10.813 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:10.819 > configsip: 0, SPIWP:0xee
+08:13:10.819 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:10.827 > mode:DIO, clock div:2
+08:13:10.827 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:10.830 > load:0x4[37m0[37m078000,len:13192
+08:13:10.833 > load:0x400804[37m0[37m0,len:3028
+08:13:10.837 > entry 0x400805e4
+08:13:11.653 > [37me[37mts Jul 29 2019 12:21:46
+08:13:11.653 > 
+08:13:11.653 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x13 (S[37mP[37mI_FAST_FLASH_BOOT)
+08:13:11.659 > configsip: [37m0[37m, SPIWP:0xee
+08:13:11.662 > clk_drv:0x00,q_dr[37mv[37m:0x00,d_drv:0x00,cs0_drv:0x00,h[37md[37m_drv:0x00,wp_drv:0x00
+08:13:11.667 > mode:DIO[37m,[37m clock div:2
+08:13:11.670 > load:0x3fff0030,l[37me[37mn:1184
+08:13:11.673 > load:0x40078000,len:131[37m9[37m2
+08:13:11.675 > load:0x40080400,len:3028
+08:13:11.675 > en[37mt[37mry 0x400805e4
+08:13:12.221 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:12.230 > 
+08:13:12.230 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:12.235 > 
+08:13:12.235 > 
+08:13:12.235 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:12.249 > 
+08:13:12.249 > 
+08:13:12.249 > 
+08:13:12.249 > 
+08:13:12.249 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:12.252 > [37m
+08:13:12.254 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:12.263 > Rebooting...
+08:13:12.263 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:12.266 > 
+08:13:12.266 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:12.272 > configsip: 0, SPIWP:0xee
+08:13:12.272 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:12.280 > mode:DIO, clock div:2
+08:13:12.280 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:12.283 > load:0x4[37m0[37m078000,len:13192
+08:13:12.285 > load:0x400804[37m0[37m0,len:3028
+08:13:12.290 > entry 0x400805e4
+08:13:12.833 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:12.841 > 
+08:13:12.841 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:12.846 > 
+08:13:12.846 > 
+08:13:12.846 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:12.860 > 
+08:13:12.860 > 
+08:13:12.860 > 
+08:13:12.860 > 
+08:13:12.860 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:12.863 > [37m
+08:13:12.866 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:12.875 > Rebooting...
+08:13:12.875 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:12.877 > 
+08:13:12.877 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:12.883 > configsip: 0, SPIWP:0xee
+08:13:12.883 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:12.891 > mode:DIO, clock div:2
+08:13:12.891 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:12.894 > load:0x4[37m0[37m078000,len:13192
+08:13:12.897 > load:0x400804[37m0[37m0,len:3028
+08:13:12.902 > entry 0x400805e4
+08:13:13.444 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:13.453 > 
+08:13:13.453 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:13.458 > 
+08:13:13.458 > 
+08:13:13.458 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:13.472 > 
+08:13:13.472 > 
+08:13:13.472 > 
+08:13:13.472 > 
+08:13:13.472 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:13.475 > [37m
+08:13:13.477 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:13.486 > Rebooting...
+08:13:13.486 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:13.489 > 
+08:13:13.489 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:13.494 > configsip: 0, SPIWP:0xee
+08:13:13.494 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:13.503 > mode:DIO, clock div:2
+08:13:13.503 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:13.505 > load:0x4[37m0[37m078000,len:13192
+08:13:13.508 > load:0x400804[37m0[37m0,len:3028
+08:13:13.513 > entry 0x400805e4
+08:13:14.055 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:14.063 > 
+08:13:14.063 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:14.069 > 
+08:13:14.069 > 
+08:13:14.069 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:14.083 > 
+08:13:14.083 > 
+08:13:14.083 > 
+08:13:14.083 > 
+08:13:14.083 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:14.086 > [37m
+08:13:14.088 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:14.097 > Rebooting...
+08:13:14.097 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:14.100 > 
+08:13:14.100 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:14.106 > configsip: 0, SPIWP:0xee
+08:13:14.106 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:14.114 > mode:DIO, clock div:2
+08:13:14.114 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:14.117 > load:0x4[37m0[37m078000,len:13192
+08:13:14.119 > load:0x400804[37m0[37m0,len:3028
+08:13:14.124 > entry 0x400805e4
+08:13:14.667 > [37mE[37m (568) spi_flash: Detected size[37m([37m4096k) smaller than the size in[37m [37mthe binary image header(8192k).[37m [37mProbe failed.
+08:13:14.675 > 
+08:13:14.675 > assert failed:[37m [37mdo_core_init startup.c:326 (fla[37ms[37mh_ret == ESP_OK)
+08:13:14.681 > 
+08:13:14.681 > 
+08:13:14.681 > Backtrace[37m:[37m 0x40083eed:0x3ffe3aa0 0x4008de[37mc[37md:0x3ffe3ac0 0x40093c1d:0x3ffe3[37ma[37me0 0x40119cf2:0x3ffe3c10 0x4008[37m3[37m5f2:0x3ffe3c40 0x40079266:0x3ff[37me[37m3c90 |<-CORRUPTED
+08:13:14.694 > 
+08:13:14.694 > 
+08:13:14.694 > 
+08:13:14.694 > 
+08:13:14.694 > ELF [37mf[37mile SHA256: bd9c3cbc1c8e7b8a
+08:13:14.697 > [37m
+08:13:14.700 > [37mE (590) esp_core_dump_flash: Co[37mr[37me dump flash config is corrupte[37md[37m! CRC=0x7bd5c66f instead of 0x0[37m[37m
+08:13:14.709 > Rebooting...
+08:13:14.709 > ets Jul 29 2019 [37m1[37m2:21:46
+08:13:14.712 > 
+08:13:14.712 > rst:0xc (SW_CPU_RESE[37mT[37m),boot:0x13 (SPI_FAST_FLASH_BOO[37mT[37m)
+08:13:14.717 > configsip: 0, SPIWP:0xee
+08:13:14.717 > cl[37mk[37m_drv:0x00,q_drv:0x00,d_drv:0x00[37m,[37mcs0_drv:0x00,hd_drv:0x00,wp_drv[37m:[37m0x00
+08:13:14.725 > mode:DIO, clock div:2
+08:13:14.725 > lo[37ma[37md:0x3fff0030,len:1184
+08:13:14.728 > load:0x4[37m0[37m078000,len:13192
+08:13:14.731 > load:0x400804[37m0[37m0,len:3028
+08:13:14.736 > entry 0x400805e4

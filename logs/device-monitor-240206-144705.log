@@ -1,0 +1,25 @@
+14:47:11.613 > [37me[37mts Jun  8 2016 00:22:57
+14:47:11.614 > 
+14:47:11.614 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x13 (S[37mP[37mI_FAST_FLASH_BOOT)
+14:47:11.619 > configsip: [37m0[37m, SPIWP:0xee
+14:47:11.621 > clk_drv:0x00,q_dr[37mv[37m:0x00,d_drv:0x00,cs0_drv:0x00,h[37md[37m_drv:0x00,wp_drv:0x00
+14:47:11.627 > mode:DIO[37m,[37m clock div:2
+14:47:11.630 > load:0x3fff0030,l[37me[37mn:1184
+14:47:11.632 > load:0x40078000,len:131[37m9[37m2
+14:47:11.635 > load:0x40080400,len:3028
+14:47:11.635 > en[37mt[37mry 0x400805e4
+14:47:12.244 > [37ms[37mtart
+14:47:17.275 > [37m [37mExternal Reset
+14:47:17.275 >  Brown out Reset[37m
+14:47:17.277 > [37m Watchdog Reset
+14:47:17.277 > Marlin 2.1.2
+14:47:17.277 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+14:47:17.283 > ec[37mh[37mo: Compiled: Jan 25 2024
+14:47:17.285 > echo: [37mF[37mree Memory: 228960  PlannerBuff[37me[37mrBytes: 1344
+14:47:17.331 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 51201)
+14:47:17.344 > [37me[37mcho:SD card released
+14:47:29.758 > [37me[37mcho:No SD card
+14:47:29.767 > [37me[37mcho:Setup wifi
+14:47:29.902 > [37me[37mcho:Connecting
+14:47:32.938 > [37me[37mcho:10.0.0.110
+14:47:34.403 > [37me[37mcho:10.0.0.110

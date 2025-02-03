@@ -1,0 +1,158 @@
+11:06:53.749 > [37me[37mcho:No SD card
+11:06:53.757 > [37me[37mcho:Setup wifi
+11:06:53.891 > [37me[37mcho:Connecting
+11:06:56.925 > [37me[37mcho:10.0.0.103
+11:06:58.390 > [37me[37mcho:10.0.0.103
+11:08:38.670 > [37mE[37m (130788) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:38.673 > E [37m([37m130789) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:39.064 > [37mE[37m (131182) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:39.066 > E [37m([37m131183) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:39.564 > [37mE[37m (131683) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:39.567 > E [37m([37m131684) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:40.060 > [37mE[37m (132179) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:40.063 > E [37m([37m132179) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:40.561 > [37mE[37m (132679) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:40.563 > E [37m([37m132680) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:41.061 > [37mE[37m (133180) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:41.064 > E [37m([37m133181) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:41.405 > [37mE[37m (133524) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:41.408 > E [37m([37m133525) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:41.563 > [37mE[37m (133682) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:41.566 > E [37m([37m133682) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:41.571 > E[37m [37m(133682) ledc: ledc_set_duty(71[37m9[37m): LEDC is not initialized
+11:08:41.577 > E ([37m1[37m33688) ledc: ledc_update_duty(6[37m4[37m7): LEDC is not initialized
+11:08:42.060 > [37mE[37m (134178) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:42.062 > E [37m([37m134179) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:42.068 > E[37m [37m(134179) ledc: ledc_set_duty(71[37m9[37m): LEDC is not initialized
+11:08:42.073 > E ([37m1[37m34184) ledc: ledc_update_duty(6[37m4[37m7): LEDC is not initialized
+11:08:42.562 > [37mE[37m (134680) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:42.564 > E [37m([37m134681) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:43.062 > [37mE[37m (135181) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:43.065 > E [37m([37m135181) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:43.563 > [37mE[37m (135682) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:43.566 > E [37m([37m135682) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:44.063 > [37mE[37m (136182) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:44.066 > E [37m([37m136183) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:44.565 > [37mE[37m (136683) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:44.567 > E [37m([37m136684) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:08:59.876 > [37mE[37m (151994) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:08:59.878 > E [37m([37m151995) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:00.063 > [37mE[37m (152182) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:00.066 > E [37m([37m152182) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:00.564 > [37mE[37m (152683) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:00.567 > E [37m([37m152683) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:01.025 > [37mE[37m (153144) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:01.028 > E [37m([37m153144) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:01.063 > [37mE[37m (153182) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:01.066 > E [37m([37m153182) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:01.072 > E[37m [37m(153182) ledc: ledc_set_duty(71[37m9[37m): LEDC is not initialized
+11:09:01.077 > E ([37m1[37m53188) ledc: ledc_update_duty(6[37m4[37m7): LEDC is not initialized
+11:09:01.560 > [37mE[37m (153678) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:01.562 > E [37m([37m153679) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:01.568 > E[37m [37m(153679) ledc: ledc_set_duty(71[37m9[37m): LEDC is not initialized
+11:09:01.573 > E ([37m1[37m53684) ledc: ledc_update_duty(6[37m4[37m7): LEDC is not initialized
+11:09:02.061 > [37mE[37m (154180) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:02.064 > E [37m([37m154180) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:02.070 > E[37m [37m(154180) ledc: ledc_set_duty(71[37m9[37m): LEDC is not initialized
+11:09:02.075 > E ([37m1[37m54186) ledc: ledc_update_duty(6[37m4[37m7): LEDC is not initialized
+11:09:02.562 > [37mE[37m (154681) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:02.565 > E [37m([37m154681) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:02.570 > E[37m [37m(154681) ledc: ledc_set_duty(71[37m9[37m): LEDC is not initialized
+11:09:02.576 > E ([37m1[37m54686) ledc: ledc_update_duty(6[37m4[37m7): LEDC is not initialized
+11:09:03.063 > [37mE[37m (155182) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:03.066 > E [37m([37m155182) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:03.071 > E[37m [37m(155182) ledc: ledc_set_duty(71[37m9[37m): LEDC is not initialized
+11:09:03.077 > E ([37m1[37m55187) ledc: ledc_update_duty(6[37m4[37m7): LEDC is not initialized
+11:09:03.564 > [37mE[37m (155683) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:03.567 > E [37m([37m155683) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:04.065 > [37mE[37m (156183) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:09:04.067 > E [37m([37m156183) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:09:26.763 > [37me[37mts Jun  8 2016 00:22:57
+11:09:26.763 > 
+11:09:26.763 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x1f (S[37mP[37mI_FAST_FLASH_BOOT)
+11:09:26.768 > configsip: [37m0[37m, SPIWP:0xee
+11:09:26.771 > clk_drv:0x00,q_dr[37mv[37m:0x00,d_drv:0x00,cs0_drv:0x00,h[37md[37m_drv:0x00,wp_drv:0x00
+11:09:26.776 > mode:DIO[37m,[37m clock div:2
+11:09:26.779 > load:0x3fff0030,l[37me[37mn:1184
+11:09:26.782 > load:0x40078000,len:131[37m9[37m2
+11:09:26.784 > load:0x40080400,len:3028
+11:09:26.784 > en[37mt[37mry 0x400805e4
+11:09:27.373 > [37ms[37mtart
+11:09:27.416 > [37m [37mExternal Reset
+11:09:27.416 >  Brown out Reset[37m
+11:09:27.419 > [37m Watchdog Reset
+11:09:27.419 > Marlin 2.1.2
+11:09:27.419 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+11:09:27.424 > ec[37mh[37mo: Compiled: Dec 20 2024
+11:09:27.427 > echo: [37mF[37mree Memory: 231936  PlannerBuff[37me[37mrBytes: 1664
+11:09:27.561 > [37me[37mcho:V87 stored settings retriev[37me[37md (1162 bytes; crc 37747)
+11:09:27.574 > [37me[37mcho:SD card released
+11:09:39.995 > [37me[37mcho:No SD card
+11:09:40.005 > [37me[37mcho:Setup wifi
+11:09:40.135 > [37me[37mcho:Connecting
+11:09:43.171 > [37me[37mcho:10.0.0.103
+11:09:44.652 > [37me[37mcho:10.0.0.103
+11:11:17.297 > [37mE[37m (122976) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:17.299 > E [37m([37m122978) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:17.420 > [37mE[37m (123101) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:17.423 > E [37m([37m123102) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:17.916 > [37mE[37m (123597) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:17.919 > E [37m([37m123598) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:18.417 > [37mE[37m (124098) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:18.420 > E [37m([37m124099) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:18.918 > [37mE[37m (124599) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:18.921 > E [37m([37m124600) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:19.419 > [37mE[37m (125100) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:19.422 > E [37m([37m125100) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:19.920 > [37mE[37m (125601) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:19.922 > E [37m([37m125601) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:20.420 > [37mE[37m (126101) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:20.423 > E [37m([37m126102) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:21.247 > [37mE[37m (126928) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:21.250 > E [37m([37m126929) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:21.420 > [37mE[37m (127101) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:21.423 > E [37m([37m127101) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:21.916 > [37mE[37m (127597) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:21.919 > E [37m([37m127598) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:22.417 > [37mE[37m (128098) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:22.420 > E [37m([37m128098) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:22.918 > [37mE[37m (128599) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:22.921 > E [37m([37m128600) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:23.419 > [37mE[37m (129100) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:23.422 > E [37m([37m129101) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:23.921 > [37mE[37m (129602) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:23.924 > E [37m([37m129602) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:24.416 > [37mE[37m (130097) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:24.419 > E [37m([37m130098) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:43.754 > [37mE[37m (149434) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:43.757 > E [37m([37m149436) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:43.917 > [37mE[37m (149598) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:43.920 > E [37m([37m149598) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:44.418 > [37mE[37m (150099) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:44.421 > E [37m([37m150099) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:44.918 > [37mE[37m (150599) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:44.921 > E [37m([37m150599) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:45.418 > [37mE[37m (151099) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:45.421 > E [37m([37m151100) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:45.919 > [37mE[37m (151600) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:45.922 > E [37m([37m151601) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:46.318 > [37mE[37m (151998) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:46.320 > E [37m([37m151999) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:46.421 > [37mE[37m (152101) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:46.423 > E [37m([37m152102) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:46.429 > E[37m [37m(152102) ledc: ledc_set_duty(71[37m9[37m): LEDC is not initialized
+11:11:46.434 > E ([37m1[37m52107) ledc: ledc_update_duty(6[37m4[37m7): LEDC is not initialized
+11:11:46.917 > [37mE[37m (152598) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:46.920 > E [37m([37m152598) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:46.925 > E[37m [37m(152598) ledc: ledc_set_duty(71[37m9[37m): LEDC is not initialized
+11:11:46.931 > E ([37m1[37m52603) ledc: ledc_update_duty(6[37m4[37m7): LEDC is not initialized
+11:11:47.419 > [37mE[37m (153099) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:47.421 > E [37m([37m153100) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:47.919 > [37mE[37m (153600) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:47.922 > E [37m([37m153601) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:48.420 > [37mE[37m (154101) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:48.423 > E [37m([37m154102) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:48.917 > [37mE[37m (154597) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:48.920 > E [37m([37m154598) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized
+11:11:49.417 > [37mE[37m (155098) ledc: ledc_set_duty(7[37m1[37m9): LEDC is not initialized
+11:11:49.420 > E [37m([37m155099) ledc: ledc_update_duty([37m6[37m47): LEDC is not initialized

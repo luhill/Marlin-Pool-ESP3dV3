@@ -1,0 +1,91 @@
+11:13:33.551 > [37mecho:No SD card
+11:13:33.551 > echo:Setup wifi
+11:13:33.551 > echo:Connecting
+11:13:34.379 > [37me[37mcho:10.0.0.212
+11:13:35.857 > [37me[37mcho:10.0.0.212
+11:13:54.826 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+11:13:54.831 > 
+11:13:54.831 > Core[37m [37m 1 register dump:
+11:13:54.834 > PC      : 0x[37m0[37m800e00a  PS      : 0x00060a30  [37mA[37m0      : 0x800d3c21  A1      : [37m0[37mx3ffb1f60  
+11:13:54.842 > A2      : 0x000000[37m1[37mf  A3      : 0x3ffbdca4  A4    [37m [37m : 0x8008459f  A5      : 0x3ffd[37m3[37mb60  
+11:13:54.850 > A6      : 0x00000001  A7[37m [37m     : 0x3ffb0320  A8      : 0x[37m8[37m00d3b55  A9      : 0x0000ffff  [37m[37m
+11:13:54.859 > A10     : 0x3ffbdca4  A11     [37m:[37m 0x00000028  A12     : 0x800000[37m2[37m0  A13     : 0x00000007  
+11:13:54.864 > A14 [37m [37m   : 0x00000005  A15     : 0x00[37m0[37m00001  SAR     : 0x0000001f  EX[37mC[37mCAUSE: 0x00000014  
+11:13:54.873 > EXCVADDR: [37m0[37mx0800e008  LBEG    : 0x4008a1f0[37m [37m LEND    : 0x4008a1fb  LCOUNT  [37m:[37m 0x00000000  
+11:13:54.881 > 
+11:13:54.881 > 
+11:13:54.881 > Backtrace: 0[37mx[37m0800e007:0x3ffb1f60 0x400d3c1e:[37m0[37mx3ffb1f80 0x400d5e16:0x3ffb1fa0[37m [37m0x400d604a:0x3ffb1fe0 0x400d60c[37md[37m:0x3ffb2000 0x400d6c88:0x3ffb20[37m9[37m0 0x400db082:0x3ffb21f0 0x400db[37m2[37ma1:0x3ffb2230 0x400dc4c9:0x3ffb[37m2[37m250 0x400d8d37:0x3ffb2270 0x401[37m0[37mc6dd:0x3ffb2290
+11:13:54.903 > 
+11:13:54.903 > 
+11:13:54.903 > 
+11:13:54.903 > 
+11:13:54.903 > ELF fi[37ml[37me SHA256: fd7f99f5f8dd3eda
+11:13:54.908 > 
+11:13:55.096 > [37mR[37mebooting...
+11:13:55.096 > ets Jun  8 2016 00[37m:[37m22:57
+11:13:55.099 > 
+11:13:55.099 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+11:13:55.105 > configsip: 0, SPIWP:0xee
+11:13:55.105 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:13:55.113 > mode:DIO, clock div:2
+11:13:55.113 > load[37m:[37m0x3fff0030,len:1184
+11:13:55.116 > load:0x400[37m7[37m8000,len:13192
+11:13:55.118 > load:0x40080400[37m,[37mlen:3028
+11:13:55.123 > entry 0x400805e4
+11:13:55.712 > [37ms[37mtart
+11:13:55.781 > [37m [37mBrown out Reset
+11:13:55.781 >  Watchdog Reset[37m
+11:13:55.785 > [37mMarlin 2.1.2
+11:13:55.785 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+11:13:55.793 > echo: Compiled: De[37mc[37m 16 2024
+11:13:55.797 > echo: Free Memory: 229[37m3[37m76  PlannerBufferBytes: 1664
+11:13:55.940 > [37me[37mcho:V87 stored settings retriev[37me[37md (1162 bytes; crc 37747)
+11:13:55.951 > [37me[37mcho:SD card released
+11:14:07.979 > [37me[37mcho:No SD card
+11:14:07.987 > [37me[37mcho:Setup wifi
+11:14:08.114 > [37me[37mcho:Connecting
+11:14:11.152 > [37me[37mcho:10.0.0.212
+11:14:12.622 > [37me[37mcho:10.0.0.212
+11:14:41.318 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+11:14:41.323 > 
+11:14:41.323 > Core  1 re[37mg[37mister dump:
+11:14:41.326 > PC      : 0x3fc000[37mb[37mb  PS      : 0x00060630  A0    [37m [37m : 0x800d3c21  A1      : 0x3ffb[37m1[37mf60  
+11:14:41.335 > A2      : 0x0000001f  A3[37m [37m     : 0x3ffbdca4  A4      : 0x[37m0[37m0000000  A5      : 0x00000000  [37m[37m
+11:14:41.342 > A6      : 0x00000000  A7      [37m:[37m 0x00060023  A8      : 0x800d3b[37m5[37m5  A9      : 0x0000ffff  
+11:14:41.348 > A10 [37m [37m   : 0x3ffbdca4  A11     : 0x00[37m0[37m00028  A12     : 0x800133ff  A1[37m3[37m     : 0x00000003  
+11:14:41.356 > A14     : [37m0[37mx00000000  A15     : 0x3ffb2220[37m [37m SAR     : 0x00000036  EXCCAUSE[37m:[37m 0x0000001c  
+11:14:41.365 > EXCVADDR: 0x800d[37m3[37mc21  LBEG    : 0x4008a1f0  LEND[37m [37m   : 0x4008a1fb  LCOUNT  : 0x00[37m0[37m00000  
+11:14:41.373 > 
+11:14:41.373 > 
+11:14:41.373 > Backtrace: 0x3fc00[37m0[37mb8:0x3ffb1f60 |<-CORRUPTED
+11:14:41.376 > 
+11:14:41.376 > [37m
+11:14:41.379 > [37m
+11:14:41.379 > 
+11:14:41.379 > ELF file SHA256: fd7f99f5f8[37md[37md3eda
+11:14:41.381 > 
+11:14:41.578 > [37mR[37mebooting...
+11:14:41.578 > ets Jun  8 2016 00[37m:[37m22:57
+11:14:41.581 > 
+11:14:41.581 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+11:14:41.586 > configsip: 0, SPIWP:0xee
+11:14:41.586 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+11:14:41.595 > mode:DIO, clock div:2
+11:14:41.595 > load[37m:[37m0x3fff0030,len:1184
+11:14:41.597 > load:0x400[37m7[37m8000,len:13192
+11:14:41.600 > load:0x40080400[37m,[37mlen:3028
+11:14:41.605 > entry 0x400805e4
+11:14:42.193 > [37ms[37mtart
+11:14:42.250 > [37m [37mBrown out Reset
+11:14:42.250 >  Watchdog Reset[37m
+11:14:42.253 > [37mMarlin 2.1.2
+11:14:42.253 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+11:14:42.259 > echo: Compiled: De[37mc[37m 16 2024
+11:14:42.262 > echo: Free Memory: 229[37m3[37m76  PlannerBufferBytes: 1664
+11:14:42.443 > [37me[37mcho:V87 stored settings retriev[37me[37md (1162 bytes; crc 37747)
+11:14:42.454 > [37me[37mcho:SD card released
+11:14:54.472 > [37me[37mcho:No SD card
+11:14:54.480 > [37me[37mcho:Setup wifi
+11:14:54.607 > [37me[37mcho:Connecting
+11:14:57.640 > [37me[37mcho:10.0.0.212
+11:14:59.115 > [37me[37mcho:10.0.0.212

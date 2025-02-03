@@ -1,0 +1,95 @@
+09:43:34.974 > [37m [37mExternal Reset
+09:43:34.975 >  Brown out Reset[37m
+09:43:34.977 > [37m Watchdog Reset
+09:43:34.977 > Marlin 2.1.2
+09:43:34.977 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+09:43:34.982 > ec[37mh[37mo: Compiled: Jan 16 2024
+09:43:34.985 > echo: [37mF[37mree Memory: 225352  PlannerBuff[37me[37mrBytes: 1344
+09:43:35.010 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+09:43:35.033 > [37me[37mcho:Settings Stored (870 bytes;[37m [37mcrc 37517)
+09:43:35.251 > [37me[37mcho:EEP[37mR[37mOM Initialized
+09:43:35.788 > [37me[37mcho:SD card ok
+09:43:45.850 > [37me[37mcho:SD card ok
+09:43:45.859 > [37me[37mcho:Setup wifi
+09:43:45.995 > [37me[37mcho:Connecting
+09:43:49.021 > [37me[37mcho:10.0.0.110
+09:43:49.468 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-16T09:43:49"}}}
+09:43:50.494 > [37me[37mcho:10.0.0.110
+09:44:02.387 > [37me[37mcho:Now fresh file: /TestMix.g
+09:44:02.391 > [37mF[37mile opened: TestMix.g Size: 119[37m0[37m1
+09:44:02.393 > File selected
+09:44:02.446 > [37m0[37m0.00
+09:44:02.447 > 10.00
+09:44:02.447 > 2896.00
+09:44:02.447 > 3100.00
+09:44:02.497 > [37m0[37m0.00
+09:44:02.497 > 10.00
+09:44:02.497 > 2996.00
+09:44:02.497 > [37m3150.00
+09:44:02.504 > [37mi[37mndex:3
+09:44:02.506 > [37mp[37mos:-150.00
+09:44:04.516 > [37me[37mcho:busy: processing
+09:44:06.518 > [37me[37mcho:busy: processing
+09:44:08.520 > [37me[37mcho:busy: processing
+09:44:10.521 > [37me[37mcho:busy: processing
+09:44:12.521 > [37me[37mc[37mho:busy: processing
+09:44:14.522 > [37me[37mc[37mho:busy: processing
+09:44:16.524 > [37me[37mcho:busy: processing
+09:44:18.524 > [37me[37mc[37mho:busy: processing
+09:44:20.530 > [37me[37mcho:busy: processing
+09:44:22.530 > [37me[37mc[37mho:busy: processing
+09:44:24.532 > [37me[37mcho:busy: processing
+09:44:26.532 > [37me[37mc[37mho:busy: processing
+09:44:26.704 > [37mD[37mone printing file
+09:44:44.508 > [37me[37mcho:Now fresh file: /TestMix.g
+09:44:44.511 > [37mF[37mile opened: TestMix.g Size: 119[37m0[37m1
+09:44:44.512 > File selected
+09:44:44.565 > [37m0[37m0.00
+09:44:44.565 > 10.00
+09:44:44.565 > 2896.00
+09:44:44.565 > 3250.00
+09:44:44.614 > [37m0[37m0.00
+09:44:44.614 > 10.00
+09:44:44.614 > 2996.00
+09:44:44.614 > 3300.00
+09:44:44.622 > [37mi[37mndex:3
+09:44:44.622 > pos:-150.00
+09:44:46.632 > [37me[37mcho:busy: processing
+09:44:48.633 > [37me[37mc[37mho:busy: processing
+09:44:50.639 > [37me[37mcho:busy: processing
+09:44:52.640 > [37me[37mcho:busy: processing
+09:44:54.642 > [37me[37mcho:busy: processing
+09:44:56.641 > [37me[37mc[37mho:busy: processing
+09:44:58.647 > [37me[37mcho:busy: processing
+09:45:00.648 > [37me[37mcho:busy: processing
+09:45:02.649 > [37me[37mcho:busy: processing
+09:45:04.650 > [37me[37mcho:busy: processing
+09:45:06.650 > [37me[37mcho:busy: processing
+09:45:08.652 > [37me[37mcho:busy: processing
+09:45:08.820 > [37mD[37mone printing file
+09:46:06.029 > [37me[37mcho:Now fresh file: /TestMix.g
+09:46:06.033 > [37mF[37mile opened: TestMix.g Size: 119[37m0[37m1
+09:46:06.035 > File selected
+09:46:06.089 > [37m0[37m0.00
+09:46:06.089 > 10.00
+09:46:06.089 > 2896.00
+09:46:06.089 > 3400.00
+09:46:06.139 > [37m0[37m0.00
+09:46:06.141 > [37m1[37m0.00
+09:46:06.141 > 2996.00
+09:46:06.141 > 3450.00
+09:46:06.148 > [37mi[37mndex:3
+09:46:06.148 > pos:-150.00
+09:46:08.156 > [37me[37mcho:busy: processing
+09:46:10.159 > [37me[37mcho:busy: processing
+09:46:12.160 > [37me[37mcho:busy: processing
+09:46:14.164 > [37me[37mcho:busy: processing
+09:46:16.165 > [37me[37mc[37mho:busy: processing
+09:46:18.167 > [37me[37mcho:busy: processing
+09:46:20.167 > [37me[37mcho:busy: processing
+09:46:22.168 > [37me[37mc[37mho:busy: processing
+09:46:24.174 > [37me[37mcho:busy: processing
+09:46:26.175 > [37me[37mcho:busy: processing
+09:46:28.179 > [37me[37mcho:busy: processing
+09:46:30.180 > [37me[37mc[37mho:busy: processing
+09:46:30.345 > [37mD[37mone printing file

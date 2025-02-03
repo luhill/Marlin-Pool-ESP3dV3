@@ -395,6 +395,10 @@
     #define STR_I "W"
     #define STR_I_MIN "w_min"
     #define STR_I_MAX "w_max"
+  #elif AXIS4_NAME == 'E'
+    #define STR_I "E"
+    #define STR_I_MIN "e_min"
+    #define STR_I_MAX "e_max"
   #else
     #error "AXIS4_NAME can only be one of 'A', 'B', 'C', 'U', 'V', or 'W'."
   #endif

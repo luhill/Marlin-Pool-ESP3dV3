@@ -420,6 +420,7 @@ void sync_plan_position() {
 void get_cartesian_from_steppers() {
   #if ENABLED(DELTA)
     forward_kinematics(planner.get_axis_positions_mm());
+    cartes.i = planner.get_axis_position_mm(I_AXIS);
   #elif IS_SCARA
     forward_kinematics(
       planner.get_axis_position_degrees(A_AXIS), planner.get_axis_position_degrees(B_AXIS)
@@ -572,11 +573,22 @@ void do_blocking_move_to(NUM_AXIS_ARGS(const float), const_feedRate_t fr_mm_s/*=
     REMEMBER(fr, feedrate_mm_s, xy_feedrate);
 
     if (DEBUGGING(LEVELING)) DEBUG_POS("destination = current_position", destination);
+    
+    TERN_(HAS_I_AXIS, destination.i = i);
+    TERN_(HAS_J_AXIS, destination.j = j);
+    TERN_(HAS_K_AXIS, destination.k = k);
+    TERN_(HAS_U_AXIS, destination.u = u);
+    TERN_(HAS_V_AXIS, destination.v = v);
+    TERN_(HAS_W_AXIS, destination.w = w);
+
+    //#if HAS_I_AXIS
+    //  destination.i = i; //always do additional axis moves
+    //#endif
 
     // when in the danger zone
     if (current_position.z > delta_clip_start_height) {
       if (z > delta_clip_start_height) {                      // staying in the danger zone
-        destination.set(x, y, z);                             // move directly (uninterpolated)
+        destination.set(x, y, z, i);                             // move directly (uninterpolated)
         prepare_internal_fast_move_to_destination();          // set current_position from destination
         if (DEBUGGING(LEVELING)) DEBUG_POS("danger zone move", current_position);
         return;
@@ -593,6 +605,7 @@ void do_blocking_move_to(NUM_AXIS_ARGS(const float), const_feedRate_t fr_mm_s/*=
     }
 
     destination.set(x, y);
+    
     prepare_internal_move_to_destination();                   // set current_position from destination
     if (DEBUGGING(LEVELING)) DEBUG_POS("xy move", current_position);
 
@@ -1072,6 +1085,11 @@ FORCE_INLINE void segment_idle(millis_t &next_idle_ms) {
    * For Auto Bed Leveling (Bilinear) with SEGMENT_LEVELED_MOVES
    * this is replaced by segmented_line_to_destination below.
    */
+  /*
+  inline bool line_to_destination_simple() {
+    planner.buffer_segment(destination,MMS_SCALED(feedrate_mm_s));
+    return false;
+  }*/
   inline bool line_to_destination_kinematic() {
 
     // Get the top feedrate of the move in the XY plane
@@ -1093,8 +1111,15 @@ FORCE_INLINE void segment_idle(millis_t &next_idle_ms) {
 
     // If the move is very short, check the E move distance
     TERN_(HAS_EXTRUDERS, if (UNEAR_ZERO(cartesian_mm)) cartesian_mm = ABS(diff.e));
-
-    // No E move either? Game over.
+    if (UNEAR_ZERO(cartesian_mm)){//no e move? check other axis
+      TERN_(HAS_I_AXIS,cartesian_mm = max(cartesian_mm,ABS(diff.i)));
+      TERN_(HAS_J_AXIS,cartesian_mm = max(cartesian_mm,ABS(diff.j)));
+      TERN_(HAS_K_AXIS,cartesian_mm = max(cartesian_mm,ABS(diff.k)));
+      TERN_(HAS_U_AXIS,cartesian_mm = max(cartesian_mm,ABS(diff.u)));
+      TERN_(HAS_V_AXIS,cartesian_mm = max(cartesian_mm,ABS(diff.v)));
+      TERN_(HAS_W_AXIS,cartesian_mm = max(cartesian_mm,ABS(diff.w)));
+    }
+    //Still no move? Game over.
     if (UNEAR_ZERO(cartesian_mm)) return true;
 
     // Minimum number of seconds to move the given distance
@@ -1139,7 +1164,6 @@ FORCE_INLINE void segment_idle(millis_t &next_idle_ms) {
       if (!planner.buffer_line(raw, scaled_fr_mm_s, active_extruder, hints))
         break;
     }
-
     // Ensure last segment arrives at target location.
     planner.buffer_line(destination, scaled_fr_mm_s, active_extruder, hints);
 
@@ -2377,6 +2401,7 @@ void set_axis_is_at_home(const AxisEnum axis) {
     if (DEBUGGING(LEVELING)) DEBUG_ECHOLNPGM("Axis ", AS_CHAR(AXIS_CHAR(axis)), " home_offset = ", home_offset[axis], " position_shift = ", position_shift[axis]);
   }
 #endif
+
 
 #if HAS_M206_COMMAND
   /**

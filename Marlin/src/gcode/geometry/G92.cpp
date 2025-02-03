@@ -94,8 +94,12 @@ void GcodeSuite::G92() {
           if (!NEAR_ZERO(d)) {
             #if HAS_POSITION_SHIFT && NONE(IS_SCARA, POLARGRAPH)      // When using workspaces...
               if (TERN1(HAS_EXTRUDERS, i != E_AXIS)) {
-                position_shift[i] += d;                               // ...most axes offset the workspace...
-                update_workspace_offset((AxisEnum)i);
+                #if ENABLED(DELTA)
+                  if(i != X_AXIS && i != Y_AXIS && i != Z_AXIS){current_position[i] = v;}
+                #else
+                  position_shift[i] += d;                               // ...most axes offset the workspace...
+                  update_workspace_offset((AxisEnum)i);
+                #endif
               }
               else {
                 #if HAS_EXTRUDERS

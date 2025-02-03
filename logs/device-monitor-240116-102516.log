@@ -1,0 +1,50 @@
+10:25:17.049 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-16T10:25:17"}}}
+10:25:30.992 > [37me[37mcho:SD card ok
+10:25:33.402 > [37me[37mcho:Now fresh file: /TestMix.g
+10:25:33.406 > [37mF[37mile opened: TestMix.g Size: 119[37m0[37m1
+10:25:33.407 > File selected
+10:25:33.459 > [37m0[37m0.00
+10:25:33.459 > 10.00[37m
+10:25:33.460 > [37m2[37m896.00
+10:25:33.461 > [37m3[37m100.00
+10:25:33.510 > [37m0[37m0.00
+10:25:33.512 > [37m1[37m0.00
+10:25:33.512 > 2996.00
+10:25:33.512 > 3150.00
+10:25:35.525 > [37me[37mcho:busy: processing
+10:25:37.526 > [37me[37mcho:busy: processing
+10:25:39.527 > [37me[37mcho:busy: processing
+10:25:41.527 > [37me[37mcho:busy: processing
+10:25:43.527 > [37me[37mcho:busy: processing
+10:25:45.527 > [37me[37mcho:busy: processing
+10:25:47.528 > [37me[37mcho:busy: processing
+10:25:49.528 > [37me[37mcho:busy: processing
+10:25:51.528 > [37me[37mcho:busy: processing
+10:25:53.529 > [37me[37mcho:busy: processing
+10:25:55.529 > [37me[37mcho:busy: processing
+10:25:57.530 > [37me[37mcho:busy: processing
+10:25:57.711 > [37mD[37mone printing file
+10:26:01.967 > [37me[37mcho:Now fresh file: /TestMix.g
+10:26:01.972 > [37mF[37mile opened: TestMix.g Size: 119[37m0[37m1
+10:26:01.973 > File selected
+10:26:02.023 > [37m0[37m0.00[37m[37m
+10:26:02.026 > [37m1[37m0.00
+10:26:02.027 > 2896.00
+10:26:02.027 > 3250.00
+10:26:02.075 > [37m0[37m0.00[37m
+10:26:02.076 > [37m1[37m0.00
+10:26:02.077 > [37m2[37m996.00[37m
+10:26:02.078 > [37m3[37m300.00
+10:26:04.096 > [37me[37mcho:busy: processing
+10:26:06.096 > [37me[37mcho:busy: processing
+10:26:08.097 > [37me[37mcho:busy: processing
+10:26:10.098 > [37me[37mcho:busy: processing
+10:26:12.099 > [37me[37mcho:busy: processing
+10:26:14.100 > [37me[37mcho:busy: processing
+10:26:16.101 > [37me[37mcho:busy: processing
+10:26:18.102 > [37me[37mcho:busy: processing
+10:26:20.102 > [37me[37mcho:busy: processing
+10:26:22.103 > [37me[37mcho:busy: processing
+10:26:24.104 > [37me[37mcho:busy: processing
+10:26:26.105 > [37me[37mcho:busy: processing
+10:26:26.281 > [37mD[37mone printing file

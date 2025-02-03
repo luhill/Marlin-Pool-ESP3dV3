@@ -1,0 +1,1383 @@
+12:29:58.811 > [37m%j
+12:29:58.811 > A6      : 0x00060920  A7      : 0x00000001  A8      : 0x00b83fc0  A9      : 0x00b83fc0  
+12:29:58.811 > A10     : 0x00000003  A11     : 0x00060923  A12     : 0x00060920  A13     : 0x3ffc8d5c  
+12:29:58.811 > A14     : 0x007b7c40  A15     : 0x003fffff  SAR     : 0x00000018  EXCCAUSE: 0x0000001c  
+12:29:58.811 > EXCVADDR: 0x00b83fdc  LBEG    : 0x4008a088  LEND    : 0x4008a09e  LCOUNT  : 0xffffffff  
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > Backtrace: 0x400841f3:0x3ffb2130 0x40084399:0x3ffb2150 0x40093c4d:0x3ffb2170 0x40190169:0x3ffb2190 0x4019001d:0x3ffb21b0 0x400e5477:0x3ffb21d0 0x400d4441:0x3ffb21f0 0x400d4c52:0x3ffb2210 0x400d35d7:0x3ffb2240 0x400d8dfe:0x3ffb2260 0x4010c67a:0x3ffb2290
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > ELF file SHA256: 3918c795dab5630a
+12:29:58.811 > 
+12:29:58.811 > Rebooting...
+12:29:58.811 > ets Jun  8 2016 00:22:57
+12:29:58.811 > 
+12:29:58.811 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+12:29:58.811 > configsip: 0, SPIWP:0xee
+12:29:58.811 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+12:29:58.811 > mode:DIO, clock div:2
+12:29:58.811 > load:0x3fff0030,len:1184
+12:29:58.811 > load:0x40078000,len:13192
+12:29:58.811 > load:0x40080400,len:3028
+12:29:58.811 > entry 0x400805e4
+12:29:58.811 > start
+12:29:58.811 >  Brown out Reset
+12:29:58.811 >  Watchdog R[37m
+12:29:58.811 > ***ERROR*** A stack overflow in task IDLE has been detected.
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > Backtrace: 0x40119c45:0x3ffbc6b0 0x4011a0a9:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > ELF file SHA256: 3918c795dab5630a
+12:29:58.811 > 
+12:29:58.811 > Rebooting...
+12:29:58.811 > ets Jun  8 2016 00:22:57
+12:29:58.811 > 
+12:29:58.811 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+12:29:58.811 > configsip: 0, SPIWP:0xee
+12:29:58.811 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+12:29:58.811 > mode:DIO, clock div:2
+12:29:58.811 > load:0x3fff0030,len:1184
+12:29:58.811 > load:0x40078000,len:13192
+12:29:58.811 > load:0x40080400,len:3028
+12:29:58.811 > entry 0x400805e4
+12:29:58.811 > start
+12:29:58.811 > Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+12:29:58.811 > 
+12:29:58.811 > Core  1 register dump:
+12:29:58.811 > PC      : 0x400841f6  PS      : 0x00060330  A0      : 0x8008439c  A1      : 0x3ffb2130  
+12:29:58.811 > A2      : 0x3ffd2e1c  A3      : 0x00000000  A4      : 0x00000000  A5      : 0x00000001  
+12:29:58.811 > A6      : 0x00060920  A7      : 0x00000001  A8    [37m  : 0x00b83fc0  A9      : 0x00b83fc0  
+12:29:58.811 > A10     : 0x00000003  A11     : 0x00060923  A12     : 0x00060920  A13     : 0x3ffc8d5c  
+12:29:58.811 > A14     : 0x007b7c40  A15     : 0x003fffff  SAR     : 0x00000018  EXCCAUSE: 0x0000001c  
+12:29:58.811 > EXCVADDR: 0x00b83fdc  LBEG    : 0x4008a088  LEND    : 0x4008a09e  LCOUNT  : 0xffffffff  
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > Backtrace: 0x400841f3:0x3ffb2130 0x40084399:0x3ffb2150 0x40093c4d:0x3ffb2170 0x40190169:0x3ffb2190 0x4019001d:0x3ffb21b0 0x400e5477:0x3ffb21d0 0x400d4441:0x3ffb21f0 0x400d4c52:0x3ffb2210 0x400d35d7:0x3ffb2240 0x400d8dfe:0x3ffb2260 0x4010c67a:0x3ffb2290
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > ELF file SHA256: 3918c795dab5630a
+12:29:58.811 > 
+12:29:58.811 > Rebooting...
+12:29:58.811 > ets Jun  8 2016 00:22:57
+12:29:58.811 > 
+12:29:58.811 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+12:29:58.811 > configsip: 0, SPIWP:0xee
+12:29:58.811 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+12:29:58.811 > mode:DIO, clock div:2
+12:29:58.811 > load:0x3fff0030,len:1184
+12:29:58.811 > load:0x40078000,len:13192
+12:29:58.811 > load:0x40080400,len:3028
+12:29:58.811 > entry 0x400805e4
+12:29:58.811 > start
+12:29:58.811 >  Brown out Reset
+12:29:58.811 >  Watchdog Re
+12:29:58.811 > ***ERROR*** A stack overflow in task IDLE has been de[37mtected.
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > Backtrace: 0x40119c45:0x3ffbc6b0 0x4011a0a9:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > ELF file SHA256: 3918c795dab5630a
+12:29:58.811 > 
+12:29:58.811 > Rebooting...
+12:29:58.811 > ets Jun  8 2016 00:22:57
+12:29:58.811 > 
+12:29:58.811 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+12:29:58.811 > configsip: 0, SPIWP:0xee
+12:29:58.811 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+12:29:58.811 > mode:DIO, clock div:2
+12:29:58.811 > load:0x3fff0030,len:1184
+12:29:58.811 > load:0x40078000,len:13192
+12:29:58.811 > load:0x40080400,len:3028
+12:29:58.811 > entry 0x400805e4
+12:29:58.811 > start
+12:29:58.811 >  Brown out Reset
+12:29:58.811 >  Watchdog R
+12:29:58.811 > ***ERROR*** A stack overflow in task IDLE has been detected.
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > Backtrace: 0x40119c45:0x3ffbc6b0 0x4011a0a9:0x3ffbc6e0 0x40083f91:0x3ffbc730 0x40084ff4:0x3ffbc750 0x40083eed:0x3ffbc810 0x4008decd:0x3ffbc830 0x400915ad:0x3ffbc850 0x4008faf1:0x3ffbc8d0 0x4008dfdc:0x3ffbc900 0x4008df8c:0xa5a5a5a5 |<-CORRUPTED
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > 
+12:29:58.811 > ELF file SHA256: 3918c795dab5630a
+12:29:58.811 > 
+12:29:58.811 > Rebootin[37mg...
+12:29:58.812 > ets Jun  8 2016 00:22:57
+12:29:58.812 > 
+12:29:58.812 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+12:29:58.812 > configsip: 0, SPIWP:0xee
+12:29:58.812 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+12:29:58.812 > mode:DIO, clock div:2
+12:29:58.812 > load:0x3fff0030,len:1184
+12:29:58.812 > load:0x40078000,len:13192
+12:29:58.812 > load:0x40080400,len:3028
+12:29:58.812 > entry 0x400805e4
+12:29:58.812 > start
+12:29:58.812 > Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+12:29:58.812 > 
+12:29:58.812 > Core  1 register dump:
+12:29:58.812 > PC      : 0x400841f6  PS      : 0x00060330  A0      : 0x8008439c  A1      : 0x3ffb2130  
+12:29:58.812 > A2      : 0x3ffd2e1c  A3      : 0x00000000  A4      : 0x00000000  A5      : 0x00000001  [37m[37m
+12:29:58.814 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x1d0001[37m9[37mf  A9      : 0x1d00019f  
+12:29:58.819 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:29:58.828 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:29:58.836 > EXCVADDR: 0x1d00[37m0[37m1bb  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:29:58.844 > 
+12:29:58.844 > 
+12:29:58.844 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:29:58.867 > 
+12:29:58.867 > 
+12:29:58.867 > 
+12:29:58.867 > 
+12:29:58.867 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:29:58.871 > 
+12:29:58.971 > [37mR[37mebooting...
+12:29:58.971 > ets Jun  8 2016 00[37m:[37m22:57
+12:29:58.973 > 
+12:29:58.973 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:29:58.979 > configsip: 0, SPIWP:0xee
+12:29:58.979 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:29:58.987 > mode:DIO, clock div:2
+12:29:58.987 > load[37m:[37m0x3fff0030,len:1184
+12:29:58.990 > load:0x400[37m7[37m8000,len:13192
+12:29:58.993 > load:0x40080400[37m,[37mlen:3028
+12:29:58.997 > entry 0x400805e4
+12:29:59.573 > [37ms[37mtart
+12:29:59.591 > [37m [37mBrown out Reset
+12:29:59.592 >  Watchdog 
+12:29:59.592 > ***[37mE[37mRROR*** A stack overflow in tas[37mk[37m IDLE has been detected.
+12:29:59.597 > 
+12:29:59.597 > 
+12:29:59.597 > B[37ma[37mcktrace: 0x40119c45:0x3ffbc6b0 [37m0[37mx4011a0a9:0x3ffbc6e0 0x40083f91[37m:[37m0x3ffbc730 0x40084ff4:0x3ffbc75[37m0[37m 0x40083eed:0x3ffbc810 0x4008de[37mc[37md:0x3ffbc830 0x400915ad:0x3ffbc[37m8[37m50 0x4008faf1:0x3ffbc8d0 0x4008[37md[37mfdc:0x3ffbc900 0x4008df8c:0xa5a[37m5[37ma5a5 |<-CORRUPTED
+12:29:59.619 > 
+12:29:59.619 > 
+12:29:59.619 > 
+12:29:59.619 > 
+12:29:59.619 > ELF [37mf[37mile SHA256: 3918c795dab5630a
+12:29:59.622 > [37m
+12:29:59.727 > [37mR[37mebooting...
+12:29:59.727 > ets Jun  8 2016 00[37m:[37m22:57
+12:29:59.730 > 
+12:29:59.730 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:29:59.735 > configsip: 0, SPIWP:0xee
+12:29:59.735 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:29:59.743 > mode:DIO, clock div:2
+12:29:59.743 > load[37m:[37m0x3fff0030,len:1184
+12:29:59.746 > load:0x400[37m7[37m8000,len:13192
+12:29:59.749 > load:0x40080400[37m,[37mlen:3028
+12:29:59.753 > entry 0x400805e4
+12:30:00.331 > [37ms[37mtart
+12:30:00.348 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:00.354 > 
+12:30:00.354 > Core  1 re[37mg[37mister dump:
+12:30:00.357 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:00.365 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:00.373 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:00.378 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:00.387 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:00.395 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:00.404 > 
+12:30:00.404 > 
+12:30:00.404 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:00.426 > 
+12:30:00.426 > 
+12:30:00.426 > 
+12:30:00.426 > 
+12:30:00.426 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:00.430 > 
+12:30:00.532 > [37mR[37mebooting...
+12:30:00.532 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:00.535 > 
+12:30:00.535 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:00.540 > configsip: 0, SPIWP:0xee
+12:30:00.540 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:00.549 > mode:DIO, clock div:2
+12:30:00.549 > load[37m:[37m0x3fff0030,len:1184
+12:30:00.552 > load:0x400[37m7[37m8000,len:13192
+12:30:00.555 > load:0x40080400[37m,[37mlen:3028
+12:30:00.559 > entry 0x400805e4
+12:30:01.135 > [37ms[37mtart
+12:30:01.153 > [37m [37mBrown out Reset
+12:30:01.153 >  Watchdog Re
+12:30:01.153 > *[37m*[37m*ERROR*** A stack overflow in t[37ma[37msk IDLE has been detected.
+12:30:01.159 > 
+12:30:01.159 > [37m
+12:30:01.162 > [37mBacktrace: 0x40119c45:0x3ffbc6b[37m0[37m 0x4011a0a9:0x3ffbc6e0 0x40083f[37m9[37m1:0x3ffbc730 0x40084ff4:0x3ffbc[37m7[37m50 0x40083eed:0x3ffbc810 0x4008[37md[37mecd:0x3ffbc830 0x400915ad:0x3ff[37mb[37mc850 0x4008faf1:0x3ffbc8d0 0x40[37m0[37m8dfdc:0x3ffbc900 0x4008df8c:0xa[37m5[37ma5a5a5 |<-CORRUPTED
+12:30:01.181 > 
+12:30:01.181 > 
+12:30:01.181 > 
+12:30:01.181 > 
+12:30:01.181 > EL[37mF[37m file SHA256: 3918c795dab5630a[37m
+12:30:01.186 > [37m
+12:30:01.289 > [37mR[37mebooting...
+12:30:01.289 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:01.291 > 
+12:30:01.291 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:01.297 > configsip: 0, SPIWP:0xee
+12:30:01.297 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:01.305 > mode:DIO, clock div:2
+12:30:01.305 > load[37m:[37m0x3fff0030,len:1184
+12:30:01.308 > load:0x400[37m7[37m8000,len:13192
+12:30:01.311 > load:0x40080400[37m,[37mlen:3028
+12:30:01.315 > entry 0x400805e4
+12:30:01.893 > [37ms[37mtart
+12:30:01.910 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:01.916 > 
+12:30:01.916 > Core  1 re[37mg[37mister dump:
+12:30:01.919 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:01.927 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:01.935 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0xdd0001[37ma[37m0  A9      : 0xdd0001a0  
+12:30:01.941 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:01.949 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:01.957 > EXCVADDR: 0xdd00[37m0[37m1bc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:01.966 > 
+12:30:01.966 > 
+12:30:01.966 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:01.988 > 
+12:30:01.988 > 
+12:30:01.988 > 
+12:30:01.988 > 
+12:30:01.988 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:01.992 > 
+12:30:02.093 > [37mR[37mebooting...
+12:30:02.093 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:02.096 > 
+12:30:02.096 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:02.101 > configsip: 0, SPIWP:0xee
+12:30:02.101 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:02.110 > mode:DIO, clock div:2
+12:30:02.110 > load[37m:[37m0x3fff0030,len:1184
+12:30:02.112 > load:0x400[37m7[37m8000,len:13192
+12:30:02.115 > load:0x40080400[37m,[37mlen:3028
+12:30:02.120 > entry 0x400805e4
+12:30:02.696 > [37ms[37mtart
+12:30:02.713 > [37m[37m
+12:30:02.713 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+12:30:02.718 > [37m[37m
+12:30:02.718 > 
+12:30:02.718 > Backtrace: 0x40119c45:0x3ffb[37mc[37m6b0 0x4011a0a9:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+12:30:02.738 > 
+12:30:02.738 > 
+12:30:02.738 > 
+12:30:02.738 > [37m
+12:30:02.740 > [37mELF file SHA256: 3918c795dab563[37m0[37ma
+12:30:02.743 > 
+12:30:02.847 > [37mR[37mebooting...
+12:30:02.847 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:02.850 > 
+12:30:02.850 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:02.855 > configsip: 0, SPIWP:0xee
+12:30:02.855 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:02.863 > mode:DIO, clock div:2
+12:30:02.863 > load[37m:[37m0x3fff0030,len:1184
+12:30:02.866 > load:0x400[37m7[37m8000,len:13192
+12:30:02.869 > load:0x40080400[37m,[37mlen:3028
+12:30:02.873 > entry 0x400805e4
+12:30:03.452 > [37ms[37mtart
+12:30:03.469 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:03.474 > 
+12:30:03.474 > Core  1 re[37mg[37mister dump:
+12:30:03.477 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:03.485 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:03.494 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0xa64b00[37m0[37m1  A9      : 0xa64b0001  
+12:30:03.499 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:03.508 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:03.516 > EXCVADDR: 0xa64b[37m0[37m01d  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:03.524 > 
+12:30:03.524 > 
+12:30:03.524 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:03.547 > 
+12:30:03.547 > 
+12:30:03.547 > 
+12:30:03.547 > 
+12:30:03.547 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:03.551 > 
+12:30:03.652 > [37mR[37mebooting...
+12:30:03.652 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:03.654 > 
+12:30:03.654 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:03.660 > configsip: 0, SPIWP:0xee
+12:30:03.660 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:03.668 > mode:DIO, clock div:2
+12:30:03.668 > load[37m:[37m0x3fff0030,len:1184
+12:30:03.671 > load:0x400[37m7[37m8000,len:13192
+12:30:03.674 > load:0x40080400[37m,[37mlen:3028
+12:30:03.678 > entry 0x400805e4
+12:30:04.255 > [37ms[37mtart
+12:30:04.274 > [37m [37mBrown out Reset
+12:30:04.275 >  Watchdog [37me[37mts Jun  8 2016 00:22:57
+12:30:05.274 > 
+12:30:05.274 > rst:[37m0[37mx7 (TG0WDT_SYS_RESET),boot:0x13[37m [37m(SPI_FAST_FLASH_BOOT)
+12:30:05.279 > configsi[37mp[37m: 0, SPIWP:0xee
+12:30:05.282 > clk_drv:0x00,q[37m_[37mdrv:0x00,d_drv:0x00,cs0_drv:0x0[37m0[37m,hd_drv:0x00,wp_drv:0x00
+12:30:05.288 > mode:[37mD[37mIO, clock div:2
+12:30:05.290 > load:0x3fff003[37m0[37m,len:1184
+12:30:05.293 > load:0x40078000,len:[37m1[37m3192
+12:30:05.296 > load:0x40080400,len:3028[37m
+12:30:05.299 > [37mentry 0x400805e4
+12:30:05.876 > [37ms[37mtart
+12:30:05.893 > [37m[37m
+12:30:05.893 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+12:30:05.898 > [37m[37m
+12:30:05.898 > 
+12:30:05.898 > Backtrace: 0x40119c45:0x3ffb[37mc[37m6b0 0x4011a0a9:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+12:30:05.917 > 
+12:30:05.917 > 
+12:30:05.917 > 
+12:30:05.917 > [37m
+12:30:05.920 > [37mELF file SHA256: 3918c795dab563[37m0[37ma
+12:30:05.923 > 
+12:30:06.028 > [37mR[37mebooting...
+12:30:06.028 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:06.031 > 
+12:30:06.031 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:06.036 > configsip: 0, SPIWP:0xee
+12:30:06.036 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:06.045 > mode:DIO, clock div:2
+12:30:06.045 > load[37m:[37m0x3fff0030,len:1184
+12:30:06.047 > load:0x400[37m7[37m8000,len:13192
+12:30:06.050 > load:0x40080400[37m,[37mlen:3028
+12:30:06.055 > entry 0x400805e4
+12:30:06.633 > [37ms[37mtart
+12:30:06.651 > [37m [37mBrown out Reset
+12:30:06.651 >  Watchdog Re
+12:30:06.651 > *[37m*[37m*ERROR*** A stack overflow in t[37ma[37msk IDLE has been detected.
+12:30:06.656 > 
+12:30:06.656 > [37m
+12:30:06.659 > [37mBacktrace: 0x40119c45:0x3ffbc6b[37m0[37m 0x4011a0a9:0x3ffbc6e0 0x40083f[37m9[37m1:0x3ffbc730 0x40084ff4:0x3ffbc[37m7[37m50 0x40083eed:0x3ffbc810 0x4008[37md[37mecd:0x3ffbc830 0x400915ad:0x3ff[37mb[37mc850 0x4008faf1:0x3ffbc8d0 0x40[37m0[37m8dfdc:0x3ffbc900 0x4008df8c:0xa[37m5[37ma5a5a5 |<-CORRUPTED
+12:30:06.679 > 
+12:30:06.679 > 
+12:30:06.679 > 
+12:30:06.679 > 
+12:30:06.679 > EL[37mF[37m file SHA256: 3918c795dab5630a[37m
+12:30:06.683 > [37m
+12:30:06.788 > [37mR[37mebooting...
+12:30:06.788 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:06.791 > 
+12:30:06.791 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:06.796 > configsip: 0, SPIWP:0xee
+12:30:06.796 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:06.804 > mode:DIO, clock div:2
+12:30:06.804 > load[37m:[37m0x3fff0030,len:1184
+12:30:06.807 > load:0x400[37m7[37m8000,len:13192
+12:30:06.810 > load:0x40080400[37m,[37mlen:3028
+12:30:06.814 > entry 0x400805e4
+12:30:07.392 > [37ms[37mtart
+12:30:07.409 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:07.414 > 
+12:30:07.414 > Core  1 re[37mg[37mister dump:
+12:30:07.417 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:07.426 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:07.434 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:07.439 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:07.448 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:07.456 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:07.464 > 
+12:30:07.464 > 
+12:30:07.464 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:07.487 > 
+12:30:07.487 > 
+12:30:07.487 > 
+12:30:07.487 > 
+12:30:07.487 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:07.491 > 
+12:30:07.599 > [37mR[37mebooting...
+12:30:07.599 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:07.601 > 
+12:30:07.601 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:07.607 > configsip: 0, SPIWP:0xee
+12:30:07.607 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:07.615 > mode:DIO, clock div:2
+12:30:07.615 > load[37m:[37m0x3fff0030,len:1184
+12:30:07.618 > load:0x400[37m7[37m8000,len:13192
+12:30:07.621 > load:0x40080400[37m,[37mlen:3028
+12:30:07.625 > entry 0x400805e4
+12:30:08.201 > [37ms[37mtart
+12:30:08.220 > [37m [37mBrown out Reset
+12:30:08.220 >  Watchdog Re
+12:30:08.220 > *[37m*[37m*ERROR*** A stack overflow in t[37ma[37msk IDLE has been detected.
+12:30:08.225 > 
+12:30:08.225 > [37m
+12:30:08.228 > [37mBacktrace: 0x40119c45:0x3ffbc6b[37m0[37m 0x4011a0a9:0x3ffbc6e0 0x40083f[37m9[37m1:0x3ffbc730 0x40084ff4:0x3ffbc[37m7[37m50 0x40083eed:0x3ffbc810 0x4008[37md[37mecd:0x3ffbc830 0x400915ad:0x3ff[37mb[37mc850 0x4008faf1:0x3ffbc8d0 0x40[37m0[37m8dfdc:0x3ffbc900 0x4008df8c:0xa[37m5[37ma5a5a5 |<-CORRUPTED
+12:30:08.247 > 
+12:30:08.247 > 
+12:30:08.247 > 
+12:30:08.247 > 
+12:30:08.247 > EL[37mF[37m file SHA256: 3918c795dab5630a[37m
+12:30:08.252 > [37m
+12:30:08.362 > [37mR[37mebooting...
+12:30:08.362 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:08.365 > 
+12:30:08.365 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:08.370 > configsip: 0, SPIWP:0xee
+12:30:08.370 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:08.379 > mode:DIO, clock div:2
+12:30:08.379 > load[37m:[37m0x3fff0030,len:1184
+12:30:08.382 > load:0x400[37m7[37m8000,len:13192
+12:30:08.384 > load:0x40080400[37m,[37mlen:3028
+12:30:08.388 > entry 0x400805e4
+12:30:08.966 > [37ms[37mtart
+12:30:08.983 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:08.989 > 
+12:30:08.989 > Core  1 re[37mg[37mister dump:
+12:30:08.992 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:09.000 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:09.008 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:09.014 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:09.022 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:09.030 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:09.039 > 
+12:30:09.039 > 
+12:30:09.039 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:09.061 > 
+12:30:09.061 > 
+12:30:09.061 > 
+12:30:09.061 > 
+12:30:09.061 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:09.065 > 
+12:30:09.169 > [37mR[37mebooting...
+12:30:09.169 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:09.172 > 
+12:30:09.172 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:09.177 > configsip: 0, SPIWP:0xee
+12:30:09.177 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:09.185 > mode:DIO, clock div:2
+12:30:09.185 > load[37m:[37m0x3fff0030,len:1184
+12:30:09.188 > load:0x400[37m7[37m8000,len:13192
+12:30:09.191 > load:0x40080400[37m,[37mlen:3028
+12:30:09.196 > entry 0x400805e4
+12:30:09.772 > [37ms[37mtart
+12:30:09.789 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:09.794 > 
+12:30:09.794 > Core  1 re[37mg[37mister dump:
+12:30:09.797 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:09.806 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:09.814 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:09.819 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:09.828 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:09.836 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:09.844 > 
+12:30:09.844 > 
+12:30:09.844 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:09.867 > 
+12:30:09.867 > 
+12:30:09.867 > 
+12:30:09.867 > 
+12:30:09.867 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:09.871 > 
+12:30:09.971 > [37mR[37mebooting...
+12:30:09.971 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:09.974 > 
+12:30:09.974 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:09.980 > configsip: 0, SPIWP:0xee
+12:30:09.980 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:09.988 > mode:DIO, clock div:2
+12:30:09.988 > load[37m:[37m0x3fff0030,len:1184
+12:30:09.991 > load:0x400[37m7[37m8000,len:13192
+12:30:09.993 > load:0x40080400[37m,[37mlen:3028
+12:30:09.998 > entry 0x400805e4
+12:30:10.574 > [37ms[37mtart
+12:30:10.592 > [37m [37mBrown out Reset
+12:30:10.593 >  Watchdog 
+12:30:10.593 > ***[37mE[37mRROR*** A stack overflow in tas[37mk[37m IDLE has been detected.
+12:30:10.598 > 
+12:30:10.598 > 
+12:30:10.598 > B[37ma[37mcktrace: 0x40119c45:0x3ffbc6b0 [37m0[37mx4011a0a9:0x3ffbc6e0 0x40083f91[37m:[37m0x3ffbc730 0x40084ff4:0x3ffbc75[37m0[37m 0x40083eed:0x3ffbc810 0x4008de[37mc[37md:0x3ffbc830 0x400915ad:0x3ffbc[37m8[37m50 0x4008faf1:0x3ffbc8d0 0x4008[37md[37mfdc:0x3ffbc900 0x4008df8c:0xa5a[37m5[37ma5a5 |<-CORRUPTED
+12:30:10.620 > 
+12:30:10.620 > 
+12:30:10.620 > 
+12:30:10.620 > 
+12:30:10.620 > ELF [37mf[37mile SHA256: 3918c795dab5630a
+12:30:10.623 > [37m
+12:30:10.723 > [37mR[37mebooting...
+12:30:10.723 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:10.726 > 
+12:30:10.726 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:10.731 > configsip: 0, SPIWP:0xee
+12:30:10.731 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:10.739 > mode:DIO, clock div:2
+12:30:10.739 > load[37m:[37m0x3fff0030,len:1184
+12:30:10.742 > load:0x400[37m7[37m8000,len:13192
+12:30:10.745 > load:0x40080400[37m,[37mlen:3028
+12:30:10.749 > entry 0x400805e4
+12:30:11.326 > [37ms[37mtart
+12:30:11.344 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:11.349 > 
+12:30:11.349 > Core  1 re[37mg[37mister dump:
+12:30:11.352 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:11.361 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:11.369 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:11.374 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:11.383 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:11.391 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:11.399 > 
+12:30:11.399 > 
+12:30:11.399 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:11.421 > 
+12:30:11.421 > 
+12:30:11.421 > 
+12:30:11.421 > 
+12:30:11.421 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:11.426 > 
+12:30:11.524 > [37mR[37mebooting...
+12:30:11.524 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:11.527 > 
+12:30:11.527 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:11.532 > configsip: 0, SPIWP:0xee
+12:30:11.532 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:11.540 > mode:DIO, clock div:2
+12:30:11.540 > load[37m:[37m0x3fff0030,len:1184
+12:30:11.543 > load:0x400[37m7[37m8000,len:13192
+12:30:11.546 > load:0x40080400[37m,[37mlen:3028
+12:30:11.550 > entry 0x400805e4
+12:30:12.127 > [37ms[37mtart
+12:30:12.145 > [37m [37mBrown out Reset
+12:30:12.145 >  Watchdog 
+12:30:12.145 > ***[37mE[37mRROR*** A stack overflow in tas[37mk[37m IDLE has been detected.
+12:30:12.150 > 
+12:30:12.150 > 
+12:30:12.150 > B[37ma[37mcktrace: 0x40119c45:0x3ffbc6b0 [37m0[37mx4011a0a9:0x3ffbc6e0 0x40083f91[37m:[37m0x3ffbc730 0x40084ff4:0x3ffbc75[37m0[37m 0x40083eed:0x3ffbc810 0x4008de[37mc[37md:0x3ffbc830 0x400915ad:0x3ffbc[37m8[37m50 0x4008faf1:0x3ffbc8d0 0x4008[37md[37mfdc:0x3ffbc900 0x4008df8c:0xa5a[37m5[37ma5a5 |<-CORRUPTED
+12:30:12.172 > 
+12:30:12.172 > 
+12:30:12.172 > 
+12:30:12.172 > 
+12:30:12.172 > ELF [37mf[37mile SHA256: 3918c795dab5630a
+12:30:12.175 > [37m
+12:30:12.279 > [37mR[37mebooting...
+12:30:12.279 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:12.281 > 
+12:30:12.281 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:12.287 > configsip: 0, SPIWP:0xee
+12:30:12.287 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:12.296 > mode:DIO, clock div:2
+12:30:12.296 > load[37m:[37m0x3fff0030,len:1184
+12:30:12.298 > load:0x400[37m7[37m8000,len:13192
+12:30:12.301 > load:0x40080400[37m,[37mlen:3028
+12:30:12.305 > entry 0x400805e4
+12:30:12.883 > [37ms[37mtart
+12:30:12.900 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:12.906 > 
+12:30:12.906 > Core  1 re[37mg[37mister dump:
+12:30:12.908 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:12.917 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:12.925 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0xc80001[37ma[37m0  A9      : 0xc80001a0  
+12:30:12.931 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:12.939 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:12.947 > EXCVADDR: 0xc800[37m0[37m1bc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:12.956 > 
+12:30:12.956 > 
+12:30:12.956 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:12.978 > 
+12:30:12.978 > 
+12:30:12.978 > 
+12:30:12.978 > 
+12:30:12.978 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:12.982 > 
+12:30:13.080 > [37mR[37mebooting...
+12:30:13.080 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:13.083 > 
+12:30:13.083 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:13.088 > configsip: 0, SPIWP:0xee
+12:30:13.088 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:13.097 > mode:DIO, clock div:2
+12:30:13.097 > load[37m:[37m0x3fff0030,len:1184
+12:30:13.099 > load:0x400[37m7[37m8000,len:13192
+12:30:13.102 > load:0x40080400[37m,[37mlen:3028
+12:30:13.107 > entry 0x400805e4
+12:30:13.683 > [37ms[37mtart
+12:30:13.700 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:13.706 > 
+12:30:13.706 > Core  1 re[37mg[37mister dump:
+12:30:13.709 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:13.717 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:13.725 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:13.731 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:13.739 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:13.748 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:13.756 > 
+12:30:13.756 > 
+12:30:13.756 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:13.778 > 
+12:30:13.778 > 
+12:30:13.778 > 
+12:30:13.778 > 
+12:30:13.778 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:13.782 > 
+12:30:13.884 > [37mR[37mebooting...
+12:30:13.885 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:13.887 > 
+12:30:13.887 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:13.893 > configsip: 0, SPIWP:0xee
+12:30:13.893 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:13.901 > mode:DIO, clock div:2
+12:30:13.901 > load[37m:[37m0x3fff0030,len:1184
+12:30:13.904 > load:0x400[37m7[37m8000,len:13192
+12:30:13.906 > load:0x40080400[37m,[37mlen:3028
+12:30:13.911 > entry 0x400805e4
+12:30:14.487 > [37ms[37mtart
+12:30:14.505 > [37m [37mBrown out Reset
+12:30:14.506 >  Watchdog Re
+12:30:14.506 > *[37m*[37m*ERROR*** A stack overflow in t[37ma[37msk IDLE has been detected.
+12:30:14.512 > 
+12:30:14.512 > [37m
+12:30:14.514 > [37mBacktrace: 0x40119c45:0x3ffbc6b[37m0[37m 0x4011a0a9:0x3ffbc6e0 0x40083f[37m9[37m1:0x3ffbc730 0x40084ff4:0x3ffbc[37m7[37m50 0x40083eed:0x3ffbc810 0x4008[37md[37mecd:0x3ffbc830 0x400915ad:0x3ff[37mb[37mc850 0x4008faf1:0x3ffbc8d0 0x40[37m0[37m8dfdc:0x3ffbc900 0x4008df8c:0xa[37m5[37ma5a5a5 |<-CORRUPTED
+12:30:14.533 > 
+12:30:14.533 > 
+12:30:14.533 > 
+12:30:14.533 > 
+12:30:14.533 > EL[37mF[37m file SHA256: 3918c795dab5630a[37m
+12:30:14.538 > [37m
+12:30:14.644 > [37mR[37mebooting...
+12:30:14.645 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:14.648 > 
+12:30:14.648 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:14.653 > configsip: 0, SPIWP:0xee
+12:30:14.653 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:14.661 > mode:DIO, clock div:2
+12:30:14.661 > load[37m:[37m0x3fff0030,len:1184
+12:30:14.664 > load:0x400[37m7[37m8000,len:13192
+12:30:14.667 > load:0x40080400[37m,[37mlen:3028
+12:30:14.671 > entry 0x400805e4
+12:30:15.248 > [37ms[37mtart
+12:30:15.265 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:15.271 > 
+12:30:15.271 > Core  1 re[37mg[37mister dump:
+12:30:15.274 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:15.282 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:15.290 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:15.302 > A10     : 0x00000003  A11     : 0x00060923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:15.305 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:15.313 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:15.321 > 
+12:30:15.321 > 
+12:30:15.321 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:15.343 > 
+12:30:15.343 > 
+12:30:15.343 > 
+12:30:15.343 > 
+12:30:15.343 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:15.347 > 
+12:30:15.452 > [37mR[37mebooting...
+12:30:15.452 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:15.455 > 
+12:30:15.455 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:15.461 > configsip: 0, SPIWP:0xee
+12:30:15.461 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:15.469 > mode:DIO, clock div:2
+12:30:15.469 > load[37m:[37m0x3fff0030,len:1184
+12:30:15.472 > load:0x400[37m7[37m8000,len:13192
+12:30:15.474 > load:0x40080400[37m,[37mlen:3028
+12:30:15.479 > entry 0x400805e4
+12:30:16.055 > [37ms[37mtart
+12:30:16.073 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:16.078 > 
+12:30:16.078 > Core  1 re[37mg[37mister dump:
+12:30:16.081 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:16.089 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:16.098 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:16.103 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:16.111 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:16.120 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:16.128 > 
+12:30:16.128 > 
+12:30:16.128 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:16.150 > 
+12:30:16.150 > 
+12:30:16.150 > 
+12:30:16.150 > 
+12:30:16.150 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:16.154 > 
+12:30:16.258 > [37mR[37mebooting...
+12:30:16.258 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:16.260 > 
+12:30:16.260 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:16.266 > configsip: 0, SPIWP:0xee
+12:30:16.266 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:16.274 > mode:DIO, clock div:2
+12:30:16.274 > load[37m:[37m0x3fff0030,len:1184
+12:30:16.277 > load:0x400[37m7[37m8000,len:13192
+12:30:16.280 > load:0x40080400[37m,[37mlen:3028
+12:30:16.284 > entry 0x400805e4
+12:30:16.861 > [37ms[37mtart
+12:30:16.878 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:16.883 > 
+12:30:16.883 > Core  1 re[37mg[37mister dump:
+12:30:16.886 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:16.894 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:16.903 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:16.908 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:16.917 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:16.925 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:16.933 > 
+12:30:16.933 > 
+12:30:16.933 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:16.956 > 
+12:30:16.956 > 
+12:30:16.956 > 
+12:30:16.956 > 
+12:30:16.956 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:16.960 > 
+12:30:17.061 > [37mR[37mebooting...
+12:30:17.061 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:17.064 > 
+12:30:17.064 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:17.070 > configsip: 0, SPIWP:0xee
+12:30:17.070 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:17.078 > mode:DIO, clock div:2
+12:30:17.078 > load[37m:[37m0x3fff0030,len:1184
+12:30:17.081 > load:0x400[37m7[37m8000,len:13192
+12:30:17.084 > load:0x40080400[37m,[37mlen:3028
+12:30:17.088 > entry 0x400805e4
+12:30:17.664 > [37ms[37mtart
+12:30:17.682 > [37m [37mBrown out Reset
+12:30:17.682 >  Watchdog Re
+12:30:17.682 > *[37m*[37m*ERROR*** A stack overflow in t[37ma[37msk IDLE has been detected.
+12:30:17.687 > 
+12:30:17.687 > [37m
+12:30:17.690 > [37mBacktrace: 0x40119c45:0x3ffbc6b[37m0[37m 0x4011a0a9:0x3ffbc6e0 0x40083f[37m9[37m1:0x3ffbc730 0x40084ff4:0x3ffbc[37m7[37m50 0x40083eed:0x3ffbc810 0x4008[37md[37mecd:0x3ffbc830 0x400915ad:0x3ff[37mb[37mc850 0x4008faf1:0x3ffbc8d0 0x40[37m0[37m8dfdc:0x3ffbc900 0x4008df8c:0xa[37m5[37ma5a5a5 |<-CORRUPTED
+12:30:17.710 > 
+12:30:17.710 > 
+12:30:17.710 > 
+12:30:17.710 > 
+12:30:17.710 > EL[37mF[37m file SHA256: 3918c795dab5630a[37m
+12:30:17.715 > [37m
+12:30:17.816 > [37mR[37mebooting...
+12:30:17.816 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:17.819 > 
+12:30:17.819 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:17.824 > configsip: 0, SPIWP:0xee
+12:30:17.824 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:17.833 > mode:DIO, clock div:2
+12:30:17.833 > load[37m:[37m0x3fff0030,len:1184
+12:30:17.835 > load:0x400[37m7[37m8000,len:13192
+12:30:17.838 > load:0x40080400[37m,[37mlen:3028
+12:30:17.842 > entry 0x400805e4
+12:30:18.419 > [37ms[37mtart
+12:30:18.436 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:18.442 > 
+12:30:18.442 > Core  1 re[37mg[37mister dump:
+12:30:18.445 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:18.453 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:18.461 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:18.467 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:18.475 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:18.484 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:18.492 > 
+12:30:18.492 > 
+12:30:18.492 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:18.514 > 
+12:30:18.514 > 
+12:30:18.514 > 
+12:30:18.514 > 
+12:30:18.514 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:18.518 > 
+12:30:18.618 > [37mR[37mebooting...
+12:30:18.618 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:18.621 > 
+12:30:18.621 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:18.626 > configsip: 0, SPIWP:0xee
+12:30:18.626 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:18.635 > mode:DIO, clock div:2
+12:30:18.635 > load[37m:[37m0x3fff0030,len:1184
+12:30:18.637 > load:0x400[37m7[37m8000,len:13192
+12:30:18.640 > load:0x40080400[37m,[37mlen:3028
+12:30:18.645 > entry 0x400805e4
+12:30:19.221 > [37ms[37mtart
+12:30:19.238 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:19.244 > 
+12:30:19.244 > Core  1 re[37mg[37mister dump:
+12:30:19.246 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:19.255 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:19.263 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:19.269 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:19.277 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:19.285 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:19.294 > 
+12:30:19.294 > 
+12:30:19.294 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:19.316 > 
+12:30:19.316 > 
+12:30:19.316 > 
+12:30:19.316 > 
+12:30:19.316 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:19.320 > 
+12:30:19.420 > [37mR[37mebooting...
+12:30:19.421 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:19.423 > 
+12:30:19.423 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:19.428 > configsip: 0, SPIWP:0xee
+12:30:19.428 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:19.437 > mode:DIO, clock div:2
+12:30:19.437 > load[37m:[37m0x3fff0030,len:1184
+12:30:19.439 > load:0x400[37m7[37m8000,len:13192
+12:30:19.442 > load:0x40080400[37m,[37mlen:3028
+12:30:19.447 > entry 0x400805e4
+12:30:20.023 > [37ms[37mtart
+12:30:20.041 > [37m [37mBrown out Reset
+12:30:20.041 >  Watchdog Res
+12:30:20.043 > [37m*[37m**ERROR*** A stack overflow in [37mt[37mask IDLE has been detected.
+12:30:20.046 > 
+12:30:20.049 > [37m[37m
+12:30:20.049 > Backtrace: 0x40119c45:0x3ffbc6[37mb[37m0 0x4011a0a9:0x3ffbc6e0 0x40083[37mf[37m91:0x3ffbc730 0x40084ff4:0x3ffb[37mc[37m750 0x40083eed:0x3ffbc810 0x400[37m8[37mdecd:0x3ffbc830 0x400915ad:0x3f[37mf[37mbc850 0x4008faf1:0x3ffbc8d0 0x4[37m0[37m08dfdc:0x3ffbc900 0x4008df8c:0x[37ma[37m5a5a5a5 |<-CORRUPTED
+12:30:20.070 > 
+12:30:20.070 > 
+12:30:20.070 > 
+12:30:20.070 > 
+12:30:20.070 > E[37mL[37mF file SHA256: 3918c795dab5630a[37m[37m
+12:30:20.074 > 
+12:30:20.174 > [37mR[37mebooting...
+12:30:20.174 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:20.177 > 
+12:30:20.177 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:20.182 > configsip: 0, SPIWP:0xee
+12:30:20.182 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:20.190 > mode:DIO, clock div:2
+12:30:20.190 > load[37m:[37m0x3fff0030,len:1184
+12:30:20.193 > load:0x400[37m7[37m8000,len:13192
+12:30:20.196 > load:0x40080400[37m,[37mlen:3028
+12:30:20.201 > entry 0x400805e4
+12:30:20.778 > [37ms[37mtart
+12:30:20.795 > [37m[37m
+12:30:20.795 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+12:30:20.800 > [37m[37m
+12:30:20.801 > 
+12:30:20.801 > Backtrace: 0x40119c45:0x3ffb[37mc[37m6b0 0x4011a0a9:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+12:30:20.820 > 
+12:30:20.820 > 
+12:30:20.820 > 
+12:30:20.820 > [37m
+12:30:20.823 > [37mELF file SHA256: 3918c795dab563[37m0[37ma
+12:30:20.825 > 
+12:30:20.926 > [37mR[37mebooting...
+12:30:20.926 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:20.929 > 
+12:30:20.929 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:20.935 > configsip: 0, SPIWP:0xee
+12:30:20.935 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:20.943 > mode:DIO, clock div:2
+12:30:20.943 > load[37m:[37m0x3fff0030,len:1184
+12:30:20.945 > load:0x400[37m7[37m8000,len:13192
+12:30:20.948 > load:0x40080400[37m,[37mlen:3028
+12:30:20.953 > entry 0x400805e4
+12:30:21.531 > [37ms[37mtart
+12:30:21.549 > [37m [37mBrown out Reset
+12:30:21.549 >  Watchdog Re
+12:30:21.549 > *[37m*[37m*ERROR*** A stack overflow in t[37ma[37msk IDLE has been detected.
+12:30:21.554 > 
+12:30:21.554 > [37m
+12:30:21.557 > [37mBacktrace: 0x40119c45:0x3ffbc6b[37m0[37m 0x4011a0a9:0x3ffbc6e0 0x40083f[37m9[37m1:0x3ffbc730 0x40084ff4:0x3ffbc[37m7[37m50 0x40083eed:0x3ffbc810 0x4008[37md[37mecd:0x3ffbc830 0x400915ad:0x3ff[37mb[37mc850 0x4008faf1:0x3ffbc8d0 0x40[37m0[37m8dfdc:0x3ffbc900 0x4008df8c:0xa[37m5[37ma5a5a5 |<-CORRUPTED
+12:30:21.576 > 
+12:30:21.576 > 
+12:30:21.576 > 
+12:30:21.576 > 
+12:30:21.576 > EL[37mF[37m file SHA256: 3918c795dab5630a[37m
+12:30:21.581 > [37m
+12:30:21.682 > [37mR[37mebooting...
+12:30:21.683 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:21.685 > 
+12:30:21.685 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:21.691 > configsip: 0, SPIWP:0xee
+12:30:21.691 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:21.699 > mode:DIO, clock div:2
+12:30:21.699 > load[37m:[37m0x3fff0030,len:1184
+12:30:21.702 > load:0x400[37m7[37m8000,len:13192
+12:30:21.705 > load:0x40080400[37m,[37mlen:3028
+12:30:21.709 > entry 0x400805e4
+12:30:22.286 > [37ms[37mtart
+12:30:22.304 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:22.309 > 
+12:30:22.309 > Core  1 re[37mg[37mister dump:
+12:30:22.312 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:22.320 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:22.329 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:22.334 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:22.342 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:22.351 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:22.359 > 
+12:30:22.359 > 
+12:30:22.359 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:22.381 > 
+12:30:22.381 > 
+12:30:22.381 > 
+12:30:22.381 > 
+12:30:22.381 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:22.386 > 
+12:30:22.487 > [37mR[37mebooting...
+12:30:22.487 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:22.489 > 
+12:30:22.489 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:22.495 > configsip: 0, SPIWP:0xee
+12:30:22.495 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:22.504 > mode:DIO, clock div:2
+12:30:22.504 > load[37m:[37m0x3fff0030,len:1184
+12:30:22.506 > load:0x400[37m7[37m8000,len:13192
+12:30:22.509 > load:0x40080400[37m,[37mlen:3028
+12:30:22.513 > entry 0x400805e4
+12:30:23.089 > [37ms[37mtart
+12:30:23.107 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:23.112 > 
+12:30:23.112 > Core  1 re[37mg[37mister dump:
+12:30:23.115 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:23.123 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:23.131 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:23.137 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:23.145 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:23.154 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:23.162 > 
+12:30:23.162 > 
+12:30:23.162 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:23.184 > 
+12:30:23.184 > 
+12:30:23.184 > 
+12:30:23.184 > 
+12:30:23.184 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:23.189 > 
+12:30:23.290 > [37mR[37mebooting...
+12:30:23.290 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:23.293 > 
+12:30:23.293 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:23.299 > configsip: 0, SPIWP:0xee
+12:30:23.299 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:23.307 > mode:DIO, clock div:2
+12:30:23.307 > load[37m:[37m0x3fff0030,len:1184
+12:30:23.310 > load:0x400[37m7[37m8000,len:13192
+12:30:23.312 > load:0x40080400[37m,[37mlen:3028
+12:30:23.317 > entry 0x400805e4
+12:30:23.893 > [37ms[37mtart
+12:30:23.910 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:23.916 > 
+12:30:23.916 > Core  1 re[37mg[37mister dump:
+12:30:23.919 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:23.927 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:23.935 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:23.941 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:23.949 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:23.958 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:23.966 > 
+12:30:23.966 > 
+12:30:23.966 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:23.988 > 
+12:30:23.988 > 
+12:30:23.988 > 
+12:30:23.988 > 
+12:30:23.988 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:23.992 > 
+12:30:24.097 > [37mR[37mebooting...
+12:30:24.097 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:24.100 > 
+12:30:24.100 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:24.105 > configsip: 0, SPIWP:0xee
+12:30:24.105 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:24.114 > mode:DIO, clock div:2
+12:30:24.114 > load[37m:[37m0x3fff0030,len:1184
+12:30:24.116 > load:0x400[37m7[37m8000,len:13192
+12:30:24.119 > load:0x40080400[37m,[37mlen:3028
+12:30:24.124 > entry 0x400805e4
+12:30:24.700 > [37ms[37mtart
+12:30:24.718 > [37m [37mBrown out Reset
+12:30:24.718 >  Watchdog Re
+12:30:24.718 > *[37m*[37m*ERROR*** A stack overflow in t[37ma[37msk IDLE has been detected.
+12:30:24.724 > 
+12:30:24.724 > [37m
+12:30:24.726 > [37mBacktrace: 0x40119c45:0x3ffbc6b[37m0[37m 0x4011a0a9:0x3ffbc6e0 0x40083f[37m9[37m1:0x3ffbc730 0x40084ff4:0x3ffbc[37m7[37m50 0x40083eed:0x3ffbc810 0x4008[37md[37mecd:0x3ffbc830 0x400915ad:0x3ff[37mb[37mc850 0x4008faf1:0x3ffbc8d0 0x40[37m0[37m8dfdc:0x3ffbc900 0x4008df8c:0xa[37m5[37ma5a5a5 |<-CORRUPTED
+12:30:24.746 > 
+12:30:24.746 > 
+12:30:24.746 > 
+12:30:24.746 > 
+12:30:24.746 > EL[37mF[37m file SHA256: 3918c795dab5630a[37m
+12:30:24.751 > [37m
+12:30:24.856 > [37mR[37mebooting...
+12:30:24.856 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:24.859 > 
+12:30:24.859 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:24.864 > configsip: 0, SPIWP:0xee
+12:30:24.864 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:24.873 > mode:DIO, clock div:2
+12:30:24.873 > load[37m:[37m0x3fff0030,len:1184
+12:30:24.875 > load:0x400[37m7[37m8000,len:13192
+12:30:24.878 > load:0x40080400[37m,[37mlen:3028
+12:30:24.883 > entry 0x400805e4
+12:30:25.460 > [37ms[37mtart
+12:30:25.477 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:25.483 > 
+12:30:25.483 > Core  1 re[37mg[37mister dump:
+12:30:25.486 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:25.494 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:25.503 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:25.508 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:25.516 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:25.525 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:25.533 > 
+12:30:25.533 > 
+12:30:25.533 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:25.555 > 
+12:30:25.555 > 
+12:30:25.555 > 
+12:30:25.555 > 
+12:30:25.555 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:25.559 > 
+12:30:25.663 > [37mR[37mebooting...
+12:30:25.663 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:25.666 > 
+12:30:25.666 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:25.671 > configsip: 0, SPIWP:0xee
+12:30:25.671 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:25.679 > mode:DIO, clock div:2
+12:30:25.679 > load[37m:[37m0x3fff0030,len:1184
+12:30:25.682 > load:0x400[37m7[37m8000,len:13192
+12:30:25.685 > load:0x40080400[37m,[37mlen:3028
+12:30:25.690 > entry 0x400805e4
+12:30:26.266 > [37ms[37mtart
+12:30:26.284 > [37m [37mBrown out Reset
+12:30:26.284 >  Watchdog Re
+12:30:26.284 > *[37m*[37m*ERROR*** A stack overflow in t[37ma[37msk IDLE has been detected.
+12:30:26.289 > 
+12:30:26.289 > [37m
+12:30:26.292 > [37mBacktrace: 0x40119c45:0x3ffbc6b[37m0[37m 0x4011a0a9:0x3ffbc6e0 0x40083f[37m9[37m1:0x3ffbc730 0x40084ff4:0x3ffbc[37m7[37m50 0x40083eed:0x3ffbc810 0x4008[37md[37mecd:0x3ffbc830 0x400915ad:0x3ff[37mb[37mc850 0x4008faf1:0x3ffbc8d0 0x40[37m0[37m8dfdc:0x3ffbc900 0x4008df8c:0xa[37m5[37ma5a5a5 |<-CORRUPTED
+12:30:26.312 > 
+12:30:26.312 > 
+12:30:26.312 > 
+12:30:26.312 > 
+12:30:26.312 > EL[37mF[37m file SHA256: 3918c795dab5630a[37m
+12:30:26.316 > [37m
+12:30:26.420 > [37mR[37mebooting...
+12:30:26.420 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:26.423 > 
+12:30:26.423 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:26.428 > configsip: 0, SPIWP:0xee
+12:30:26.428 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:26.437 > mode:DIO, clock div:2
+12:30:26.437 > load[37m:[37m0x3fff0030,len:1184
+12:30:26.440 > load:0x400[37m7[37m8000,len:13192
+12:30:26.442 > load:0x40080400[37m,[37mlen:3028
+12:30:26.447 > entry 0x400805e4
+12:30:27.024 > [37ms[37mtart
+12:30:27.041 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:27.047 > 
+12:30:27.047 > Core  1 re[37mg[37mister dump:
+12:30:27.050 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:27.058 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:27.066 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:27.072 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:27.080 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:27.088 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:27.097 > 
+12:30:27.097 > 
+12:30:27.097 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:27.119 > 
+12:30:27.119 > 
+12:30:27.119 > 
+12:30:27.119 > 
+12:30:27.119 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:27.123 > 
+12:30:27.221 > [37mR[37mebooting...
+12:30:27.222 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:27.224 > 
+12:30:27.224 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:27.230 > configsip: 0, SPIWP:0xee
+12:30:27.230 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:27.238 > mode:DIO, clock div:2
+12:30:27.238 > load[37m:[37m0x3fff0030,len:1184
+12:30:27.241 > load:0x400[37m7[37m8000,len:13192
+12:30:27.243 > load:0x40080400[37m,[37mlen:3028
+12:30:27.248 > entry 0x400805e4
+12:30:27.824 > [37ms[37mtart
+12:30:27.842 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:27.847 > 
+12:30:27.847 > Core  1 re[37mg[37mister dump:
+12:30:27.850 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:27.858 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:27.866 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:27.872 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:27.880 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:27.889 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:27.897 > 
+12:30:27.897 > 
+12:30:27.897 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:27.919 > 
+12:30:27.919 > 
+12:30:27.919 > 
+12:30:27.919 > 
+12:30:27.919 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:27.923 > 
+12:30:28.022 > [37mR[37mebooting...
+12:30:28.022 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:28.025 > 
+12:30:28.025 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:28.030 > configsip: 0, SPIWP:0xee
+12:30:28.030 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:28.038 > mode:DIO, clock div:2
+12:30:28.038 > load[37m:[37m0x3fff0030,len:1184
+12:30:28.041 > load:0x400[37m7[37m8000,len:13192
+12:30:28.044 > load:0x40080400[37m,[37mlen:3028
+12:30:28.048 > entry 0x400805e4
+12:30:28.624 > [37ms[37mtart
+12:30:28.642 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:28.647 > 
+12:30:28.647 > Core  1 re[37mg[37mister dump:
+12:30:28.650 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:28.659 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:28.667 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:28.672 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:28.680 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:28.689 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:28.697 > 
+12:30:28.697 > 
+12:30:28.697 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:28.719 > 
+12:30:28.719 > 
+12:30:28.719 > 
+12:30:28.719 > 
+12:30:28.719 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:28.724 > 
+12:30:28.822 > [37mR[37mebooting...
+12:30:28.822 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:28.825 > 
+12:30:28.825 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:28.830 > configsip: 0, SPIWP:0xee
+12:30:28.830 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:28.838 > mode:DIO, clock div:2
+12:30:28.838 > load[37m:[37m0x3fff0030,len:1184
+12:30:28.842 > load:0x400[37m7[37m8000,len:13192
+12:30:28.844 > load:0x40080400[37m,[37mlen:3028
+12:30:28.849 > entry 0x400805e4
+12:30:29.425 > [37ms[37mtart
+12:30:29.441 > [37m[37m
+12:30:29.442 > ***ERROR*** A stack overflow i[37mn[37m task IDLE has been detected.
+12:30:29.447 > [37m[37m
+12:30:29.447 > 
+12:30:29.447 > Backtrace: 0x40119c45:0x3ffb[37mc[37m6b0 0x4011a0a9:0x3ffbc6e0 0x400[37m8[37m3f91:0x3ffbc730 0x40084ff4:0x3f[37mf[37mbc750 0x40083eed:0x3ffbc810 0x4[37m0[37m08decd:0x3ffbc830 0x400915ad:0x[37m3[37mffbc850 0x4008faf1:0x3ffbc8d0 0[37mx[37m4008dfdc:0x3ffbc900 0x4008df8c:[37m0[37mxa5a5a5a5 |<-CORRUPTED
+12:30:29.466 > 
+12:30:29.466 > 
+12:30:29.466 > 
+12:30:29.466 > [37m
+12:30:29.469 > [37mELF file SHA256: 3918c795dab563[37m0[37ma
+12:30:29.472 > 
+12:30:29.573 > [37mR[37mebooting...
+12:30:29.573 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:29.576 > 
+12:30:29.576 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:29.581 > configsip: 0, SPIWP:0xee
+12:30:29.581 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:29.589 > mode:DIO, clock div:2
+12:30:29.589 > load[37m:[37m0x3fff0030,len:1184
+12:30:29.592 > load:0x400[37m7[37m8000,len:13192
+12:30:29.595 > load:0x40080400[37m,[37mlen:3028
+12:30:29.599 > entry 0x400805e4
+12:30:30.178 > [37ms[37mtart
+12:30:30.195 > [37m[37m
+12:30:30.195 > assert failed: heap_caps_free [37mh[37meap_caps.c:360 (heap != NULL &&[37m [37m"free() target pointer is outsi[37md[37me heap areas")
+12:30:30.203 > 
+12:30:30.203 > 
+12:30:30.203 > Backtrace: [37m0[37mx40083eed:0x3ffb1fe0 0x4008decd[37m:[37m0x3ffb2000 0x40093c1d:0x3ffb202[37m0[37m 0x400843aa:0x3ffb2150 0x40093c[37m4[37md:0x3ffb2170 0x40190169:0x3ffb2[37m1[37m90 0x4019001d:0x3ffb21b0 0x400e[37m5[37m477:0x3ffb21d0 0x400d4441:0x3ff[37mb[37m21f0 0x400d4c52:0x3ffb2210 0x40[37m0[37md35d7:0x3ffb2240 0x400d8dfe:0x3[37mf[37mfb2260 0x4010c67a:0x3ffb2290
+12:30:30.228 > [37m
+12:30:30.231 > [37m
+12:30:30.231 > 
+12:30:30.231 > 
+12:30:30.231 > ELF file SHA256: 3918c795[37md[37mab5630a
+12:30:30.234 > 
+12:30:30.337 > [37mR[37mebooting...
+12:30:30.337 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:30.339 > 
+12:30:30.339 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:30.345 > configsip: 0, SPIWP:0xee
+12:30:30.345 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:30.353 > mode:DIO, clock div:2
+12:30:30.353 > load[37m:[37m0x3fff0030,len:1184
+12:30:30.356 > load:0x400[37m7[37m8000,len:13192
+12:30:30.359 > load:0x40080400[37m,[37mlen:3028
+12:30:30.364 > entry 0x400805e4
+12:30:30.940 > [37ms[37mtart
+12:30:30.957 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:30.963 > 
+12:30:30.963 > Core  1 re[37mg[37mister dump:
+12:30:30.966 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:30.974 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:30.982 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:30.988 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:30.996 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:31.004 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:31.013 > 
+12:30:31.013 > 
+12:30:31.013 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:31.035 > 
+12:30:31.035 > 
+12:30:31.035 > 
+12:30:31.035 > 
+12:30:31.035 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:31.039 > 
+12:30:31.144 > [37mR[37mebooting...
+12:30:31.144 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:31.147 > 
+12:30:31.147 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:31.152 > configsip: 0, SPIWP:0xee
+12:30:31.152 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:31.161 > mode:DIO, clock div:2
+12:30:31.161 > load[37m:[37m0x3fff0030,len:1184
+12:30:31.163 > load:0x400[37m7[37m8000,len:13192
+12:30:31.166 > load:0x40080400[37m,[37mlen:3028
+12:30:31.171 > entry 0x400805e4
+12:30:31.747 > [37ms[37mtart
+12:30:31.764 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:31.770 > 
+12:30:31.770 > Core  1 re[37mg[37mister dump:
+12:30:31.773 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:31.781 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:31.789 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:31.795 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:31.803 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:31.812 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:31.820 > 
+12:30:31.820 > 
+12:30:31.820 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:31.842 > 
+12:30:31.842 > 
+12:30:31.842 > 
+12:30:31.842 > 
+12:30:31.842 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:31.846 > 
+12:30:31.951 > [37mR[37mebooting...
+12:30:31.952 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:31.954 > 
+12:30:31.954 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:31.960 > configsip: 0, SPIWP:0xee
+12:30:31.960 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:31.968 > mode:DIO, clock div:2
+12:30:31.968 > load[37m:[37m0x3fff0030,len:1184
+12:30:31.971 > load:0x400[37m7[37m8000,len:13192
+12:30:31.974 > load:0x40080400[37m,[37mlen:3028
+12:30:31.978 > entry 0x400805e4
+12:30:32.554 > [37ms[37mtart
+12:30:32.572 > [37m [37mBrown out Reset
+12:30:32.573 >  Watchdog Re
+12:30:32.573 > *[37m*[37m*ERROR*** A stack overflow in t[37ma[37msk IDLE has been detected.
+12:30:32.578 > 
+12:30:32.578 > [37m
+12:30:32.581 > [37mBacktrace: 0x40119c45:0x3ffbc6b[37m0[37m 0x4011a0a9:0x3ffbc6e0 0x40083f[37m9[37m1:0x3ffbc730 0x40084ff4:0x3ffbc[37m7[37m50 0x40083eed:0x3ffbc810 0x4008[37md[37mecd:0x3ffbc830 0x400915ad:0x3ff[37mb[37mc850 0x4008faf1:0x3ffbc8d0 0x40[37m0[37m8dfdc:0x3ffbc900 0x4008df8c:0xa[37m5[37ma5a5a5 |<-CORRUPTED
+12:30:32.600 > 
+12:30:32.600 > 
+12:30:32.600 > 
+12:30:32.600 > 
+12:30:32.600 > EL[37mF[37m file SHA256: 3918c795dab5630a[37m
+12:30:32.605 > [37m
+12:30:32.710 > [37mR[37mebooting...
+12:30:32.710 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:32.713 > 
+12:30:32.713 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:32.719 > configsip: 0, SPIWP:0xee
+12:30:32.719 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:32.727 > mode:DIO, clock div:2
+12:30:32.727 > load[37m:[37m0x3fff0030,len:1184
+12:30:32.730 > load:0x400[37m7[37m8000,len:13192
+12:30:32.733 > load:0x40080400[37m,[37mlen:3028
+12:30:32.737 > entry 0x400805e4
+12:30:33.314 > [37ms[37mtart
+12:30:33.331 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:33.337 > 
+12:30:33.337 > Core  1 re[37mg[37mister dump:
+12:30:33.340 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:33.348 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:33.356 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x1e0001[37m9[37mf  A9      : 0x1e00019f  
+12:30:33.362 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:33.370 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:33.379 > EXCVADDR: 0x1e00[37m0[37m1bb  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:33.387 > 
+12:30:33.387 > 
+12:30:33.387 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:33.409 > 
+12:30:33.409 > 
+12:30:33.409 > 
+12:30:33.409 > 
+12:30:33.409 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:33.414 > 
+12:30:33.513 > [37mR[37mebooting...
+12:30:33.513 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:33.516 > 
+12:30:33.516 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:33.521 > configsip: 0, SPIWP:0xee
+12:30:33.521 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:33.531 > mode:DIO, clock div:2
+12:30:33.531 > load[37m:[37m0x3fff0030,len:1184
+12:30:33.532 > load:0x400[37m7[37m8000,len:13192
+12:30:33.535 > load:0x40080400[37m,[37mlen:3028
+12:30:33.539 > entry 0x400805e4
+12:30:34.115 > [37ms[37mtart
+12:30:34.133 > [37m [37mBrown out Reset
+12:30:34.134 >  Watchdog Res
+12:30:34.136 > [37m*[37m**ERROR*** A stack overflow in [37mt[37mask IDLE has been detected.
+12:30:34.139 > 
+12:30:34.142 > [37m[37m
+12:30:34.142 > Backtrace: 0x40119c45:0x3ffbc6[37mb[37m0 0x4011a0a9:0x3ffbc6e0 0x40083[37mf[37m91:0x3ffbc730 0x40084ff4:0x3ffb[37mc[37m750 0x40083eed:0x3ffbc810 0x400[37m8[37mdecd:0x3ffbc830 0x400915ad:0x3f[37mf[37mbc850 0x4008faf1:0x3ffbc8d0 0x4[37m0[37m08dfdc:0x3ffbc900 0x4008df8c:0x[37ma[37m5a5a5a5 |<-CORRUPTED
+12:30:34.162 > 
+12:30:34.162 > 
+12:30:34.162 > 
+12:30:34.162 > 
+12:30:34.162 > E[37mL[37mF file SHA256: 3918c795dab5630a[37m[37m
+12:30:34.166 > 
+12:30:34.267 > [37mR[37mebooting...
+12:30:34.268 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:34.270 > 
+12:30:34.270 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:34.276 > configsip: 0, SPIWP:0xee
+12:30:34.276 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:34.284 > mode:DIO, clock div:2
+12:30:34.284 > load[37m:[37m0x3fff0030,len:1184
+12:30:34.287 > load:0x400[37m7[37m8000,len:13192
+12:30:34.289 > load:0x40080400[37m,[37mlen:3028
+12:30:34.294 > entry 0x400805e4
+12:30:34.871 > [37ms[37mtart
+12:30:34.889 > [37m [37mBrown out Reset
+12:30:34.889 >  Watchdog 
+12:30:34.889 > ***[37mE[37mRROR*** A stack overflow in tas[37mk[37m IDLE has been detected.
+12:30:34.895 > 
+12:30:34.895 > 
+12:30:34.895 > B[37ma[37mcktrace: 0x40119c45:0x3ffbc6b0 [37m0[37mx4011a0a9:0x3ffbc6e0 0x40083f91[37m:[37m0x3ffbc730 0x40084ff4:0x3ffbc75[37m0[37m 0x40083eed:0x3ffbc810 0x4008de[37mc[37md:0x3ffbc830 0x400915ad:0x3ffbc[37m8[37m50 0x4008faf1:0x3ffbc8d0 0x4008[37md[37mfdc:0x3ffbc900 0x4008df8c:0xa5a[37m5[37ma5a5 |<-CORRUPTED
+12:30:34.917 > 
+12:30:34.917 > 
+12:30:34.917 > 
+12:30:34.917 > 
+12:30:34.917 > ELF [37mf[37mile SHA256: 3918c795dab5630a
+12:30:34.920 > [37m
+12:30:35.023 > [37mR[37mebooting...
+12:30:35.023 > ets Jun  8 2016 00[37m:[37m22:57
+12:30:35.026 > 
+12:30:35.026 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+12:30:35.031 > configsip: 0, SPIWP:0xee
+12:30:35.031 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+12:30:35.040 > mode:DIO, clock div:2
+12:30:35.040 > load[37m:[37m0x3fff0030,len:1184
+12:30:35.042 > load:0x400[37m7[37m8000,len:13192
+12:30:35.045 > load:0x40080400[37m,[37mlen:3028
+12:30:35.050 > entry 0x400805e4
+12:30:35.627 > [37ms[37mtart
+12:30:35.644 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+12:30:35.650 > 
+12:30:35.650 > Core  1 re[37mg[37mister dump:
+12:30:35.653 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+12:30:35.661 > A2      : 0x3ffd2e1c  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+12:30:35.669 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x00b83f[37mc[37m0  A9      : 0x00b83fc0  
+12:30:35.675 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d5c  
+12:30:35.683 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+12:30:35.692 > EXCVADDR: 0x00b8[37m3[37mfdc  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+12:30:35.700 > 
+12:30:35.700 > 
+12:30:35.700 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m0169:0x3ffb2190 0x4019001d:0x3f[37mf[37mb21b0 0x400e5477:0x3ffb21d0 0x4[37m0[37m0d4441:0x3ffb21f0 0x400d4c52:0x[37m3[37mffb2210 0x400d35d7:0x3ffb2240 0[37mx[37m400d8dfe:0x3ffb2260 0x4010c67a:[37m0[37mx3ffb2290
+12:30:35.722 > 
+12:30:35.722 > 
+12:30:35.722 > 
+12:30:35.722 > 
+12:30:35.722 > ELF file SHA[37m2[37m56: 3918c795dab5630a
+12:30:35.726 > 

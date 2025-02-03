@@ -24,7 +24,12 @@
 #include <stdint.h>
 
 // current value of the outputs provided over i2s
-extern uint32_t i2s_port_data;
+#ifdef TINYBEE_MASTER
+    typedef uint64_t pinData; //daisy chained tinybees send more data
+#else
+    typedef uint32_t pinData;
+#endif
+extern pinData i2s_port_data;//luke
 
 int i2s_init();
 

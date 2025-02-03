@@ -41,7 +41,6 @@
 #define DEFAULT_MACHINE_NAME BOARD_INFO_NAME
 
 // MAX_EXPANDER_BITS is defined for MKS TinyBee in HAL/ESP32/inc/Conditionals_adv.h
-
 //
 // Servos
 //
@@ -68,29 +67,73 @@
 //
 // Steppers
 //
+#define X_ENABLE_PIN                         128
 #define X_STEP_PIN                           129
 #define X_DIR_PIN                            130
-#define X_ENABLE_PIN                         128
 
+#define Y_ENABLE_PIN                         131
 #define Y_STEP_PIN                           132
 #define Y_DIR_PIN                            133
-#define Y_ENABLE_PIN                         131
 
+#define Z_ENABLE_PIN                         134
 #define Z_STEP_PIN                           135
 #define Z_DIR_PIN                            136
-#define Z_ENABLE_PIN                         134
 
+#define E0_ENABLE_PIN                        137
 #define E0_STEP_PIN                          138
 #define E0_DIR_PIN                           139
-#define E0_ENABLE_PIN                        137
 
-#define E1_STEP_PIN                          141
-#define E1_DIR_PIN                           142
-#define E1_ENABLE_PIN                        140
+#define I_ENABLE_PIN                        140
+#define I_STEP_PIN                          141
+#define I_DIR_PIN                           142
 
+#define Z2_ENABLE_PIN                        140
 #define Z2_STEP_PIN                          141
 #define Z2_DIR_PIN                           142
-#define Z2_ENABLE_PIN                        140
+
+//pint 143 has not been routed to an accessible output on the tinybee
+//
+// Heaters / Fans
+//
+#define HEATER_BED_PIN                       144
+#define HEATER_0_PIN                         145
+#define HEATER_1_PIN                         146
+#define FAN_PIN                              147
+#define FAN1_PIN                             148
+//EXP1_01_PIN                                149//defined elsewhere
+#define PIN_BONUS_A                          150
+#define PIN_BONUS_B                          151
+// PINS 152-159 cannot be used. They represent discarded 8 bits in a 32 bit buffer. Pins 128 - 151 are stored in the top 24 bits (pin 151 is msb)
+
+#define J_ENABLE_PIN                         160
+#define J_STEP_PIN                           161
+#define J_DIR_PIN                            162
+
+#define K_ENABLE_PIN                         163
+#define K_STEP_PIN                           164
+#define K_DIR_PIN                            165
+
+#define U_ENABLE_PIN                         166
+#define U_STEP_PIN                           167
+#define U_DIR_PIN                            168
+
+#define V_ENABLE_PIN                         169
+#define V_STEP_PIN                           170
+#define V_DIR_PIN                            171
+
+#define W_ENABLE_PIN                         172
+#define W_STEP_PIN                           173
+#define W_DIR_PIN                            174
+//Pin 175 has not been routed to an accessible output on the tinybee
+#define HEATER_BED_PIN_SLAVE                 176
+#define HEATER_0_PIN_SLAVE                   177
+#define HEATER_1_PIN_SLAVE                   178
+#define FAN_PIN_SLAVE                        179
+#define FAN1_PIN_SLAVE                       180
+#define EXP1_01_PIN_SLAVE                    181
+#define PIN_BONUS_A_SLAVE                    182
+#define PIN_BONUS_B_SLAVE                    183
+
 
 //
 // Temperature Sensors
@@ -99,14 +142,7 @@
 #define TEMP_1_PIN                            34  // Analog Input, you need set R6=0Ω and R7=NC
 #define TEMP_BED_PIN                          39  // Analog Input
 
-//
-// Heaters / Fans
-//
-#define HEATER_0_PIN                         145
-#define HEATER_1_PIN                         146
-#define FAN_PIN                              147
-#define FAN1_PIN                             148
-#define HEATER_BED_PIN                       144
+
 
 //#define CONTROLLER_FAN_PIN                 148
 //#define E0_AUTO_FAN_PIN                    148  // need to update Configuration_adv.h @section extruder

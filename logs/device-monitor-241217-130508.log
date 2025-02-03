@@ -1,0 +1,300 @@
+13:05:08.111 > [37mstart
+13:05:08.111 > Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:05:08.111 > 
+13:05:08.111 > Core  1 register dump:
+13:05:08.111 > PC      : 0x400841f6  PS      : 0x00060330  A0      : 0x8008439c  A1      : 0x3ffb2130  
+13:05:08.111 > A2      : 0x3ffd2e24  A3      : 0x00000000  A4      : 0x00000000  A5      : 0x00000001  
+13:05:08.111 > A6      : 0x00060920  A7      : 0x00000001  A8      : 0x00000555  A9      : 0x00000000  
+13:05:08.111 > A10     : 0x00000003  A11     : 0x00060923  A12     : 0x00060920  A13     : 0x3ffc8d64  
+13:05:08.111 > A14     : 0x007b7c40  A15     : 0x003fffff  SAR     : 0x00000018  EXCCAUSE: 0x0000001c  
+13:05:08.111 > EXCVADDR: 0x00000571  LBEG    : 0x4008a088  LEND    : 0x4008a09e  LCOUNT  : 0xffffffff  
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > Backtrace: 0x400841f3:0x3ffb2130 0x40084399:0x3ffb2150 0x40093c4d:0x3ffb2170 0x401901b9:0x3ffb2190 0x4019006d:0x3ffb21b0 0x400e54c7:0x3ffb21d0 0x400d4435:0x3ffb21f0 0x400d4c46:0x3ffb2210 0x400d35cb:0x3ffb2240 0x400d8d86:0x3ffb2260 0x4010c6ca:0x3ffb2290
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > ELF file SHA256: d015a980462e513f
+13:05:08.111 > 
+13:05:08.111 > Rebooting...
+13:05:08.111 > ets Jun  8 2016 00:22:57
+13:05:08.111 > 
+13:05:08.111 > rst:0xc (SW_CPU_RES[37mET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:05:08.111 > configsip: 0, SPIWP:0xee
+13:05:08.111 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:05:08.111 > mode:DIO, clock div:2
+13:05:08.111 > load:0x3fff0030,len:1184
+13:05:08.111 > load:0x40078000,len:13192
+13:05:08.111 > load:0x40080400,len:3028
+13:05:08.111 > entry 0x400805e4
+13:05:08.111 > start
+13:05:08.111 > Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:05:08.111 > 
+13:05:08.111 > Core  1 register dump:
+13:05:08.111 > PC      : 0x400841f6  PS      : 0x00060330  A0      : 0x8008439c  A1      : 0x3ffb2130  
+13:05:08.111 > A2      : 0x3ffd2e24  A3      : 0x003fffff  A4      : 0x00000000  A5      : 0x00000001  
+13:05:08.111 > A6      : 0x00060920  A7      : 0x00000001  A8      : 0x00000555  A9      : 0x00000000  
+13:05:08.111 > A10     : 0x00000062  A11     : 0x3ffc5e48  A12     : 0x00000000  A13     : 0x00000000  
+13:05:08.111 > A14     : 0x00000000  A15     : 0x00000000  SAR     : 0x00000018  EXCCAUSE: 0x0000001c  
+13:05:08.111 > EXCVADDR: 0x00000571  LBEG    : 0x4008a088  LEND    : 0x4008a09e  LCOUNT  : 0xffffffff  
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > Backtrace: 0x400841f3:0x3ffb2130 0x40084399:0x3ffb2150 0x40093c4d:0x3ffb2170 0x401901b9:0x3ffb2190 0x401[37m9006d:0x3ffb21b0 0x400e54c7:0x3ffb21d0 0x400d4435:0x3ffb21f0 0x400d4c46:0x3ffb2210 0x400d35cb:0x3ffb2240 0x400d8d86:0x3ffb2260 0x4010c6ca:0x3ffb2290
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > ELF file SHA256: d015a980462e513f
+13:05:08.111 > 
+13:05:08.111 > Rebooting...
+13:05:08.111 > ets Jun  8 2016 00:22:57
+13:05:08.111 > 
+13:05:08.111 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:05:08.111 > configsip: 0, SPIWP:0xee
+13:05:08.111 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:05:08.111 > mode:DIO, clock div:2
+13:05:08.111 > load:0x3fff0030,len:1184
+13:05:08.111 > load:0x40078000,len:13192
+13:05:08.111 > load:0x40080400,len:3028
+13:05:08.111 > entry 0x400805e4
+13:05:08.111 > start
+13:05:08.111 > Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:05:08.111 > 
+13:05:08.111 > Core  1 register dump:
+13:05:08.111 > PC      : 0x400841f6  PS      : 0x00060330  A0      : 0x8008439c  A1      : 0x3ffb2130  
+13:05:08.111 > A2      : 0x3ffd2e24  A3      : 0x003fffff  A4      : 0x00000000  A5      : 0x00000001  
+13:05:08.111 > A6      : 0x00060920  A7      : 0x00000001  A8      : 0x00000555  A9      : 0x00000000  
+13:05:08.111 > A10     : 0x00000062  A11     : 0x3ffc5e48  A12     : 0x00000000  A13     : 0x00000000  
+13:05:08.111 > A14     : 0x00000000  A15     : [37m0x00000000  SAR     : 0x00000018  EXCCAUSE: 0x0000001c  
+13:05:08.111 > EXCVADDR: 0x00000571  LBEG    : 0x4008a088  LEND    : 0x4008a09e  LCOUNT  : 0xffffffff  
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > Backtrace: 0x400841f3:0x3ffb2130 0x40084399:0x3ffb2150 0x40093c4d:0x3ffb2170 0x401901b9:0x3ffb2190 0x4019006d:0x3ffb21b0 0x400e54c7:0x3ffb21d0 0x400d4435:0x3ffb21f0 0x400d4c46:0x3ffb2210 0x400d35cb:0x3ffb2240 0x400d8d86:0x3ffb2260 0x4010c6ca:0x3ffb2290
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > 
+13:05:08.111 > ELF file SHA256: d015a980462e513f
+13:05:08.111 > 
+13:05:08.111 > Rebooting...
+13:05:08.111 > ets Jun  8 2016 00:22:57
+13:05:08.111 > 
+13:05:08.111 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:05:08.111 > configsip: 0, SPIWP:0xee
+13:05:08.111 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:05:08.111 > mode:DIO, clock div:2
+13:05:08.111 > load:0x3fff0030,len:1184
+13:05:08.111 > load:0x40078000,len:13192
+13:05:08.111 > load:0x40080400,len:3028
+13:05:08.111 > entry 0x400805e4
+13:05:08.111 > start
+13:05:08.111 > Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:05:08.111 > 
+13:05:08.111 > Core  1 register dump:
+13:05:08.111 > PC      : 0x400841f6  PS      : 0x00060330  A0      : 0x8008439c  A1      : 0x3ffb2130  
+13:05:08.111 > A2      : 0x3ffd2e24  A3      : 0x00000000  A4[37m      : 0x00000000  A5      : 0x00000001  
+13:05:08.112 > A6      : 0x00060920  A7      : 0x00000001  A8      : 0x00000555  A9      : 0x00000000  
+13:05:08.112 > A10     : 0x00000003  A11     : 0x00060923  A12     : 0x00060920  A13     : 0x3ffc8d64  
+13:05:08.112 > A14     : 0x007b7c40  A15     : 0x003fffff  SAR     : 0x00000018  EXCCAUSE: 0x0000001c  
+13:05:08.112 > EXCVADDR: 0x00000571  LBEG    : 0x4008a088  LEND    : 0x4008a09e  LCOUNT  : 0xffffffff  
+13:05:08.112 > 
+13:05:08.112 > 
+13:05:08.112 > Backtrace: 0x400841f3:0x3ffb2130 0x40084399:0x3ffb2150 0x40093c4d:0x3ffb2170 0x401901b9:0x3ffb2190 0x4019006d:0x3ffb21b0 0x400e54c7:0x3ffb21d0 0x400d4435:0x3ffb21f0 0x400d4c46:0x3ffb2210 0x400d35cb:0x3ffb2240 0x400d8d86:0x3ffb2260 0x4010c6ca:0x3ffb2290
+13:05:08.112 > 
+13:05:08.112 > 
+13:05:08.112 > 
+13:05:08.112 > 
+13:05:08.112 > ELF file SHA256: d015a980462e513f
+13:05:08.112 > 
+13:05:08.112 > Rebooting...
+13:05:08.112 > ets Jun  8 2016 00:22:57
+13:05:08.112 > 
+13:05:08.112 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:05:08.112 > configsip: 0, SPIWP:0xee
+13:05:08.112 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:05:08.112 > mode:DIO, clock div:2
+13:05:08.112 > load:0x3fff0030,len:1184
+13:05:08.112 > load:0x40078000,len:13192
+13:05:08.112 > load:0x40080400,len:3028
+13:05:08.112 > entry 0x400805[37me4
+13:05:08.112 > start
+13:05:08.112 > Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:05:08.112 > 
+13:05:08.112 > Core  1 register dump:
+13:05:08.112 > PC      : 0x400841f6  PS      : 0x00060330  A0      : 0x8008439c  A1      : 0x3ffb2130  
+13:05:08.112 > A2      : 0x3ffd2e24  A3      : 0x00000000  A4      : 0x00000000  A5      : 0x00000001  
+13:05:08.112 > A6      : 0x00060920  A7      : 0x00000001  A8      : 0x00000555  A9      : 0x00000000  
+13:05:08.112 > A10     : 0x00000003  A11     : 0x00060923  A12     : 0x00060920  A13     : 0x3ffc8d64  
+13:05:08.112 > A14     : 0x007b7c40  A15     : 0x003fffff  SAR     : 0x00000018  EXCCAUSE: 0x0000001c  
+13:05:08.112 > EXCVADDR: 0x00000571  LBEG    : 0x4008a088  LEND    : 0x4008a09e  LCOUNT  : 0xffffffff  
+13:05:08.112 > 
+13:05:08.112 > 
+13:05:08.112 > Backtrace: 0x400841f3:0x3ffb2130 0x40084399:0x3ffb2150 0x40093c4d:0x3ffb2170 0x401901b9:0x3ffb2190 0x4019006d:0x3ffb21b0 0x400e54c7:0x3ffb21d0 0x400d4435:0x3ffb21f0 0x400d4c46:0x3ffb2210 0x400d35cb:0x3ffb2240 0x400d8d86:0x3ffb2260 0x4010c6ca:0x3ffb2290
+13:05:08.112 > 
+13:05:08.112 > 
+13:05:08.112 > 
+13:05:08.112 > 
+13:05:08.112 > ELF file SHA256: d015a980462e513f
+13:05:08.112 > 
+13:05:08.112 > Rebooting...
+13:05:08.112 > ets Jun  8 2016 00:22:57
+13:05:08.112 > 
+13:05:08.112 > rst:0xc (SW_CPU[37m_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:05:08.112 > configsip: 0, SPIWP:0xee
+13:05:08.112 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:05:08.112 > mode:DIO, clock div:2
+13:05:08.112 > load:0x3fff0030,len:1184
+13:05:08.112 > load:0x40078000,len:13192
+13:05:08.112 > load:0x40080400,len:3028
+13:05:08.112 > entry 0x400805e4
+13:05:08.681 > [37ms[37mtart
+13:05:08.700 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+13:05:08.705 > 
+13:05:08.705 > Core  1 re[37mg[37mister dump:
+13:05:08.708 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+13:05:08.716 > A2      : 0x3ffd2e24  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+13:05:08.724 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x000005[37m5[37m5  A9      : 0x00000000  
+13:05:08.730 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d64  
+13:05:08.738 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+13:05:08.747 > EXCVADDR: 0x0000[37m0[37m571  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+13:05:08.755 > 
+13:05:08.755 > 
+13:05:08.755 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m01b9:0x3ffb2190 0x4019006d:0x3f[37mf[37mb21b0 0x400e54c7:0x3ffb21d0 0x4[37m0[37m0d4435:0x3ffb21f0 0x400d4c46:0x[37m3[37mffb2210 0x400d35cb:0x3ffb2240 0[37mx[37m400d8d86:0x3ffb2260 0x4010c6ca:[37m0[37mx3ffb2290
+13:05:08.777 > 
+13:05:08.777 > 
+13:05:08.777 > 
+13:05:08.777 > 
+13:05:08.777 > ELF file SHA[37m2[37m56: d015a980462e513f
+13:05:08.781 > 
+13:05:08.898 > [37mR[37mebooting...
+13:05:08.898 > ets Jun  8 2016 00[37m:[37m22:57
+13:05:08.900 > 
+13:05:08.900 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:05:08.906 > configsip: 0, SPIWP:0xee
+13:05:08.906 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:05:08.914 > mode:DIO, clock div:2
+13:05:08.914 > load[37m:[37m0x3fff0030,len:1184
+13:05:08.917 > load:0x400[37m7[37m8000,len:13192
+13:05:08.920 > load:0x40080400[37m,[37mlen:3028
+13:05:08.925 > entry 0x400805e4
+13:05:09.501 > [37ms[37mtart
+13:05:09.520 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+13:05:09.525 > 
+13:05:09.525 > Core  1 re[37mg[37mister dump:
+13:05:09.528 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+13:05:09.536 > A2      : 0x3ffd2e24  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+13:05:09.545 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x000005[37m5[37m5  A9      : 0x00000000  
+13:05:09.550 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d64  
+13:05:09.559 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+13:05:09.567 > EXCVADDR: 0x0000[37m0[37m571  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+13:05:09.575 > 
+13:05:09.575 > 
+13:05:09.575 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m01b9:0x3ffb2190 0x4019006d:0x3f[37mf[37mb21b0 0x400e54c7:0x3ffb21d0 0x4[37m0[37m0d4435:0x3ffb21f0 0x400d4c46:0x[37m3[37mffb2210 0x400d35cb:0x3ffb2240 0[37mx[37m400d8d86:0x3ffb2260 0x4010c6ca:[37m0[37mx3ffb2290
+13:05:09.597 > 
+13:05:09.597 > 
+13:05:09.597 > 
+13:05:09.597 > 
+13:05:09.597 > ELF file SHA[37m2[37m56: d015a980462e513f
+13:05:09.602 > 
+13:05:09.719 > [37mR[37mebooting...
+13:05:09.719 > ets Jun  8 2016 00[37m:[37m22:57
+13:05:09.722 > 
+13:05:09.722 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:05:09.728 > configsip: 0, SPIWP:0xee
+13:05:09.728 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:05:09.736 > mode:DIO, clock div:2
+13:05:09.736 > load[37m:[37m0x3fff0030,len:1184
+13:05:09.739 > load:0x400[37m7[37m8000,len:13192
+13:05:09.741 > load:0x40080400[37m,[37mlen:3028
+13:05:09.746 > entry 0x400805e4
+13:05:10.323 > [37ms[37mtart
+13:05:10.341 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+13:05:10.347 > 
+13:05:10.347 > Core  1 re[37mg[37mister dump:
+13:05:10.350 > PC      : 0x400841[37mf[37m6  PS      : 0x00060530  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+13:05:10.358 > A2      : 0x3ffd2e24  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+13:05:10.367 > A6      : 0x00060b20  A7      [37m:[37m 0x00000001  A8      : 0x000005[37m5[37m5  A9      : 0x00000000  
+13:05:10.372 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60b23  A12     : 0x00060b20  A1[37m3[37m     : 0x3ffc8d64  
+13:05:10.380 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+13:05:10.388 > EXCVADDR: 0x0000[37m0[37m571  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+13:05:10.397 > 
+13:05:10.397 > 
+13:05:10.397 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m01b9:0x3ffb2190 0x4019006d:0x3f[37mf[37mb21b0 0x400e54c7:0x3ffb21d0 0x4[37m0[37m0d4435:0x3ffb21f0 0x400d4c46:0x[37m3[37mffb2210 0x400d35cb:0x3ffb2240 0[37mx[37m400d8d86:0x3ffb2260 0x4010c6ca:[37m0[37mx3ffb2290
+13:05:10.419 > 
+13:05:10.419 > 
+13:05:10.419 > 
+13:05:10.419 > 
+13:05:10.419 > ELF file SHA[37m2[37m56: d015a980462e513f
+13:05:10.423 > 
+13:05:10.536 > [37mR[37mebooting...
+13:05:10.537 > ets Jun  8 2016 00[37m:[37m22:57
+13:05:10.539 > 
+13:05:10.539 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:05:10.545 > configsip: 0, SPIWP:0xee
+13:05:10.545 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:05:10.553 > mode:DIO, clock div:2
+13:05:10.553 > load[37m:[37m0x3fff0030,len:1184
+13:05:10.556 > load:0x400[37m7[37m8000,len:13192
+13:05:10.559 > load:0x40080400[37m,[37mlen:3028
+13:05:10.563 > entry 0x400805e4
+13:05:11.140 > [37ms[37mtart
+13:05:11.158 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+13:05:11.164 > 
+13:05:11.164 > Core  1 re[37mg[37mister dump:
+13:05:11.167 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+13:05:11.175 > A2      : 0x3ffd2e24  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+13:05:11.183 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x000005[37m5[37m5  A9      : 0x00000000  
+13:05:11.189 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d64  
+13:05:11.197 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+13:05:11.205 > EXCVADDR: 0x0000[37m0[37m571  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+13:05:11.214 > 
+13:05:11.214 > 
+13:05:11.214 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m01b9:0x3ffb2190 0x4019006d:0x3f[37mf[37mb21b0 0x400e54c7:0x3ffb21d0 0x4[37m0[37m0d4435:0x3ffb21f0 0x400d4c46:0x[37m3[37mffb2210 0x400d35cb:0x3ffb2240 0[37mx[37m400d8d86:0x3ffb2260 0x4010c6ca:[37m0[37mx3ffb2290
+13:05:11.236 > 
+13:05:11.236 > 
+13:05:11.236 > 
+13:05:11.236 > 
+13:05:11.236 > ELF file SHA[37m2[37m56: d015a980462e513f
+13:05:11.240 > 
+13:05:11.355 > [37mR[37mebooting...
+13:05:11.355 > ets Jun  8 2016 00[37m:[37m22:57
+13:05:11.358 > 
+13:05:11.358 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:05:11.363 > configsip: 0, SPIWP:0xee
+13:05:11.363 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:05:11.372 > mode:DIO, clock div:2
+13:05:11.372 > load[37m:[37m0x3fff0030,len:1184
+13:05:11.375 > load:0x400[37m7[37m8000,len:13192
+13:05:11.377 > load:0x40080400[37m,[37mlen:3028
+13:05:11.382 > entry 0x400805e4
+13:05:11.959 > [37ms[37mtart
+13:05:11.977 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (LoadProhibited). Except[37mi[37mon was unhandled.
+13:05:11.983 > 
+13:05:11.983 > Core  1 re[37mg[37mister dump:
+13:05:11.985 > PC      : 0x400841[37mf[37m6  PS      : 0x00060330  A0    [37m [37m : 0x8008439c  A1      : 0x3ffb[37m2[37m130  
+13:05:11.994 > A2      : 0x3ffd2e24  A3[37m [37m     : 0x00000000  A4      : 0x[37m0[37m0000000  A5      : 0x00000001  [37m[37m
+13:05:12.002 > A6      : 0x00060920  A7      [37m:[37m 0x00000001  A8      : 0x000005[37m5[37m5  A9      : 0x00000000  
+13:05:12.008 > A10 [37m [37m   : 0x00000003  A11     : 0x00[37m0[37m60923  A12     : 0x00060920  A1[37m3[37m     : 0x3ffc8d64  
+13:05:12.016 > A14     : [37m0[37mx007b7c40  A15     : 0x003fffff[37m [37m SAR     : 0x00000018  EXCCAUSE[37m:[37m 0x0000001c  
+13:05:12.024 > EXCVADDR: 0x0000[37m0[37m571  LBEG    : 0x4008a088  LEND[37m [37m   : 0x4008a09e  LCOUNT  : 0xff[37mf[37mfffff  
+13:05:12.033 > 
+13:05:12.033 > 
+13:05:12.033 > Backtrace: 0x40084[37m1[37mf3:0x3ffb2130 0x40084399:0x3ffb[37m2[37m150 0x40093c4d:0x3ffb2170 0x401[37m9[37m01b9:0x3ffb2190 0x4019006d:0x3f[37mf[37mb21b0 0x400e54c7:0x3ffb21d0 0x4[37m0[37m0d4435:0x3ffb21f0 0x400d4c46:0x[37m3[37mffb2210 0x400d35cb:0x3ffb2240 0[37mx[37m400d8d86:0x3ffb2260 0x4010c6ca:[37m0[37mx3ffb2290
+13:05:12.059 > 
+13:05:12.059 > 
+13:05:12.059 > 
+13:05:12.059 > 
+13:05:12.059 > ELF file SHA[37m256: d015a980462e513f
+13:05:12.059 > 
+13:05:12.169 > [37mR[37mebooting...
+13:05:12.169 > ets Jun  8 2016 00[37m:[37m22:57
+13:05:12.172 > 
+13:05:12.172 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:05:12.177 > configsip: 0, SPIWP:0xee
+13:05:12.177 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:05:12.185 > mode:DIO, clock div:2
+13:05:12.185 > load[37m:[37m0x3fff0030,len:1184
+13:05:12.188 > load:0x400[37m7[37m8000,len:13192
+13:05:12.191 > load:0x40080400[37m,[37mlen:3028
+13:05:12.195 > entry 0x400805e4

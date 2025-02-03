@@ -1727,7 +1727,8 @@ float Planner::triggered_position_mm(const AxisEnum axis) {
 bool Planner::busy() {
   return (has_blocks_queued() || cleaning_buffer_counter
       || TERN0(EXTERNAL_CLOSED_LOOP_CONTROLLER, CLOSED_LOOP_WAITING())
-      || TERN0(HAS_SHAPING, stepper.input_shaping_busy())
+      || TERN0(HAS_SHAPING, stepper.input_shaping_busy()
+      || CEMENT::isBusy())
   );
 }
 
@@ -2135,7 +2136,29 @@ bool Planner::_populate_block(
     bool cartesian_move = true;
   #endif
 
-  if (true NUM_AXIS_GANG(
+  /*
+  Feedrate and move distance (block->millimeters) are used to calculate the move duration
+  Marlin by default counts i,j,k,u,v,w moves as cartesian moves with priority above E
+  For my purposes movement priority is XYZ then E then ijkuvw meaning that the supplied feedrate only applies directly to ijkuvw when xyze have no movements
+  */
+  if(true NUM_AXIS_GANG(//
+    && block->steps.a < MIN_STEPS_PER_SEGMENT,
+    && block->steps.b < MIN_STEPS_PER_SEGMENT,
+    && block->steps.c < MIN_STEPS_PER_SEGMENT,
+    && 1, && 1, && 1, && 1, && 1, && 1
+  )){//if to few steps in xyz then try e
+    block->millimeters = TERN0(HAS_EXTRUDERS,ABS(steps_dist_mm.e));
+    if(NEAR_ZERO(block->millimeters)){
+      TERN_(HAS_I_AXIS,block->millimeters = max(block->millimeters,ABS(steps_dist_mm.i)));
+      TERN_(HAS_J_AXIS,block->millimeters = max(block->millimeters,ABS(steps_dist_mm.j)));
+      TERN_(HAS_K_AXIS,block->millimeters = max(block->millimeters,ABS(steps_dist_mm.k)));
+      TERN_(HAS_U_AXIS,block->millimeters = max(block->millimeters,ABS(steps_dist_mm.u)));
+      TERN_(HAS_V_AXIS,block->millimeters = max(block->millimeters,ABS(steps_dist_mm.v)));
+      TERN_(HAS_W_AXIS,block->millimeters = max(block->millimeters,ABS(steps_dist_mm.w)));
+    }
+  }
+
+  /*if (true NUM_AXIS_GANG(
       && block->steps.a < MIN_STEPS_PER_SEGMENT,
       && block->steps.b < MIN_STEPS_PER_SEGMENT,
       && block->steps.c < MIN_STEPS_PER_SEGMENT,
@@ -2148,7 +2171,7 @@ bool Planner::_populate_block(
     )
   ) {
     block->millimeters = TERN0(HAS_EXTRUDERS, ABS(steps_dist_mm.e));
-  }
+  }*/
   else {
     if (hints.millimeters)
       block->millimeters = hints.millimeters;
@@ -3172,6 +3195,12 @@ bool Planner::buffer_line(const xyze_pos_t &cart, const_feedRate_t fr_mm_s
       const feedRate_t feedrate = fr_mm_s;
     #endif
     TERN_(HAS_EXTRUDERS, delta.e = machine.e);
+    TERN_(HAS_I_AXIS, delta.i = machine.i);
+    TERN_(HAS_J_AXIS, delta.j = machine.j);
+    TERN_(HAS_K_AXIS, delta.k = machine.k);
+    TERN_(HAS_U_AXIS, delta.u = machine.u);
+    TERN_(HAS_V_AXIS, delta.v = machine.v);
+    TERN_(HAS_W_AXIS, delta.w = machine.w);
     if (buffer_segment(delta OPTARG(HAS_DIST_MM_ARG, cart_dist_mm), feedrate, extruder, ph)) {
       position_cart = cart;
       return true;
@@ -3288,6 +3317,12 @@ void Planner::set_position_mm(const xyze_pos_t &xyze) {
     position_cart = xyze;
     inverse_kinematics(machine);
     TERN_(HAS_EXTRUDERS, delta.e = machine.e);
+    TERN_(HAS_I_AXIS, delta.i = machine.i);
+    TERN_(HAS_J_AXIS, delta.j = machine.j);
+    TERN_(HAS_K_AXIS, delta.k = machine.k);
+    TERN_(HAS_U_AXIS, delta.u = machine.u);
+    TERN_(HAS_V_AXIS, delta.v = machine.v);
+    TERN_(HAS_W_AXIS, delta.w = machine.w);
     set_machine_position_mm(delta);
   #else
     set_machine_position_mm(machine);

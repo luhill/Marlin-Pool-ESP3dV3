@@ -35,8 +35,13 @@
 #include "../../module/stepper.h"
 
 #define DMA_BUF_COUNT 8                                // number of DMA buffers to store data
-#define DMA_BUF_LEN   4092                             // maximum size in bytes
-#define I2S_SAMPLE_SIZE 4                              // 4 bytes, 32 bits per sample
+#ifdef TINYBEE_MASTER
+  #define DMA_BUF_LEN   4088                           // maximum size in bytes
+  #define I2S_SAMPLE_SIZE 8// 8 bytes, 64 bits per sample 
+#else
+  #define DMA_BUF_LEN   4092                           // maximum size in bytes
+  #define I2S_SAMPLE_SIZE 4 // 4 bytes, 32 bits per sample
+#endif
 #define DMA_SAMPLE_COUNT DMA_BUF_LEN / I2S_SAMPLE_SIZE // number of samples per buffer
 
 typedef enum {
@@ -46,10 +51,10 @@ typedef enum {
 } i2s_port_t;
 
 typedef struct {
-  uint32_t     **buffers;
-  uint32_t     *current;
-  uint32_t     rw_pos;
-  lldesc_t     **desc;
+  pinData **buffers;
+  pinData *current;
+  uint32_t rw_pos;
+  lldesc_t **desc;
   xQueueHandle queue;
 } i2s_dma_t;
 
@@ -58,8 +63,7 @@ static i2s_dev_t* I2S[I2S_NUM_MAX] = {&I2S0, &I2S1};
 static i2s_dma_t dma;
 
 // output value
-uint32_t i2s_port_data = 0;
-
+pinData i2s_port_data = 0;
 #define I2S_ENTER_CRITICAL()  portENTER_CRITICAL(&i2s_spinlock[i2s_num])
 #define I2S_EXIT_CRITICAL()   portEXIT_CRITICAL(&i2s_spinlock[i2s_num])
 
@@ -184,7 +188,7 @@ int i2s_init() {
    * Each i2s transfer will take
    *   fpll = PLL_D2_CLK      -- clka_en = 0
    *
-   *   fi2s = fpll / N + b/a  -- N = clkm_div_num
+   *   fi2s = fpll / (N + b/a)  -- N = clkm_div_num, a = clkm_div_a, b = clkm_div_b
    *   fi2s = 160MHz / 2
    *   fi2s = 80MHz
    *
@@ -196,16 +200,16 @@ int i2s_init() {
    *
    *   for fwclk = 250kHz (4µS pulse time)
    *      N = 10
-   *      M = 20
+   *      M = 2
    */
 
   // Allocate the array of pointers to the buffers
-  dma.buffers = (uint32_t **)malloc(sizeof(uint32_t*) * DMA_BUF_COUNT);
+  dma.buffers = (pinData**)malloc(sizeof(pinData*) * DMA_BUF_COUNT);//luke
   if (!dma.buffers) return -1;
 
   // Allocate each buffer that can be used by the DMA controller
   for (int buf_idx = 0; buf_idx < DMA_BUF_COUNT; buf_idx++) {
-    dma.buffers[buf_idx] = (uint32_t*) heap_caps_calloc(1, DMA_BUF_LEN, MALLOC_CAP_DMA);
+    dma.buffers[buf_idx] = (pinData*) heap_caps_calloc(1, DMA_BUF_LEN, MALLOC_CAP_DMA);
     if (dma.buffers[buf_idx] == nullptr) return -1;
   }
 
@@ -288,7 +292,7 @@ int i2s_init() {
   I2S0.conf.tx_right_first = 1;
 
   I2S0.conf.tx_slave_mod = 0; // Master
-  I2S0.fifo_conf.tx_fifo_mod_force_en = 1;
+  I2S0.fifo_conf.tx_fifo_mod_force_en = TERN(TINYBEE_MASTER,0,1);//luke 1;
 
   I2S0.pdm_conf.rx_pdm_en = 0;
   I2S0.pdm_conf.tx_pdm_en = 0;
@@ -299,14 +303,35 @@ int i2s_init() {
   I2S0.conf.rx_msb_shift = 0;
 
   // set clock
+  /* Valid configs:
+    N   a   b   d   s   description
+    8   3   1   2   48  48 bit samples @ 200khz (6x HCT 595) 
+    5   9   5   3   48  48 bit samples @ 200khz (6x HCT 595)
+    6   3   2   2   48  48 bit samples @ 250khz (6x HCT 595)
+    6   4   1   2   64  64 bit samples @ 200khz (6x HCT 595)
+    10  0   0   2   32
+  */
   I2S0.clkm_conf.clka_en = 0;       // Use PLL/2 as reference
-  I2S0.clkm_conf.clkm_div_num = 10; // minimum value of 2, reset value of 4, max 256
-  I2S0.clkm_conf.clkm_div_a = 0;    // 0 at reset, what about divide by 0? (not an issue)
-  I2S0.clkm_conf.clkm_div_b = 0;    // 0 at reset
-
-  // fbck = fi2s / tx_bck_div_num
-  I2S0.sample_rate_conf.tx_bck_div_num = 2; // minimum value of 2 defaults to 6
-
+  #ifdef TINYBEE_MASTER
+  /* N */  I2S0.clkm_conf.clkm_div_num = 5;  // minimum value of 2, reset value of 4, max 256
+  /* a */  I2S0.clkm_conf.clkm_div_a = 9;  // 0 at reset, what about divide by 0? (not an issue)
+  /* b */  I2S0.clkm_conf.clkm_div_b = 5;  // 0 at reset
+  //fi2s = fpll / (N + b/a) = 160,000,000 / (5 + 5/9) = 28,800,000 hz
+  /* d */  I2S0.sample_rate_conf.tx_bck_div_num = 3; // minimum value of 2 defaults to 6
+  // fbck = fi2s / tx_bck_div_num = 28,800,000 /3 = 9,600,000
+  /* s */  uint32_t size = 48;
+  /* s/2 */I2S0.sample_rate_conf.tx_bits_mod = size/2; // 24 bits, half the size of the data to transmit
+  //fwclk = fbclk / (2*tx.bits_mod) = 9,600,000 /(2*24) = 200,000 hz = stepper rate. Make sure to set STEPPER_TIMER_RATE = 200,000 in timers.h
+#else
+  /* N */I2S0.clkm_conf.clkm_div_num = 10;  // minimum value of 2, reset value of 4, max 256
+  /* a */  I2S0.clkm_conf.clkm_div_a = 0;  // 0 at reset, what about divide by 0? (not an issue)
+  /* b */  I2S0.clkm_conf.clkm_div_b = 0;  // 0 at reset
+  //fi2s = fpll / (N + b/a) = 160,000,000 / (10 + 0/0) = 16,000,000 hz
+  /* d */I2S0.sample_rate_conf.tx_bck_div_num = 2; // minimum value of 2 defaults to 6
+  // fbck = fi2s / tx_bck_div_num = 16,000,000 /2 = 8,000,000
+  /* s */I2S0.sample_rate_conf.tx_bits_mod = 16; // minimum value of 2 defaults to 6//luke
+  //fwclk = fbclk / (2*tx.bits_mod) = 8,000,000 /(2*16) = 250,000 hz = stepper rate. Make sure to set STEPPER_TIMER_RATE = 250,000 in timers.h
+#endif
   // Enable TX interrupts
   I2S0.int_ena.out_eof = 1;
   I2S0.int_ena.out_dscr_err = 0;
@@ -330,9 +355,10 @@ int i2s_init() {
     gpio_matrix_out_check(I2S_BCK, I2S0O_BCK_OUT_IDX, 0, 0);
   #endif
   #if defined(I2S_WS) && I2S_WS >= 0
-    gpio_matrix_out_check(I2S_WS, I2S0O_WS_OUT_IDX, 0, 0);
+    gpio_matrix_out_check(I2S_WS, I2S0O_WS_OUT_IDX, TERN(TINYBEE_MASTER,1,0), 0);//luke invert the ws line
   #endif
 
+  
   // Start the I2S peripheral
   return i2s_start(I2S_NUM_0);
 }
@@ -344,37 +370,38 @@ void i2s_write(uint8_t pin, uint8_t val) {
       return;
     }
   #endif
-  SET_BIT_TO(i2s_port_data, pin, val);
+  //SET_BIT_TO(i2s_port_data, pin, val);
+  SET_BIT_TO64(i2s_port_data, pin, val);//luke
 }
 
 uint8_t i2s_state(uint8_t pin) {
   #if ENABLED(I2S_STEPPER_SPLIT_STREAM)
     if (pin >= 16) return TEST(I2S0.conf_single_data, pin);
   #endif
-  return TEST(i2s_port_data, pin);
+  //return TEST(i2s_port_data, pin);
+  return TEST64(i2s_port_data, pin);//
 }
 
 void i2s_push_sample() {
-  // Every 4µs (when space in DMA buffer) toggle each expander PWM output using
+  // Every stepper pulse (when space in DMA buffer) toggle each expander PWM output using
   // the current duty cycle/frequency so they sync with any steps (once
   // through the DMA/FIFO buffers).  PWM signal inversion handled by other functions
+  pwm_pin_t *pin;
   LOOP_L_N(p, MAX_EXPANDER_BITS) {
-    if (hal.pwm_pin_data[p].pwm_duty_ticks > 0) { // pin has active pwm?
-      if (hal.pwm_pin_data[p].pwm_tick_count == 0) {
-        if (TEST32(i2s_port_data, p)) {  // hi->lo
-          CBI32(i2s_port_data, p);
-          hal.pwm_pin_data[p].pwm_tick_count = hal.pwm_pin_data[p].pwm_cycle_ticks - hal.pwm_pin_data[p].pwm_duty_ticks;
+    pin = &hal.pwm_pin_data[p];
+    if(pin->pwm_duty_ticks >0){ // pin has active pwm?
+      if(pin->pwm_tick_count == 0){// tick count ended. toggle pin and switch duty
+        TBI64(i2s_port_data,p);//toggle pin
+        if (TEST64(i2s_port_data, p)) {// pin is now high. set tick count to # of on duty ticks
+          pin->pwm_tick_count = pin->pwm_duty_ticks-1;
+        }else{ //pin is now low. set tick count to # of off duty ticks
+          pin->pwm_tick_count = pin->pwm_cycle_ticks - pin->pwm_duty_ticks-1;
         }
-        else { // lo->hi
-          SBI32(i2s_port_data, p);
-          hal.pwm_pin_data[p].pwm_tick_count = hal.pwm_pin_data[p].pwm_duty_ticks;
-        }
+      }else{
+        pin->pwm_tick_count--;
       }
-      else
-        hal.pwm_pin_data[p].pwm_tick_count--;
     }
   }
-
   dma.current[dma.rw_pos++] = i2s_port_data;
 }
 

@@ -1,0 +1,390 @@
+16:16:01.723 > [37me[37mcho:No SD card
+16:16:01.730 > [37me[37mcho:Setup wifi
+16:16:02.499 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+16:16:04.501 > [37me[37mcho:192.168.0.1
+16:16:05.517 > [37me[37mcho:192.168.0.1
+16:16:15.423 > [37me[37mcho:New client
+16:16:44.545 > [37mE[37m (68501) task_wdt: Task watchdo[37mg[37m got triggered. The following t[37ma[37msks did not reset the watchdog [37mi[37mn time:
+16:16:44.553 > E (68501) task_wdt:  -[37m [37mIDLE (CPU 0)
+16:16:44.556 > E (68501) task_wd[37mt[37m: Tasks currently running:
+16:16:44.559 > E ([37m6[37m8501) task_wdt: CPU 0: ESP3DLib[37m [37mTask
+16:16:44.564 > E (68501) task_wdt: CPU 1[37m:[37m IDLE
+16:16:44.567 > E (68501) task_wdt: Abor[37mt[37ming.
+16:16:44.570 > 
+16:16:44.570 > abort() was called at P[37mC[37m 0x40117a6c on core 0
+16:16:44.572 > 
+16:16:44.572 > 
+16:16:44.572 > Back[37mt[37mrace: 0x40083f49:0x3ffbf3fc |<-[37mC[37mORRUPTED
+16:16:44.578 > 
+16:16:44.578 > 
+16:16:44.578 > 
+16:16:44.578 > 
+16:16:44.578 > ELF file SHA2[37m5[37m6: 959746787b992270
+16:16:44.580 > 
+16:16:44.763 > [37mR[37mebooting...
+16:16:44.765 > [37me[37mts Jun  8 2016 00:22:57
+16:16:44.766 > 
+16:16:44.766 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+16:16:44.771 > configsip: 0[37m,[37m SPIWP:0xee
+16:16:44.774 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+16:16:44.779 > mode:DIO,[37m [37mclock div:2
+16:16:44.783 > load:0x3fff0030,le[37mn[37m:1184
+16:16:44.785 > load:0x40078000,len:1319[37m2[37m
+16:16:44.788 > load:0x40080400,len:3028
+16:16:44.788 > ent[37mr[37my 0x400805e4
+16:16:45.370 > [37ms[37mtart
+16:16:45.394 > [37m [37mBrown out Reset
+16:16:45.394 >  Watchdog Reset[37m
+16:16:45.397 > [37mMarlin 2.1.2
+16:16:45.397 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+16:16:45.402 > echo: Compiled: No[37mv[37m 27 2024
+16:16:45.405 > echo: Free Memory: 230[37m2[37m00  PlannerBufferBytes: 1344
+16:16:45.440 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+16:16:45.449 > [37me[37mcho:SD card released
+16:16:57.873 > [37me[37mcho:No SD card
+16:16:57.880 > [37me[37mcho:Setup wifi
+16:16:58.650 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+16:17:00.653 > [37me[37mcho:192.168.0.1
+16:17:01.669 > [37me[37mcho:192.168.0.1
+16:17:06.887 > [37me[37mcho:New client
+16:17:23.449 > [37mE[37m (51008) task_wdt: Task watchdo[37mg[37m got triggered. The following t[37ma[37msks did not reset the watchdog [37mi[37mn time:
+16:17:23.458 > E (51008) task_wdt:  -[37m [37mIDLE (CPU 0)
+16:17:23.461 > E (51008) task_wd[37mt[37m: Tasks currently running:
+16:17:23.464 > E ([37m5[37m1008) task_wdt: CPU 0: ESP3DLib[37m [37mTask
+16:17:23.469 > E (51008) task_wdt: CPU 1[37m:[37m StepperTask
+16:17:23.472 > E (51008) task_wd[37mt[37m: Aborting.
+16:17:23.474 > 
+16:17:23.474 > abort() was call[37me[37md at PC 0x40117a6c on core 0
+16:17:23.477 > [37m
+16:17:23.480 > [37m
+16:17:23.480 > Backtrace: 0x40083f49:0x3ffbf[37m3[37mfc |<-CORRUPTED
+16:17:23.483 > 
+16:17:23.483 > 
+16:17:23.483 > 
+16:17:23.483 > 
+16:17:23.483 > ELF fi[37ml[37me SHA256: 959746787b992270
+16:17:23.485 > 
+16:17:23.669 > [37mR[37mebooting...
+16:17:23.672 > [37me[37mts Jun  8 2016 00:22:57
+16:17:23.672 > 
+16:17:23.672 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+16:17:23.678 > configsip: 0[37m,[37m SPIWP:0xee
+16:17:23.680 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+16:17:23.686 > mode:DIO,[37m [37mclock div:2
+16:17:23.689 > load:0x3fff0030,le[37mn[37m:1184
+16:17:23.691 > load:0x40078000,len:1319[37m2[37m
+16:17:23.694 > load:0x40080400,len:3028
+16:17:23.694 > ent[37mr[37my 0x400805e4
+16:17:24.277 > [37ms[37mtart
+16:17:24.301 > [37m [37mBrown out Reset
+16:17:24.301 >  Watchdog Reset[37m
+16:17:24.304 > [37mMarlin 2.1.2
+16:17:24.304 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+16:17:24.309 > echo: Compiled: No[37mv[37m 27 2024
+16:17:24.312 > echo: Free Memory: 230[37m2[37m00  PlannerBufferBytes: 1344
+16:17:24.347 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+16:17:24.355 > [37me[37mch[37mo[37m:SD card released
+16:17:36.777 > [37me[37mcho:No SD card
+16:17:36.784 > [37me[37mcho:Setup wifi
+16:17:37.554 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+16:17:39.556 > [37me[37mcho:192.168.0.1
+16:17:40.572 > [37me[37mcho:192.168.0.1
+16:17:45.134 > [37me[37mcho:New client
+16:18:14.876 > [37mE[37m (63526) task_wdt: Task watchdo[37mg[37m got triggered. The following t[37ma[37msks did not reset the watchdog [37mi[37mn time:
+16:18:14.884 > E (63526) task_wdt:  -[37m [37mIDLE (CPU 0)
+16:18:14.887 > E (63526) task_wd[37mt[37m: Tasks currently running:
+16:18:14.890 > E ([37m6[37m3526) task_wdt: CPU 0: ESP3DLib[37m [37mTask
+16:18:14.895 > E (63526) task_wdt: CPU 1[37m:[37m IDLE
+16:18:14.898 > E (63526) task_wdt: Abor[37mt[37ming.
+16:18:14.901 > 
+16:18:14.901 > abort() was called at P[37mC[37m 0x40117a6c on core 0
+16:18:14.904 > 
+16:18:14.904 > 
+16:18:14.904 > Back[37mt[37mrace: 0x40083f49:0x3ffbf3fc |<-[37mC[37mORRUPTED
+16:18:14.909 > 
+16:18:14.909 > 
+16:18:14.909 > 
+16:18:14.909 > 
+16:18:14.909 > ELF file SHA2[37m5[37m6: 959746787b992270
+16:18:14.911 > 
+16:18:15.094 > [37mR[37mebooting...
+16:18:15.097 > [37me[37mts Jun  8 2016 00:22:57
+16:18:15.097 > 
+16:18:15.097 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+16:18:15.103 > configsip: 0[37m,[37m SPIWP:0xee
+16:18:15.105 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+16:18:15.111 > mode:DIO,[37m [37mclock div:2
+16:18:15.114 > load:0x3fff0030,le[37mn[37m:1184
+16:18:15.116 > load:0x40078000,len:1319[37m2[37m
+16:18:15.119 > load:0x40080400,len:3028
+16:18:15.119 > ent[37mr[37my 0x400805e4
+16:18:15.702 > [37ms[37mtart
+16:18:15.726 > [37m [37mBrown out Reset
+16:18:15.726 >  Watchdog Reset[37m
+16:18:15.729 > [37mMarlin 2.1.2
+16:18:15.729 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+16:18:15.734 > echo: Compiled: No[37mv[37m 27 2024
+16:18:15.737 > echo: Free Memory: 230[37m2[37m00  PlannerBufferBytes: 1344
+16:18:15.771 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+16:18:15.781 > [37me[37mcho:SD card released
+16:18:28.195 > [37me[37mcho:No SD card
+16:18:28.203 > [37me[37mcho:Setup wifi
+16:18:28.971 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+16:18:30.973 > [37me[37mcho:192.168.0.1
+16:18:31.989 > [37me[37mcho:192.168.0.1
+16:18:36.334 > [37me[37mcho:New client
+16:19:02.049 > [37mE[37m (59267) task_wdt: Task watchdo[37mg[37m got triggered. The following t[37ma[37msks did not reset the watchdog [37mi[37mn time:
+16:19:02.057 > E (59267) task_wdt:  -[37m [37mIDLE (CPU 0)
+16:19:02.060 > E (59267) task_wd[37mt[37m: Tasks currently running:
+16:19:02.063 > E ([37m5[37m9267) task_wdt: CPU 0: ESP3DLib[37m [37mTask
+16:19:02.069 > E (59267) task_wdt: CPU 1[37m:[37m IDLE
+16:19:02.072 > E (59267) task_wdt: Abor[37mt[37ming.
+16:19:02.074 > 
+16:19:02.074 > abort() was called at P[37mC[37m 0x40117a6c on core 0
+16:19:02.077 > 
+16:19:02.077 > 
+16:19:02.077 > Back[37mt[37mrace: 0x40083f49:0x3ffbf3fc |<-[37mC[37mORRUPTED
+16:19:02.082 > 
+16:19:02.082 > 
+16:19:02.082 > 
+16:19:02.082 > 
+16:19:02.082 > ELF file SHA2[37m5[37m6: 959746787b992270
+16:19:02.085 > 
+16:19:02.264 > [37mR[37mebooting...
+16:19:02.267 > [37me[37mts Jun  8 2016 00:22:57
+16:19:02.267 > 
+16:19:02.267 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+16:19:02.272 > configsip: 0[37m,[37m SPIWP:0xee
+16:19:02.275 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+16:19:02.281 > mode:DIO,[37m [37mclock div:2
+16:19:02.283 > load:0x3fff0030,le[37mn[37m:1184
+16:19:02.286 > load:0x40078000,len:1319[37m2[37m
+16:19:02.289 > load:0x40080400,len:3028
+16:19:02.289 > ent[37mr[37my 0x400805e4
+16:19:02.871 > [37ms[37mtart
+16:19:02.895 > [37m [37mBrown out Reset
+16:19:02.895 >  Watchdog Reset[37m
+16:19:02.898 > [37mMarlin 2.1.2
+16:19:02.898 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+16:19:02.903 > echo: Compiled: No[37mv[37m 27 2024
+16:19:02.906 > echo: Free Memory: 230[37m2[37m00  PlannerBufferBytes: 1344
+16:19:02.941 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+16:19:02.950 > [37me[37mcho:SD card released
+16:19:15.369 > [37me[37mcho:No SD card
+16:19:15.376 > [37me[37mcho:Setup wifi
+16:19:16.144 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+16:19:18.146 > [37me[37mcho:192.168.0.1
+16:19:19.162 > [37me[37mcho:192.168.0.1
+16:19:23.639 > [37me[37mcho:New client
+16:20:40.748 > [37mE[37m (110801) task_wdt: Task watchd[37mo[37mg got triggered. The following [37mt[37masks did not reset the watchdog[37m [37min time:
+16:20:40.757 > E (110801) task_wdt: [37m [37m- IDLE (CPU 0)
+16:20:40.760 > E (110801) task[37m_[37mwdt: Tasks currently running:
+16:20:40.765 > [37mE[37m (110801) task_wdt: CPU 0: ESP3[37mD[37mLib Task
+16:20:40.768 > E (110801) task_wdt: [37mC[37mPU 1: loopTask
+16:20:40.771 > E (110801) task[37m_[37mwdt: Aborting.
+16:20:40.773 > 
+16:20:40.773 > abort() was c[37ma[37mlled at PC 0x40117a6c on core 0[37m[37m
+16:20:40.779 > 
+16:20:40.779 > 
+16:20:40.779 > Backtrace: 0x40083f49:0x3f[37mf[37mbf3fc |<-CORRUPTED
+16:20:40.782 > 
+16:20:40.782 > 
+16:20:40.782 > 
+16:20:40.782 > 
+16:20:40.782 > ELF[37m [37mfile SHA256: 959746787b992270
+16:20:40.785 > [37m[37m
+16:20:40.965 > [37mR[37mebooting...
+16:20:40.968 > [37me[37mts Jun  8 2016 00:22:57
+16:20:40.968 > 
+16:20:40.968 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+16:20:40.973 > configsip: 0[37m,[37m SPIWP:0xee
+16:20:40.976 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+16:20:40.982 > mode:DIO,[37m [37mclock div:2
+16:20:40.984 > load:0x3fff0030,le[37mn[37m:1184
+16:20:40.987 > load:0x40078000,len:1319[37m2[37m
+16:20:40.990 > load:0x40080400,len:3028
+16:20:40.990 > ent[37mr[37my 0x400805e4
+16:20:41.573 > [37ms[37mtart
+16:20:41.596 > [37m [37mBrown out Reset
+16:20:41.596 >  Watchdog Reset[37m
+16:20:41.599 > [37mMarlin 2.1.2
+16:20:41.599 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+16:20:41.605 > echo: Compiled: No[37mv[37m 27 2024
+16:20:41.608 > echo: Free Memory: 230[37m2[37m00  PlannerBufferBytes: 1344
+16:20:41.653 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+16:20:41.662 > [37me[37mcho:SD card released
+16:20:54.076 > [37me[37mcho:No SD card
+16:20:54.083 > [37me[37mcho:Setup wifi
+16:20:54.853 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+16:20:56.854 > [37me[37mcho:192.168.0.1
+16:20:57.870 > [37me[37mcho:192.168.0.1
+16:21:04.233 > [37me[37mcho:New client
+16:21:30.024 > [37mE[37m (61381) task_wdt: Task watchdo[37mg[37m got triggered. The following t[37ma[37msks did not reset the watchdog [37mi[37mn time:
+16:21:30.033 > E (61381) task_wdt:  -[37m [37mIDLE (CPU 0)
+16:21:30.035 > E (61381) task_wd[37mt[37m: Tasks currently running:
+16:21:30.038 > E ([37m6[37m1381) task_wdt: CPU 0: ESP3DLib[37m [37mTask
+16:21:30.044 > E (61381) task_wdt: CPU 1[37m:[37m StepperTask
+16:21:30.047 > E (61381) task_wd[37mt[37m: Aborting.
+16:21:30.049 > 
+16:21:30.049 > abort() was call[37me[37md at PC 0x40117a6c on core 0
+16:21:30.052 > [37m
+16:21:30.055 > [37m
+16:21:30.055 > Backtrace: 0x40083f49:0x3ffbf[37m3[37mfc |<-CORRUPTED
+16:21:30.058 > 
+16:21:30.058 > 
+16:21:30.058 > 
+16:21:30.058 > 
+16:21:30.058 > ELF fi[37ml[37me SHA256: 959746787b992270
+16:21:30.060 > 
+16:21:30.243 > [37mR[37mebooting...
+16:21:30.246 > [37me[37mts Jun  8 2016 00:22:57
+16:21:30.246 > 
+16:21:30.246 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+16:21:30.252 > configsip: 0[37m,[37m SPIWP:0xee
+16:21:30.254 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+16:21:30.260 > mode:DIO,[37m [37mclock div:2
+16:21:30.263 > load:0x3fff0030,le[37mn[37m:1184
+16:21:30.266 > load:0x40078000,len:1319[37m2[37m
+16:21:30.269 > load:0x40080400,len:3028
+16:21:30.269 > ent[37mr[37my 0x400805e4
+16:21:30.851 > [37ms[37mtart
+16:21:30.875 > [37m [37mBrown out Reset
+16:21:30.875 >  Watchdog Reset[37m
+16:21:30.878 > [37mMarlin 2.1.2
+16:21:30.878 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+16:21:30.883 > echo: Compiled: No[37mv[37m 27 2024
+16:21:30.886 > echo: Free Memory: 230[37m2[37m00  PlannerBufferBytes: 1344
+16:21:30.931 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+16:21:30.940 > [37me[37mcho:SD card released
+16:21:43.363 > [37me[37mcho:No SD card
+16:21:43.370 > [37me[37mcho:Setup wifi
+16:21:44.138 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+16:21:46.140 > [37me[37mcho:192.168.0.1
+16:21:47.157 > [37me[37mcho:192.168.0.1
+16:21:52.489 > [37me[37mcho:New client
+16:22:30.700 > [37mE[37m (72788) task_wdt: Task watchdo[37mg[37m got triggered. The following t[37ma[37msks did not reset the watchdog [37mi[37mn time:
+16:22:30.709 > E (72788) task_wdt:  -[37m [37mIDLE (CPU 0)
+16:22:30.711 > E (72788) task_wd[37mt[37m: Tasks currently running:
+16:22:30.714 > E ([37m7[37m2788) task_wdt: CPU 0: wifi
+16:22:30.717 > E [37m([37m72788) task_wdt: CPU 1: Stepper[37mT[37mask
+16:22:30.722 > E (72788) task_wdt: Aborti[37mn[37mg.
+16:22:30.725 > 
+16:22:30.725 > abort() was called at PC [37m0[37mx40117a6c on core 0
+16:22:30.728 > 
+16:22:30.728 > 
+16:22:30.728 > Backtr[37ma[37mce: 0x40083f49:0x3ffbf3fc |<-CO[37mR[37mRUPTED
+16:22:30.734 > 
+16:22:30.734 > 
+16:22:30.734 > 
+16:22:30.734 > 
+16:22:30.734 > ELF file SHA256[37m:[37m 959746787b992270
+16:22:30.735 > 
+16:22:30.919 > [37mR[37mebooting...
+16:22:30.922 > [37me[37mts Jun  8 2016 00:22:57
+16:22:30.922 > 
+16:22:30.922 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+16:22:30.928 > configsip: 0[37m,[37m SPIWP:0xee
+16:22:30.930 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+16:22:30.936 > mode:DIO,[37m [37mclock div:2
+16:22:30.938 > load:0x3fff0030,le[37mn[37m:1184
+16:22:30.941 > load:0x40078000,len:1319[37m2[37m
+16:22:30.944 > load:0x40080400,len:3028
+16:22:30.944 > ent[37mr[37my 0x400805e4
+16:22:31.528 > [37ms[37mtart
+16:22:31.552 > [37m [37mBrown out Reset
+16:22:31.552 >  Watchdog Reset[37m
+16:22:31.554 > [37mMarlin 2.1.2
+16:22:31.554 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+16:22:31.560 > echo: Compiled: No[37mv[37m 27 2024
+16:22:31.563 > echo: Free Memory: 230[37m2[37m00  PlannerBufferBytes: 1344
+16:22:31.608 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+16:22:31.617 > [37me[37mcho:SD card released
+16:22:44.031 > [37me[37mcho:No SD card
+16:22:44.038 > [37me[37mcho:Setup wifi
+16:22:44.806 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+16:22:46.808 > [37me[37mcho:192.168.0.1
+16:22:47.824 > [37me[37mcho:192.168.0.1
+16:23:02.151 > [37me[37mcho:New client
+16:24:36.914 > [37mE[37m (138317) task_wdt: Task watchd[37mo[37mg got triggered. The following [37mt[37masks did not reset the watchdog[37m [37min time:
+16:24:36.923 > E (138317) task_wdt: [37m [37m- IDLE (CPU 0)
+16:24:36.925 > E (138317) task[37m_[37mwdt: Tasks currently running:
+16:24:36.931 > [37mE[37m (138317) task_wdt: CPU 0: ESP3[37mD[37mLib Task
+16:24:36.934 > E (138317) task_wdt: [37mC[37mPU 1: IDLE
+16:24:36.937 > E (138317) task_wdt[37m:[37m Aborting.
+16:24:36.939 > 
+16:24:36.939 > abort() was calle[37md[37m at PC 0x40117a6c on core 0
+16:24:36.942 > 
+16:24:36.945 > [37m[37m
+16:24:36.945 > Backtrace: 0x40083f49:0x3ffbf3[37mf[37mc |<-CORRUPTED
+16:24:36.947 > 
+16:24:36.947 > 
+16:24:36.947 > 
+16:24:36.947 > 
+16:24:36.947 > ELF fil[37me[37m SHA256: 959746787b992270
+16:24:36.950 > 
+16:24:37.134 > [37mR[37mebooting...
+16:24:37.137 > [37me[37mts Jun  8 2016 00:22:57
+16:24:37.137 > 
+16:24:37.137 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+16:24:37.142 > configsip: 0[37m,[37m SPIWP:0xee
+16:24:37.145 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+16:24:37.151 > mode:DIO,[37m [37mclock div:2
+16:24:37.153 > load:0x3fff0030,le[37mn[37m:1184
+16:24:37.156 > load:0x40078000,len:1319[37m2[37m
+16:24:37.159 > load:0x40080400,len:3028
+16:24:37.159 > ent[37mr[37my 0x400805e4
+16:24:37.742 > [37ms[37mtart
+16:24:37.765 > [37m [37mBrown out Reset
+16:24:37.766 >  Watchdog Reset[37m
+16:24:37.768 > [37mMarlin 2.1.2
+16:24:37.768 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+16:24:37.774 > echo: Compiled: No[37mv[37m 27 2024
+16:24:37.776 > echo: Free Memory: 230[37m2[37m00  PlannerBufferBytes: 1344
+16:24:37.818 > [37me[37mc[37mho:V87 stored settings retrieve[37md[37m (762 bytes; crc 37024)
+16:24:37.829 > [37me[37mcho[37m:[37mSD card released
+16:24:50.245 > [37me[37mcho:No SD card
+16:24:50.252 > [37me[37mcho:Setup wifi
+16:24:51.020 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+16:24:53.022 > [37me[37mcho:192.168.0.1
+16:24:54.038 > [37me[37mcho:192.168.0.1
+16:25:00.366 > [37me[37mcho:New client
+16:25:17.980 > [37mE[37m (53168) task_wdt: Task watchdo[37mg[37m got triggered. The following t[37ma[37msks did not reset the watchdog [37mi[37mn time:
+16:25:17.989 > E (53168) task_wdt:  -[37m [37mIDLE (CPU 0)
+16:25:17.991 > E (53168) task_wd[37mt[37m: Tasks currently running:
+16:25:17.994 > E ([37m5[37m3168) task_wdt: CPU 0: ESP3DLib[37m [37mTask
+16:25:18.000 > E (53168) task_wdt: CPU 1[37m:[37m IDLE
+16:25:18.002 > E (53168) task_wdt: Abor[37mt[37ming.
+16:25:18.005 > 
+16:25:18.005 > abort() was called at P[37mC[37m 0x40117a6c on core 0
+16:25:18.008 > 
+16:25:18.008 > 
+16:25:18.008 > Back[37mt[37mrace: 0x40083f49:0x3ffbf3fc |<-[37mC[37mORRUPTED
+16:25:18.013 > 
+16:25:18.013 > 
+16:25:18.013 > 
+16:25:18.013 > 
+16:25:18.013 > ELF file SHA2[37m5[37m6: 959746787b992270
+16:25:18.015 > 
+16:25:18.198 > [37mR[37mebooting...
+16:25:18.201 > [37me[37mts Jun  8 2016 00:22:57
+16:25:18.201 > 
+16:25:18.201 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+16:25:18.207 > configsip: 0[37m,[37m SPIWP:0xee
+16:25:18.210 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+16:25:18.215 > mode:DIO,[37m [37mclock div:2
+16:25:18.218 > load:0x3fff0030,le[37mn[37m:1184
+16:25:18.221 > load:0x40078000,len:1319[37m2[37m
+16:25:18.224 > load:0x40080400,len:3028
+16:25:18.224 > ent[37mr[37my 0x400805e4
+16:25:18.806 > [37ms[37mtart
+16:25:18.827 > [37m [37mB[37mrown out Reset
+16:25:18.830 >  Watchdog Reset
+16:25:18.833 > [37mM[37marlin 2.1.2
+16:25:18.833 > echo: Last Updated:[37m [37m2022-12-17 | Author: (none, def[37ma[37mult config)
+16:25:18.838 > echo: Compiled: Nov[37m [37m27 2024
+16:25:18.841 > echo: Free Memory: 2302[37m0[37m0  PlannerBufferBytes: 1344
+16:25:18.877 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+16:25:18.887 > [37me[37mcho:SD card released
+16:25:31.310 > [37me[37mcho:No SD card
+16:25:31.317 > [37me[37mcho:Setup wifi
+16:25:32.088 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)

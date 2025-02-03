@@ -1,0 +1,14 @@
+16:29:12.121 > [37m External Reset
+16:29:12.121 >  Brown out Reset
+16:29:12.121 >  Watchdog Reset
+16:29:12.121 > Marlin 2.1.2
+16:29:12.121 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+16:29:12.121 > echo: Compiled: Jan 25 2024
+16:29:12.121 > echo: Free Memory: 228960  PlannerBufferBytes: 1344
+16:29:12.121 > echo:V87 stored settings retrieved (762 bytes; crc 51201)
+16:29:12.121 > echo:SD card released
+16:29:23.872 > [37me[37mcho:No SD card
+16:29:23.882 > [37me[37mcho:Setup wifi
+16:29:24.017 > [37me[37mcho:Connecting
+16:29:27.037 > [37me[37mcho:10.0.0.110
+16:29:28.510 > [37me[37mcho:10.0.0.110

@@ -1,0 +1,66 @@
+10:29:17.188 > [37m [37mExternal Reset
+10:29:17.188 >  Brown out Reset[37m
+10:29:17.191 > [37m Watchdog Reset
+10:29:17.191 > Marlin 2.1.2
+10:29:17.191 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+10:29:17.196 > ec[37mh[37mo: Compiled: Jan 16 2024
+10:29:17.199 > echo: [37mF[37mree Memory: 225352  PlannerBuff[37me[37mrBytes: 1344
+10:29:17.225 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+10:29:17.248 > [37me[37mcho:Settings Stored (870 bytes;[37m [37mcrc 37517)
+10:29:17.449 > [37me[37mcho:EEPROM Initialized
+10:29:17.984 > [37me[37mcho:SD card ok
+10:29:28.047 > [37me[37mcho:SD card ok
+10:29:28.056 > [37me[37mcho:Setup wifi
+10:29:28.189 > [37me[37mcho:Connecting
+10:29:31.221 > [37me[37mcho:10.0.0.110
+10:29:32.697 > [37me[37mcho:10.0.0.110
+10:29:40.691 > [37me[37mcho:SD card ok
+10:29:43.953 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-16T10:29:43"}}}
+10:29:46.376 > [37me[37mcho:Now fresh file: /TestMix.g
+10:29:46.379 > [37mF[37mile opened: TestMix.g Size: 119[37m0[37m1
+10:29:46.381 > File selected
+10:29:46.430 > [37m0[37m0.00
+10:29:46.432 > [37m1[37m0.00
+10:29:46.432 > 2896.00
+10:29:46.432 > 3100.00
+10:29:46.480 > [37m0[37m0.00
+10:29:46.481 > [37m1[37m0.00
+10:29:46.482 > [37m2[37m996.00[37m
+10:29:46.483 > [37m3[37m150.00
+10:29:48.496 > [37me[37mcho:busy: processing
+10:29:50.497 > [37me[37mcho:busy: processing
+10:29:52.498 > [37me[37mcho:busy: processing
+10:29:54.499 > [37me[37mcho:busy: processing
+10:29:56.500 > [37me[37mcho:busy: processing
+10:29:58.501 > [37me[37mcho:busy: processing
+10:30:00.502 > [37me[37mcho:busy: processing
+10:30:02.503 > [37me[37mcho:busy: processing
+10:30:04.503 > [37me[37mcho:busy: processing
+10:30:06.505 > [37me[37mcho:busy: processing
+10:30:08.505 > [37me[37mcho:busy: processing
+10:30:10.507 > [37me[37mcho:busy: processing
+10:30:10.688 > [37mD[37mone printing file
+10:30:23.856 > [37me[37mcho:Now fresh file: /TestMix.g
+10:30:23.860 > [37mF[37mile opened: TestMix.g Size: 119[37m0[37m1
+10:30:23.861 > File selected
+10:30:23.910 > [37m0[37m0.00
+10:30:23.911 > [37m10.00[37m
+10:30:23.912 > 2[37m8[37m96.00
+10:30:23.913 > 310[37m0[37m.00[37m
+10:30:23.963 > [37m0[37m0.00
+10:30:23.964 > [37m1[37m0.00[37m
+10:30:23.965 > [37m2[37m996.00[37m
+10:30:23.966 > [37m3[37m150.00
+10:30:25.980 > [37me[37mcho:busy: processing
+10:30:27.981 > [37me[37mcho:busy: processing
+10:30:29.982 > [37me[37mcho:busy: processing
+10:30:31.983 > [37me[37mcho:busy: processing
+10:30:33.984 > [37me[37mcho:busy: processing
+10:30:35.985 > [37me[37mcho:busy: processing
+10:30:37.986 > [37me[37mcho:busy: processing
+10:30:39.987 > [37me[37mcho:busy: processing
+10:30:41.988 > [37me[37mcho:busy: processing
+10:30:43.989 > [37me[37mcho:busy: processing
+10:30:45.990 > [37me[37mcho:busy: processing
+10:30:47.991 > [37me[37mcho:busy: processing
+10:30:48.171 > [37mD[37mone printing file

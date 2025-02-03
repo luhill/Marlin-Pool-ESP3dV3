@@ -1,0 +1,2274 @@
+09:29:40.171 > [37miv:2
+09:29:40.171 > load:0�len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > r[37mst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x0[37m0,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:[37m3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP[37m:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:[37m1[37m184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET)[37m,boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_[37mdrv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400805e4
+09:29:40.171 > ets Jun  8 2016 00:22:57
+09:29:40.171 > 
+09:29:40.171 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.171 > configsip: 0, SPIWP:0xee
+09:29:40.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.171 > mode:DIO, clock div:2
+09:29:40.171 > load:0x3fff0030,len:1184
+09:29:40.171 > load:0x40078000,len:13192
+09:29:40.171 > load:0x40080400,len:3028
+09:29:40.171 > entry 0x400[37m805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x[37m0[37m0,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x4007[37m8000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_F[37mAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DI[37mO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8[37m 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_d[37mrv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > l[37moad:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > [37mconfigsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > load:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > entry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.172 > configsip: 0, SPIWP:0xee
+09:29:40.172 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.172 > mode:DIO, clock div:2
+09:29:40.172 > l[37moad:0x3fff0030,len:1184
+09:29:40.172 > load:0x40078000,len:13192
+09:29:40.172 > load:0x40080400,len:3028
+09:29:40.172 > [37me[37mntry 0x400805e4
+09:29:40.172 > ets Jun  8 2016 00:22:57
+09:29:40.172 > 
+09:29:40.172 > rst:0x3 (SW_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.173 > configsip: 0, SPIWP:0xee
+09:29:40.173 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+09:29:40.173 > mode:DIO, clock div:2
+09:29:40.173 > load:0x3fff0030,len:1184
+09:29:40.173 > load:0x400[37m7[37m8000,len:13192
+09:29:40.174 > load:0x40080400,len:3028
+09:29:40.174 > entry 0x400805e4
+09:29:40.174 > ets[37m [37mJun  8 2016 00:22:57
+09:29:40.174 > 
+09:29:40.174 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_[37mF[37mLASH_BOOT)
+09:29:40.174 > configsip: 0, SPIWP:0xee
+09:29:40.174 > clk_drv:0x00,q_drv:0x00,d[37m_[37mdrv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:29:40.174 > mode:DIO, clock [37md[37miv:2
+09:29:40.175 > load:0x3fff0030,len:1184
+09:29:40.175 > load:0x40078000,le):,[37mb[37moot:0x13 (SPI_FAST_FLASH_BOOT)
+09:29:40.175 > co[37mn[37mfigsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:40.177 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_d[37mr[37mv:0x00
+09:29:40.183 > mo[37md[37me:DIO, cloc[37mk[37m div:2
+09:29:40.185 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:29:40.188 > [37mload:0x4007[37m8[37m000,len:131[37m9[37m2
+09:29:40.190 > load:0x[37m4[37m0080400,len[37m:[37m3028
+09:29:40.193 > entr[37my[37m 0x400805e4[37m[37m
+09:29:40.196 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:29:40.199 > 
+09:29:40.199 > rst:0x[37m3[37m (SW_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)
+09:29:40.203 > [37mc[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:40.206 > clk_drv:0x00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+09:29:40.212 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:40.213 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:40.215 > l[37mo[37mad:0x400780[37m0[37m0,len:13192[37m[37m
+09:29:40.219 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:40.220 > entry [37m0[37mx400805e4
+09:29:40.224 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+09:29:40.227 > 
+09:29:40.227 > rst:0x3 [37m([37mSW_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+09:29:40.230 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:29:40.233 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0x[37m0[37m0,wp_drv:0[37mx[37m00
+09:29:40.239 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:40.241 > load:0x[37m3[37mfff0030,le[37mn[37m:1184
+09:29:40.243 > load[37m:[37m0x40078000[37m,[37mlen:13192
+09:29:40.246 > [37ml[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+09:29:40.248 > entry 0x[37m4[37m00805e4
+09:29:40.251 > [37me[37mt[37ms [37mJ[37mun  8 2016[37m [37m00:22:57
+09:29:40.253 > [37m
+09:29:40.254 > [37mrst:0x3 (S[37mW[37m_RESET),boo[37mt[37m:0x13 (SPI[37m_[37mFAST_FLASH_[37mB[37mOOT)
+09:29:40.258 > conf[37mi[37mgsip: 0, SP[37mI[37mWP:0xee
+09:29:40.260 > c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+09:29:40.267 > mode:DIO,[37m [37mclock div:[37m2[37m
+09:29:40.269 > load:0x3f[37mf[37mf0030,len:[37m1[37m184
+09:29:40.271 > load:0[37mx[37m40078000,l[37me[37mn:13192
+09:29:40.273 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+09:29:40.276 > [37mentry 0x40[37m0[37m805e4
+09:29:40.279 > [37me[37mt[37ms Ju[37mn[37m  8 2016 0[37m0[37m:22:57
+09:29:40.281 > 
+09:29:40.281 > r[37ms[37mt:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_BO[37mO[37mT)
+09:29:40.286 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+09:29:40.288 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:40.295 > [37mmode:DIO, c[37ml[37mock div:2[37m
+09:29:40.297 > [37mload:0x3fff[37m0[37m030,len:118[37m4[37m
+09:29:40.299 > load:0x4[37m0[37m078000,len:[37m1[37m3192
+09:29:40.301 > load[37m:[37m0x40080400,[37ml[37men:3028
+09:29:40.303 > e[37mn[37mtry 0x40080[37m5[37me4
+09:29:40.307 > [37me[37mt[37ms Jun [37m [37m8 2016 00:[37m2[37m2:57
+09:29:40.309 > 
+09:29:40.309 > rst[37m:[37m0x3 (SW_RES[37mE[37mT),boot:0x[37m1[37m3 (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:40.314 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:40.316 > clk_dr[37mv[37m:0x00,q_dr[37mv[37m:0x00,d_drv[37m:[37m0x00,cs0_d[37mr[37mv:0x00,hd_d[37mr[37mv:0x00,wp_[37md[37mrv:0x00
+09:29:40.322 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:40.324 > lo[37ma[37md:0x3fff00[37m3[37m0,len:1184[37m
+09:29:40.327 > [37mload:0x400[37m7[37m8000,len:13[37m1[37m92
+09:29:40.329 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:29:40.331 > ent[37mr[37my 0x400805e[37m4[37m
+09:29:40.334 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22:[37m5[37m7
+09:29:40.337 > 
+09:29:40.337 > rst:0[37mx[37m3 (SW_RESET[37m)[37m,boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)[37m
+09:29:40.342 > [37mconfigsip: [37m0[37m, SPIWP:0x[37me[37me
+09:29:40.344 > clk_drv:[37m0[37mx00,q_drv:[37m0[37mx00,d_drv:0[37mx[37m00,cs0_drv[37m:[37m0x00,hd_drv[37m:[37m0x00,wp_dr[37mv[37m:0x00
+09:29:40.350 > mode[37m:[37mDIO, clock[37m [37mdiv:2
+09:29:40.352 > load[37m:[37m0x3fff0030[37m,[37mlen:1184
+09:29:40.354 > l[37mo[37mad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:40.357 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:29:40.359 > entry [37m0[37mx400805e4[37m
+09:29:40.362 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:57[37m[37m
+09:29:40.365 > 
+09:29:40.365 > rst:0x3[37m [37m(SW_RESET),[37mb[37moot:0x13 ([37mS[37mPI_FAST_FLA[37mS[37mH_BOOT)
+09:29:40.369 > c[37mo[37mnfigsip: 0,[37m [37mSPIWP:0xee[37m[37m
+09:29:40.372 > clk_drv:0x[37m0[37m0,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0[37mx[37m00,hd_drv:0[37mx[37m00,wp_drv:0[37mx[37m00
+09:29:40.378 > mode:D[37mI[37mO, clock di[37mv[37m:2
+09:29:40.381 > load:0[37mx[37m3fff0030,le[37mn[37m:1184
+09:29:40.382 > loa[37md[37m:0x40078000[37m,[37mlen:13192[37m
+09:29:40.385 > [37mload:0x4008[37m0[37m400,len:30[37m2[37m8
+09:29:40.387 > entry 0x[37m4[37m00805e4
+09:29:40.390 > [37me[37mt[37ms[37m [37mJun  8 201[37m6[37m 00:22:57
+09:29:40.393 > [37m[37m
+09:29:40.393 > rst:0x3 ([37mS[37mW_RESET),bo[37mo[37mt:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:40.397 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+09:29:40.399 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00,[37md[37m_drv:0x00,[37mc[37ms0_drv:0x00[37m,[37mhd_drv:0x0[37m0[37m,wp_drv:0x0[37m0[37m
+09:29:40.406 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:40.408 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:40.410 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:40.412 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:40.416 > entry 0x40[37m0[37m805e4
+09:29:40.418 > [37me[37mt[37ms J[37mu[37mn  8 2016 0[37m0[37m:22:57
+09:29:40.420 > 
+09:29:40.421 > [37mr[37mst:0x3 (SW_[37mR[37mESET),boot[37m:[37m0x13 (SPI_F[37mA[37mST_FLASH_B[37mO[37mOT)
+09:29:40.425 > config[37ms[37mip: 0, SPI[37mW[37mP:0xee
+09:29:40.427 > clk[37m_[37mdrv:0x00,q[37m_[37mdrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:40.434 > [37mmode:DIO, c[37ml[37mock div:2[37m
+09:29:40.437 > [37mload:0x3fff[37m0[37m030,len:11[37m8[37m4
+09:29:40.439 > load:0x4[37m0[37m078000,len[37m:[37m13192
+09:29:40.440 > load[37m:[37m0x40080400[37m,[37mlen:3028
+09:29:40.442 > e[37mn[37mtry 0x4008[37m0[37m5e4
+09:29:40.446 > [37me[37mt[37ms Jun [37m [37m8 2016 00:[37m2[37m2:57
+09:29:40.449 > 
+09:29:40.449 > rst[37m:[37m0x3 (SW_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAS[37mT[37m_FLASH_BOOT[37m)[37m
+09:29:40.453 > configsi[37mp[37m: 0, SPIWP:[37m0[37mxee
+09:29:40.455 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+09:29:40.461 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+09:29:40.463 > l[37mo[37mad:0x3fff00[37m3[37m0,len:1184[37m[37m
+09:29:40.466 > load:0x400[37m7[37m8000,len:1[37m3[37m192
+09:29:40.468 > load:0[37mx[37m40080400,l[37me[37mn:3028
+09:29:40.470 > ent[37mr[37my 0x400805[37me[37m4
+09:29:40.474 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:40.476 > 
+09:29:40.476 > rst:0[37mx[37m3 (SW_RESE[37mT[37m),boot:0x13[37m [37m(SPI_FAST_[37mF[37mLASH_BOOT)[37m
+09:29:40.481 > [37mconfigsip:[37m [37m0, SPIWP:0x[37me[37me
+09:29:40.483 > clk_drv[37m:[37m0x00,q_drv:[37m0[37mx00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_dr[37mv[37m:0x00,wp_dr[37mv[37m:0x00
+09:29:40.489 > mod[37me[37m:DIO, clock[37m [37mdiv:2
+09:29:40.491 > loa[37md[37m:0x3fff0030[37m,[37mlen:1184
+09:29:40.494 > [37ml[37moad:0x40078[37m0[37m00,len:131[37m9[37m2
+09:29:40.496 > load:0x4[37m0[37m080400,len[37m:[37m3028
+09:29:40.498 > entry[37m [37m0x400805e4[37m[37m
+09:29:40.502 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:29:40.505 > 
+09:29:40.505 > rst:0x3[37m [37m(SW_RESET)[37m,[37mboot:0x13 ([37mS[37mPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:40.508 > c[37mo[37mnfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:29:40.511 > clk_drv:0[37mx[37m00,q_drv:0x[37m0[37m0,d_drv:0x[37m0[37m0,cs0_drv:0[37mx[37m00,hd_drv:[37m0[37mx00,wp_drv:[37m0[37mx00
+09:29:40.517 > mode:[37mD[37mIO, clock d[37mi[37mv:2
+09:29:40.519 > load:[37m0[37mx3fff0030,l[37me[37mn:1184
+09:29:40.521 > loa[37md[37m:0x4007800[37m0[37m,len:13192[37m[37m
+09:29:40.524 > load:0x400[37m8[37m0400,len:30[37m2[37m8
+09:29:40.526 > entry 0[37mx[37m400805e4
+09:29:40.529 > [37me[37mt[37ms Jun  8 201[37m6[37m 00:22:57[37m
+09:29:40.532 > [37m
+09:29:40.532 > rst:0x3 ([37mS[37mW_RESET),b[37mo[37mot:0x13 (SP[37mI[37m_FAST_FLAS[37mH[37m_BOOT)
+09:29:40.536 > con[37mf[37migsip: 0, [37mS[37mPIWP:0xee
+09:29:40.539 > [37mc[37mlk_drv:0x0[37m0[37m,q_drv:0x00[37m,[37md_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x[37m0[37m0
+09:29:40.545 > mode:DIO[37m,[37m clock div[37m:[37m2
+09:29:40.547 > load:0x3[37mf[37mff0030,len[37m:[37m1184
+09:29:40.549 > load:[37m0[37mx40078000,[37ml[37men:13192
+09:29:40.551 > l[37mo[37mad:0x40080[37m4[37m00,len:3028[37m[37m
+09:29:40.554 > entry 0x40[37m0[37m805e4
+09:29:40.557 > [37me[37mt[37ms J[37mu[37mn  8 2016 [37m0[37m0:22:57
+09:29:40.559 > 
+09:29:40.560 > [37mr[37mst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_B[37mO[37mOT)
+09:29:40.564 > confi[37mg[37msip: 0, SPI[37mW[37mP:0xee
+09:29:40.566 > cl[37mk[37m_drv:0x00,q[37m_[37mdrv:0x00,d[37m_[37mdrv:0x00,cs[37m0[37m_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:29:40.574 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:29:40.575 > load:0x3ff[37mf[37m0030,len:1[37m1[37m84
+09:29:40.577 > load:0x[37m4[37m0078000,le[37mn[37m:13192
+09:29:40.579 > loa[37md[37m:0x4008040[37m0[37m,len:3028
+09:29:40.583 > [37me[37mntry 0x4008[37m0[37m5e4
+09:29:40.585 > [37me[37mt[37ms Jun[37m [37m 8 2016 00[37m:[37m22:57
+09:29:40.587 > 
+09:29:40.587 > rs[37mt[37m:0x3 (SW_R[37mE[37mSET),boot:0[37mx[37m13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:29:40.592 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:40.594 > clk_d[37mr[37mv:0x00,q_d[37mr[37mv:0x00,d_dr[37mv[37m:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+09:29:40.600 > m[37mo[37mde:DIO, cl[37mo[37mck div:2
+09:29:40.602 > l[37mo[37mad:0x3fff0[37m0[37m30,len:1184[37m[37m
+09:29:40.605 > load:0x40[37m0[37m78000,len:1[37m3[37m192
+09:29:40.607 > load:[37m0[37mx40080400,l[37me[37mn:3028
+09:29:40.609 > en[37mt[37mry 0x400805[37me[37m4
+09:29:40.613 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:2[37m2[37m:57
+09:29:40.615 > 
+09:29:40.615 > rst:[37m0[37mx3 (SW_RES[37mE[37mT),boot:0x1[37m3[37m (SPI_FAST[37m_[37mFLASH_BOOT)[37m[37m
+09:29:40.620 > configsip[37m:[37m 0, SPIWP:0[37mx[37mee
+09:29:40.622 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv:[37m0[37mx00,cs0_dr[37mv[37m:0x00,hd_dr[37mv[37m:0x00,wp_d[37mr[37mv:0x00
+09:29:40.628 > mod[37me[37m:DIO, cloc[37mk[37m div:2
+09:29:40.630 > loa[37md[37m:0x3fff003[37m0[37m,len:1184
+09:29:40.634 > [37ml[37moad:0x4007[37m8[37m000,len:131[37m9[37m2
+09:29:40.636 > load:0x[37m4[37m0080400,len[37m:[37m3028
+09:29:40.638 > entry[37m [37m0x400805e4[37m[37m
+09:29:40.640 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:29:40.643 > 
+09:29:40.643 > rst:0x[37m3[37m (SW_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:40.649 > [37mc[37monfigsip: 0[37m,[37m SPIWP:0xe[37me[37m
+09:29:40.651 > clk_drv:0[37mx[37m00,q_drv:0[37mx[37m00,d_drv:0x[37m0[37m0,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+09:29:40.657 > mode:[37mD[37mIO, clock [37md[37miv:2
+09:29:40.658 > load:[37m0[37mx3fff0030,[37ml[37men:1184
+09:29:40.660 > lo[37ma[37md:0x400780[37m0[37m0,len:13192[37m[37m
+09:29:40.663 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:40.665 > entry [37m0[37mx400805e4
+09:29:40.668 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m
+09:29:40.671 > [37m
+09:29:40.671 > rst:0x3 [37m([37mSW_RESET),b[37mo[37mot:0x13 (S[37mP[37mI_FAST_FLAS[37mH[37m_BOOT)
+09:29:40.675 > co[37mn[37mfigsip: 0, [37mS[37mPIWP:0xee[37m
+09:29:40.678 > [37mclk_drv:0x0[37m0[37m,q_drv:0x0[37m0[37m,d_drv:0x00[37m,[37mcs0_drv:0x[37m0[37m0,hd_drv:0x[37m0[37m0,wp_drv:0x[37m0[37m0
+09:29:40.685 > mode:DI[37mO[37m, clock div[37m:[37m2
+09:29:40.687 > load:0x[37m3[37mfff0030,len[37m:[37m1184
+09:29:40.689 > load[37m:[37m0x40078000,[37ml[37men:13192
+09:29:40.691 > [37ml[37moad:0x40080[37m4[37m00,len:302[37m8[37m
+09:29:40.693 > entry 0x4[37m0[37m0805e4
+09:29:40.696 > [37me[37mt[37ms [37mJ[37mun  8 2016 [37m0[37m0:22:57
+09:29:40.698 > [37m
+09:29:40.700 > [37mrst:0x3 (SW[37m_[37mRESET),boo[37mt[37m:0x13 (SPI_[37mF[37mAST_FLASH_[37mB[37mOOT)
+09:29:40.704 > confi[37mg[37msip: 0, SP[37mI[37mWP:0xee
+09:29:40.705 > c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00,[37mh[37md_drv:0x00[37m,[37mwp_drv:0x00[37m[37m
+09:29:40.712 > mode:DIO,[37m [37mclock div:2[37m[37m
+09:29:40.714 > load:0x3f[37mf[37mf0030,len:1[37m1[37m84
+09:29:40.716 > load:0[37mx[37m40078000,le[37mn[37m:13192
+09:29:40.719 > loa[37md[37m:0x4008040[37m0[37m,len:3028
+09:29:40.721 > [37me[37mntry 0x400[37m8[37m05e4
+09:29:40.724 > [37me[37mt[37ms Ju[37mn[37m  8 2016 0[37m0[37m:22:57
+09:29:40.726 > 
+09:29:40.726 > r[37ms[37mt:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_FA[37mS[37mT_FLASH_BO[37mO[37mT)
+09:29:40.731 > configs[37mi[37mp: 0, SPIW[37mP[37m:0xee
+09:29:40.733 > clk_[37md[37mrv:0x00,q_[37md[37mrv:0x00,d_d[37mr[37mv:0x00,cs0[37m_[37mdrv:0x00,hd[37m_[37mdrv:0x00,w[37mp[37m_drv:0x00
+09:29:40.740 > [37mm[37mode:DIO, cl[37mo[37mck div:2
+09:29:40.742 > [37ml[37moad:0x3fff0[37m0[37m30,len:118[37m4[37m
+09:29:40.744 > load:0x40[37m0[37m78000,len:[37m1[37m3192
+09:29:40.746 > load:[37m0[37mx40080400,[37ml[37men:3028
+09:29:40.748 > en[37mt[37mry 0x40080[37m5[37me4
+09:29:40.752 > [37me[37mt[37ms Jun [37m [37m8 2016 00:2[37m2[37m:57
+09:29:40.754 > 
+09:29:40.754 > rst[37m:[37m0x3 (SW_RES[37mE[37mT),boot:0x[37m1[37m3 (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:40.759 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:40.761 > clk_dr[37mv[37m:0x00,q_dr[37mv[37m:0x00,d_drv[37m:[37m0x00,cs0_d[37mr[37mv:0x00,hd_d[37mr[37mv:0x00,wp_[37md[37mrv:0x00
+09:29:40.768 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:40.770 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:29:40.772 > [37mload:0x4007[37m8[37m000,len:13[37m1[37m92
+09:29:40.774 > load:0x[37m4[37m0080400,le[37mn[37m:3028
+09:29:40.776 > entr[37my[37m 0x400805e[37m4[37m
+09:29:40.780 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:29:40.783 > 
+09:29:40.783 > rst:0x[37m3[37m (SW_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)
+09:29:40.787 > [37mc[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:40.789 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+09:29:40.795 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:40.797 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:40.799 > l[37mo[37mad:0x400780[37m0[37m0,len:1319[37m2[37m
+09:29:40.803 > load:0x40[37m0[37m80400,len:[37m3[37m028
+09:29:40.805 > entry [37m0[37mx400805e4[37m
+09:29:40.807 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:57[37m[37m
+09:29:40.810 > 
+09:29:40.810 > rst:0x3[37m [37m(SW_RESET),[37mb[37moot:0x13 ([37mS[37mPI_FAST_FLA[37mS[37mH_BOOT)
+09:29:40.814 > c[37mo[37mnfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:29:40.818 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0[37mx[37m00,wp_drv:0[37mx[37m00
+09:29:40.823 > mode:D[37mI[37mO, clock di[37mv[37m:2
+09:29:40.825 > load:0[37mx[37m3fff0030,le[37mn[37m:1184
+09:29:40.827 > loa[37md[37m:0x40078000[37m,[37mlen:13192[37m
+09:29:40.831 > [37mload:0x4008[37m0[37m400,len:30[37m2[37m8
+09:29:40.833 > entry 0x[37m4[37m00805e4
+09:29:40.835 > [37me[37mt[37ms[37m [37mJun  8 2016[37m [37m00:22:57
+09:29:40.839 > [37m[37m
+09:29:40.839 > rst:0x3 (S[37mW[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH[37m_[37mBOOT)
+09:29:40.843 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+09:29:40.844 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00,[37md[37m_drv:0x00,[37mc[37ms0_drv:0x00[37m,[37mhd_drv:0x0[37m0[37m,wp_drv:0x0[37m0[37m
+09:29:40.851 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:40.853 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:40.855 > load:0[37mx[37m40078000,l[37me[37mn:13192
+09:29:40.857 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+09:29:40.860 > [37mentry 0x40[37m0[37m805e4
+09:29:40.863 > [37me[37mt[37ms J[37mu[37mn  8 2016 0[37m0[37m:22:57
+09:29:40.865 > 
+09:29:40.866 > [37mr[37mst:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_BO[37mO[37mT)
+09:29:40.870 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+09:29:40.872 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:40.879 > [37mmode:DIO, c[37ml[37mock div:2[37m
+09:29:40.881 > [37mload:0x3fff[37m0[37m030,len:11[37m8[37m4
+09:29:40.883 > load:0x4[37m0[37m078000,len[37m:[37m13192
+09:29:40.885 > load[37m:[37m0x40080400[37m,[37mlen:3028
+09:29:40.887 > e[37mn[37mtry 0x4008[37m0[37m5e4
+09:29:40.891 > [37me[37mt[37ms Jun[37m [37m 8 2016 00:[37m2[37m2:57
+09:29:40.893 > 
+09:29:40.893 > rs[37mt[37m:0x3 (SW_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAS[37mT[37m_FLASH_BOOT[37m)[37m
+09:29:40.899 > configsi[37mp[37m: 0, SPIWP:[37m0[37mxee
+09:29:40.901 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+09:29:40.907 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+09:29:40.909 > lo[37ma[37md:0x3fff00[37m3[37m0,len:1184[37m
+09:29:40.911 > [37mload:0x400[37m7[37m8000,len:13[37m1[37m92
+09:29:40.913 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:29:40.915 > ent[37mr[37my 0x400805e[37m4[37m
+09:29:40.919 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:40.922 > 
+09:29:40.922 > rst:0[37mx[37m3 (SW_RESE[37mT[37m),boot:0x13[37m [37m(SPI_FAST_[37mF[37mLASH_BOOT)[37m
+09:29:40.926 > [37mconfigsip:[37m [37m0, SPIWP:0x[37me[37me
+09:29:40.928 > clk_drv[37m:[37m0x00,q_drv:[37m0[37mx00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_dr[37mv[37m:0x00,wp_dr[37mv[37m:0x00
+09:29:40.934 > mod[37me[37m:DIO, clock[37m [37mdiv:2
+09:29:40.936 > loa[37md[37m:0x3fff0030[37m,[37mlen:1184
+09:29:40.940 > [37ml[37moad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:40.942 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:29:40.943 > entry[37m [37m0x400805e4[37m
+09:29:40.946 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:29:40.949 > 
+09:29:40.949 > rst:0x3[37m [37m(SW_RESET)[37m,[37mboot:0x13 ([37mS[37mPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:40.954 > c[37mo[37mnfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:29:40.956 > clk_drv:0x[37m0[37m0,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0[37mx[37m00,hd_drv:0[37mx[37m00,wp_drv:[37m0[37mx00
+09:29:40.962 > mode:D[37mI[37mO, clock d[37mi[37mv:2
+09:29:40.964 > load:0[37mx[37m3fff0030,l[37me[37mn:1184
+09:29:40.966 > loa[37md[37m:0x4007800[37m0[37m,len:13192[37m
+09:29:40.970 > [37mload:0x400[37m8[37m0400,len:30[37m2[37m8
+09:29:40.972 > entry 0x[37m4[37m00805e4
+09:29:40.974 > [37me[37mt[37ms[37m Jun  8 201[37m6[37m 00:22:57[37m
+09:29:40.977 > [37m
+09:29:40.977 > rst:0x3 ([37mS[37mW_RESET),bo[37mo[37mt:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:40.981 > con[37mf[37migsip: 0, S[37mP[37mIWP:0xee
+09:29:40.984 > [37mc[37mlk_drv:0x00[37m,[37mq_drv:0x00[37m,[37md_drv:0x00,[37mc[37ms0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x[37m0[37m0
+09:29:40.990 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:40.992 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:40.994 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:40.996 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:41.000 > entry 0x40[37m0[37m805e4
+09:29:41.002 > [37me[37mt[37ms J[37mu[37mn  8 2016 [37m0[37m0:22:57
+09:29:41.005 > 
+09:29:41.005 > [37mr[37mst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_B[37mO[37mOT)
+09:29:41.009 > confi[37mg[37msip: 0, SPI[37mW[37mP:0xee
+09:29:41.011 > cl[37mk[37m_drv:0x00,q[37m_[37mdrv:0x00,d[37m_[37mdrv:0x00,cs[37m0[37m_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:29:41.019 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:29:41.021 > load:0x3ff[37mf[37m0030,len:11[37m8[37m4
+09:29:41.023 > load:0x[37m4[37m0078000,len[37m:[37m13192
+09:29:41.024 > loa[37md[37m:0x40080400[37m,[37mlen:3028
+09:29:41.027 > [37me[37mntry 0x4008[37m0[37m5e4
+09:29:41.030 > [37me[37mt[37ms Jun[37m [37m 8 2016 00[37m:[37m22:57
+09:29:41.033 > 
+09:29:41.033 > rs[37mt[37m:0x3 (SW_R[37mE[37mSET),boot:0[37mx[37m13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:29:41.037 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:41.039 > clk_d[37mr[37mv:0x00,q_d[37mr[37mv:0x00,d_dr[37mv[37m:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+09:29:41.045 > m[37mo[37mde:DIO, cl[37mo[37mck div:2
+09:29:41.047 > l[37mo[37mad:0x3fff0[37m0[37m30,len:1184[37m[37m
+09:29:41.051 > load:0x40[37m0[37m78000,len:1[37m3[37m192
+09:29:41.053 > load:0[37mx[37m40080400,l[37me[37mn:3028
+09:29:41.055 > ent[37mr[37my 0x400805[37me[37m4
+09:29:41.058 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:22[37m:[37m57
+09:29:41.060 > 
+09:29:41.060 > rst:[37m0[37mx3 (SW_RESE[37mT[37m),boot:0x1[37m3[37m (SPI_FAST_[37mF[37mLASH_BOOT)[37m[37m
+09:29:41.066 > configsip:[37m [37m0, SPIWP:0[37mx[37mee
+09:29:41.068 > clk_drv[37m:[37m0x00,q_drv[37m:[37m0x00,d_drv:[37m0[37mx00,cs0_dr[37mv[37m:0x00,hd_dr[37mv[37m:0x00,wp_d[37mr[37mv:0x00
+09:29:41.074 > mod[37me[37m:DIO, cloc[37mk[37m div:2
+09:29:41.076 > loa[37md[37m:0x3fff003[37m0[37m,len:1184
+09:29:41.078 > [37ml[37moad:0x4007[37m8[37m000,len:131[37m9[37m2
+09:29:41.080 > load:0x4[37m0[37m080400,len[37m:[37m3028
+09:29:41.082 > entry[37m [37m0x400805e4[37m[37m
+09:29:41.086 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:5[37m7[37m
+09:29:41.088 > 
+09:29:41.088 > rst:0x[37m3[37m (SW_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:41.093 > [37mc[37monfigsip: 0[37m,[37m SPIWP:0xe[37me[37m
+09:29:41.095 > clk_drv:0[37mx[37m00,q_drv:0[37mx[37m00,d_drv:0x[37m0[37m0,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+09:29:41.102 > mode:[37mD[37mIO, clock d[37mi[37mv:2
+09:29:41.104 > load:[37m0[37mx3fff0030,l[37me[37mn:1184
+09:29:41.106 > lo[37ma[37md:0x4007800[37m0[37m,len:13192[37m[37m
+09:29:41.108 > load:0x400[37m8[37m0400,len:3[37m0[37m28
+09:29:41.110 > entry 0[37mx[37m400805e4
+09:29:41.113 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m
+09:29:41.116 > [37m
+09:29:41.116 > rst:0x3 [37m([37mSW_RESET),b[37mo[37mot:0x13 (S[37mP[37mI_FAST_FLAS[37mH[37m_BOOT)
+09:29:41.121 > con[37mf[37migsip: 0, [37mS[37mPIWP:0xee
+09:29:41.123 > [37mc[37mlk_drv:0x0[37m0[37m,q_drv:0x00[37m,[37md_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x[37m0[37m0,wp_drv:0x[37m0[37m0
+09:29:41.129 > mode:DI[37mO[37m, clock div[37m:[37m2
+09:29:41.131 > load:0x[37m3[37mfff0030,len[37m:[37m1184
+09:29:41.133 > load[37m:[37m0x40078000,[37ml[37men:13192
+09:29:41.137 > [37ml[37moad:0x40080[37m4[37m00,len:302[37m8[37m
+09:29:41.139 > entry 0x4[37m0[37m0805e4
+09:29:41.141 > [37me[37mt[37ms [37mJ[37mun  8 2016 [37m0[37m0:22:57
+09:29:41.143 > [37m
+09:29:41.144 > [37mrst:0x3 (SW[37m_[37mRESET),boo[37mt[37m:0x13 (SPI_[37mF[37mAST_FLASH_[37mB[37mOOT)
+09:29:41.148 > confi[37mg[37msip: 0, SP[37mI[37mWP:0xee
+09:29:41.150 > cl[37mk[37m_drv:0x00,[37mq[37m_drv:0x00,d[37m_[37mdrv:0x00,cs[37m0[37m_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:29:41.158 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:29:41.159 > load:0x3ff[37mf[37m0030,len:1[37m1[37m84
+09:29:41.161 > load:0x[37m4[37m0078000,le[37mn[37m:13192
+09:29:41.164 > loa[37md[37m:0x4008040[37m0[37m,len:3028
+09:29:41.166 > [37me[37mntry 0x400[37m8[37m05e4
+09:29:41.169 > [37me[37mt[37ms Ju[37mn[37m  8 2016 00[37m:[37m22:57
+09:29:41.172 > 
+09:29:41.172 > r[37ms[37mt:0x3 (SW_R[37mE[37mSET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:29:41.177 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:41.178 > clk_[37md[37mrv:0x00,q_d[37mr[37mv:0x00,d_d[37mr[37mv:0x00,cs0[37m_[37mdrv:0x00,hd[37m_[37mdrv:0x00,w[37mp[37m_drv:0x00
+09:29:41.185 > [37mm[37mode:DIO, c[37ml[37mock div:2
+09:29:41.187 > [37ml[37moad:0x3fff0[37m0[37m30,len:118[37m4[37m
+09:29:41.190 > load:0x40[37m0[37m78000,len:[37m1[37m3192
+09:29:41.191 > load:[37m0[37mx40080400,[37ml[37men:3028
+09:29:41.194 > en[37mt[37mry 0x40080[37m5[37me4
+09:29:41.197 > [37me[37mt[37ms Jun [37m [37m8 2016 00:2[37m2[37m:57
+09:29:41.200 > 
+09:29:41.200 > rst:[37m0[37mx3 (SW_RES[37mE[37mT),boot:0x1[37m3[37m (SPI_FAST[37m_[37mFLASH_BOOT)[37m[37m
+09:29:41.204 > configsip[37m:[37m 0, SPIWP:0[37mx[37mee
+09:29:41.206 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_d[37mr[37mv:0x00
+09:29:41.212 > mo[37md[37me:DIO, cloc[37mk[37m div:2
+09:29:41.214 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:29:41.218 > [37mload:0x4007[37m8[37m000,len:13[37m1[37m92
+09:29:41.220 > load:0x[37m4[37m0080400,le[37mn[37m:3028
+09:29:41.222 > entr[37my[37m 0x400805e[37m4[37m
+09:29:41.225 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:29:41.227 > 
+09:29:41.227 > rst:0x[37m3[37m (SW_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)
+09:29:41.232 > [37mc[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:41.234 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+09:29:41.240 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:41.242 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:41.244 > l[37mo[37mad:0x400780[37m0[37m0,len:13192[37m[37m
+09:29:41.248 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:41.250 > entry [37m0[37mx400805e4
+09:29:41.252 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+09:29:41.256 > 
+09:29:41.256 > rst:0x3 [37m([37mSW_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+09:29:41.259 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:29:41.262 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0x[37m0[37m0,wp_drv:0[37mx[37m00
+09:29:41.268 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:41.270 > load:0x[37m3[37mfff0030,le[37mn[37m:1184
+09:29:41.272 > load[37m:[37m0x40078000[37m,[37mlen:13192
+09:29:41.275 > [37ml[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+09:29:41.277 > entry 0x[37m4[37m00805e4
+09:29:41.280 > [37me[37mt[37ms [37mJ[37mun  8 2016[37m [37m00:22:57
+09:29:41.283 > [37m
+09:29:41.283 > [37mrst:0x3 (S[37mW[37m_RESET),boo[37mt[37m:0x13 (SPI[37m_[37mFAST_FLASH_[37mB[37mOOT)
+09:29:41.287 > conf[37mi[37mgsip: 0, SP[37mI[37mWP:0xee
+09:29:41.289 > c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+09:29:41.296 > mode:DIO,[37m [37mclock div:[37m2[37m
+09:29:41.298 > load:0x3f[37mf[37mf0030,len:1[37m1[37m84
+09:29:41.300 > load:0[37mx[37m40078000,le[37mn[37m:13192
+09:29:41.302 > lo[37ma[37md:0x4008040[37m0[37m,len:3028[37m
+09:29:41.306 > [37mentry 0x400[37m8[37m05e4
+09:29:41.308 > [37me[37mt[37ms Ju[37mn[37m  8 2016 0[37m0[37m:22:57
+09:29:41.310 > 
+09:29:41.310 > r[37ms[37mt:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_BO[37mO[37mT)
+09:29:41.315 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+09:29:41.317 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:41.325 > [37mmode:DIO, c[37ml[37mock div:2
+09:29:41.326 > [37ml[37moad:0x3fff[37m0[37m030,len:118[37m4[37m
+09:29:41.328 > load:0x4[37m0[37m078000,len:[37m1[37m3192
+09:29:41.331 > load[37m:[37m0x40080400,[37ml[37men:3028
+09:29:41.333 > e[37mn[37mtry 0x40080[37m5[37me4
+09:29:41.336 > [37me[37mt[37ms Jun [37m [37m8 2016 00:[37m2[37m2:57
+09:29:41.338 > 
+09:29:41.338 > rst[37m:[37m0x3 (SW_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:41.343 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:41.345 > clk_dr[37mv[37m:0x00,q_dr[37mv[37m:0x00,d_drv[37m:[37m0x00,cs0_d[37mr[37mv:0x00,hd_d[37mr[37mv:0x00,wp_[37md[37mrv:0x00
+09:29:41.352 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:41.354 > lo[37ma[37md:0x3fff00[37m3[37m0,len:1184[37m
+09:29:41.357 > [37mload:0x400[37m7[37m8000,len:13[37m1[37m92
+09:29:41.359 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:29:41.360 > ent[37mr[37my 0x400805e[37m4[37m
+09:29:41.364 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22:[37m5[37m7
+09:29:41.366 > 
+09:29:41.366 > rst:0[37mx[37m3 (SW_RESET[37m)[37m,boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)[37m
+09:29:41.372 > [37mconfigsip: [37m0[37m, SPIWP:0x[37me[37me
+09:29:41.374 > clk_drv:[37m0[37mx00,q_drv:[37m0[37mx00,d_drv:0[37mx[37m00,cs0_drv[37m:[37m0x00,hd_drv[37m:[37m0x00,wp_dr[37mv[37m:0x00
+09:29:41.379 > mode[37m:[37mDIO, clock[37m [37mdiv:2
+09:29:41.382 > load[37m:[37m0x3fff0030[37m,[37mlen:1184
+09:29:41.384 > l[37mo[37mad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:41.386 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:29:41.388 > entry[37m [37m0x400805e4[37m
+09:29:41.392 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:57[37m[37m
+09:29:41.394 > 
+09:29:41.394 > rst:0x3[37m [37m(SW_RESET),[37mb[37moot:0x13 ([37mS[37mPI_FAST_FLA[37mS[37mH_BOOT)
+09:29:41.398 > c[37mo[37mnfigsip: 0,[37m [37mSPIWP:0xee[37m[37m
+09:29:41.402 > clk_drv:0x[37m0[37m0,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0[37mx[37m00,hd_drv:0[37mx[37m00,wp_drv:[37m0[37mx00
+09:29:41.408 > mode:D[37mI[37mO, clock d[37mi[37mv:2
+09:29:41.409 > load:0[37mx[37m3fff0030,l[37me[37mn:1184
+09:29:41.411 > loa[37md[37m:0x40078000[37m,[37mlen:13192[37m
+09:29:41.414 > [37mload:0x4008[37m0[37m400,len:30[37m2[37m8
+09:29:41.417 > entry 0x[37m4[37m00805e4
+09:29:41.419 > [37me[37mt[37ms[37m [37mJun  8 201[37m6[37m 00:22:57
+09:29:41.423 > [37m[37m
+09:29:41.423 > rst:0x3 ([37mS[37mW_RESET),bo[37mo[37mt:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:41.426 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+09:29:41.429 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00,[37md[37m_drv:0x00,[37mc[37ms0_drv:0x00[37m,[37mhd_drv:0x0[37m0[37m,wp_drv:0x0[37m0[37m
+09:29:41.435 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:41.437 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:41.439 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:41.441 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:41.444 > entry 0x40[37m0[37m805e4
+09:29:41.447 > [37me[37mt[37ms J[37mu[37mn  8 2016 [37m0[37m0:22:57
+09:29:41.450 > 
+09:29:41.450 > [37mr[37mst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_B[37mO[37mOT)
+09:29:41.454 > config[37ms[37mip: 0, SPI[37mW[37mP:0xee
+09:29:41.456 > clk[37m_[37mdrv:0x00,q[37m_[37mdrv:0x00,d_[37md[37mrv:0x00,cs[37m0[37m_drv:0x00,h[37md[37m_drv:0x00,[37mw[37mp_drv:0x00[37m
+09:29:41.464 > [37mmode:DIO, [37mc[37mlock div:2[37m
+09:29:41.466 > [37mload:0x3ff[37mf[37m0030,len:11[37m8[37m4
+09:29:41.467 > load:0x4[37m0[37m078000,len[37m:[37m13192
+09:29:41.470 > load[37m:[37m0x40080400[37m,[37mlen:3028
+09:29:41.472 > e[37mn[37mtry 0x4008[37m0[37m5e4
+09:29:41.475 > [37me[37mt[37ms Jun[37m [37m 8 2016 00:[37m2[37m2:57
+09:29:41.478 > 
+09:29:41.478 > rs[37mt[37m:0x3 (SW_RE[37mS[37mET),boot:0[37mx[37m13 (SPI_FAS[37mT[37m_FLASH_BOO[37mT[37m)
+09:29:41.482 > configsi[37mp[37m: 0, SPIWP[37m:[37m0xee
+09:29:41.484 > clk_d[37mr[37mv:0x00,q_d[37mr[37mv:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+09:29:41.490 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+09:29:41.492 > l[37mo[37mad:0x3fff00[37m3[37m0,len:1184[37m[37m
+09:29:41.495 > load:0x400[37m7[37m8000,len:1[37m3[37m192
+09:29:41.498 > load:0[37mx[37m40080400,l[37me[37mn:3028
+09:29:41.500 > ent[37mr[37my 0x400805[37me[37m4
+09:29:41.503 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:22[37m:[37m57
+09:29:41.505 > 
+09:29:41.505 > rst:[37m0[37mx3 (SW_RESE[37mT[37m),boot:0x1[37m3[37m (SPI_FAST_[37mF[37mLASH_BOOT)[37m[37m
+09:29:41.510 > configsip:[37m [37m0, SPIWP:0[37mx[37mee
+09:29:41.513 > clk_drv[37m:[37m0x00,q_drv[37m:[37m0x00,d_drv:[37m0[37mx00,cs0_dr[37mv[37m:0x00,hd_dr[37mv[37m:0x00,wp_d[37mr[37mv:0x00
+09:29:41.519 > mod[37me[37m:DIO, cloc[37mk[37m div:2
+09:29:41.521 > loa[37md[37m:0x3fff0030[37m,[37mlen:1184
+09:29:41.523 > [37ml[37moad:0x40078[37m0[37m00,len:131[37m9[37m2
+09:29:41.525 > load:0x4[37m0[37m080400,len[37m:[37m3028
+09:29:41.527 > entry[37m [37m0x400805e4[37m[37m
+09:29:41.531 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:5[37m7[37m
+09:29:41.533 > 
+09:29:41.533 > rst:0x[37m3[37m (SW_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:41.538 > c[37mo[37mnfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:29:41.540 > clk_drv:0[37mx[37m00,q_drv:0x[37m0[37m0,d_drv:0x[37m0[37m0,cs0_drv:0[37mx[37m00,hd_drv:[37m0[37mx00,wp_drv:[37m0[37mx00
+09:29:41.546 > mode:[37mD[37mIO, clock d[37mi[37mv:2
+09:29:41.548 > load:[37m0[37mx3fff0030,l[37me[37mn:1184
+09:29:41.550 > lo[37ma[37md:0x4007800[37m0[37m,len:13192[37m[37m
+09:29:41.554 > load:0x400[37m8[37m0400,len:3[37m0[37m28
+09:29:41.556 > entry 0[37mx[37m400805e4
+09:29:41.558 > [37me[37mt[37ms Jun  8 201[37m6[37m 00:22:57[37m
+09:29:41.562 > [37m
+09:29:41.562 > rst:0x3 ([37mS[37mW_RESET),b[37mo[37mot:0x13 (SP[37mI[37m_FAST_FLAS[37mH[37m_BOOT)
+09:29:41.566 > con[37mf[37migsip: 0, [37mS[37mPIWP:0xee
+09:29:41.568 > [37mc[37mlk_drv:0x0[37m0[37m,q_drv:0x00[37m,[37md_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x[37m0[37m0,wp_drv:0x[37m0[37m0
+09:29:41.574 > mode:DI[37mO[37m, clock div[37m:[37m2
+09:29:41.576 > load:0x[37m3[37mfff0030,len[37m:[37m1184
+09:29:41.578 > load[37m:[37m0x40078000,[37ml[37men:13192
+09:29:41.581 > [37ml[37moad:0x40080[37m4[37m00,len:302[37m8[37m
+09:29:41.584 > entry 0x4[37m0[37m0805e4
+09:29:41.586 > [37me[37mt[37ms [37mJ[37mun  8 2016 [37m0[37m0:22:57
+09:29:41.589 > [37m
+09:29:41.589 > [37mrst:0x3 (SW[37m_[37mRESET),boo[37mt[37m:0x13 (SPI_[37mF[37mAST_FLASH_[37mB[37mOOT)
+09:29:41.593 > confi[37mg[37msip: 0, SPI[37mW[37mP:0xee
+09:29:41.596 > cl[37mk[37m_drv:0x00,[37mq[37m_drv:0x00,d[37m_[37mdrv:0x00,c[37ms[37m0_drv:0x00,[37mh[37md_drv:0x00[37m,[37mwp_drv:0x00[37m[37m
+09:29:41.602 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:29:41.605 > load:0x3ff[37mf[37m0030,len:1[37m1[37m84
+09:29:41.606 > load:0x[37m4[37m0078000,le[37mn[37m:13192
+09:29:41.608 > loa[37md[37m:0x4008040[37m0[37m,len:3028
+09:29:41.611 > [37me[37mntry 0x400[37m8[37m05e4
+09:29:41.614 > [37me[37mt[37ms Ju[37mn[37m  8 2016 00[37m:[37m22:57
+09:29:41.616 > 
+09:29:41.616 > r[37ms[37mt:0x3 (SW_R[37mE[37mSET),boot:[37m0[37mx13 (SPI_FA[37mS[37mT_FLASH_BO[37mO[37mT)
+09:29:41.622 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:41.624 > clk_[37md[37mrv:0x00,q_d[37mr[37mv:0x00,d_d[37mr[37mv:0x00,cs0_[37md[37mrv:0x00,hd[37m_[37mdrv:0x00,wp[37m_[37mdrv:0x00
+09:29:41.630 > [37mm[37mode:DIO, cl[37mo[37mck div:2
+09:29:41.632 > [37ml[37moad:0x3fff0[37m0[37m30,len:1184[37m[37m
+09:29:41.635 > load:0x40[37m0[37m78000,len:1[37m3[37m192
+09:29:41.636 > load:[37m0[37mx40080400,l[37me[37mn:3028
+09:29:41.638 > en[37mt[37mry 0x400805[37me[37m4
+09:29:41.642 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:2[37m2[37m:57
+09:29:41.645 > 
+09:29:41.645 > rst:[37m0[37mx3 (SW_RES[37mE[37mT),boot:0x1[37m3[37m (SPI_FAST[37m_[37mFLASH_BOOT)[37m[37m
+09:29:41.649 > configsip[37m:[37m 0, SPIWP:0[37mx[37mee
+09:29:41.652 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_d[37mr[37mv:0x00
+09:29:41.657 > mo[37md[37me:DIO, cloc[37mk[37m div:2
+09:29:41.659 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184
+09:29:41.662 > [37ml[37moad:0x4007[37m8[37m000,len:131[37m9[37m2
+09:29:41.665 > load:0x[37m4[37m0080400,len[37m:[37m3028
+09:29:41.667 > entr[37my[37m 0x400805e4[37m[37m
+09:29:41.670 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:29:41.673 > 
+09:29:41.673 > rst:0x[37m3[37m (SW_RESET),boot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)
+09:29:41.677 > [37mc[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:41.679 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0x[37m0[37m0,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+09:29:41.686 > mode:[37mD[37mIO, clock [37md[37miv:2
+09:29:41.688 > load:[37m0[37mx3fff0030,[37ml[37men:1184
+09:29:41.689 > lo[37ma[37md:0x400780[37m0[37m0,len:13192[37m[37m
+09:29:41.693 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:41.695 > entry 0[37mx[37m400805e4
+09:29:41.697 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+09:29:41.701 > 
+09:29:41.701 > rst:0x3 [37m([37mSW_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+09:29:41.705 > co[37mn[37mfigsip: 0, [37mS[37mPIWP:0xee[37m
+09:29:41.707 > [37mclk_drv:0x0[37m0[37m,q_drv:0x0[37m0[37m,d_drv:0x00[37m,[37mcs0_drv:0x[37m0[37m0,hd_drv:0x[37m0[37m0,wp_drv:0[37mx[37m00
+09:29:41.714 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:41.715 > load:0x[37m3[37mfff0030,len[37m:[37m1184
+09:29:41.718 > load[37m:[37m0x40078000,[37ml[37men:13192
+09:29:41.721 > [37ml[37moad:0x40080[37m4[37m00,len:302[37m8[37m
+09:29:41.723 > entry 0x4[37m0[37m0805e4
+09:29:41.725 > [37me[37mt[37ms [37mJ[37mun  8 2016[37m [37m00:22:57
+09:29:41.728 > [37m
+09:29:41.728 > [37mrst:0x3 (S[37mW[37m_RESET),boo[37mt[37m:0x13 (SPI[37m_[37mFAST_FLASH_[37mB[37mOOT)
+09:29:41.733 > conf[37mi[37mgsip: 0, SP[37mI[37mWP:0xee
+09:29:41.734 > c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+09:29:41.742 > mode:DIO,[37m [37mclock div:[37m2[37m
+09:29:41.744 > load:0x3f[37mf[37mf0030,len:[37m1[37m184
+09:29:41.746 > load:0[37mx[37m40078000,le[37mn[37m:13192
+09:29:41.748 > lo[37ma[37md:0x4008040[37m0[37m,len:3028[37m
+09:29:41.751 > [37mentry 0x400[37m8[37m05e4
+09:29:41.753 > [37me[37mt[37ms Ju[37mn[37m  8 2016 0[37m0[37m:22:57
+09:29:41.756 > 
+09:29:41.756 > r[37ms[37mt:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_BO[37mO[37mT)
+09:29:41.760 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+09:29:41.762 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_d[37mr[37mv:0x00,cs0[37m_[37mdrv:0x00,hd[37m_[37mdrv:0x00,w[37mp[37m_drv:0x00
+09:29:41.770 > [37mm[37mode:DIO, c[37ml[37mock div:2
+09:29:41.772 > [37ml[37moad:0x3fff[37m0[37m030,len:118[37m4[37m
+09:29:41.774 > load:0x4[37m0[37m078000,len:[37m1[37m3192
+09:29:41.776 > load[37m:[37m0x40080400,[37ml[37men:3028
+09:29:41.777 > e[37mn[37mtry 0x40080[37m5[37me4
+09:29:41.781 > [37me[37mt[37ms Jun [37m [37m8 2016 00:[37m2[37m2:57
+09:29:41.784 > 
+09:29:41.784 > rst[37m:[37m0x3 (SW_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:41.789 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:41.790 > clk_dr[37mv[37m:0x00,q_dr[37mv[37m:0x00,d_drv[37m:[37m0x00,cs0_d[37mr[37mv:0x00,hd_d[37mr[37mv:0x00,wp_d[37mr[37mv:0x00
+09:29:41.796 > mo[37md[37me:DIO, cloc[37mk[37m div:2
+09:29:41.798 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:29:41.802 > [37mload:0x4007[37m8[37m000,len:13[37m1[37m92
+09:29:41.804 > load:0x[37m4[37m0080400,le[37mn[37m:3028
+09:29:41.806 > entr[37my[37m 0x400805e[37m4[37m
+09:29:41.809 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22:[37m5[37m7
+09:29:41.812 > 
+09:29:41.812 > rst:0[37mx[37m3 (SW_RESET[37m)[37m,boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)
+09:29:41.816 > [37mc[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:41.818 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+09:29:41.825 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:41.826 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:41.828 > l[37mo[37mad:0x400780[37m0[37m0,len:1319[37m2[37m
+09:29:41.832 > load:0x40[37m0[37m80400,len:[37m3[37m028
+09:29:41.833 > entry [37m0[37mx400805e4[37m
+09:29:41.837 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:57[37m[37m
+09:29:41.839 > 
+09:29:41.839 > rst:0x3[37m [37m(SW_RESET),[37mb[37moot:0x13 ([37mS[37mPI_FAST_FLA[37mS[37mH_BOOT)
+09:29:41.843 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:29:41.847 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0[37mx[37m00,wp_drv:0[37mx[37m00
+09:29:41.853 > mode:D[37mI[37mO, clock di[37mv[37m:2
+09:29:41.855 > load:0[37mx[37m3fff0030,le[37mn[37m:1184
+09:29:41.857 > load[37m:[37m0x40078000[37m,[37mlen:13192
+09:29:41.859 > [37ml[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+09:29:41.861 > entry 0x[37m4[37m00805e4
+09:29:41.864 > [37me[37mt[37ms[37m [37mJun  8 2016[37m [37m00:22:57
+09:29:41.868 > [37m[37m
+09:29:41.868 > rst:0x3 (S[37mW[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH[37m_[37mBOOT)
+09:29:41.872 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+09:29:41.874 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00,[37md[37m_drv:0x00,[37mc[37ms0_drv:0x00[37m,[37mhd_drv:0x0[37m0[37m,wp_drv:0x0[37m0[37m
+09:29:41.880 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:41.883 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:41.884 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:41.887 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+09:29:41.890 > [37mentry 0x40[37m0[37m805e4
+09:29:41.892 > [37me[37mt[37ms J[37mu[37mn  8 2016 0[37m0[37m:22:57
+09:29:41.895 > 
+09:29:41.895 > r[37ms[37mt:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_BO[37mO[37mT)
+09:29:41.900 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+09:29:41.902 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:41.909 > [37mmode:DIO, c[37ml[37mock div:2[37m
+09:29:41.911 > [37mload:0x3fff[37m0[37m030,len:11[37m8[37m4
+09:29:41.913 > load:0x4[37m0[37m078000,len[37m:[37m13192
+09:29:41.915 > load[37m:[37m0x40080400[37m,[37mlen:3028
+09:29:41.917 > e[37mn[37mtry 0x4008[37m0[37m5e4
+09:29:41.920 > [37me[37mt[37ms Jun[37m [37m 8 2016 00:[37m2[37m2:57
+09:29:41.923 > 
+09:29:41.923 > rs[37mt[37m:0x3 (SW_RE[37mS[37mET),boot:0[37mx[37m13 (SPI_FAS[37mT[37m_FLASH_BOO[37mT[37m)
+09:29:41.928 > configsi[37mp[37m: 0, SPIWP:[37m0[37mxee
+09:29:41.930 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+09:29:41.936 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+09:29:41.938 > lo[37ma[37md:0x3fff00[37m3[37m0,len:1184[37m
+09:29:41.940 > [37mload:0x400[37m7[37m8000,len:13[37m1[37m92
+09:29:41.942 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:29:41.944 > ent[37mr[37my 0x400805e[37m4[37m
+09:29:41.948 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:41.951 > 
+09:29:41.951 > rst:0[37mx[37m3 (SW_RESE[37mT[37m),boot:0x13[37m [37m(SPI_FAST_[37mF[37mLASH_BOOT)[37m
+09:29:41.955 > [37mconfigsip:[37m [37m0, SPIWP:0x[37me[37me
+09:29:41.958 > clk_drv[37m:[37m0x00,q_drv:[37m0[37mx00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_dr[37mv[37m:0x00,wp_dr[37mv[37m:0x00
+09:29:41.963 > mod[37me[37m:DIO, clock[37m [37mdiv:2
+09:29:41.965 > loa[37md[37m:0x3fff0030[37m,[37mlen:1184
+09:29:41.967 > l[37mo[37mad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:41.971 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:29:41.973 > entry[37m [37m0x400805e4[37m
+09:29:41.976 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:29:41.979 > 
+09:29:41.979 > rst:0x3[37m [37m(SW_RESET)[37m,[37mboot:0x13 ([37mS[37mPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:41.983 > c[37mo[37mnfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:29:41.986 > clk_drv:0[37mx[37m00,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0[37mx[37m00,hd_drv:0[37mx[37m00,wp_drv:[37m0[37mx00
+09:29:41.991 > mode:D[37mI[37mO, clock d[37mi[37mv:2
+09:29:41.993 > load:0[37mx[37m3fff0030,l[37me[37mn:1184
+09:29:41.995 > loa[37md[37m:0x4007800[37m0[37m,len:13192[37m
+09:29:41.999 > [37mload:0x400[37m8[37m0400,len:30[37m2[37m8
+09:29:42.001 > entry 0x[37m4[37m00805e4
+09:29:42.003 > [37me[37mt[37ms[37m Jun  8 201[37m6[37m 00:22:57
+09:29:42.007 > [37m[37m
+09:29:42.007 > rst:0x3 ([37mS[37mW_RESET),bo[37mo[37mt:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:42.011 > con[37mf[37migsip: 0, S[37mP[37mIWP:0xee
+09:29:42.013 > [37mc[37mlk_drv:0x00[37m,[37mq_drv:0x00[37m,[37md_drv:0x00,[37mc[37ms0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x[37m0[37m0
+09:29:42.019 > mode:DIO[37m,[37m clock div[37m:[37m2
+09:29:42.022 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:42.024 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:42.026 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:42.029 > entry 0x40[37m0[37m805e4
+09:29:42.031 > [37me[37mt[37ms J[37mu[37mn  8 2016 [37m0[37m0:22:57
+09:29:42.034 > 
+09:29:42.034 > [37mr[37mst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_B[37mO[37mOT)
+09:29:42.039 > confi[37mg[37msip: 0, SPI[37mW[37mP:0xee
+09:29:42.041 > cl[37mk[37m_drv:0x00,q[37m_[37mdrv:0x00,d[37m_[37mdrv:0x00,cs[37m0[37m_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:29:42.048 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:29:42.050 > load:0x3ff[37mf[37m0030,len:11[37m8[37m4
+09:29:42.052 > load:0x[37m4[37m0078000,len[37m:[37m13192
+09:29:42.054 > loa[37md[37m:0x40080400[37m,[37mlen:3028
+09:29:42.056 > [37me[37mntry 0x4008[37m0[37m5e4
+09:29:42.059 > [37me[37mt[37ms Jun[37m [37m 8 2016 00[37m:[37m22:57
+09:29:42.062 > 
+09:29:42.062 > rs[37mt[37m:0x3 (SW_R[37mE[37mSET),boot:0[37mx[37m13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:29:42.066 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:42.068 > clk_[37md[37mrv:0x00,q_d[37mr[37mv:0x00,d_dr[37mv[37m:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+09:29:42.075 > m[37mo[37mde:DIO, cl[37mo[37mck div:2
+09:29:42.077 > l[37mo[37mad:0x3fff0[37m0[37m30,len:1184[37m[37m
+09:29:42.079 > load:0x40[37m0[37m78000,len:1[37m3[37m192
+09:29:42.081 > load:[37m0[37mx40080400,l[37me[37mn:3028
+09:29:42.083 > en[37mt[37mry 0x400805[37me[37m4
+09:29:42.087 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:2[37m2[37m:57
+09:29:42.090 > 
+09:29:42.090 > rst:[37m0[37mx3 (SW_RES[37mE[37mT),boot:0x1[37m3[37m (SPI_FAST_[37mF[37mLASH_BOOT)[37m[37m
+09:29:42.094 > configsip:[37m [37m0, SPIWP:0[37mx[37mee
+09:29:42.096 > clk_drv[37m:[37m0x00,q_drv[37m:[37m0x00,d_drv:[37m0[37mx00,cs0_dr[37mv[37m:0x00,hd_dr[37mv[37m:0x00,wp_d[37mr[37mv:0x00
+09:29:42.103 > mod[37me[37m:DIO, clock[37m [37mdiv:2
+09:29:42.105 > loa[37md[37m:0x3fff0030[37m,[37mlen:1184
+09:29:42.108 > [37ml[37moad:0x40078[37m0[37m00,len:131[37m9[37m2
+09:29:42.110 > load:0x4[37m0[37m080400,len[37m:[37m3028
+09:29:42.112 > entry[37m [37m0x400805e4[37m[37m
+09:29:42.115 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:5[37m7[37m
+09:29:42.118 > 
+09:29:42.118 > rst:0x[37m3[37m (SW_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:42.122 > [37mc[37monfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:29:42.124 > clk_drv:0[37mx[37m00,q_drv:0x[37m0[37m0,d_drv:0x[37m0[37m0,cs0_drv:0[37mx[37m00,hd_drv:[37m0[37mx00,wp_drv:[37m0[37mx00
+09:29:42.130 > mode:[37mD[37mIO, clock d[37mi[37mv:2
+09:29:42.133 > load:[37m0[37mx3fff0030,[37ml[37men:1184
+09:29:42.135 > lo[37ma[37md:0x400780[37m0[37m0,len:13192[37m[37m
+09:29:42.138 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:42.139 > entry 0[37mx[37m400805e4
+09:29:42.142 > [37me[37mt[37ms Jun  8 201[37m6[37m 00:22:57[37m
+09:29:42.146 > [37m
+09:29:42.146 > rst:0x3 ([37mS[37mW_RESET),b[37mo[37mot:0x13 (SP[37mI[37m_FAST_FLAS[37mH[37m_BOOT)
+09:29:42.150 > con[37mf[37migsip: 0, [37mS[37mPIWP:0xee
+09:29:42.152 > [37mc[37mlk_drv:0x0[37m0[37m,q_drv:0x00[37m,[37md_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x[37m0[37m0,wp_drv:0x[37m0[37m0
+09:29:42.158 > mode:DI[37mO[37m, clock div[37m:[37m2
+09:29:42.160 > load:0x[37m3[37mfff0030,len[37m:[37m1184
+09:29:42.162 > load[37m:[37m0x40078000,[37ml[37men:13192
+09:29:42.166 > [37ml[37moad:0x40080[37m4[37m00,len:302[37m8[37m
+09:29:42.168 > entry 0x4[37m0[37m0805e4
+09:29:42.170 > [37me[37mt[37ms [37mJ[37mun  8 2016[37m [37m00:22:57
+09:29:42.173 > [37m
+09:29:42.173 > [37mrst:0x3 (SW[37m_[37mRESET),boo[37mt[37m:0x13 (SPI_[37mF[37mAST_FLASH_[37mB[37mOOT)
+09:29:42.177 > confi[37mg[37msip: 0, SP[37mI[37mWP:0xee
+09:29:42.179 > cl[37mk[37m_drv:0x00,[37mq[37m_drv:0x00,d[37m_[37mdrv:0x00,c[37ms[37m0_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:29:42.187 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:29:42.189 > load:0x3ff[37mf[37m0030,len:1[37m1[37m84
+09:29:42.191 > load:0x[37m4[37m0078000,le[37mn[37m:13192
+09:29:42.193 > loa[37md[37m:0x4008040[37m0[37m,len:3028
+09:29:42.195 > [37me[37mntry 0x400[37m8[37m05e4
+09:29:42.198 > [37me[37mt[37ms Ju[37mn[37m  8 2016 00[37m:[37m22:57
+09:29:42.201 > 
+09:29:42.201 > r[37ms[37mt:0x3 (SW_R[37mE[37mSET),boot:[37m0[37mx13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:29:42.205 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:42.207 > clk_[37md[37mrv:0x00,q_d[37mr[37mv:0x00,d_d[37mr[37mv:0x00,cs0_[37md[37mrv:0x00,hd[37m_[37mdrv:0x00,wp[37m_[37mdrv:0x00
+09:29:42.215 > [37mm[37mode:DIO, cl[37mo[37mck div:2
+09:29:42.217 > [37ml[37moad:0x3fff0[37m0[37m30,len:118[37m4[37m
+09:29:42.219 > load:0x40[37m0[37m78000,len:[37m1[37m3192
+09:29:42.221 > load:[37m0[37mx40080400,[37ml[37men:3028
+09:29:42.223 > en[37mt[37mry 0x40080[37m5[37me4
+09:29:42.226 > [37me[37mt[37ms Jun [37m [37m8 2016 00:2[37m2[37m:57
+09:29:42.228 > 
+09:29:42.228 > rst[37m:[37m0x3 (SW_RES[37mE[37mT),boot:0x[37m1[37m3 (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:42.234 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:42.236 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_d[37mr[37mv:0x00
+09:29:42.242 > mo[37md[37me:DIO, cloc[37mk[37m div:2
+09:29:42.244 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:29:42.246 > [37mload:0x4007[37m8[37m000,len:13[37m1[37m92
+09:29:42.249 > load:0x[37m4[37m0080400,le[37mn[37m:3028
+09:29:42.251 > entr[37my[37m 0x400805e[37m4[37m
+09:29:42.254 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:29:42.257 > 
+09:29:42.257 > rst:0x[37m3[37m (SW_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)
+09:29:42.261 > [37mc[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:42.263 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+09:29:42.270 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:42.272 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:42.273 > l[37mo[37mad:0x400780[37m0[37m0,len:1319[37m2[37m
+09:29:42.277 > load:0x40[37m0[37m80400,len:[37m3[37m028
+09:29:42.279 > entry [37m0[37mx400805e4[37m
+09:29:42.282 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+09:29:42.285 > 
+09:29:42.285 > rst:0x3 [37m([37mSW_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+09:29:42.289 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:29:42.292 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x00[37m,[37mcs0_drv:0x[37m0[37m0,hd_drv:0x[37m0[37m0,wp_drv:0[37mx[37m00
+09:29:42.298 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:42.300 > load:0x[37m3[37mfff0030,le[37mn[37m:1184
+09:29:42.302 > load[37m:[37m0x40078000[37m,[37mlen:13192
+09:29:42.305 > [37ml[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+09:29:42.307 > entry 0x[37m4[37m00805e4
+09:29:42.309 > [37me[37mt[37ms[37m [37mJun  8 2016[37m [37m00:22:57
+09:29:42.313 > [37m[37m
+09:29:42.313 > rst:0x3 (S[37mW[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH_[37mB[37mOOT)
+09:29:42.317 > conf[37mi[37mgsip: 0, SP[37mI[37mWP:0xee
+09:29:42.319 > c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+09:29:42.326 > mode:DIO,[37m [37mclock div:[37m2[37m
+09:29:42.328 > load:0x3f[37mf[37mf0030,len:[37m1[37m184
+09:29:42.330 > load:0[37mx[37m40078000,l[37me[37mn:13192
+09:29:42.332 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+09:29:42.335 > [37mentry 0x40[37m0[37m805e4
+09:29:42.337 > [37me[37mt[37ms Ju[37mn[37m  8 2016 0[37m0[37m:22:57
+09:29:42.340 > 
+09:29:42.340 > r[37ms[37mt:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_BO[37mO[37mT)
+09:29:42.344 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+09:29:42.346 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:42.354 > [37mmode:DIO, c[37ml[37mock div:2[37m
+09:29:42.356 > [37mload:0x3fff[37m0[37m030,len:11[37m8[37m4
+09:29:42.358 > load:0x4[37m0[37m078000,len:[37m1[37m3192
+09:29:42.360 > load[37m:[37m0x40080400,[37ml[37men:3028
+09:29:42.362 > e[37mn[37mtry 0x40080[37m5[37me4
+09:29:42.365 > [37me[37mt[37ms Jun [37m [37m8 2016 00:[37m2[37m2:57
+09:29:42.368 > 
+09:29:42.368 > rst[37m:[37m0x3 (SW_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:42.373 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:42.375 > clk_dr[37mv[37m:0x00,q_dr[37mv[37m:0x00,d_drv[37m:[37m0x00,cs0_d[37mr[37mv:0x00,hd_d[37mr[37mv:0x00,wp_[37md[37mrv:0x00
+09:29:42.381 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:42.383 > lo[37ma[37md:0x3fff00[37m3[37m0,len:1184[37m
+09:29:42.386 > [37mload:0x400[37m7[37m8000,len:13[37m1[37m92
+09:29:42.388 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:29:42.390 > ent[37mr[37my 0x400805e[37m4[37m
+09:29:42.393 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:42.396 > 
+09:29:42.396 > rst:0[37mx[37m3 (SW_RESET[37m)[37m,boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)[37m
+09:29:42.401 > [37mconfigsip: [37m0[37m, SPIWP:0x[37me[37me
+09:29:42.403 > clk_drv:[37m0[37mx00,q_drv:[37m0[37mx00,d_drv:0[37mx[37m00,cs0_drv[37m:[37m0x00,hd_drv[37m:[37m0x00,wp_dr[37mv[37m:0x00
+09:29:42.408 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:42.410 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:42.412 > l[37mo[37mad:0x400780[37m0[37m0,len:1319[37m2[37m
+09:29:42.416 > load:0x40[37m0[37m80400,len:[37m3[37m028
+09:29:42.418 > entry [37m0[37mx400805e4[37m
+09:29:42.421 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:57[37m[37m
+09:29:42.424 > 
+09:29:42.424 > rst:0x3[37m [37m(SW_RESET),[37mb[37moot:0x13 ([37mS[37mPI_FAST_FLA[37mS[37mH_BOOT)
+09:29:42.428 > c[37mo[37mnfigsip: 0,[37m [37mSPIWP:0xee[37m[37m
+09:29:42.431 > clk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0[37mx[37m00,wp_drv:0[37mx[37m00
+09:29:42.437 > mode:D[37mI[37mO, clock di[37mv[37m:2
+09:29:42.439 > load:0[37mx[37m3fff0030,le[37mn[37m:1184
+09:29:42.441 > loa[37md[37m:0x40078000[37m,[37mlen:13192[37m
+09:29:42.444 > [37mload:0x4008[37m0[37m400,len:30[37m2[37m8
+09:29:42.446 > entry 0x[37m4[37m00805e4
+09:29:42.448 > [37me[37mt[37ms[37m [37mJun  8 2016[37m [37m00:22:57
+09:29:42.452 > [37m[37m
+09:29:42.452 > rst:0x3 (S[37mW[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH[37m_[37mBOOT)
+09:29:42.456 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+09:29:42.458 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00,[37md[37m_drv:0x00,[37mc[37ms0_drv:0x00[37m,[37mhd_drv:0x0[37m0[37m,wp_drv:0x0[37m0[37m
+09:29:42.464 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:42.467 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:42.468 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:42.471 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:42.474 > entry 0x40[37m0[37m805e4
+09:29:42.476 > [37me[37mt[37ms J[37mu[37mn  8 2016 0[37m0[37m:22:57
+09:29:42.479 > 
+09:29:42.479 > [37mr[37mst:0x3 (SW_[37mR[37mESET),boot[37m:[37m0x13 (SPI_F[37mA[37mST_FLASH_B[37mO[37mOT)
+09:29:42.484 > config[37ms[37mip: 0, SPI[37mW[37mP:0xee
+09:29:42.486 > clk[37m_[37mdrv:0x00,q[37m_[37mdrv:0x00,d_[37md[37mrv:0x00,cs[37m0[37m_drv:0x00,h[37md[37m_drv:0x00,[37mw[37mp_drv:0x00[37m
+09:29:42.493 > [37mmode:DIO, [37mc[37mlock div:2[37m
+09:29:42.495 > [37mload:0x3fff[37m0[37m030,len:11[37m8[37m4
+09:29:42.497 > load:0x4[37m0[37m078000,len[37m:[37m13192
+09:29:42.499 > load[37m:[37m0x40080400[37m,[37mlen:3028
+09:29:42.501 > e[37mn[37mtry 0x4008[37m0[37m5e4
+09:29:42.504 > [37me[37mt[37ms Jun[37m [37m 8 2016 00:[37m2[37m2:57
+09:29:42.507 > 
+09:29:42.507 > rst[37m:[37m0x3 (SW_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAS[37mT[37m_FLASH_BOOT[37m)[37m
+09:29:42.511 > configsi[37mp[37m: 0, SPIWP:[37m0[37mxee
+09:29:42.514 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+09:29:42.520 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+09:29:42.522 > l[37mo[37mad:0x3fff00[37m3[37m0,len:1184[37m[37m
+09:29:42.525 > load:0x400[37m7[37m8000,len:1[37m3[37m192
+09:29:42.527 > load:0[37mx[37m40080400,l[37me[37mn:3028
+09:29:42.529 > ent[37mr[37my 0x400805[37me[37m4
+09:29:42.532 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:42.535 > 
+09:29:42.535 > rst:0[37mx[37m3 (SW_RESE[37mT[37m),boot:0x13[37m [37m(SPI_FAST_[37mF[37mLASH_BOOT)[37m
+09:29:42.540 > [37mconfigsip:[37m [37m0, SPIWP:0x[37me[37me
+09:29:42.542 > clk_drv[37m:[37m0x00,q_drv:[37m0[37mx00,d_drv:0[37mx[37m00,cs0_drv[37m:[37m0x00,hd_drv[37m:[37m0x00,wp_dr[37mv[37m:0x00
+09:29:42.547 > mod[37me[37m:DIO, clock[37m [37mdiv:2
+09:29:42.550 > loa[37md[37m:0x3fff0030[37m,[37mlen:1184
+09:29:42.553 > [37ml[37moad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:42.555 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:29:42.557 > entry[37m [37m0x400805e4[37m
+09:29:42.560 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:29:42.563 > 
+09:29:42.563 > rst:0x3[37m [37m(SW_RESET)[37m,[37mboot:0x13 ([37mS[37mPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:42.567 > c[37mo[37mnfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:29:42.570 > clk_drv:0[37mx[37m00,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0[37mx[37m00,hd_drv:0[37mx[37m00,wp_drv:[37m0[37mx00
+09:29:42.575 > mode:D[37mI[37mO, clock d[37mi[37mv:2
+09:29:42.577 > load:0[37mx[37m3fff0030,l[37me[37mn:1184
+09:29:42.579 > loa[37md[37m:0x4007800[37m0[37m,len:13192[37m
+09:29:42.583 > [37mload:0x400[37m8[37m0400,len:30[37m2[37m8
+09:29:42.585 > entry 0x[37m4[37m00805e4
+09:29:42.587 > [37me[37mt[37ms[37m Jun  8 201[37m6[37m 00:22:57[37m
+09:29:42.591 > [37m
+09:29:42.591 > rst:0x3 ([37mS[37mW_RESET),b[37mo[37mot:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:42.595 > con[37mf[37migsip: 0, S[37mP[37mIWP:0xee
+09:29:42.597 > [37mc[37mlk_drv:0x00[37m,[37mq_drv:0x00[37m,[37md_drv:0x00,[37mc[37ms0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x[37m0[37m0
+09:29:42.604 > mode:DIO[37m,[37m clock div[37m:[37m2
+09:29:42.606 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:42.607 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:42.610 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:42.613 > entry 0x40[37m0[37m805e4
+09:29:42.615 > [37me[37mt[37ms J[37mu[37mn  8 2016 [37m0[37m0:22:57
+09:29:42.618 > 
+09:29:42.619 > [37mr[37mst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_B[37mO[37mOT)
+09:29:42.623 > confi[37mg[37msip: 0, SPI[37mW[37mP:0xee
+09:29:42.624 > cl[37mk[37m_drv:0x00,q[37m_[37mdrv:0x00,d[37m_[37mdrv:0x00,cs[37m0[37m_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:29:42.632 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:29:42.634 > load:0x3ff[37mf[37m0030,len:1[37m1[37m84
+09:29:42.636 > load:0x[37m4[37m0078000,len[37m:[37m13192
+09:29:42.638 > loa[37md[37m:0x40080400[37m,[37mlen:3028
+09:29:42.640 > [37me[37mntry 0x4008[37m0[37m5e4
+09:29:42.643 > [37me[37mt[37ms Jun[37m [37m 8 2016 00[37m:[37m22:57
+09:29:42.646 > 
+09:29:42.646 > rs[37mt[37m:0x3 (SW_R[37mE[37mSET),boot:0[37mx[37m13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:29:42.651 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:42.653 > clk_[37md[37mrv:0x00,q_d[37mr[37mv:0x00,d_dr[37mv[37m:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+09:29:42.659 > m[37mo[37mde:DIO, cl[37mo[37mck div:2
+09:29:42.660 > l[37mo[37mad:0x3fff0[37m0[37m30,len:1184[37m[37m
+09:29:42.664 > load:0x40[37m0[37m78000,len:1[37m3[37m192
+09:29:42.666 > load:[37m0[37mx40080400,l[37me[37mn:3028
+09:29:42.668 > en[37mt[37mry 0x400805[37me[37m4
+09:29:42.671 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:22[37m:[37m57
+09:29:42.674 > 
+09:29:42.674 > rst:[37m0[37mx3 (SW_RESE[37mT[37m),boot:0x1[37m3[37m (SPI_FAST_[37mF[37mLASH_BOOT)[37m[37m
+09:29:42.679 > configsip:[37m [37m0, SPIWP:0[37mx[37mee
+09:29:42.681 > clk_drv[37m:[37m0x00,q_drv[37m:[37m0x00,d_drv:[37m0[37mx00,cs0_dr[37mv[37m:0x00,hd_dr[37mv[37m:0x00,wp_d[37mr[37mv:0x00
+09:29:42.687 > mod[37me[37m:DIO, cloc[37mk[37m div:2
+09:29:42.689 > loa[37md[37m:0x3fff003[37m0[37m,len:1184
+09:29:42.691 > [37ml[37moad:0x4007[37m8[37m000,len:131[37m9[37m2
+09:29:42.694 > load:0x[37m4[37m0080400,len[37m:[37m3028
+09:29:42.695 > entr[37my[37m 0x400805e4[37m[37m
+09:29:42.699 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:5[37m7[37m
+09:29:42.702 > 
+09:29:42.702 > rst:0x[37m3[37m (SW_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:42.707 > [37mc[37monfigsip: 0[37m,[37m SPIWP:0xe[37me[37m
+09:29:42.709 > clk_drv:0[37mx[37m00,q_drv:0[37mx[37m00,d_drv:0x[37m0[37m0,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+09:29:42.715 > mode:[37mD[37mIO, clock [37md[37miv:2
+09:29:42.717 > load:[37m0[37mx3fff0030,l[37me[37mn:1184
+09:29:42.719 > lo[37ma[37md:0x4007800[37m0[37m,len:13192[37m[37m
+09:29:42.722 > load:0x400[37m8[37m0400,len:3[37m0[37m28
+09:29:42.724 > entry 0[37mx[37m400805e4
+09:29:42.726 > [37me[37mt[37ms Jun  8 201[37m6[37m 00:22:57[37m
+09:29:42.730 > [37m
+09:29:42.730 > rst:0x3 [37m([37mSW_RESET),b[37mo[37mot:0x13 (S[37mP[37mI_FAST_FLAS[37mH[37m_BOOT)
+09:29:42.734 > co[37mn[37mfigsip: 0, [37mS[37mPIWP:0xee[37m
+09:29:42.737 > [37mclk_drv:0x0[37m0[37m,q_drv:0x0[37m0[37m,d_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x[37m0[37m0,wp_drv:0x[37m0[37m0
+09:29:42.743 > mode:DI[37mO[37m, clock div[37m:[37m2
+09:29:42.745 > load:0x[37m3[37mfff0030,len[37m:[37m1184
+09:29:42.747 > load[37m:[37m0x40078000,[37ml[37men:13192
+09:29:42.750 > [37ml[37moad:0x40080[37m4[37m00,len:3028[37m[37m
+09:29:42.752 > entry 0x4[37m0[37m0805e4
+09:29:42.754 > [37me[37mt[37ms [37mJ[37mun  8 2016 [37m0[37m0:22:57
+09:29:42.757 > [37m
+09:29:42.758 > [37mrst:0x3 (SW[37m_[37mRESET),boo[37mt[37m:0x13 (SPI_[37mF[37mAST_FLASH_[37mB[37mOOT)
+09:29:42.762 > confi[37mg[37msip: 0, SP[37mI[37mWP:0xee
+09:29:42.764 > cl[37mk[37m_drv:0x00,[37mq[37m_drv:0x00,d[37m_[37mdrv:0x00,c[37ms[37m0_drv:0x00,[37mh[37md_drv:0x00[37m,[37mwp_drv:0x00[37m[37m
+09:29:42.771 > mode:DIO,[37m [37mclock div:2[37m[37m
+09:29:42.773 > load:0x3f[37mf[37mf0030,len:1[37m1[37m84
+09:29:42.775 > load:0[37mx[37m40078000,le[37mn[37m:13192
+09:29:42.777 > lo[37ma[37md:0x4008040[37m0[37m,len:3028[37m
+09:29:42.780 > [37mentry 0x400[37m8[37m05e4
+09:29:42.782 > [37me[37mt[37ms Ju[37mn[37m  8 2016 00[37m:[37m22:57
+09:29:42.785 > 
+09:29:42.785 > r[37ms[37mt:0x3 (SW_R[37mE[37mSET),boot:[37m0[37mx13 (SPI_FA[37mS[37mT_FLASH_BO[37mO[37mT)
+09:29:42.790 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:42.792 > clk_[37md[37mrv:0x00,q_[37md[37mrv:0x00,d_d[37mr[37mv:0x00,cs0[37m_[37mdrv:0x00,hd[37m_[37mdrv:0x00,w[37mp[37m_drv:0x00
+09:29:42.799 > [37mm[37mode:DIO, cl[37mo[37mck div:2
+09:29:42.801 > [37ml[37moad:0x3fff0[37m0[37m30,len:118[37m4[37m
+09:29:42.803 > load:0x40[37m0[37m78000,len:[37m1[37m3192
+09:29:42.805 > load:[37m0[37mx40080400,[37ml[37men:3028
+09:29:42.807 > en[37mt[37mry 0x40080[37m5[37me4
+09:29:42.810 > [37me[37mt[37ms Jun [37m [37m8 2016 00:2[37m2[37m:57
+09:29:42.813 > 
+09:29:42.813 > rst:[37m0[37mx3 (SW_RES[37mE[37mT),boot:0x1[37m3[37m (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:42.818 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:42.820 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_d[37mr[37mv:0x00
+09:29:42.826 > mo[37md[37me:DIO, cloc[37mk[37m div:2
+09:29:42.828 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:29:42.831 > [37mload:0x4007[37m8[37m000,len:13[37m1[37m92
+09:29:42.833 > load:0x[37m4[37m0080400,le[37mn[37m:3028
+09:29:42.835 > entr[37my[37m 0x400805e4[37m[37m
+09:29:42.838 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22:[37m5[37m7
+09:29:42.841 > 
+09:29:42.841 > rst:0x[37m3[37m (SW_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)
+09:29:42.846 > [37mc[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:42.848 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+09:29:42.854 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:42.856 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:42.858 > l[37mo[37mad:0x400780[37m0[37m0,len:1319[37m2[37m
+09:29:42.861 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:42.863 > entry [37m0[37mx400805e4
+09:29:42.866 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+09:29:42.869 > 
+09:29:42.869 > rst:0x3 [37m([37mSW_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+09:29:42.873 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:29:42.876 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x00[37m,[37mcs0_drv:0x[37m0[37m0,hd_drv:0x[37m0[37m0,wp_drv:0[37mx[37m00
+09:29:42.882 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:42.884 > load:0[37mx[37m3fff0030,le[37mn[37m:1184
+09:29:42.886 > load[37m:[37m0x40078000[37m,[37mlen:13192
+09:29:42.889 > [37ml[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+09:29:42.891 > entry 0x[37m4[37m00805e4
+09:29:42.893 > [37me[37mt[37ms[37m [37mJun  8 2016[37m [37m00:22:57
+09:29:42.897 > [37m[37m
+09:29:42.897 > rst:0x3 (S[37mW[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH_[37mB[37mOOT)
+09:29:42.901 > conf[37mi[37mgsip: 0, SP[37mI[37mWP:0xee
+09:29:42.903 > c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+09:29:42.910 > mode:DIO,[37m [37mclock div:[37m2[37m
+09:29:42.912 > load:0x3f[37mf[37mf0030,len:[37m1[37m184
+09:29:42.914 > load:0[37mx[37m40078000,l[37me[37mn:13192
+09:29:42.916 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+09:29:42.919 > [37mentry 0x400[37m8[37m05e4
+09:29:42.921 > [37me[37mt[37ms Ju[37mn[37m  8 2016 0[37m0[37m:22:57
+09:29:42.924 > 
+09:29:42.925 > [37mr[37mst:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_BO[37mO[37mT)
+09:29:42.929 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+09:29:42.931 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:42.938 > [37mmode:DIO, c[37ml[37mock div:2
+09:29:42.940 > [37ml[37moad:0x3fff[37m0[37m030,len:118[37m4[37m
+09:29:42.942 > load:0x4[37m0[37m078000,len:[37m1[37m3192
+09:29:42.944 > load[37m:[37m0x40080400[37m,[37mlen:3028
+09:29:42.946 > e[37mn[37mtry 0x40080[37m5[37me4
+09:29:42.949 > [37me[37mt[37ms Jun [37m [37m8 2016 00:2[37m2[37m:57
+09:29:42.952 > 
+09:29:42.952 > rst[37m:[37m0x3 (SW_RES[37mE[37mT),boot:0x[37m1[37m3 (SPI_FAS[37mT[37m_FLASH_BOOT[37m)[37m
+09:29:42.957 > configsi[37mp[37m: 0, SPIWP:[37m0[37mxee
+09:29:42.959 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_drv[37m:[37m0x00,cs0_d[37mr[37mv:0x00,hd_d[37mr[37mv:0x00,wp_[37md[37mrv:0x00
+09:29:42.965 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:42.967 > lo[37ma[37md:0x3fff00[37m3[37m0,len:1184[37m
+09:29:42.970 > [37mload:0x400[37m7[37m8000,len:13[37m1[37m92
+09:29:42.972 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:29:42.974 > ent[37mr[37my 0x400805e[37m4[37m
+09:29:42.977 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:42.980 > 
+09:29:42.980 > rst:0[37mx[37m3 (SW_RESET[37m)[37m,boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)[37m
+09:29:42.985 > [37mconfigsip: [37m0[37m, SPIWP:0x[37me[37me
+09:29:42.987 > clk_drv:[37m0[37mx00,q_drv:[37m0[37mx00,d_drv:0[37mx[37m00,cs0_drv[37m:[37m0x00,hd_drv[37m:[37m0x00,wp_dr[37mv[37m:0x00
+09:29:42.993 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:42.995 > load[37m:[37m0x3fff0030[37m,[37mlen:1184
+09:29:42.997 > l[37mo[37mad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:43.000 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:29:43.002 > entry [37m0[37mx400805e4[37m
+09:29:43.005 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:57[37m[37m
+09:29:43.008 > 
+09:29:43.008 > rst:0x3[37m [37m(SW_RESET),[37mb[37moot:0x13 ([37mS[37mPI_FAST_FLA[37mS[37mH_BOOT)
+09:29:43.012 > c[37mo[37mnfigsip: 0,[37m [37mSPIWP:0xee[37m[37m
+09:29:43.015 > clk_drv:0x[37m0[37m0,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0[37mx[37m00,wp_drv:0[37mx[37m00
+09:29:43.021 > mode:D[37mI[37mO, clock di[37mv[37m:2
+09:29:43.023 > load:0[37mx[37m3fff0030,le[37mn[37m:1184
+09:29:43.025 > loa[37md[37m:0x40078000[37m,[37mlen:13192[37m
+09:29:43.028 > [37mload:0x4008[37m0[37m400,len:30[37m2[37m8
+09:29:43.030 > entry 0x[37m4[37m00805e4
+09:29:43.032 > [37me[37mt[37ms[37m [37mJun  8 201[37m6[37m 00:22:57
+09:29:43.036 > [37m[37m
+09:29:43.036 > rst:0x3 ([37mS[37mW_RESET),bo[37mo[37mt:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:43.040 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+09:29:43.042 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00[37m,[37md_drv:0x00,[37mc[37ms0_drv:0x00[37m,[37mhd_drv:0x0[37m0[37m,wp_drv:0x0[37m0[37m
+09:29:43.049 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:43.051 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:43.053 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:43.055 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:43.058 > entry 0x40[37m0[37m805e4
+09:29:43.060 > [37me[37mt[37ms J[37mu[37mn  8 2016 0[37m0[37m:22:57
+09:29:43.063 > 
+09:29:43.063 > [37mr[37mst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_F[37mA[37mST_FLASH_B[37mO[37mOT)
+09:29:43.068 > config[37ms[37mip: 0, SPI[37mW[37mP:0xee
+09:29:43.070 > clk[37m_[37mdrv:0x00,q[37m_[37mdrv:0x00,d_[37md[37mrv:0x00,cs[37m0[37m_drv:0x00,h[37md[37m_drv:0x00,[37mw[37mp_drv:0x00[37m
+09:29:43.077 > [37mmode:DIO, [37mc[37mlock div:2[37m
+09:29:43.079 > [37mload:0x3ff[37mf[37m0030,len:11[37m8[37m4
+09:29:43.081 > load:0x4[37m0[37m078000,len[37m:[37m13192
+09:29:43.083 > load[37m:[37m0x40080400[37m,[37mlen:3028
+09:29:43.086 > [37me[37mntry 0x4008[37m0[37m5e4
+09:29:43.088 > [37me[37mt[37ms Jun[37m [37m 8 2016 00:[37m2[37m2:57
+09:29:43.091 > 
+09:29:43.091 > rs[37mt[37m:0x3 (SW_RE[37mS[37mET),boot:0[37mx[37m13 (SPI_FAS[37mT[37m_FLASH_BOO[37mT[37m)
+09:29:43.096 > configsi[37mp[37m: 0, SPIWP[37m:[37m0xee
+09:29:43.098 > clk_d[37mr[37mv:0x00,q_d[37mr[37mv:0x00,d_dr[37mv[37m:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+09:29:43.104 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+09:29:43.106 > l[37mo[37mad:0x3fff00[37m3[37m0,len:1184[37m[37m
+09:29:43.109 > load:0x400[37m7[37m8000,len:1[37m3[37m192
+09:29:43.111 > load:[37m0[37mx40080400,l[37me[37mn:3028
+09:29:43.113 > ent[37mr[37my 0x400805[37me[37m4
+09:29:43.116 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:43.119 > 
+09:29:43.119 > rst:[37m0[37mx3 (SW_RESE[37mT[37m),boot:0x1[37m3[37m (SPI_FAST_[37mF[37mLASH_BOOT)[37m[37m
+09:29:43.124 > configsip:[37m [37m0, SPIWP:0x[37me[37me
+09:29:43.126 > clk_drv[37m:[37m0x00,q_drv:[37m0[37mx00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_dr[37mv[37m:0x00,wp_dr[37mv[37m:0x00
+09:29:43.132 > mod[37me[37m:DIO, clock[37m [37mdiv:2
+09:29:43.134 > loa[37md[37m:0x3fff0030[37m,[37mlen:1184
+09:29:43.137 > [37ml[37moad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:43.139 > load:0x4[37m0[37m080400,len[37m:[37m3028
+09:29:43.141 > entry[37m [37m0x400805e4[37m[37m
+09:29:43.144 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:29:43.147 > 
+09:29:43.147 > rst:0x[37m3[37m (SW_RESET)[37m,[37mboot:0x13 ([37mS[37mPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:43.151 > c[37mo[37mnfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:29:43.154 > clk_drv:0[37mx[37m00,q_drv:0x[37m0[37m0,d_drv:0x[37m0[37m0,cs0_drv:0[37mx[37m00,hd_drv:[37m0[37mx00,wp_drv:[37m0[37mx00
+09:29:43.160 > mode:[37mD[37mIO, clock d[37mi[37mv:2
+09:29:43.162 > load:0[37mx[37m3fff0030,l[37me[37mn:1184
+09:29:43.164 > loa[37md[37m:0x4007800[37m0[37m,len:13192[37m[37m
+09:29:43.167 > load:0x400[37m8[37m0400,len:3[37m0[37m28
+09:29:43.169 > entry 0[37mx[37m400805e4
+09:29:43.172 > [37me[37mt[37ms Jun  8 201[37m6[37m 00:22:57[37m
+09:29:43.175 > [37m
+09:29:43.175 > rst:0x3 ([37mS[37mW_RESET),b[37mo[37mot:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:43.179 > con[37mf[37migsip: 0, S[37mP[37mIWP:0xee
+09:29:43.182 > [37mc[37mlk_drv:0x0[37m0[37m,q_drv:0x00[37m,[37md_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x[37m0[37m0
+09:29:43.188 > mode:DIO[37m,[37m clock div[37m:[37m2
+09:29:43.190 > load:0x3[37mf[37mff0030,len[37m:[37m1184
+09:29:43.192 > load:[37m0[37mx40078000,[37ml[37men:13192
+09:29:43.194 > l[37mo[37mad:0x40080[37m4[37m00,len:3028[37m[37m
+09:29:43.197 > entry 0x4[37m0[37m0805e4
+09:29:43.199 > [37me[37mt[37ms J[37mu[37mn  8 2016 [37m0[37m0:22:57
+09:29:43.202 > [37m
+09:29:43.203 > [37mrst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_[37mB[37mOOT)
+09:29:43.207 > confi[37mg[37msip: 0, SPI[37mW[37mP:0xee
+09:29:43.209 > cl[37mk[37m_drv:0x00,q[37m_[37mdrv:0x00,d[37m_[37mdrv:0x00,cs[37m0[37m_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:29:43.216 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:29:43.218 > load:0x3ff[37mf[37m0030,len:11[37m8[37m4
+09:29:43.220 > load:0x[37m4[37m0078000,len[37m:[37m13192
+09:29:43.222 > loa[37md[37m:0x40080400[37m,[37mlen:3028
+09:29:43.225 > [37me[37mntry 0x400[37m8[37m05e4
+09:29:43.227 > [37me[37mt[37ms Jun[37m [37m 8 2016 00[37m:[37m22:57
+09:29:43.230 > 
+09:29:43.230 > rs[37mt[37m:0x3 (SW_R[37mE[37mSET),boot:0[37mx[37m13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:29:43.235 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:43.237 > clk_d[37mr[37mv:0x00,q_d[37mr[37mv:0x00,d_d[37mr[37mv:0x00,cs0_[37md[37mrv:0x00,hd[37m_[37mdrv:0x00,wp[37m_[37mdrv:0x00
+09:29:43.244 > [37mm[37mode:DIO, cl[37mo[37mck div:2
+09:29:43.245 > l[37mo[37mad:0x3fff0[37m0[37m30,len:1184[37m[37m
+09:29:43.248 > load:0x40[37m0[37m78000,len:1[37m3[37m192
+09:29:43.250 > load:[37m0[37mx40080400,l[37me[37mn:3028
+09:29:43.252 > en[37mt[37mry 0x400805[37me[37m4
+09:29:43.255 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:22[37m:[37m57
+09:29:43.258 > 
+09:29:43.258 > rst:[37m0[37mx3 (SW_RESE[37mT[37m),boot:0x1[37m3[37m (SPI_FAST[37m_[37mFLASH_BOOT)[37m[37m
+09:29:43.263 > configsip:[37m [37m0, SPIWP:0[37mx[37mee
+09:29:43.265 > clk_drv[37m:[37m0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_dr[37mv[37m:0x00,wp_d[37mr[37mv:0x00
+09:29:43.271 > mod[37me[37m:DIO, cloc[37mk[37m div:2
+09:29:43.273 > loa[37md[37m:0x3fff003[37m0[37m,len:1184
+09:29:43.276 > [37ml[37moad:0x4007[37m8[37m000,len:131[37m9[37m2
+09:29:43.278 > load:0x[37m4[37m0080400,len[37m:[37m3028
+09:29:43.280 > entr[37my[37m 0x400805e4[37m[37m
+09:29:43.283 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:5[37m7[37m
+09:29:43.286 > 
+09:29:43.286 > rst:0x[37m3[37m (SW_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:43.291 > [37mc[37monfigsip: 0[37m,[37m SPIWP:0xe[37me[37m
+09:29:43.293 > clk_drv:0[37mx[37m00,q_drv:0[37mx[37m00,d_drv:0x[37m0[37m0,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+09:29:43.299 > mode:[37mD[37mIO, clock d[37mi[37mv:2
+09:29:43.301 > load:[37m0[37mx3fff0030,l[37me[37mn:1184
+09:29:43.303 > lo[37ma[37md:0x400780[37m0[37m0,len:13192[37m[37m
+09:29:43.306 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:43.308 > entry 0[37mx[37m400805e4
+09:29:43.311 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m
+09:29:43.314 > [37m
+09:29:43.314 > rst:0x3 [37m([37mSW_RESET),b[37mo[37mot:0x13 (SP[37mI[37m_FAST_FLAS[37mH[37m_BOOT)
+09:29:43.318 > co[37mn[37mfigsip: 0, [37mS[37mPIWP:0xee[37m
+09:29:43.321 > [37mclk_drv:0x0[37m0[37m,q_drv:0x0[37m0[37m,d_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x[37m0[37m0,wp_drv:0x[37m0[37m0
+09:29:43.327 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:43.329 > load:0x[37m3[37mfff0030,len[37m:[37m1184
+09:29:43.331 > load[37m:[37m0x40078000,[37ml[37men:13192
+09:29:43.334 > [37ml[37moad:0x40080[37m4[37m00,len:302[37m8[37m
+09:29:43.336 > entry 0x4[37m0[37m0805e4
+09:29:43.338 > [37me[37mt[37ms [37mJ[37mun  8 2016[37m [37m00:22:57
+09:29:43.341 > [37m
+09:29:43.342 > [37mrst:0x3 (S[37mW[37m_RESET),boo[37mt[37m:0x13 (SPI_[37mF[37mAST_FLASH_[37mB[37mOOT)
+09:29:43.346 > confi[37mg[37msip: 0, SP[37mI[37mWP:0xee
+09:29:43.348 > cl[37mk[37m_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00,[37mh[37md_drv:0x00[37m,[37mwp_drv:0x00[37m[37m
+09:29:43.355 > mode:DIO,[37m [37mclock div:2[37m[37m
+09:29:43.357 > load:0x3f[37mf[37mf0030,len:1[37m1[37m84
+09:29:43.359 > load:0[37mx[37m40078000,le[37mn[37m:13192
+09:29:43.361 > lo[37ma[37md:0x4008040[37m0[37m,len:3028[37m
+09:29:43.364 > [37mentry 0x400[37m8[37m05e4
+09:29:43.366 > [37me[37mt[37ms Ju[37mn[37m  8 2016 0[37m0[37m:22:57
+09:29:43.369 > 
+09:29:43.369 > r[37ms[37mt:0x3 (SW_R[37mE[37mSET),boot:[37m0[37mx13 (SPI_FA[37mS[37mT_FLASH_BO[37mO[37mT)
+09:29:43.374 > configs[37mi[37mp: 0, SPIW[37mP[37m:0xee
+09:29:43.376 > clk_[37md[37mrv:0x00,q_[37md[37mrv:0x00,d_d[37mr[37mv:0x00,cs0[37m_[37mdrv:0x00,hd[37m_[37mdrv:0x00,w[37mp[37m_drv:0x00
+09:29:43.383 > [37mm[37mode:DIO, cl[37mo[37mck div:2
+09:29:43.385 > [37ml[37moad:0x3fff[37m0[37m030,len:118[37m4[37m
+09:29:43.387 > load:0x4[37m0[37m078000,len:[37m1[37m3192
+09:29:43.389 > load[37m:[37m0x40080400,[37ml[37men:3028
+09:29:43.391 > en[37mt[37mry 0x40080[37m5[37me4
+09:29:43.394 > [37me[37mt[37ms Jun [37m [37m8 2016 00:2[37m2[37m:57
+09:29:43.397 > 
+09:29:43.397 > rst[37m:[37m0x3 (SW_RES[37mE[37mT),boot:0x[37m1[37m3 (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:43.402 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:43.404 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_[37md[37mrv:0x00
+09:29:43.410 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:43.412 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:29:43.415 > [37mload:0x4007[37m8[37m000,len:13[37m1[37m92
+09:29:43.417 > load:0x[37m4[37m0080400,le[37mn[37m:3028
+09:29:43.419 > entr[37my[37m 0x400805e[37m4[37m
+09:29:43.422 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:29:43.425 > 
+09:29:43.425 > rst:0x[37m3[37m (SW_RESET[37m)[37m,boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)[37m
+09:29:43.430 > [37mconfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:43.432 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+09:29:43.438 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:43.440 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:43.442 > l[37mo[37mad:0x400780[37m0[37m0,len:1319[37m2[37m
+09:29:43.445 > load:0x40[37m0[37m80400,len:[37m3[37m028
+09:29:43.447 > entry [37m0[37mx400805e4
+09:29:43.450 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+09:29:43.453 > 
+09:29:43.453 > rst:0x3 [37m([37mSW_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+09:29:43.457 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:29:43.460 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0x[37m0[37m0,wp_drv:0[37mx[37m00
+09:29:43.466 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:43.468 > load:0[37mx[37m3fff0030,le[37mn[37m:1184
+09:29:43.470 > loa[37md[37m:0x40078000[37m,[37mlen:13192
+09:29:43.473 > [37ml[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+09:29:43.475 > entry 0x[37m4[37m00805e4
+09:29:43.477 > [37me[37mt[37ms[37m [37mJun  8 2016[37m [37m00:22:57
+09:29:43.481 > [37m[37m
+09:29:43.481 > rst:0x3 (S[37mW[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH[37m_[37mBOOT)
+09:29:43.485 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+09:29:43.487 > c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x0[37m0[37m,wp_drv:0x0[37m0[37m
+09:29:43.494 > mode:DIO,[37m [37mclock div:[37m2[37m
+09:29:43.496 > load:0x3f[37mf[37mf0030,len:[37m1[37m184
+09:29:43.498 > load:0[37mx[37m40078000,l[37me[37mn:13192
+09:29:43.500 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+09:29:43.503 > [37mentry 0x40[37m0[37m805e4
+09:29:43.505 > [37me[37mt[37ms J[37mu[37mn  8 2016 0[37m0[37m:22:57
+09:29:43.508 > 
+09:29:43.509 > [37mr[37mst:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_BO[37mO[37mT)
+09:29:43.513 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+09:29:43.515 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:43.522 > [37mmode:DIO, c[37ml[37mock div:2
+09:29:43.524 > [37ml[37moad:0x3fff[37m0[37m030,len:11[37m8[37m4
+09:29:43.526 > load:0x4[37m0[37m078000,len[37m:[37m13192
+09:29:43.528 > load[37m:[37m0x40080400[37m,[37mlen:3028
+09:29:43.530 > e[37mn[37mtry 0x40080[37m5[37me4
+09:29:43.533 > [37me[37mt[37ms Jun [37m [37m8 2016 00:[37m2[37m2:57
+09:29:43.536 > 
+09:29:43.536 > rst[37m:[37m0x3 (SW_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAS[37mT[37m_FLASH_BOOT[37m)[37m
+09:29:43.541 > configsi[37mp[37m: 0, SPIWP:[37m0[37mxee
+09:29:43.543 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+09:29:43.549 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:43.551 > lo[37ma[37md:0x3fff00[37m3[37m0,len:1184[37m[37m
+09:29:43.554 > load:0x400[37m7[37m8000,len:1[37m3[37m192
+09:29:43.556 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:29:43.558 > ent[37mr[37my 0x400805e[37m4[37m
+09:29:43.561 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:43.564 > 
+09:29:43.564 > rst:0[37mx[37m3 (SW_RESE[37mT[37m),boot:0x13[37m [37m(SPI_FAST_[37mF[37mLASH_BOOT)[37m
+09:29:43.569 > [37mconfigsip: [37m0[37m, SPIWP:0x[37me[37me
+09:29:43.571 > clk_drv:[37m0[37mx00,q_drv:[37m0[37mx00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_dr[37mv[37m:0x00,wp_dr[37mv[37m:0x00
+09:29:43.577 > mode[37m:[37mDIO, clock[37m [37mdiv:2
+09:29:43.579 > load[37m:[37m0x3fff0030[37m,[37mlen:1184
+09:29:43.581 > l[37mo[37mad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:43.584 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:29:43.586 > entry[37m [37m0x400805e4[37m
+09:29:43.589 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:29:43.592 > 
+09:29:43.592 > rst:0x3[37m [37m(SW_RESET),[37mb[37moot:0x13 ([37mS[37mPI_FAST_FLA[37mS[37mH_BOOT)
+09:29:43.596 > c[37mo[37mnfigsip: 0,[37m [37mSPIWP:0xee[37m[37m
+09:29:43.599 > clk_drv:0x[37m0[37m0,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0[37mx[37m00,hd_drv:0[37mx[37m00,wp_drv:[37m0[37mx00
+09:29:43.605 > mode:D[37mI[37mO, clock d[37mi[37mv:2
+09:29:43.607 > load:0[37mx[37m3fff0030,l[37me[37mn:1184
+09:29:43.609 > loa[37md[37m:0x4007800[37m0[37m,len:13192[37m
+09:29:43.612 > [37mload:0x400[37m8[37m0400,len:30[37m2[37m8
+09:29:43.614 > entry 0[37mx[37m400805e4
+09:29:43.617 > [37me[37mt[37ms[37m Jun  8 201[37m6[37m 00:22:57
+09:29:43.620 > [37m[37m
+09:29:43.620 > rst:0x3 ([37mS[37mW_RESET),bo[37mo[37mt:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:43.624 > con[37mf[37migsip: 0, S[37mP[37mIWP:0xee
+09:29:43.627 > [37mc[37mlk_drv:0x00[37m,[37mq_drv:0x00[37m,[37md_drv:0x00,[37mc[37ms0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x0[37m0[37m
+09:29:43.633 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:43.635 > load:0x3[37mf[37mff0030,len[37m:[37m1184
+09:29:43.637 > load:[37m0[37mx40078000,[37ml[37men:13192
+09:29:43.639 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:43.642 > entry 0x40[37m0[37m805e4
+09:29:43.644 > [37me[37mt[37ms J[37mu[37mn  8 2016 [37m0[37m0:22:57
+09:29:43.647 > 
+09:29:43.648 > [37mr[37mst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_B[37mO[37mOT)
+09:29:43.652 > config[37ms[37mip: 0, SPI[37mW[37mP:0xee
+09:29:43.654 > clk[37m_[37mdrv:0x00,q[37m_[37mdrv:0x00,d_[37md[37mrv:0x00,cs[37m0[37m_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m
+09:29:43.661 > [37mmode:DIO, [37mc[37mlock div:2[37m
+09:29:43.663 > [37mload:0x3ff[37mf[37m0030,len:11[37m8[37m4
+09:29:43.665 > load:0x[37m4[37m0078000,len[37m:[37m13192
+09:29:43.667 > loa[37md[37m:0x40080400[37m,[37mlen:3028
+09:29:43.670 > [37me[37mntry 0x4008[37m0[37m5e4
+09:29:43.672 > [37me[37mt[37ms Jun[37m [37m 8 2016 00[37m:[37m22:57
+09:29:43.675 > 
+09:29:43.675 > rs[37mt[37m:0x3 (SW_RE[37mS[37mET),boot:0[37mx[37m13 (SPI_FAS[37mT[37m_FLASH_BOO[37mT[37m)
+09:29:43.680 > configsi[37mp[37m: 0, SPIWP[37m:[37m0xee
+09:29:43.682 > clk_d[37mr[37mv:0x00,q_d[37mr[37mv:0x00,d_dr[37mv[37m:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+09:29:43.688 > m[37mo[37mde:DIO, cl[37mo[37mck div:2
+09:29:43.690 > l[37mo[37mad:0x3fff00[37m3[37m0,len:1184[37m[37m
+09:29:43.693 > load:0x400[37m7[37m8000,len:1[37m3[37m192
+09:29:43.695 > load:[37m0[37mx40080400,l[37me[37mn:3028
+09:29:43.697 > en[37mt[37mry 0x400805[37me[37m4
+09:29:43.700 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:22[37m:[37m57
+09:29:43.703 > 
+09:29:43.703 > rst:[37m0[37mx3 (SW_RESE[37mT[37m),boot:0x1[37m3[37m (SPI_FAST_[37mF[37mLASH_BOOT)[37m[37m
+09:29:43.708 > configsip:[37m [37m0, SPIWP:0[37mx[37mee
+09:29:43.710 > clk_drv[37m:[37m0x00,q_drv:[37m0[37mx00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_dr[37mv[37m:0x00,wp_dr[37mv[37m:0x00
+09:29:43.716 > mod[37me[37m:DIO, cloc[37mk[37m div:2
+09:29:43.718 > loa[37md[37m:0x3fff0030[37m,[37mlen:1184
+09:29:43.721 > [37ml[37moad:0x40078[37m0[37m00,len:131[37m9[37m2
+09:29:43.723 > load:0x4[37m0[37m080400,len[37m:[37m3028
+09:29:43.725 > entry[37m [37m0x400805e4[37m[37m
+09:29:43.728 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:29:43.731 > 
+09:29:43.731 > rst:0x[37m3[37m (SW_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:43.735 > c[37mo[37mnfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:29:43.738 > clk_drv:0[37mx[37m00,q_drv:0[37mx[37m00,d_drv:0x[37m0[37m0,cs0_drv:0[37mx[37m00,hd_drv:[37m0[37mx00,wp_drv:0x00
+09:29:43.744 > mode:[37mD[37mIO, clock d[37mi[37mv:2
+09:29:43.746 > load:[37m0[37mx3fff0030,l[37me[37mn:1184
+09:29:43.748 > lo[37ma[37md:0x4007800[37m0[37m,len:13192[37m[37m
+09:29:43.751 > load:0x400[37m8[37m0400,len:30[37m2[37m8
+09:29:43.753 > entry 0[37mx[37m400805e4
+09:29:43.756 > [37me[37mt[37ms Jun  8 201[37m6[37m 00:22:57[37m
+09:29:43.759 > [37m
+09:29:43.759 > rst:0x3 ([37mS[37mW_RESET),b[37mo[37mot:0x13 (SP[37mI[37m_FAST_FLAS[37mH[37m_BOOT)
+09:29:43.763 > con[37mf[37migsip: 0, [37mS[37mPIWP:0xee
+09:29:43.766 > [37mc[37mlk_drv:0x0[37m0[37m,q_drv:0x00[37m,[37md_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x[37m0[37m0
+09:29:43.772 > mode:DI[37mO[37m, clock div[37m:[37m2
+09:29:43.774 > load:0x[37m3[37mfff0030,len[37m:[37m1184
+09:29:43.776 > load[37m:[37m0x40078000,[37ml[37men:13192
+09:29:43.778 > l[37mo[37mad:0x40080[37m4[37m00,len:3028[37m[37m
+09:29:43.781 > entry 0x4[37m0[37m0805e4
+09:29:43.783 > [37me[37mt[37ms [37mJ[37mun  8 2016 [37m0[37m0:22:57
+09:29:43.786 > [37m
+09:29:43.787 > [37mrst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_B[37mO[37mOT)
+09:29:43.791 > confi[37mg[37msip: 0, SP[37mI[37mWP:0xee
+09:29:43.793 > cl[37mk[37m_drv:0x00,[37mq[37m_drv:0x00,d[37m_[37mdrv:0x00,c[37ms[37m0_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:29:43.800 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:29:43.802 > load:0x3ff[37mf[37m0030,len:1[37m1[37m84
+09:29:43.804 > load:0x[37m4[37m0078000,le[37mn[37m:13192
+09:29:43.806 > loa[37md[37m:0x4008040[37m0[37m,len:3028
+09:29:43.809 > [37me[37mntry 0x4008[37m0[37m5e4
+09:29:43.811 > [37me[37mt[37ms Ju[37mn[37m  8 2016 00[37m:[37m22:57
+09:29:43.814 > 
+09:29:43.814 > rs[37mt[37m:0x3 (SW_R[37mE[37mSET),boot:0[37mx[37m13 (SPI_FA[37mS[37mT_FLASH_BO[37mO[37mT)
+09:29:43.819 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:43.821 > clk_[37md[37mrv:0x00,q_d[37mr[37mv:0x00,d_d[37mr[37mv:0x00,cs0_[37md[37mrv:0x00,hd[37m_[37mdrv:0x00,wp[37m_[37mdrv:0x00
+09:29:43.828 > [37mm[37mode:DIO, cl[37mo[37mck div:2
+09:29:43.830 > [37ml[37moad:0x3fff0[37m0[37m30,len:118[37m4[37m
+09:29:43.832 > load:0x40[37m0[37m78000,len:[37m1[37m3192
+09:29:43.834 > load:[37m0[37mx40080400,l[37me[37mn:3028
+09:29:43.836 > en[37mt[37mry 0x400805[37me[37m4
+09:29:43.839 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:2[37m2[37m:57
+09:29:43.842 > 
+09:29:43.842 > rst:[37m0[37mx3 (SW_RES[37mE[37mT),boot:0x1[37m3[37m (SPI_FAST[37m_[37mFLASH_BOOT)[37m[37m
+09:29:43.847 > configsip:[37m [37m0, SPIWP:0[37mx[37mee
+09:29:43.849 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_d[37mr[37mv:0x00
+09:29:43.855 > mo[37md[37me:DIO, cloc[37mk[37m div:2
+09:29:43.857 > loa[37md[37m:0x3fff003[37m0[37m,len:1184
+09:29:43.860 > [37ml[37moad:0x4007[37m8[37m000,len:13[37m1[37m92
+09:29:43.862 > load:0x[37m4[37m0080400,len[37m:[37m3028
+09:29:43.864 > entr[37my[37m 0x400805e4[37m[37m
+09:29:43.867 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:29:43.870 > 
+09:29:43.870 > rst:0x[37m3[37m (SW_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:43.875 > [37mc[37monfigsip: 0[37m,[37m SPIWP:0xe[37me[37m
+09:29:43.877 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0x[37m0[37m0,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+09:29:43.883 > mode:[37mD[37mIO, clock [37md[37miv:2
+09:29:43.885 > load:[37m0[37mx3fff0030,[37ml[37men:1184
+09:29:43.887 > lo[37ma[37md:0x400780[37m0[37m0,len:13192[37m[37m
+09:29:43.890 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:43.892 > entry [37m0[37mx400805e4
+09:29:43.895 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+09:29:43.898 > 
+09:29:43.898 > rst:0x3 [37m([37mSW_RESET),b[37mo[37mot:0x13 (S[37mP[37mI_FAST_FLAS[37mH[37m_BOOT)
+09:29:43.902 > co[37mn[37mfigsip: 0, [37mS[37mPIWP:0xee[37m
+09:29:43.905 > [37mclk_drv:0x0[37m0[37m,q_drv:0x0[37m0[37m,d_drv:0x00[37m,[37mcs0_drv:0x[37m0[37m0,hd_drv:0x[37m0[37m0,wp_drv:0[37mx[37m00
+09:29:43.911 > mode:DI[37mO[37m, clock div[37m:[37m2
+09:29:43.913 > load:0x[37m3[37mfff0030,le[37mn[37m:1184
+09:29:43.915 > load[37m:[37m0x40078000[37m,[37mlen:13192
+09:29:43.918 > [37ml[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+09:29:43.920 > entry 0x4[37m0[37m0805e4
+09:29:43.922 > [37me[37mt[37ms [37mJ[37mun  8 2016[37m [37m00:22:57
+09:29:43.925 > [37m
+09:29:43.926 > [37mrst:0x3 (S[37mW[37m_RESET),boo[37mt[37m:0x13 (SPI[37m_[37mFAST_FLASH_[37mB[37mOOT)
+09:29:43.930 > conf[37mi[37mgsip: 0, SP[37mI[37mWP:0xee
+09:29:43.932 > cl[37mk[37m_drv:0x00,[37mq[37m_drv:0x00,d[37m_[37mdrv:0x00,c[37ms[37m0_drv:0x00,[37mh[37md_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+09:29:43.939 > mode:DIO,[37m [37mclock div:2[37m[37m
+09:29:43.941 > load:0x3f[37mf[37mf0030,len:1[37m1[37m84
+09:29:43.943 > load:0[37mx[37m40078000,le[37mn[37m:13192
+09:29:43.945 > lo[37ma[37md:0x4008040[37m0[37m,len:3028[37m
+09:29:43.948 > [37mentry 0x400[37m8[37m05e4
+09:29:43.950 > [37me[37mt[37ms Ju[37mn[37m  8 2016 00[37m:[37m22:57
+09:29:43.953 > 
+09:29:43.953 > r[37ms[37mt:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_BO[37mO[37mT)
+09:29:43.958 > configs[37mi[37mp: 0, SPIW[37mP[37m:0xee
+09:29:43.960 > clk_[37md[37mrv:0x00,q_[37md[37mrv:0x00,d_d[37mr[37mv:0x00,cs0[37m_[37mdrv:0x00,hd[37m_[37mdrv:0x00,w[37mp[37m_drv:0x00
+09:29:43.967 > [37mm[37mode:DIO, c[37ml[37mock div:2
+09:29:43.969 > [37ml[37moad:0x3fff[37m0[37m030,len:118[37m4[37m
+09:29:43.971 > load:0x40[37m0[37m78000,len:[37m1[37m3192
+09:29:43.973 > load:[37m0[37mx40080400,[37ml[37men:3028
+09:29:43.975 > e[37mn[37mtry 0x40080[37m5[37me4
+09:29:43.978 > [37me[37mt[37ms Jun [37m [37m8 2016 00:2[37m2[37m:57
+09:29:43.981 > 
+09:29:43.981 > rst[37m:[37m0x3 (SW_RES[37mE[37mT),boot:0x[37m1[37m3 (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:43.986 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:43.988 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_[37md[37mrv:0x00
+09:29:43.994 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:43.996 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:29:43.999 > [37mload:0x4007[37m8[37m000,len:13[37m1[37m92
+09:29:44.001 > load:0x[37m4[37m0080400,le[37mn[37m:3028
+09:29:44.003 > entr[37my[37m 0x400805e[37m4[37m
+09:29:44.006 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:29:44.009 > 
+09:29:44.009 > rst:0x[37m3[37m (SW_RESET[37m)[37m,boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)[37m
+09:29:44.014 > [37mconfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:44.016 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+09:29:44.022 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:44.024 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:44.026 > l[37mo[37mad:0x400780[37m0[37m0,len:13192[37m[37m
+09:29:44.029 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:44.031 > entry [37m0[37mx400805e4[37m
+09:29:44.034 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+09:29:44.037 > 
+09:29:44.037 > rst:0x3 [37m([37mSW_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+09:29:44.041 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:29:44.044 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0[37mx[37m00,wp_drv:0[37mx[37m00
+09:29:44.050 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:44.052 > load:0x[37m3[37mfff0030,le[37mn[37m:1184
+09:29:44.054 > loa[37md[37m:0x40078000[37m,[37mlen:13192
+09:29:44.057 > [37ml[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+09:29:44.059 > entry 0x[37m4[37m00805e4
+09:29:44.061 > [37me[37mt[37ms[37m [37mJun  8 2016[37m [37m00:22:57
+09:29:44.064 > [37m
+09:29:44.065 > [37mrst:0x3 (S[37mW[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH[37m_[37mBOOT)
+09:29:44.069 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+09:29:44.071 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+09:29:44.078 > mode:DIO,[37m [37mclock div:[37m2[37m
+09:29:44.080 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:44.082 > load:0[37mx[37m40078000,l[37me[37mn:13192
+09:29:44.084 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+09:29:44.087 > [37mentry 0x40[37m0[37m805e4
+09:29:44.089 > [37me[37mt[37ms J[37mu[37mn  8 2016 0[37m0[37m:22:57
+09:29:44.092 > 
+09:29:44.092 > r[37ms[37mt:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_B[37mO[37mOT)
+09:29:44.097 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+09:29:44.099 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:44.106 > [37mmode:DIO, c[37ml[37mock div:2[37m
+09:29:44.108 > [37mload:0x3fff[37m0[37m030,len:11[37m8[37m4
+09:29:44.110 > load:0x4[37m0[37m078000,len:[37m1[37m3192
+09:29:44.112 > load[37m:[37m0x40080400,[37ml[37men:3028
+09:29:44.114 > e[37mn[37mtry 0x4008[37m0[37m5e4
+09:29:44.117 > [37me[37mt[37ms Jun [37m [37m8 2016 00:[37m2[37m2:57
+09:29:44.120 > 
+09:29:44.120 > rs[37mt[37m:0x3 (SW_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAS[37mT[37m_FLASH_BOOT[37m)[37m
+09:29:44.125 > configsi[37mp[37m: 0, SPIWP:[37m0[37mxee
+09:29:44.127 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+09:29:44.133 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+09:29:44.135 > lo[37ma[37md:0x3fff00[37m3[37m0,len:1184[37m
+09:29:44.138 > [37mload:0x400[37m7[37m8000,len:13[37m1[37m92
+09:29:44.140 > load:0[37mx[37m40080400,l[37me[37mn:3028
+09:29:44.142 > ent[37mr[37my 0x400805e[37m4[37m
+09:29:44.145 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:44.148 > 
+09:29:44.148 > rst:0[37mx[37m3 (SW_RESE[37mT[37m),boot:0x13[37m [37m(SPI_FAST_[37mF[37mLASH_BOOT)[37m
+09:29:44.153 > [37mconfigsip: [37m0[37m, SPIWP:0x[37me[37me
+09:29:44.155 > clk_drv:[37m0[37mx00,q_drv:[37m0[37mx00,d_drv:0[37mx[37m00,cs0_drv[37m:[37m0x00,hd_drv[37m:[37m0x00,wp_dr[37mv[37m:0x00
+09:29:44.162 > mod[37me:DIO, clock[37m [37mdiv:2
+09:29:44.163 > load[37m:[37m0x3fff0030[37m,[37mlen:1184
+09:29:44.165 > l[37mo[37mad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:44.168 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:29:44.170 > entry[37m [37m0x400805e4[37m
+09:29:44.173 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:29:44.176 > 
+09:29:44.176 > rst:0x3[37m [37m(SW_RESET)[37m,[37mboot:0x13 ([37mS[37mPI_FAST_FLA[37mS[37mH_BOOT)
+09:29:44.180 > c[37mo[37mnfigsip: 0,[37m [37mSPIWP:0xee[37m[37m
+09:29:44.184 > clk_drv:0x[37m00,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0[37mx[37m00,hd_drv:0[37mx[37m00,wp_drv:[37m0[37mx00
+09:29:44.189 > mode:D[37mI[37mO, clock d[37mi[37mv:2
+09:29:44.191 > load:0[37mx[37m3fff0030,le[37mn[37m:1184
+09:29:44.193 > loa[37md[37m:0x40078000[37m,[37mlen:13192[37m
+09:29:44.196 > [37mload:0x400[37m8[37m0400,len:30[37m2[37m8
+09:29:44.198 > entry 0[37mx[37m400805e4
+09:29:44.201 > [37me[37mt[37ms[37m Jun  8 201[37m6[37m 00:22:57
+09:29:44.204 > [37m[37m
+09:29:44.204 > rst:0x3 ([37mS[37mW_RESET),bo[37mo[37mt:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:44.208 > con[37mf[37migsip: 0, S[37mP[37mIWP:0xee
+09:29:44.211 > [37mc[37mlk_drv:0x00[37m,[37mq_drv:0x00[37m,[37md_drv:0x00,[37mc[37ms0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x[37m0[37m0
+09:29:44.217 > mode:DIO[37m,[37m clock div[37m:[37m2
+09:29:44.219 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:44.221 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:44.223 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:44.226 > entry 0x40[37m0[37m805e4
+09:29:44.228 > [37me[37mt[37ms J[37mu[37mn  8 2016 [37m0[37m0:22:57
+09:29:44.231 > 
+09:29:44.232 > [37mr[37mst:0x3 (SW_[37mR[37mESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_B[37mO[37mOT)
+09:29:44.236 > confi[37mg[37msip: 0, SPI[37mW[37mP:0xee
+09:29:44.238 > cl[37mk[37m_drv:0x00,q[37m_[37mdrv:0x00,d_[37md[37mrv:0x00,cs[37m0[37m_drv:0x00,h[37md[37m_drv:0x00,[37mw[37mp_drv:0x00[37m
+09:29:44.245 > [37mmode:DIO, [37mc[37mlock div:2[37m
+09:29:44.247 > [37mload:0x3ff[37mf[37m0030,len:11[37m8[37m4
+09:29:44.249 > load:0x[37m4[37m0078000,len[37m:[37m13192
+09:29:44.251 > loa[37md[37m:0x40080400[37m,[37mlen:3028
+09:29:44.253 > e[37mn[37mtry 0x4008[37m0[37m5e4
+09:29:44.256 > [37me[37mt[37ms Jun[37m [37m 8 2016 00:[37m2[37m2:57
+09:29:44.259 > 
+09:29:44.259 > rs[37mt[37m:0x3 (SW_RE[37mS[37mET),boot:0[37mx[37m13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:29:44.264 > configsi[37mp[37m: 0, SPIWP[37m:[37m0xee
+09:29:44.266 > clk_d[37mr[37mv:0x00,q_d[37mr[37mv:0x00,d_dr[37mv[37m:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+09:29:44.272 > m[37mo[37mde:DIO, cl[37mo[37mck div:2
+09:29:44.274 > l[37mo[37mad:0x3fff0[37m0[37m30,len:1184[37m[37m
+09:29:44.277 > load:0x400[37m7[37m8000,len:1[37m3[37m192
+09:29:44.279 > load:[37m0[37mx40080400,l[37me[37mn:3028
+09:29:44.281 > en[37mt[37mry 0x400805[37me[37m4
+09:29:44.284 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:22[37m:[37m57
+09:29:44.287 > 
+09:29:44.287 > rst:[37m0[37mx3 (SW_RESE[37mT[37m),boot:0x1[37m3[37m (SPI_FAST_[37mF[37mLASH_BOOT)[37m[37m
+09:29:44.292 > configsip:[37m [37m0, SPIWP:0[37mx[37mee
+09:29:44.294 > clk_drv[37m:[37m0x00,q_drv[37m:[37m0x00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_dr[37mv[37m:0x00,wp_dr[37mv[37m:0x00
+09:29:44.300 > mod[37me[37m:DIO, cloc[37mk[37m div:2
+09:29:44.302 > loa[37md[37m:0x3fff003[37m0[37m,len:1184
+09:29:44.305 > [37ml[37moad:0x40078[37m0[37m00,len:131[37m9[37m2
+09:29:44.307 > load:0x4[37m0[37m080400,len[37m:[37m3028
+09:29:44.309 > entry[37m [37m0x400805e4[37m[37m
+09:29:44.312 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:29:44.315 > 
+09:29:44.315 > rst:0x[37m3[37m (SW_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:44.320 > [37mc[37monfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:29:44.322 > clk_drv:0[37mx[37m00,q_drv:0x[37m0[37m0,d_drv:0x[37m0[37m0,cs0_drv:0[37mx[37m00,hd_drv:[37m0[37mx00,wp_drv:[37m0[37mx00
+09:29:44.328 > mode:[37mDIO, clock d[37mi[37mv:2
+09:29:44.330 > load:[37m0[37mx3fff0030,l[37me[37mn:1184
+09:29:44.332 > lo[37ma[37md:0x4007800[37m0[37m,len:13192[37m
+09:29:44.335 > [37mload:0x400[37m8[37m0400,len:3[37m0[37m28
+09:29:44.337 > entry 0[37mx[37m400805e4
+09:29:44.340 > [37me[37mt[37ms Jun  8 201[37m6[37m 00:22:57[37m
+09:29:44.343 > [37m
+09:29:44.343 > rst:0x3 [37m([37mSW_RESET),b[37mo[37mot:0x13 (S[37mP[37mI_FAST_FLAS[37mH[37m_BOOT)
+09:29:44.347 > con[37mf[37migsip: 0, [37mS[37mPIWP:0xee
+09:29:44.350 > [37mc[37mlk_drv:0x0[37m0[37m,q_drv:0x00[37m,[37md_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x[37m0[37m0,wp_drv:0x[37m0[37m0
+09:29:44.356 > mode:DI[37mO[37m, clock div[37m:[37m2
+09:29:44.358 > load:0x[37m3[37mfff0030,len[37m:[37m1184
+09:29:44.360 > load:[37m0[37mx40078000,[37ml[37men:13192
+09:29:44.362 > l[37mo[37mad:0x40080[37m4[37m00,len:302[37m8[37m
+09:29:44.365 > entry 0x4[37m0[37m0805e4
+09:29:44.368 > [37me[37mts [37mJ[37mun  8 2016 [37m0[37m0:22:57
+09:29:44.371 > 
+09:29:44.371 > rst:0x3 (SW[37m_[37mRESET),boo[37mt[37m:0x13 (SPI_[37mF[37mAST_FLASH_[37mB[37mOOT)
+09:29:44.375 > confi[37mg[37msip: 0, SP[37mI[37mWP:0xee
+09:29:44.377 > cl[37mk[37m_drv:0x00,[37mq[37m_drv:0x00,d[37m_[37mdrv:0x00,cs[37m0[37m_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:29:44.386 > mode:DIO, clock div:2
+09:29:44.386 > load:0x3f[37mf[37mf0030,len:1[37m1[37m84
+09:29:44.388 > load:0x[37m4[37m0078000,le[37mn[37m:13192
+09:29:44.390 > loa[37md[37m:0x4008040[37m0[37m,len:3028
+09:29:44.393 > [37me[37mntry 0x400[37m8[37m05e4
+09:29:44.395 > [37me[37mt[37ms Ju[37mn[37m  8 2016 00[37m:[37m22:57
+09:29:44.398 > 
+09:29:44.398 > r[37ms[37mt:0x3 (SW_R[37mE[37mSET),boot:0[37mx[37m13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:29:44.403 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:29:44.405 > clk_[37md[37mrv:0x00,q_[37md[37mrv:0x00,d_d[37mr[37mv:0x00,cs0_[37md[37mrv:0x00,hd[37m_[37mdrv:0x00,wp[37m_[37mdrv:0x00
+09:29:44.412 > [37mm[37mode:DIO, cl[37mo[37mck div:2
+09:29:44.414 > [37ml[37moad:0x3fff0[37m0[37m30,len:1184[37m[37m
+09:29:44.416 > load:0x40[37m0[37m78000,len:[37m1[37m3192
+09:29:44.418 > load:[37m0[37mx40080400,[37ml[37men:3028
+09:29:44.420 > en[37mt[37mry 0x40080[37m5[37me4
+09:29:44.423 > [37me[37mt[37ms Jun  [37m8[37m 2016 00:2[37m2[37m:57
+09:29:44.426 > 
+09:29:44.426 > rst:[37m0[37mx3 (SW_RES[37mE[37mT),boot:0x1[37m3[37m (SPI_FAST[37m_[37mFLASH_BOOT)[37m[37m
+09:29:44.431 > configsip[37m:[37m 0, SPIWP:0[37mx[37mee
+09:29:44.433 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv:[37m0[37mx00,cs0_dr[37mv[37m:0x00,hd_dr[37mv[37m:0x00,wp_d[37mr[37mv:0x00
+09:29:44.439 > mo[37md[37me:DIO, cloc[37mk[37m div:2
+09:29:44.441 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184
+09:29:44.444 > [37ml[37moad:0x4007[37m8[37m000,len:131[37m9[37m2
+09:29:44.446 > load:0x[37m4[37m0080400,len[37m:[37m3028
+09:29:44.448 > entr[37my[37m 0x400805e4[37m[37m
+09:29:44.451 > [37me[37mt[37ms Jun  8 [37m2[37m016 00:22:5[37m7[37m
+09:29:44.454 > 
+09:29:44.454 > rst:0x[37m3[37m (SW_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:44.459 > [37mc[37monfigsip: 0[37m,[37m SPIWP:0xe[37me[37m
+09:29:44.461 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0x[37m0[37m0,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+09:29:44.467 > mode:[37mD[37mIO, clock [37md[37miv:2
+09:29:44.469 > load:[37m0[37mx3fff0030,[37ml[37men:1184
+09:29:44.471 > lo[37ma[37md:0x400780[37m0[37m0,len:13192[37m[37m
+09:29:44.474 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:29:44.476 > entry 0[37mx[37m400805e4
+09:29:44.479 > [37me[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+09:29:44.482 > 
+09:29:44.482 > rst:0x3 [37m([37mSW_RESET),b[37mo[37mot:0x13 (S[37mP[37mI_FAST_FLAS[37mH[37m_BOOT)
+09:29:44.486 > co[37mn[37mfigsip: 0, [37mS[37mPIWP:0xee[37m
+09:29:44.489 > [37mclk_drv:0x0[37m0[37m,q_drv:0x0[37m0[37m,d_drv:0x00[37m,[37mcs0_drv:0x[37m0[37m0,hd_drv:0x[37m0[37m0,wp_drv:0x[37m0[37m0
+09:29:44.495 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:44.497 > load:0x[37m3[37mfff0030,le[37mn[37m:1184
+09:29:44.499 > load[37m:[37m0x40078000[37m,[37mlen:13192
+09:29:44.502 > [37ml[37moad:0x40080[37m4[37m00,len:302[37m8[37m
+09:29:44.504 > entry 0x4[37m0[37m0805e4
+09:29:44.507 > [37me[37mt[37ms [37mJ[37mun  8 2016[37m [37m00:22:57
+09:29:44.509 > [37m
+09:29:44.510 > [37mrst:0x3 (S[37mW[37m_RESET),boo[37mt[37m:0x13 (SPI[37m_[37mFAST_FLASH_[37mB[37mOOT)
+09:29:44.514 > conf[37mi[37mgsip: 0, SP[37mI[37mWP:0xee
+09:29:44.516 > c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x00[37m[37m
+09:29:44.523 > mode:DIO,[37m [37mclock div:2[37m[37m
+09:29:44.525 > load:0x3f[37mf[37mf0030,len:[37m1[37m184
+09:29:44.527 > load:0[37mx[37m40078000,le[37mn[37m:13192
+09:29:44.529 > lo[37ma[37md:0x4008040[37m0[37m,len:3028[37m
+09:29:44.532 > [37mentry 0x400[37m8[37m05e4
+09:29:44.534 > [37me[37mt[37ms Ju[37mn[37m  8 2016 0[37m0[37m:22:57
+09:29:44.537 > 
+09:29:44.537 > r[37ms[37mt:0x3 (SW_R[37mE[37mSET),boot:[37m0[37mx13 (SPI_FA[37mS[37mT_FLASH_BO[37mO[37mT)
+09:29:44.542 > configs[37mi[37mp: 0, SPIW[37mP[37m:0xee
+09:29:44.544 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_d[37mr[37mv:0x00,cs0[37m_[37mdrv:0x00,hd[37m_[37mdrv:0x00,w[37mp[37m_drv:0x00
+09:29:44.551 > [37mm[37mode:DIO, c[37ml[37mock div:2
+09:29:44.553 > [37ml[37moad:0x3fff[37m0[37m030,len:118[37m4[37m
+09:29:44.555 > load:0x4[37m0[37m078000,len:[37m1[37m3192
+09:29:44.557 > load[37m:[37m0x40080400,[37ml[37men:3028
+09:29:44.559 > en[37mt[37mry 0x40080[37m5[37me4
+09:29:44.562 > [37me[37mt[37ms Jun [37m [37m8 2016 00:2[37m2[37m:57
+09:29:44.565 > 
+09:29:44.565 > rst[37m:[37m0x3 (SW_RES[37mE[37mT),boot:0x[37m1[37m3 (SPI_FAST[37m_[37mFLASH_BOOT[37m)[37m
+09:29:44.570 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:29:44.572 > clk_dr[37mv[37m:0x00,q_dr[37mv[37m:0x00,d_drv[37m:[37m0x00,cs0_d[37mr[37mv:0x00,hd_d[37mr[37mv:0x00,wp_[37md[37mrv:0x00
+09:29:44.578 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:44.580 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:29:44.583 > [37mload:0x4007[37m8[37m000,len:13[37m1[37m92
+09:29:44.585 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:29:44.587 > entr[37my[37m 0x400805e[37m4[37m
+09:29:44.590 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22:[37m5[37m7
+09:29:44.593 > 
+09:29:44.593 > rst:0[37mx[37m3 (SW_RESET[37m)[37m,boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)
+09:29:44.598 > [37mc[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:29:44.600 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv[37m:[37m0x00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+09:29:44.606 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:29:44.608 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:29:44.610 > l[37mo[37mad:0x400780[37m0[37m0,len:1319[37m2[37m
+09:29:44.613 > load:0x40[37m0[37m80400,len:[37m3[37m028
+09:29:44.615 > entry [37m0[37mx400805e4[37m
+09:29:44.618 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:57[37m[37m
+09:29:44.621 > 
+09:29:44.621 > rst:0x3 [37m([37mSW_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+09:29:44.625 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:29:44.628 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0[37mx[37m00,wp_drv:0[37mx[37m00
+09:29:44.634 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:29:44.636 > load:0x[37m3[37mfff0030,le[37mn[37m:1184
+09:29:44.638 > loa[37md[37m:0x40078000[37m,[37mlen:13192[37m
+09:29:44.641 > [37mload:0x4008[37m0[37m400,len:30[37m2[37m8
+09:29:44.643 > entry 0x[37m4[37m00805e4
+09:29:44.646 > [37me[37mt[37ms[37m [37mJun  8 2016[37m [37m00:22:57
+09:29:44.649 > [37m[37m
+09:29:44.649 > rst:0x3 (S[37mW[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH[37m_[37mBOOT)
+09:29:44.653 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+09:29:44.655 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+09:29:44.662 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:44.664 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:44.666 > load:0[37mx[37m40078000,l[37me[37mn:13192
+09:29:44.668 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+09:29:44.671 > [37mentry 0x40[37m0[37m805e4
+09:29:44.673 > [37me[37mt[37ms J[37mu[37mn  8 2016 0[37m0[37m:22:57
+09:29:44.676 > 
+09:29:44.676 > r[37ms[37mt:0x3 (SW_[37mR[37mESET),boot:[37m0[37mx13 (SPI_F[37mA[37mST_FLASH_B[37mO[37mOT)
+09:29:44.681 > config[37ms[37mip: 0, SPI[37mW[37mP:0xee
+09:29:44.683 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:29:44.690 > [37mmode:DIO, c[37ml[37mock div:2[37m
+09:29:44.692 > [37mload:0x3fff[37m0[37m030,len:11[37m8[37m4
+09:29:44.694 > load:0x4[37m0[37m078000,len[37m:[37m13192
+09:29:44.696 > load[37m:[37m0x40080400[37m,[37mlen:3028
+09:29:44.698 > e[37mn[37mtry 0x4008[37m0[37m5e4
+09:29:44.701 > [37me[37mt[37ms Jun[37m [37m 8 2016 00:[37m2[37m2:57
+09:29:44.704 > 
+09:29:44.704 > rst[37m:[37m0x3 (SW_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAS[37mT[37m_FLASH_BOOT[37m)[37m
+09:29:44.709 > configsi[37mp[37m: 0, SPIWP:[37m0[37mxee
+09:29:44.711 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+09:29:44.717 > mo[37md[37me:DIO, clo[37mc[37mk div:2
+09:29:44.719 > lo[37ma[37md:0x3fff00[37m3[37m0,len:1184[37m[37m
+09:29:44.722 > load:0x400[37m7[37m8000,len:1[37m3[37m192
+09:29:44.724 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:29:44.726 > ent[37mr[37my 0x400805e[37m4[37m
+09:29:44.729 > [37me[37mt[37ms Jun  8[37m [37m2016 00:22[37m:[37m57
+09:29:44.732 > 
+09:29:44.732 > rst:0[37mx[37m3 (SW_RESE[37mT[37m),boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)[37m
+09:29:44.737 > [37mconfigsip: [37m0[37m, SPIWP:0x[37me[37me
+09:29:44.739 > clk_drv:[37m0[37mx00,q_drv:[37m0[37mx00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_drv[37m:[37m0x00,wp_dr[37mv[37m:0x00
+09:29:44.745 > mode[37m:[37mDIO, clock[37m [37mdiv:2
+09:29:44.747 > load[37m:[37m0x3fff0030[37m,[37mlen:1184
+09:29:44.749 > l[37mo[37mad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:29:44.752 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:29:44.754 > entry [37m0[37mx400805e4[37m
+09:29:44.757 > [37me[37mt[37ms Jun  8 2[37m0[37m16 00:22:57[37m[37m
+09:29:44.760 > 
+09:29:44.760 > rst:0x3[37m [37m(SW_RESET),[37mb[37moot:0x13 ([37mS[37mPI_FAST_FL[37mA[37mSH_BOOT)
+09:29:44.764 > c[37mo[37mnfigsip: 0,[37m [37mSPIWP:0xee[37m[37m
+09:29:44.767 > clk_drv:0x[37m0[37m0,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0[37mx[37m00,hd_drv:0[37mx[37m00,wp_drv:[37m0[37mx00
+09:29:44.773 > mode:D[37mI[37mO, clock d[37mi[37mv:2
+09:29:44.775 > load:0[37mx[37m3fff0030,l[37me[37mn:1184
+09:29:44.777 > loa[37md[37m:0x40078000[37m,[37mlen:13192[37m
+09:29:44.780 > [37mload:0x4008[37m0[37m400,len:30[37m2[37m8
+09:29:44.782 > entry 0x[37m4[37m00805e4
+09:29:44.785 > [37me[37mt[37ms[37m [37mJun  8 201[37m6[37m 00:22:57
+09:29:44.788 > [37m[37m
+09:29:44.788 > rst:0x3 ([37mS[37mW_RESET),bo[37mo[37mt:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:29:44.792 > con[37mf[37migsip: 0, S[37mP[37mIWP:0xee
+09:29:44.794 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00[37m,[37md_drv:0x00,[37mc[37ms0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x0[37m0[37m
+09:29:44.801 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:29:44.803 > load:0x3[37mf[37mff0030,len:[37m1[37m184
+09:29:44.805 > load:[37m0[37mx40078000,l[37me[37mn:13192
+09:29:44.807 > l[37mo[37mad:0x400804[37m0[37m0,len:3028[37m[37m
+09:29:44.810 > entry 0x40[37m0[37m805e4
+09:29:44.812 > [37me[37mt[37ms J[37mu[37mn  8 2016 [37m0[37m0:22:57
+09:29:44.815 > 
+09:29:44.816 > [37mr[37mst:0x3 (SW[37m_[37mRESET),boot[37m:[37m0x13 (SPI_F[37mA[37mST_FLASH_B[37mO[37mOT)
+09:29:44.820 > config

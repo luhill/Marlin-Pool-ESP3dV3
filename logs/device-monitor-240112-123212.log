@@ -1,0 +1,163 @@
+12:32:13.324 > [37m [37mExternal Reset
+12:32:13.325 >  Brown out Reset[37m
+12:32:13.327 > [37m Watchdog Reset
+12:32:13.327 > Marlin 2.1.2
+12:32:13.327 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+12:32:13.333 > ec[37mh[37mo: Compiled: Jan 11 2024
+12:32:13.335 > echo: [37mF[37mree Memory: 225352  PlannerBuff[37me[37mrBytes: 1344
+12:32:13.361 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+12:32:13.381 > [37me[37mcho:[37mS[37mettings Stored (870 bytes; crc [37m8[37m03)
+12:32:13.602 > [37me[37mcho:EEPROM Initialized
+12:32:14.133 > [37me[37mcho:SD card ok
+12:32:24.195 > [37me[37mcho:SD card ok
+12:32:24.210 > [37me[37mcho:Setup wifi
+12:32:24.347 > [37me[37mcho:Connecting
+12:32:27.383 > [37me[37mcho:10.0.0.110
+12:32:28.276 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T12:32:28"}}}
+12:32:28.853 > [37me[37mcho:10.0.0.110
+12:32:42.383 > [37me[37mcho:SD card ok
+12:32:47.201 > [37me[37mcho:Now fresh[37m [37mfile: /TestMix.g
+12:32:47.209 > [37mF[37mile opened: TestMix.g Size: 118[37m7[37m9
+12:32:47.211 > File selected
+12:32:47.487 > [37m[37m
+12:32:47.487 > ***ERROR*** A stack overflow i[37mn[37m task tiT has been detected.
+12:32:47.489 > [37m
+12:32:47.492 > [37m
+12:32:47.492 > Backtrace: 0x40083fc1:0x3ffb5[37mc[37m80 0x4008eba9:0x3ffb5ca0 0x4009[37m2[37m289:0x3ffb5cc0 0x400907cd:0x3ff[37mb[37m5d40 0x4008ecb8:0x3ffb5d70 0x40[37m0[37m8ec68:0x40124714 |<-CORRUPTED
+12:32:47.506 > [37m[37m
+12:32:47.506 > 
+12:32:47.506 > 
+12:32:47.506 > 
+12:32:47.506 > ELF file SHA256: 74a0db5[37m0[37m4612a0e4
+12:32:47.507 > 
+12:32:47.661 > [37mR[37mebooting...
+12:32:47.664 > [37me[37mts Jun  8 2016 00:22:57
+12:32:47.664 > 
+12:32:47.664 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+12:32:47.670 > configsip: 0[37m,[37m SPIWP:0xee
+12:32:47.672 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+12:32:47.678 > mode:DIO,[37m [37mclock div:2
+12:32:47.681 > load:0x3fff0030,le[37mn[37m:1184
+12:32:47.683 > load:0x40078000,len:1319[37m2[37m
+12:32:47.686 > load:0x40080400,len:3028
+12:32:47.686 > ent[37mr[37my 0x400805e4
+12:32:48.291 > [37ms[37mtart
+12:32:48.320 > [37m [37mBrown out Reset
+12:32:48.320 >  Watchdog Reset[37m
+12:32:48.323 > [37mMarlin 2.1.2
+12:32:48.323 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+12:32:48.329 > echo: Compiled: Ja[37mn[37m 11 2024
+12:32:48.331 > echo: Free Memory: 225[37m3[37m60  PlannerBufferBytes: 1344
+12:32:48.379 > [37me[37mcho:V87 stored settings retriev[37me[37md (870 bytes; crc 803)
+12:32:48.910 > [37me[37mc[37mh[37mo:SD card ok
+12:32:58.985 > [37me[37mcho:SD card ok
+12:32:59.000 > [37me[37mcho:Setup wifi
+12:32:59.137 > [37me[37mcho:Connecting
+12:33:02.172 > [37me[37mcho:10.0.0.110
+12:33:03.640 > [37me[37mcho:10.0.0.110
+12:33:07.965 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T12:33:07"}}}
+12:36:28.226 > [37me[37mcho:Disconnected
+12:36:28.252 > [37me[37mts Jun  8 2016 00:22:57
+12:36:28.252 > 
+12:36:28.252 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+12:36:28.257 > configsip: 0[37m,[37m SPIWP:0xee
+12:36:28.260 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+12:36:28.265 > mode:DIO,[37m [37mclock div:2
+12:36:28.268 > load:0x3fff0030,le[37mn[37m:1184
+12:36:28.271 > load:0x40078000,len:1319[37m2[37m
+12:36:28.274 > load:0x40080400,len:3028
+12:36:28.274 > ent[37mr[37my 0x400805e4
+12:36:28.978 > [37ms[37mtart
+12:36:29.005 > [37m [37mB[37mrown out Reset
+12:36:29.008 >  Watchdog Reset
+12:36:29.011 > [37mM[37marlin 2.1.2
+12:36:29.011 > echo: Last Updated:[37m [37m2022-12-17 | Author: (none, def[37ma[37mult config)
+12:36:29.016 > echo: Compiled: Jan[37m [37m11 2024
+12:36:29.019 > echo: Free Memory: 2253[37m6[37m0  PlannerBufferBytes: 1344
+12:36:29.045 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+12:36:29.068 > [37me[37mcho:Settings Stored (870 bytes;[37m [37mcrc 803)
+12:36:29.291 > [37me[37mcho:EEPROM Initialized
+12:36:29.820 > [37me[37mcho:SD card ok
+12:36:39.882 > [37me[37mc[37mho:SD card ok
+12:36:39.899 > [37me[37mcho:Setup wifi
+12:36:40.033 > [37me[37mcho:Connecting
+12:36:43.057 > [37me[37mcho:10.0.0.110
+12:36:44.540 > [37me[37mcho:10.0.0.110
+12:36:47.845 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T12:36:47"}}}
+12:37:35.881 > [37me[37mcho:SD card ok
+12:37:39.621 > [37me[37mcho:Now fresh file: /TestMix.g
+12:37:39.625 > [37mF[37mile opened: TestMix.g Size: 118[37m7[37m9
+12:37:39.626 > File selected
+12:37:41.730 > [37me[37mcho:busy: processing
+12:37:43.731 > [37me[37mcho:busy: processing
+12:37:45.732 > [37me[37mcho:busy: processing
+12:37:47.733 > [37me[37mcho:busy: processing
+12:37:49.735 > [37me[37mcho:busy: processing
+12:37:51.736 > [37me[37mcho:busy: processing
+12:37:53.737 > [37me[37mcho:busy: processing
+12:37:55.738 > [37me[37mcho:busy: processing
+12:37:57.739 > [37me[37mcho:busy: processing
+12:37:59.740 > [37me[37mcho:busy: processing
+12:38:01.741 > [37me[37mcho:busy: processing
+12:38:02.247 > [37mD[37mone printing file
+12:46:29.884 > [37me[37mcho:Disconnected
+12:46:29.919 > [37me[37mts Jun  8 2016 00:22:57
+12:46:29.919 > 
+12:46:29.919 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+12:46:29.924 > configsip: 0[37m,[37m SPIWP:0xee
+12:46:29.927 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+12:46:29.933 > mode:DIO,[37m [37mclock div:2
+12:46:29.936 > load:0x3fff0030,le[37mn[37m:1184
+12:46:29.938 > load:0x40078000,len:1319[37m2[37m
+12:46:29.941 > load:0x40080400,len:3028
+12:46:29.941 > ent[37mr[37my 0x400805e4
+12:46:30.651 > [37ms[37mtart
+12:46:30.681 > [37m [37mBrown out Reset
+12:46:30.681 >  Watchdog Reset[37m
+12:46:30.684 > [37mMarlin 2.1.2
+12:46:30.684 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+12:46:30.689 > echo: Compiled: Ja[37mn[37m 11 2024
+12:46:30.692 > echo: Free Memory: 225[37m3[37m60  PlannerBufferBytes: 1344
+12:46:30.718 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+12:46:30.737 > [37me[37mc[37mh[37mo:Settings Stored (870 bytes; c[37mr[37mc 803)
+12:46:30.947 > [37me[37mcho:EEPROM Initialized
+12:46:31.475 > [37me[37mcho:SD card ok
+12:46:41.538 > [37me[37mcho:SD card ok
+12:46:41.553 > [37me[37mcho:Setup wifi
+12:46:41.686 > [37me[37mcho:Connecting
+12:46:44.714 > [37me[37mcho:10.0.0.110
+12:46:46.187 > [37me[37mcho:10.0.0.110
+12:46:46.782 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T12:46:46"}}}
+12:47:30.440 > [37me[37mcho:SD card ok
+12:47:33.034 > [37me[37mcho:Now fresh file: /TestMix.g
+12:47:33.039 > [37mF[37mile opened: TestMix.g Size: 118[37m7[37m9
+12:47:33.040 > File selected
+12:47:35.143 > [37me[37mcho:busy: processing
+12:47:37.146 > [37me[37mcho:busy: processing
+12:47:39.147 > [37me[37mcho:busy: processing
+12:47:41.148 > [37me[37mcho:busy: processing
+12:47:43.149 > [37me[37mcho:busy: processing
+12:47:45.150 > [37me[37mcho:busy: processing
+12:47:47.151 > [37me[37mcho:busy: processing
+12:47:49.152 > [37me[37mcho:busy: processing
+12:47:51.153 > [37me[37mcho:busy: processing
+12:47:53.154 > [37me[37mcho:busy: processing
+12:47:55.155 > [37me[37mcho:busy: processing
+12:47:55.661 > [37mD[37mone printing file
+12:49:11.557 > [37me[37mcho:SD card ok
+12:49:17.222 > [37me[37mcho:Now fresh file: /TestMix.g
+12:49:17.223 > [37mF[37mi[37mle opened: TestMix.g Size: 1187[37m9[37m
+12:49:17.227 > File selected
+12:49:19.328 > [37me[37mcho:busy: processing
+12:49:21.330 > [37me[37mcho:busy: processing
+12:49:23.331 > [37me[37mcho:busy: processing
+12:49:25.332 > [37me[37mcho:busy: processing
+12:49:27.332 > [37me[37mcho:busy: processing
+12:49:29.333 > [37me[37mcho:busy: processing
+12:49:31.334 > [37me[37mcho:busy: processing
+12:49:33.335 > [37me[37mcho:busy: processing
+12:49:35.336 > [37me[37mcho:busy: processing
+12:49:37.337 > [37me[37mcho:busy: processing
+12:49:39.338 > [37me[37mcho:busy: processing
+12:49:39.844 > [37mD[37mone printing file
+12:50:49.175 > [37me[37mcho:SD card released

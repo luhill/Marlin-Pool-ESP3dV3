@@ -1,0 +1,1680 @@
+13:31:41.707 > [37mstart
+13:31:41.707 >  Brown out Reset
+13:31:41.707 >  Watchdog Reset
+13:31:41.707 > Marlin 2.1.2
+13:31:41.707 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:31:41.707 > echo: Compiled: Dec 16 2024
+13:31:41.707 > echo:Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:31:41.707 > 
+13:31:41.707 > Core  1 register dump:
+13:31:41.707 > PC      : 0x40134517  PS      : 0x00060d30  A0      : 0x80134551  A1      : 0x3ffb21e0  
+13:31:41.707 > A2      : 0x00000555  A3      : 0x00000800  A4      : 0x3ffc9d4c  A5      : 0x00060123  
+13:31:41.707 > A6      : 0x00060120  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffb21b0  
+13:31:41.707 > A10     : 0x3ffb6510  A11     : 0x0000003a  A12     : 0x00060120  A13     : 0x00060323  
+13:31:41.707 > A14     : 0x007be540  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x0000001c  
+13:31:41.707 > EXCVADDR: 0x00000571  LBEG    : 0x4008a1f0  LEND    : 0x4008a1fb  LCOUNT  : 0xffffffff  
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > Backtrace: 0x40134514:0x3ffb21e0 0x4013454e:0x3ffb2200 0x40108cfe:0x3ffb2220 0x400d35f2:0x3ffb2240 0x400d8d9f:0x3ffb2260 0x4010c692:0x3ffb2290
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > ELF file SHA256: acf71627bcb4e6cc
+13:31:41.707 > 
+13:31:41.707 > Rebooting...
+13:31:41.707 > ets Jun  8 201[37m6 00:22:57
+13:31:41.707 > 
+13:31:41.707 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:31:41.707 > configsip: 0, SPIWP:0xee
+13:31:41.707 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:31:41.707 > mode:DIO, clock div:2
+13:31:41.707 > load:0x3fff0030,len:1184
+13:31:41.707 > load:0x40078000,len:13192
+13:31:41.707 > load:0x40080400,len:3028
+13:31:41.707 > entry 0x400805e4
+13:31:41.707 > start
+13:31:41.707 >  Brown out Reset
+13:31:41.707 >  Watchdog Reset
+13:31:41.707 > Marlin 2.1.2
+13:31:41.707 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:31:41.707 > echo: Compiled: Dec 16 2024
+13:31:41.707 > echo:Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:31:41.707 > 
+13:31:41.707 > Core  1 register dump:
+13:31:41.707 > PC      : 0x40134517  PS      : 0x00060d30  A0      : 0x80134551  A1      : 0x3ffb21e0  
+13:31:41.707 > A2      : 0x00000555  A3      : 0x00000800  A4      : 0x8008459f  A5      : 0x3ffb20f0  
+13:31:41.707 > A6      : 0x00000001  A7      : 0x3ffb0320  A8      : 0x00000000  A9      : 0x3ffb21b0  
+13:31:41.707 > A10     : 0x3ffb6510  A11     : 0x0000003a  A12     : 0x80000020  A13     : 0x00000007  
+13:31:41.707 > A14     : 0x00000005  A15     : 0x00000001  SAR     : 0x0000001f  EXCCAUSE: 0x0000001c  
+13:31:41.707 > EXCVADDR: 0x00000571  [37mLBEG    : 0x4008a1f0  LEND    : 0x4008a1fb  LCOUNT  : 0xffffffff  
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > Backtrace: 0x40134514:0x3ffb21e0 0x4013454e:0x3ffb2200 0x40108cfe:0x3ffb2220 0x400d35f2:0x3ffb2240 0x400d8d9f:0x3ffb2260 0x4010c692:0x3ffb2290
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > ELF file SHA256: acf71627bcb4e6cc
+13:31:41.707 > 
+13:31:41.707 > Rebooting...
+13:31:41.707 > ets Jun  8 2016 00:22:57
+13:31:41.707 > 
+13:31:41.707 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:31:41.707 > configsip: 0, SPIWP:0xee
+13:31:41.707 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:31:41.707 > mode:DIO, clock div:2
+13:31:41.707 > load:0x3fff0030,len:1184
+13:31:41.707 > load:0x40078000,len:13192
+13:31:41.707 > load:0x40080400,len:3028
+13:31:41.707 > entry 0x400805e4
+13:31:41.707 > start
+13:31:41.707 >  Brown out Reset
+13:31:41.707 >  Watchdog Reset
+13:31:41.707 > Marlin 2.1.2
+13:31:41.707 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:31:41.707 > echo: Compiled: Dec 16 2024
+13:31:41.707 > echo:Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:31:41.707 > 
+13:31:41.707 > Core  1 register dump:
+13:31:41.707 > PC      : 0x40134517  PS      : 0x00060f30  A0      : 0x80134551  A1      : 0x3ffb21e0  
+13:31:41.707 > A2      : 0x00000555  A3      : 0x00000800  A4      : 0x3ffc9d4c  A5      : 0x00060323  
+13:31:41.707 > A6 [37m     : 0x00060320  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffb21b0  
+13:31:41.707 > A10     : 0x3ffb6510  A11     : 0x0000003a  A12     : 0x00060320  A13     : 0x00060523  
+13:31:41.707 > A14     : 0x007be540  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x0000001c  
+13:31:41.707 > EXCVADDR: 0x00000571  LBEG    : 0x4008a1f0  LEND    : 0x4008a1fb  LCOUNT  : 0xffffffff  
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > Backtrace: 0x40134514:0x3ffb21e0 0x4013454e:0x3ffb2200 0x40108cfe:0x3ffb2220 0x400d35f2:0x3ffb2240 0x400d8d9f:0x3ffb2260 0x4010c692:0x3ffb2290
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > ELF file SHA256: acf71627bcb4e6cc
+13:31:41.707 > 
+13:31:41.707 > Rebooting...
+13:31:41.707 > ets Jun  8 2016 00:22:57
+13:31:41.707 > 
+13:31:41.707 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:31:41.707 > configsip: 0, SPIWP:0xee
+13:31:41.707 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:31:41.707 > mode:DIO, clock div:2
+13:31:41.707 > load:0x3fff0030,len:1184
+13:31:41.707 > load:0x40078000,len:13192
+13:31:41.707 > load:0x40080400,len:3028
+13:31:41.707 > entry 0x400805e4
+13:31:41.707 > start
+13:31:41.707 >  Brown out Reset
+13:31:41.707 >  Watchdog Reset
+13:31:41.707 > Marlin 2.1.2
+13:31:41.707 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:31:41.707 > echo: Compiled: Dec 16 2024
+13:31:41.707 > echo:Guru[37m Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:31:41.707 > 
+13:31:41.707 > Core  1 register dump:
+13:31:41.707 > PC      : 0x40134517  PS      : 0x00060f30  A0      : 0x80134551  A1      : 0x3ffb21e0  
+13:31:41.707 > A2      : 0x00000555  A3      : 0x00000800  A4      : 0x80000020  A5      : 0x00000007  
+13:31:41.707 > A6      : 0x00000005  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffb21b0  
+13:31:41.707 > A10     : 0x3ffb6510  A11     : 0x0000003a  A12     : 0x00060320  A13     : 0x00060523  
+13:31:41.707 > A14     : 0x007be540  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x0000001c  
+13:31:41.707 > EXCVADDR: 0x00000571  LBEG    : 0x4008a1f0  LEND    : 0x4008a1fb  LCOUNT  : 0xffffffff  
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > Backtrace: 0x40134514:0x3ffb21e0 0x4013454e:0x3ffb2200 0x40108cfe:0x3ffb2220 0x400d35f2:0x3ffb2240 0x400d8d9f:0x3ffb2260 0x4010c692:0x3ffb2290
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > ELF file SHA256: acf71627bcb4e6cc
+13:31:41.707 > 
+13:31:41.707 > Rebooting...
+13:31:41.707 > ets Jun  8 2016 00:22:57
+13:31:41.707 > 
+13:31:41.707 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:31:41.707 > configsip: 0, SPIWP:0xee
+13:31:41.707 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x[37m00,wp_drv:0x00
+13:31:41.707 > mode:DIO, clock div:2
+13:31:41.707 > load:0x3fff0030,len:1184
+13:31:41.707 > load:0x40078000,len:13192
+13:31:41.707 > load:0x40080400,len:3028
+13:31:41.707 > entry 0x400805e4
+13:31:41.707 > start
+13:31:41.707 >  Brown out Reset
+13:31:41.707 >  Watchdog Reset
+13:31:41.707 > Marlin 2.1.2
+13:31:41.707 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+13:31:41.707 > echo: Compiled: Dec 16 2024
+13:31:41.707 > echo:Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+13:31:41.707 > 
+13:31:41.707 > Core  1 register dump:
+13:31:41.707 > PC      : 0x40134517  PS      : 0x00060d30  A0      : 0x80134551  A1      : 0x3ffb21e0  
+13:31:41.707 > A2      : 0x00000555  A3      : 0x00000800  A4      : 0x3ffc9d4c  A5      : 0x00060123  
+13:31:41.707 > A6      : 0x00060120  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffb21b0  
+13:31:41.707 > A10     : 0x3ffb6510  A11     : 0x0000003a  A12     : 0x00060120  A13     : 0x00060323  
+13:31:41.707 > A14     : 0x007be540  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x0000001c  
+13:31:41.707 > EXCVADDR: 0x00000571  LBEG    : 0x4008a1f0  LEND    : 0x4008a1fb  LCOUNT  : 0xffffffff  
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > Backtrace: 0x40134514:0x3ffb21e0 0x4013454e:0x3ffb2200 0x40108cfe:0x3ffb2220 0x40[37m0d35f2:0x3ffb2240 0x400d8d9f:0x3ffb2260 0x4010c692:0x3ffb2290
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > 
+13:31:41.707 > ELF file SHA256: acf71627bcb4e6cc
+13:31:41.707 > 
+13:31:41.707 > Rebooting...
+13:31:41.707 > ets Jun  8 2016 00:22:57
+13:31:41.707 > 
+13:31:41.707 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:31:41.707 > configsip: 0, SPIWP:0xee
+13:31:41.707 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:41.709 > mode:DIO, clock div:2
+13:31:41.709 > load[37m:[37m0x3fff0030,len:1184
+13:31:41.712 > load:0x400[37m7[37m8000,len:13192
+13:31:41.714 > load:0x40080400[37m,[37mlen:3028
+13:31:41.719 > entry 0x400805e4
+13:31:42.295 > [37ms[37mtart
+13:31:42.312 > [37m [37mBrown out Reset
+13:31:42.312 >  Watchdog Reset[37m
+13:31:42.315 > [37mMarlin 2.1.2
+13:31:42.315 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:42.321 > echo: Compiled: De[37mc[37m 16 2024
+13:31:42.324 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:42.332 > 
+13:31:42.332 > Core  1 register dump:
+13:31:42.332 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:42.340 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:42.348 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:42.357 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:42.365 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:42.371 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:42.379 > 
+13:31:42.379 > 
+13:31:42.379 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:42.393 > 
+13:31:42.393 > 
+13:31:42.393 > 
+13:31:42.393 > 
+13:31:42.393 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:42.397 > 
+13:31:42.512 > [37mR[37mebooting...
+13:31:42.512 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:42.515 > 
+13:31:42.515 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:42.520 > configsip: 0, SPIWP:0xee
+13:31:42.520 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:42.529 > mode:DIO, clock div:2
+13:31:42.529 > load[37m:[37m0x3fff0030,len:1184
+13:31:42.531 > load:0x400[37m7[37m8000,len:13192
+13:31:42.534 > load:0x40080400[37m,[37mlen:3028
+13:31:42.539 > entry 0x400805e4
+13:31:43.115 > [37ms[37mtart
+13:31:43.132 > [37m [37mBrown out Reset
+13:31:43.133 >  Watchdog Reset[37m
+13:31:43.135 > [37mMarlin 2.1.2
+13:31:43.135 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:43.141 > echo: Compiled: De[37mc[37m 16 2024
+13:31:43.144 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:43.152 > 
+13:31:43.152 > Core  1 register dump:
+13:31:43.152 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:43.160 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:31:43.168 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:43.177 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:31:43.185 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:43.191 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:43.199 > 
+13:31:43.199 > 
+13:31:43.199 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:43.213 > 
+13:31:43.213 > 
+13:31:43.213 > 
+13:31:43.213 > 
+13:31:43.213 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:43.217 > 
+13:31:43.332 > [37mR[37mebooting...
+13:31:43.333 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:43.335 > 
+13:31:43.335 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:43.341 > configsip: 0, SPIWP:0xee
+13:31:43.341 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:43.349 > mode:DIO, clock div:2
+13:31:43.349 > load[37m:[37m0x3fff0030,len:1184
+13:31:43.352 > load:0x400[37m7[37m8000,len:13192
+13:31:43.354 > load:0x40080400[37m,[37mlen:3028
+13:31:43.359 > entry 0x400805e4
+13:31:43.935 > [37ms[37mtart
+13:31:43.953 > [37m [37mBrown out Reset
+13:31:43.953 >  Watchdog Reset[37m
+13:31:43.955 > [37mMarlin 2.1.2
+13:31:43.955 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:43.961 > echo: Compiled: De[37mc[37m 16 2024
+13:31:43.964 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:43.972 > 
+13:31:43.972 > Core  1 register dump:
+13:31:43.972 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:43.981 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:43.989 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:43.997 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:44.005 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:44.011 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:44.019 > 
+13:31:44.019 > 
+13:31:44.019 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:44.033 > 
+13:31:44.033 > 
+13:31:44.033 > 
+13:31:44.033 > 
+13:31:44.033 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:44.037 > 
+13:31:44.154 > [37mR[37mebooting...
+13:31:44.154 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:44.157 > 
+13:31:44.157 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:44.162 > configsip: 0, SPIWP:0xee
+13:31:44.162 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:44.171 > mode:DIO, clock div:2
+13:31:44.171 > load[37m:[37m0x3fff0030,len:1184
+13:31:44.174 > load:0x400[37m7[37m8000,len:13192
+13:31:44.176 > load:0x40080400[37m,[37mlen:3028
+13:31:44.181 > entry 0x400805e4
+13:31:44.757 > [37ms[37mtart
+13:31:44.774 > [37m [37mBrown out Reset
+13:31:44.775 >  Watchdog Reset[37m
+13:31:44.777 > [37mMarlin 2.1.2
+13:31:44.777 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:44.783 > echo: Compiled: De[37mc[37m 16 2024
+13:31:44.785 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:44.794 > 
+13:31:44.794 > Core  1 register dump:
+13:31:44.794 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:44.802 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:44.810 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:44.819 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:44.827 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:44.832 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:44.841 > 
+13:31:44.841 > 
+13:31:44.841 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:44.855 > 
+13:31:44.855 > 
+13:31:44.855 > 
+13:31:44.855 > 
+13:31:44.855 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:44.859 > 
+13:31:44.970 > [37mR[37mebooting...
+13:31:44.970 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:44.973 > 
+13:31:44.973 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:44.979 > configsip: 0, SPIWP:0xee
+13:31:44.979 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:44.987 > mode:DIO, clock div:2
+13:31:44.987 > load[37m:[37m0x3fff0030,len:1184
+13:31:44.989 > load:0x400[37m7[37m8000,len:13192
+13:31:44.993 > load:0x40080400[37m,[37mlen:3028
+13:31:44.997 > entry 0x400805e4
+13:31:45.573 > [37ms[37mtart
+13:31:45.590 > [37m [37mBrown out Reset
+13:31:45.591 >  Watchdog Reset[37m
+13:31:45.593 > [37mMarlin 2.1.2
+13:31:45.593 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:45.599 > echo: Compiled: De[37mc[37m 16 2024
+13:31:45.602 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:45.610 > 
+13:31:45.610 > Core  1 register dump:
+13:31:45.610 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:45.618 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:45.627 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:45.635 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:45.643 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:45.649 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:45.657 > 
+13:31:45.657 > 
+13:31:45.657 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:45.671 > 
+13:31:45.671 > 
+13:31:45.671 > 
+13:31:45.671 > 
+13:31:45.671 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:45.675 > 
+13:31:45.785 > [37mR[37mebooting...
+13:31:45.785 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:45.788 > 
+13:31:45.788 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:45.793 > configsip: 0, SPIWP:0xee
+13:31:45.793 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:45.802 > mode:DIO, clock div:2
+13:31:45.802 > load[37m:[37m0x3fff0030,len:1184
+13:31:45.804 > load:0x400[37m7[37m8000,len:13192
+13:31:45.807 > load:0x40080400[37m,[37mlen:3028
+13:31:45.812 > entry 0x400805e4
+13:31:46.388 > [37ms[37mtart
+13:31:46.405 > [37m [37mBrown out Reset
+13:31:46.406 >  Watchdog Reset[37m
+13:31:46.408 > [37mMarlin 2.1.2
+13:31:46.408 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:46.414 > echo: Compiled: De[37mc[37m 16 2024
+13:31:46.416 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:46.425 > 
+13:31:46.425 > Core  1 register dump:
+13:31:46.425 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:46.433 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:46.441 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:46.450 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:46.458 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:46.464 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:46.472 > 
+13:31:46.472 > 
+13:31:46.472 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:46.486 > 
+13:31:46.486 > 
+13:31:46.486 > 
+13:31:46.486 > 
+13:31:46.486 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:46.490 > 
+13:31:46.600 > [37mR[37mebooting...
+13:31:46.600 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:46.603 > 
+13:31:46.603 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:46.608 > configsip: 0, SPIWP:0xee
+13:31:46.608 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:46.617 > mode:DIO, clock div:2
+13:31:46.617 > load[37m:[37m0x3fff0030,len:1184
+13:31:46.619 > load:0x400[37m7[37m8000,len:13192
+13:31:46.622 > load:0x40080400[37m,[37mlen:3028
+13:31:46.627 > entry 0x400805e4
+13:31:47.203 > [37ms[37mtart
+13:31:47.220 > [37m [37mBrown out Reset
+13:31:47.221 >  Watchdog Reset[37m
+13:31:47.223 > [37mMarlin 2.1.2
+13:31:47.223 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:47.229 > echo: Compiled: De[37mc[37m 16 2024
+13:31:47.232 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:47.240 > 
+13:31:47.240 > Core  1 register dump:
+13:31:47.240 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:47.248 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:47.256 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:47.265 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:47.273 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:47.279 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:47.287 > 
+13:31:47.287 > 
+13:31:47.287 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:47.301 > 
+13:31:47.301 > 
+13:31:47.301 > 
+13:31:47.301 > 
+13:31:47.301 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:47.305 > 
+13:31:47.416 > [37mR[37mebooting...
+13:31:47.417 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:47.419 > 
+13:31:47.419 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:47.425 > configsip: 0, SPIWP:0xee
+13:31:47.425 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:47.433 > mode:DIO, clock div:2
+13:31:47.433 > load[37m:[37m0x3fff0030,len:1184
+13:31:47.436 > load:0x400[37m7[37m8000,len:13192
+13:31:47.438 > load:0x40080400[37m,[37mlen:3028
+13:31:47.443 > entry 0x400805e4
+13:31:48.019 > [37ms[37mtart
+13:31:48.037 > [37m [37mBrown out Reset
+13:31:48.037 >  Watchdog Reset[37m
+13:31:48.039 > [37mMarlin 2.1.2
+13:31:48.039 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:48.045 > echo: Compiled: De[37mc[37m 16 2024
+13:31:48.048 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:48.056 > 
+13:31:48.056 > Core  1 register dump:
+13:31:48.056 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:48.064 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:31:48.073 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:48.081 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:31:48.089 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:48.095 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:48.103 > 
+13:31:48.103 > 
+13:31:48.103 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:48.117 > 
+13:31:48.117 > 
+13:31:48.117 > 
+13:31:48.117 > 
+13:31:48.117 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:48.121 > 
+13:31:48.234 > [37mR[37mebooting...
+13:31:48.234 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:48.237 > 
+13:31:48.237 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:48.242 > configsip: 0, SPIWP:0xee
+13:31:48.242 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:48.250 > mode:DIO, clock div:2
+13:31:48.250 > load[37m:[37m0x3fff0030,len:1184
+13:31:48.253 > load:0x400[37m7[37m8000,len:13192
+13:31:48.256 > load:0x40080400[37m,[37mlen:3028
+13:31:48.261 > entry 0x400805e4
+13:31:48.837 > [37ms[37mtart
+13:31:48.854 > [37m [37mBrown out Reset
+13:31:48.854 >  Watchdog Reset[37m
+13:31:48.857 > [37mMarlin 2.1.2
+13:31:48.857 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:48.863 > echo: Compiled: De[37mc[37m 16 2024
+13:31:48.865 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:48.874 > 
+13:31:48.874 > Core  1 register dump:
+13:31:48.874 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060f30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:48.882 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:31:48.890 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:48.899 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:31:48.907 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:48.912 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:48.921 > 
+13:31:48.921 > 
+13:31:48.921 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:48.935 > 
+13:31:48.935 > 
+13:31:48.935 > 
+13:31:48.935 > 
+13:31:48.935 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:48.939 > 
+13:31:49.049 > [37mR[37mebooting...
+13:31:49.049 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:49.052 > 
+13:31:49.052 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:49.058 > configsip: 0, SPIWP:0xee
+13:31:49.058 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:49.066 > mode:DIO, clock div:2
+13:31:49.066 > load[37m:[37m0x3fff0030,len:1184
+13:31:49.069 > load:0x400[37m7[37m8000,len:13192
+13:31:49.071 > load:0x40080400[37m,[37mlen:3028
+13:31:49.076 > entry 0x400805e4
+13:31:49.652 > [37ms[37mtart
+13:31:49.669 > [37m [37mBrown out Reset
+13:31:49.670 >  Watchdog Reset[37m
+13:31:49.672 > [37mMarlin 2.1.2
+13:31:49.672 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:49.678 > echo: Compiled: De[37mc[37m 16 2024
+13:31:49.681 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:49.689 > 
+13:31:49.689 > Core  1 register dump:
+13:31:49.689 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:49.697 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:49.705 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:49.714 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:49.722 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:49.728 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:49.736 > 
+13:31:49.736 > 
+13:31:49.736 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:49.750 > 
+13:31:49.750 > 
+13:31:49.750 > 
+13:31:49.750 > 
+13:31:49.750 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:49.754 > 
+13:31:49.869 > [37mR[37mebooting...
+13:31:49.870 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:49.872 > 
+13:31:49.872 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:49.878 > configsip: 0, SPIWP:0xee
+13:31:49.878 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:49.886 > mode:DIO, clock div:2
+13:31:49.886 > load[37m:[37m0x3fff0030,len:1184
+13:31:49.889 > load:0x400[37m7[37m8000,len:13192
+13:31:49.892 > load:0x40080400[37m,[37mlen:3028
+13:31:49.896 > entry 0x400805e4
+13:31:50.472 > [37ms[37mtart
+13:31:50.490 > [37m [37mBrown out Reset
+13:31:50.490 >  Watchdog Reset[37m
+13:31:50.492 > [37mMarlin 2.1.2
+13:31:50.492 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:50.498 > echo: Compiled: De[37mc[37m 16 2024
+13:31:50.501 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:50.509 > 
+13:31:50.509 > Core  1 register dump:
+13:31:50.509 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:50.517 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:50.526 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:50.534 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:50.542 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:50.548 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:50.556 > 
+13:31:50.556 > 
+13:31:50.556 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:50.570 > 
+13:31:50.570 > 
+13:31:50.570 > 
+13:31:50.570 > 
+13:31:50.570 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:50.574 > 
+13:31:50.691 > [37mR[37mebooting...
+13:31:50.691 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:50.694 > 
+13:31:50.694 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:50.699 > configsip: 0, SPIWP:0xee
+13:31:50.699 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:50.708 > mode:DIO, clock div:2
+13:31:50.708 > load[37m:[37m0x3fff0030,len:1184
+13:31:50.710 > load:0x400[37m7[37m8000,len:13192
+13:31:50.713 > load:0x40080400[37m,[37mlen:3028
+13:31:50.718 > entry 0x400805e4
+13:31:51.294 > [37ms[37mtart
+13:31:51.311 > [37m [37mBrown out Reset
+13:31:51.311 >  Watchdog Reset[37m
+13:31:51.314 > [37mMarlin 2.1.2
+13:31:51.314 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:51.320 > echo: Compiled: De[37mc[37m 16 2024
+13:31:51.322 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:51.331 > 
+13:31:51.331 > Core  1 register dump:
+13:31:51.331 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:51.339 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffd2be0  
+13:31:51.347 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:51.356 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:31:51.364 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:51.369 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:51.378 > 
+13:31:51.378 > 
+13:31:51.378 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:51.392 > 
+13:31:51.392 > 
+13:31:51.392 > 
+13:31:51.392 > 
+13:31:51.392 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:51.396 > 
+13:31:51.511 > [37mR[37mebooting...
+13:31:51.512 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:51.514 > 
+13:31:51.514 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:51.520 > configsip: 0, SPIWP:0xee
+13:31:51.520 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:51.528 > mode:DIO, clock div:2
+13:31:51.528 > load[37m:[37m0x3fff0030,len:1184
+13:31:51.531 > load:0x400[37m7[37m8000,len:13192
+13:31:51.533 > load:0x40080400[37m,[37mlen:3028
+13:31:51.538 > entry 0x400805e4
+13:31:52.114 > [37ms[37mtart
+13:31:52.132 > [37m [37mBrown out Reset
+13:31:52.132 >  Watchdog Reset[37m
+13:31:52.134 > [37mMarlin 2.1.2
+13:31:52.134 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:52.140 > echo: Compiled: De[37mc[37m 16 2024
+13:31:52.143 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:52.151 > 
+13:31:52.151 > Core  1 register dump:
+13:31:52.151 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:52.159 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:52.167 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:52.176 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:52.184 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:52.190 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:52.198 > 
+13:31:52.198 > 
+13:31:52.198 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:52.212 > 
+13:31:52.212 > 
+13:31:52.212 > 
+13:31:52.212 > 
+13:31:52.212 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:52.216 > 
+13:31:52.326 > [37mR[37mebooting...
+13:31:52.326 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:52.329 > 
+13:31:52.329 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:52.334 > configsip: 0, SPIWP:0xee
+13:31:52.334 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:52.342 > mode:DIO, clock div:2
+13:31:52.342 > load[37m:[37m0x3fff0030,len:1184
+13:31:52.345 > load:0x400[37m7[37m8000,len:13192
+13:31:52.348 > load:0x40080400[37m,[37mlen:3028
+13:31:52.353 > entry 0x400805e4
+13:31:52.929 > [37ms[37mtart
+13:31:52.946 > [37m [37mBrown out Reset
+13:31:52.946 >  Watchdog Reset[37m
+13:31:52.949 > [37mMarlin 2.1.2
+13:31:52.949 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:52.954 > echo: Compiled: De[37mc[37m 16 2024
+13:31:52.957 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:52.966 > 
+13:31:52.966 > Core  1 register dump:
+13:31:52.966 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:52.974 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:52.982 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:52.991 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x8009155c  A13     : 0x3ffb20e[37m0[37m  
+13:31:52.999 > A14     : 0x00000003  A15  [37m [37m  : 0x00060023  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:53.005 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:53.013 > 
+13:31:53.013 > 
+13:31:53.013 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:53.027 > 
+13:31:53.027 > 
+13:31:53.027 > 
+13:31:53.027 > 
+13:31:53.027 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:53.031 > 
+13:31:53.141 > [37mR[37mebooting...
+13:31:53.141 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:53.144 > 
+13:31:53.144 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:53.149 > configsip: 0, SPIWP:0xee
+13:31:53.149 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:53.158 > mode:DIO, clock div:2
+13:31:53.158 > load[37m:[37m0x3fff0030,len:1184
+13:31:53.160 > load:0x400[37m7[37m8000,len:13192
+13:31:53.163 > load:0x40080400[37m,[37mlen:3028
+13:31:53.168 > entry 0x400805e4
+13:31:53.744 > [37ms[37mtart
+13:31:53.761 > [37m [37mBrown out Reset
+13:31:53.762 >  Watchdog Reset[37m
+13:31:53.764 > [37mMarlin 2.1.2
+13:31:53.764 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:53.770 > echo: Compiled: De[37mc[37m 16 2024
+13:31:53.772 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:53.781 > 
+13:31:53.781 > Core  1 register dump:
+13:31:53.781 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:53.789 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:53.797 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:53.806 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:53.814 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:53.820 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:53.828 > 
+13:31:53.828 > 
+13:31:53.828 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:53.842 > 
+13:31:53.842 > 
+13:31:53.842 > 
+13:31:53.842 > 
+13:31:53.842 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:53.846 > 
+13:31:53.953 > [37mR[37mebooting...
+13:31:53.953 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:53.956 > 
+13:31:53.956 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:53.962 > configsip: 0, SPIWP:0xee
+13:31:53.962 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:53.970 > mode:DIO, clock div:2
+13:31:53.970 > load[37m:[37m0x3fff0030,len:1184
+13:31:53.973 > load:0x400[37m7[37m8000,len:13192
+13:31:53.975 > load:0x40080400[37m,[37mlen:3028
+13:31:53.980 > entry 0x400805e4
+13:31:54.556 > [37ms[37mtart
+13:31:54.573 > [37m [37mBrown out Reset
+13:31:54.573 >  Watchdog Reset[37m
+13:31:54.576 > [37mMarlin 2.1.2
+13:31:54.576 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:54.582 > echo: Compiled: De[37mc[37m 16 2024
+13:31:54.584 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:54.593 > 
+13:31:54.593 > Core  1 register dump:
+13:31:54.593 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:54.601 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:54.609 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:54.618 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:54.626 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:54.632 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:54.640 > 
+13:31:54.640 > 
+13:31:54.640 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:54.654 > 
+13:31:54.654 > 
+13:31:54.654 > 
+13:31:54.654 > 
+13:31:54.654 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:54.658 > 
+13:31:54.765 > [37mR[37mebooting...
+13:31:54.766 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:54.768 > 
+13:31:54.768 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:54.774 > configsip: 0, SPIWP:0xee
+13:31:54.774 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:54.782 > mode:DIO, clock div:2
+13:31:54.782 > load[37m:[37m0x3fff0030,len:1184
+13:31:54.785 > load:0x400[37m7[37m8000,len:13192
+13:31:54.788 > load:0x40080400[37m,[37mlen:3028
+13:31:54.792 > entry 0x400805e4
+13:31:55.368 > [37ms[37mtart
+13:31:55.386 > [37m [37mBrown out Reset
+13:31:55.386 >  Watchdog Reset[37m
+13:31:55.389 > [37mMarlin 2.1.2
+13:31:55.389 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:55.394 > echo: Compiled: De[37mc[37m 16 2024
+13:31:55.397 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:55.405 > 
+13:31:55.405 > Core  1 register dump:
+13:31:55.405 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:55.413 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:55.422 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:55.430 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:55.438 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:55.444 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:55.452 > 
+13:31:55.452 > 
+13:31:55.452 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:55.466 > 
+13:31:55.466 > 
+13:31:55.466 > 
+13:31:55.466 > 
+13:31:55.466 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:55.470 > 
+13:31:55.579 > [37mR[37mebooting...
+13:31:55.579 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:55.582 > 
+13:31:55.582 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:55.587 > configsip: 0, SPIWP:0xee
+13:31:55.587 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:55.596 > mode:DIO, clock div:2
+13:31:55.596 > load[37m:[37m0x3fff0030,len:1184
+13:31:55.598 > load:0x400[37m7[37m8000,len:13192
+13:31:55.601 > load:0x40080400[37m,[37mlen:3028
+13:31:55.606 > entry 0x400805e4
+13:31:56.182 > [37ms[37mtart
+13:31:56.199 > [37m [37mBrown out Reset
+13:31:56.200 >  Watchdog Reset[37m
+13:31:56.202 > [37mMarlin 2.1.2
+13:31:56.202 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:56.208 > echo: Compiled: De[37mc[37m 16 2024
+13:31:56.210 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:56.219 > 
+13:31:56.219 > Core  1 register dump:
+13:31:56.219 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:56.227 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:31:56.235 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:56.244 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:31:56.252 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:56.258 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:56.266 > 
+13:31:56.266 > 
+13:31:56.266 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:56.280 > 
+13:31:56.280 > 
+13:31:56.280 > 
+13:31:56.280 > 
+13:31:56.280 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:56.284 > 
+13:31:56.394 > [37mR[37mebooting...
+13:31:56.394 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:56.397 > 
+13:31:56.397 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:56.403 > configsip: 0, SPIWP:0xee
+13:31:56.403 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:56.411 > mode:DIO, clock div:2
+13:31:56.411 > load[37m:[37m0x3fff0030,len:1184
+13:31:56.414 > load:0x400[37m7[37m8000,len:13192
+13:31:56.416 > load:0x40080400[37m,[37mlen:3028
+13:31:56.421 > entry 0x400805e4
+13:31:56.997 > [37ms[37mtart
+13:31:57.014 > [37m [37mBrown out Reset
+13:31:57.015 >  Watchdog Reset[37m
+13:31:57.017 > [37mMarlin 2.1.2
+13:31:57.017 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:57.023 > echo: Compiled: De[37mc[37m 16 2024
+13:31:57.026 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:57.034 > 
+13:31:57.034 > Core  1 register dump:
+13:31:57.034 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:57.042 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:57.051 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:57.059 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:57.067 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:57.073 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:57.081 > 
+13:31:57.081 > 
+13:31:57.081 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:57.095 > 
+13:31:57.095 > 
+13:31:57.095 > 
+13:31:57.095 > 
+13:31:57.095 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:57.099 > 
+13:31:57.210 > [37mR[37mebooting...
+13:31:57.210 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:57.212 > 
+13:31:57.212 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:57.218 > configsip: 0, SPIWP:0xee
+13:31:57.218 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:57.226 > mode:DIO, clock div:2
+13:31:57.226 > load[37m:[37m0x3fff0030,len:1184
+13:31:57.229 > load:0x400[37m7[37m8000,len:13192
+13:31:57.232 > load:0x40080400[37m,[37mlen:3028
+13:31:57.236 > entry 0x400805e4
+13:31:57.812 > [37ms[37mtart
+13:31:57.830 > [37m [37mBrown out Reset
+13:31:57.830 >  Watchdog Reset[37m
+13:31:57.832 > [37mMarlin 2.1.2
+13:31:57.832 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:57.838 > echo: Compiled: De[37mc[37m 16 2024
+13:31:57.841 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:57.849 > 
+13:31:57.849 > Core  1 register dump:
+13:31:57.849 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:57.857 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:31:57.866 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:57.874 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:31:57.882 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:57.888 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:57.896 > 
+13:31:57.896 > 
+13:31:57.896 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:57.910 > 
+13:31:57.910 > 
+13:31:57.910 > 
+13:31:57.910 > 
+13:31:57.910 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:57.914 > 
+13:31:58.026 > [37mR[37mebooting...
+13:31:58.026 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:58.029 > 
+13:31:58.029 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:58.034 > configsip: 0, SPIWP:0xee
+13:31:58.034 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:58.043 > mode:DIO, clock div:2
+13:31:58.043 > load[37m:[37m0x3fff0030,len:1184
+13:31:58.045 > load:0x400[37m7[37m8000,len:13192
+13:31:58.048 > load:0x40080400[37m,[37mlen:3028
+13:31:58.053 > entry 0x400805e4
+13:31:58.629 > [37ms[37mtart
+13:31:58.646 > [37m [37mBrown out Reset
+13:31:58.646 >  Watchdog Reset[37m
+13:31:58.649 > [37mMarlin 2.1.2
+13:31:58.649 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:58.655 > echo: Compiled: De[37mc[37m 16 2024
+13:31:58.657 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:58.666 > 
+13:31:58.666 > Core  1 register dump:
+13:31:58.666 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:58.674 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:58.682 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:58.691 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:58.699 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:58.705 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:58.713 > 
+13:31:58.713 > 
+13:31:58.713 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:58.727 > 
+13:31:58.727 > 
+13:31:58.727 > 
+13:31:58.727 > 
+13:31:58.727 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:58.731 > 
+13:31:58.840 > [37mR[37mebooting...
+13:31:58.840 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:58.842 > 
+13:31:58.842 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:58.848 > configsip: 0, SPIWP:0xee
+13:31:58.848 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:31:58.857 > mode:DIO, clock div:2
+13:31:58.857 > load[37m:[37m0x3fff0030,len:1184
+13:31:58.862 > load:0x40078000,len:13192
+13:31:58.862 > load:0x40080400[37m,[37mlen:3028
+13:31:58.867 > entry 0x400805e4
+13:31:59.442 > [37ms[37mtart
+13:31:59.460 > [37m [37mBrown out Reset
+13:31:59.460 >  Watchdog Reset[37m
+13:31:59.463 > [37mMarlin 2.1.2
+13:31:59.463 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:31:59.468 > echo: Compiled: De[37mc[37m 16 2024
+13:31:59.471 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:31:59.479 > 
+13:31:59.479 > Core  1 register dump:
+13:31:59.479 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:31:59.488 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:31:59.496 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:31:59.504 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:31:59.513 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:31:59.518 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:31:59.527 > 
+13:31:59.527 > 
+13:31:59.527 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:31:59.540 > 
+13:31:59.540 > 
+13:31:59.540 > 
+13:31:59.540 > 
+13:31:59.540 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:31:59.545 > 
+13:31:59.659 > [37mR[37mebooting...
+13:31:59.659 > ets Jun  8 2016 00[37m:[37m22:57
+13:31:59.661 > 
+13:31:59.661 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:31:59.667 > configsip: 0, SPIWP:0xee
+13:31:59.667 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:31:59.675 > mode:DIO, clock div:2
+13:31:59.675 > load[37m:[37m0x3fff0030,len:1184
+13:31:59.678 > load:0x400[37m7[37m8000,len:13192
+13:31:59.681 > load:0x40080400[37m,[37mlen:3028
+13:31:59.685 > entry 0x400805e4
+13:32:00.261 > [37ms[37mtart
+13:32:00.279 > [37m [37mBrown out Reset
+13:32:00.279 >  Watchdog Reset[37m
+13:32:00.282 > [37mMarlin 2.1.2
+13:32:00.282 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:00.287 > echo: Compiled: De[37mc[37m 16 2024
+13:32:00.290 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:00.298 > 
+13:32:00.298 > Core  1 register dump:
+13:32:00.298 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:00.307 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:32:00.315 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:00.323 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:32:00.332 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:00.337 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:00.346 > 
+13:32:00.346 > 
+13:32:00.346 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:00.359 > 
+13:32:00.359 > 
+13:32:00.359 > 
+13:32:00.359 > 
+13:32:00.359 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:00.364 > 
+13:32:00.478 > [37mR[37mebooting...
+13:32:00.478 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:00.481 > 
+13:32:00.481 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:00.486 > configsip: 0, SPIWP:0xee
+13:32:00.486 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:00.494 > mode:DIO, clock div:2
+13:32:00.494 > load[37m:[37m0x3fff0030,len:1184
+13:32:00.497 > load:0x400[37m7[37m8000,len:13192
+13:32:00.500 > load:0x40080400[37m,[37mlen:3028
+13:32:00.504 > entry 0x400805e4
+13:32:01.081 > [37ms[37mtart
+13:32:01.098 > [37m [37mBrown out Reset
+13:32:01.098 >  Watchdog Reset[37m
+13:32:01.101 > [37mMarlin 2.1.2
+13:32:01.101 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:01.107 > echo: Compiled: De[37mc[37m 16 2024
+13:32:01.109 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:01.118 > 
+13:32:01.118 > Core  1 register dump:
+13:32:01.118 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:01.126 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8009155c  A5     [37m [37m: 0x3ffb2100  
+13:32:01.134 > A6      : 0x000[37m0[37m0003  A7      : 0x00060023  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:01.143 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x8008459f  A13     : 0x3ffb20d[37m0[37m  
+13:32:01.151 > A14     : 0x00000001  A15  [37m [37m  : 0x3ffb0320  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:01.156 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:01.165 > 
+13:32:01.165 > 
+13:32:01.165 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:01.179 > 
+13:32:01.179 > 
+13:32:01.179 > 
+13:32:01.179 > 
+13:32:01.179 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:01.183 > 
+13:32:01.297 > [37mR[37mebooting...
+13:32:01.298 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:01.300 > 
+13:32:01.300 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:01.306 > configsip: 0, SPIWP:0xee
+13:32:01.306 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:01.314 > mode:DIO, clock div:2
+13:32:01.314 > load[37m:[37m0x3fff0030,len:1184
+13:32:01.317 > load:0x400[37m7[37m8000,len:13192
+13:32:01.319 > load:0x40080400[37m,[37mlen:3028
+13:32:01.324 > entry 0x400805e4
+13:32:01.900 > [37ms[37mtart
+13:32:01.918 > [37m [37mBrown out Reset
+13:32:01.918 >  Watchdog Reset[37m
+13:32:01.920 > [37mMarlin 2.1.2
+13:32:01.920 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:01.926 > echo: Compiled: De[37mc[37m 16 2024
+13:32:01.929 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:01.937 > 
+13:32:01.937 > Core  1 register dump:
+13:32:01.937 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:01.945 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:01.954 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:01.962 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x8009155c  A13     : 0x3ffd2c1[37m0[37m  
+13:32:01.970 > A14     : 0x00000003  A15  [37m [37m  : 0x00060023  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:01.976 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:01.984 > 
+13:32:01.984 > 
+13:32:01.984 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:01.998 > 
+13:32:01.998 > 
+13:32:01.998 > 
+13:32:01.998 > 
+13:32:01.998 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:02.002 > 
+13:32:02.115 > [37mR[37mebooting...
+13:32:02.115 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:02.118 > 
+13:32:02.118 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:02.123 > configsip: 0, SPIWP:0xee
+13:32:02.123 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:02.132 > mode:DIO, clock div:2
+13:32:02.132 > load[37m:[37m0x3fff0030,len:1184
+13:32:02.135 > load:0x400[37m7[37m8000,len:13192
+13:32:02.137 > load:0x40080400[37m,[37mlen:3028
+13:32:02.142 > entry 0x400805e4
+13:32:02.718 > [37ms[37mtart
+13:32:02.735 > [37m [37mBrown out Reset
+13:32:02.736 >  Watchdog Reset[37m
+13:32:02.738 > [37mMarlin 2.1.2
+13:32:02.738 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:02.744 > echo: Compiled: De[37mc[37m 16 2024
+13:32:02.746 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:02.755 > 
+13:32:02.755 > Core  1 register dump:
+13:32:02.755 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:02.763 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8009155c  A5     [37m [37m: 0x3ffb2100  
+13:32:02.772 > A6      : 0x000[37m0[37m0003  A7      : 0x00060023  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:02.780 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x8008459f  A13     : 0x3ffb20d[37m0[37m  
+13:32:02.788 > A14     : 0x00000001  A15  [37m [37m  : 0x3ffb0320  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:02.794 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:02.802 > 
+13:32:02.802 > 
+13:32:02.802 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:02.816 > 
+13:32:02.816 > 
+13:32:02.816 > 
+13:32:02.816 > 
+13:32:02.816 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:02.820 > 
+13:32:02.928 > [37mR[37mebooting...
+13:32:02.928 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:02.931 > 
+13:32:02.931 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:02.936 > configsip: 0, SPIWP:0xee
+13:32:02.936 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:02.945 > mode:DIO, clock div:2
+13:32:02.945 > load[37m:[37m0x3fff0030,len:1184
+13:32:02.947 > load:0x400[37m7[37m8000,len:13192
+13:32:02.950 > load:0x40080400[37m,[37mlen:3028
+13:32:02.955 > entry 0x400805e4
+13:32:03.531 > [37ms[37mtart
+13:32:03.548 > [37m [37mBrown out Reset
+13:32:03.548 >  Watchdog Reset[37m
+13:32:03.551 > [37mMarlin 2.1.2
+13:32:03.551 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:03.557 > echo: Compiled: De[37mc[37m 16 2024
+13:32:03.559 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:03.569 > 
+13:32:03.569 > Core  1 register dump:
+13:32:03.569 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:03.576 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:32:03.584 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:03.593 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:32:03.601 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:03.607 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:03.615 > 
+13:32:03.615 > 
+13:32:03.615 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:03.629 > 
+13:32:03.629 > 
+13:32:03.629 > 
+13:32:03.629 > 
+13:32:03.629 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:03.633 > 
+13:32:03.740 > [37mR[37mebooting...
+13:32:03.741 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:03.743 > 
+13:32:03.743 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:03.749 > configsip: 0, SPIWP:0xee
+13:32:03.749 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:03.757 > mode:DIO, clock div:2
+13:32:03.757 > load[37m:[37m0x3fff0030,len:1184
+13:32:03.760 > load:0x400[37m7[37m8000,len:13192
+13:32:03.763 > load:0x40080400[37m,[37mlen:3028
+13:32:03.767 > entry 0x400805e4
+13:32:04.343 > [37ms[37mtart
+13:32:04.361 > [37m [37mBrown out Reset
+13:32:04.361 >  Watchdog Reset[37m
+13:32:04.363 > [37mMarlin 2.1.2
+13:32:04.363 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:04.369 > echo: Compiled: De[37mc[37m 16 2024
+13:32:04.372 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:04.380 > 
+13:32:04.380 > Core  1 register dump:
+13:32:04.380 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:04.388 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:04.397 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:04.405 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:04.413 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:04.419 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:04.427 > 
+13:32:04.427 > 
+13:32:04.427 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:04.441 > 
+13:32:04.441 > 
+13:32:04.441 > 
+13:32:04.441 > 
+13:32:04.441 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:04.445 > 
+13:32:04.554 > [37mR[37mebooting...
+13:32:04.554 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:04.557 > 
+13:32:04.557 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:04.563 > configsip: 0, SPIWP:0xee
+13:32:04.563 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:04.571 > mode:DIO, clock div:2
+13:32:04.571 > load[37m:[37m0x3fff0030,len:1184
+13:32:04.574 > load:0x400[37m7[37m8000,len:13192
+13:32:04.576 > load:0x40080400[37m,[37mlen:3028
+13:32:04.581 > entry 0x400805e4
+13:32:05.157 > [37ms[37mtart
+13:32:05.175 > [37m [37mBrown out Reset
+13:32:05.175 >  Watchdog Reset[37m
+13:32:05.177 > [37mMarlin 2.1.2
+13:32:05.177 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:05.183 > echo: Compiled: De[37mc[37m 16 2024
+13:32:05.186 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:05.194 > 
+13:32:05.194 > Core  1 register dump:
+13:32:05.194 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:05.202 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:05.211 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:05.219 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:05.227 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:05.233 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:05.241 > 
+13:32:05.241 > 
+13:32:05.241 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:05.255 > 
+13:32:05.255 > 
+13:32:05.255 > 
+13:32:05.255 > 
+13:32:05.255 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:05.259 > 
+13:32:05.367 > [37mR[37mebooting...
+13:32:05.367 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:05.369 > 
+13:32:05.369 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:05.375 > configsip: 0, SPIWP:0xee
+13:32:05.375 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:05.383 > mode:DIO, clock div:2
+13:32:05.383 > load[37m:[37m0x3fff0030,len:1184
+13:32:05.386 > load:0x400[37m7[37m8000,len:13192
+13:32:05.389 > load:0x40080400[37m,[37mlen:3028
+13:32:05.393 > entry 0x400805e4
+13:32:05.969 > [37ms[37mtart
+13:32:05.987 > [37m [37mBrown out Reset
+13:32:05.987 >  Watchdog Reset[37m
+13:32:05.990 > [37mMarlin 2.1.2
+13:32:05.990 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:05.995 > echo: Compiled: De[37mc[37m 16 2024
+13:32:05.998 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:06.007 > 
+13:32:06.007 > Core  1 register dump:
+13:32:06.007 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:06.015 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:32:06.023 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:06.032 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:32:06.040 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:06.045 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:06.054 > 
+13:32:06.054 > 
+13:32:06.054 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:06.068 > 
+13:32:06.068 > 
+13:32:06.068 > 
+13:32:06.068 > 
+13:32:06.068 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:06.072 > 
+13:32:06.181 > [37mR[37mebooting...
+13:32:06.181 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:06.183 > 
+13:32:06.183 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:06.189 > configsip: 0, SPIWP:0xee
+13:32:06.189 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:06.197 > mode:DIO, clock div:2
+13:32:06.197 > load[37m:[37m0x3fff0030,len:1184
+13:32:06.200 > load:0x400[37m7[37m8000,len:13192
+13:32:06.203 > load:0x40080400[37m,[37mlen:3028
+13:32:06.207 > entry 0x400805e4
+13:32:06.783 > [37ms[37mtart
+13:32:06.801 > [37m [37mBrown out Reset
+13:32:06.801 >  Watchdog Reset[37m
+13:32:06.804 > [37mMarlin 2.1.2
+13:32:06.804 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:06.809 > echo: Compiled: De[37mc[37m 16 2024
+13:32:06.812 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:06.820 > 
+13:32:06.820 > Core  1 register dump:
+13:32:06.820 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:06.829 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:06.837 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:06.845 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:06.854 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:06.859 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:06.868 > 
+13:32:06.868 > 
+13:32:06.868 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:06.882 > 
+13:32:06.882 > 
+13:32:06.882 > 
+13:32:06.882 > 
+13:32:06.882 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:06.886 > 
+13:32:06.999 > [37mR[37mebooting...
+13:32:06.999 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:07.001 > 
+13:32:07.001 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:07.007 > configsip: 0, SPIWP:0xee
+13:32:07.007 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:07.015 > mode:DIO, clock div:2
+13:32:07.015 > load[37m:[37m0x3fff0030,len:1184
+13:32:07.018 > load:0x400[37m7[37m8000,len:13192
+13:32:07.021 > load:0x40080400[37m,[37mlen:3028
+13:32:07.025 > entry 0x400805e4
+13:32:07.601 > [37ms[37mtart
+13:32:07.619 > [37m [37mBrown out Reset
+13:32:07.619 >  Watchdog Reset[37m
+13:32:07.622 > [37mMarlin 2.1.2
+13:32:07.622 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:07.627 > echo: Compiled: De[37mc[37m 16 2024
+13:32:07.630 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:07.638 > 
+13:32:07.638 > Core  1 register dump:
+13:32:07.638 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:07.647 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:07.655 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:07.663 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:07.672 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:07.677 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:07.686 > 
+13:32:07.686 > 
+13:32:07.686 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:07.699 > 
+13:32:07.699 > 
+13:32:07.699 > 
+13:32:07.699 > 
+13:32:07.699 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:07.704 > 
+13:32:07.818 > [37mR[37mebooting...
+13:32:07.818 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:07.821 > 
+13:32:07.821 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:07.826 > configsip: 0, SPIWP:0xee
+13:32:07.826 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:07.835 > mode:DIO, clock div:2
+13:32:07.835 > load[37m:[37m0x3fff0030,len:1184
+13:32:07.837 > load:0x400[37m7[37m8000,len:13192
+13:32:07.840 > load:0x40080400[37m,[37mlen:3028
+13:32:07.845 > entry 0x400805e4
+13:32:08.421 > [37ms[37mtart
+13:32:08.438 > [37m [37mBrown out Reset
+13:32:08.439 >  Watchdog Reset[37m
+13:32:08.441 > [37mMarlin 2.1.2
+13:32:08.441 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:08.447 > echo: Compiled: De[37mc[37m 16 2024
+13:32:08.449 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:08.458 > 
+13:32:08.458 > Core  1 register dump:
+13:32:08.458 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:08.466 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x80000020  A5     [37m [37m: 0x00000007  
+13:32:08.474 > A6      : 0x000[37m0[37m0005  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:08.483 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:08.491 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:08.497 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:08.505 > 
+13:32:08.505 > 
+13:32:08.505 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:08.519 > 
+13:32:08.519 > 
+13:32:08.519 > 
+13:32:08.519 > 
+13:32:08.519 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:08.523 > 
+13:32:08.639 > [37mR[37mebooting...
+13:32:08.639 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:08.642 > 
+13:32:08.642 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:08.647 > configsip: 0, SPIWP:0xee
+13:32:08.647 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:08.655 > mode:DIO, clock div:2
+13:32:08.655 > load[37m:[37m0x3fff0030,len:1184
+13:32:08.658 > load:0x400[37m7[37m8000,len:13192
+13:32:08.661 > load:0x40080400[37m,[37mlen:3028
+13:32:08.665 > entry 0x400805e4
+13:32:09.241 > [37ms[37mtart
+13:32:09.259 > [37m [37mBrown out Reset
+13:32:09.259 >  Watchdog Reset[37m
+13:32:09.262 > [37mMarlin 2.1.2
+13:32:09.262 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:09.267 > echo: Compiled: De[37mc[37m 16 2024
+13:32:09.270 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:09.278 > 
+13:32:09.278 > Core  1 register dump:
+13:32:09.278 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:09.287 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:09.295 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:09.303 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:09.312 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:09.317 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:09.326 > 
+13:32:09.326 > 
+13:32:09.326 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:09.340 > 
+13:32:09.340 > 
+13:32:09.340 > 
+13:32:09.340 > 
+13:32:09.340 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:09.344 > 
+13:32:09.457 > [37mR[37mebooting...
+13:32:09.457 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:09.460 > 
+13:32:09.460 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:09.465 > configsip: 0, SPIWP:0xee
+13:32:09.465 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:09.474 > mode:DIO, clock div:2
+13:32:09.474 > load[37m:[37m0x3fff0030,len:1184
+13:32:09.476 > load:0x400[37m7[37m8000,len:13192
+13:32:09.479 > load:0x40080400[37m,[37mlen:3028
+13:32:09.484 > entry 0x400805e4
+13:32:10.060 > [37ms[37mtart
+13:32:10.077 > [37m [37mBrown out Reset
+13:32:10.077 >  Watchdog Reset[37m
+13:32:10.080 > [37mMarlin 2.1.2
+13:32:10.080 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:10.086 > echo: Compiled: De[37mc[37m 16 2024
+13:32:10.088 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:10.097 > 
+13:32:10.097 > Core  1 register dump:
+13:32:10.097 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:10.105 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:10.113 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:10.122 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:10.130 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:10.136 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:10.144 > 
+13:32:10.144 > 
+13:32:10.144 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:10.158 > 
+13:32:10.158 > 
+13:32:10.158 > 
+13:32:10.158 > 
+13:32:10.158 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:10.162 > 
+13:32:10.271 > [37mR[37mebooting...
+13:32:10.271 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:10.274 > 
+13:32:10.274 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:10.279 > configsip: 0, SPIWP:0xee
+13:32:10.279 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:10.287 > mode:DIO, clock div:2
+13:32:10.287 > load[37m:[37m0x3fff0030,len:1184
+13:32:10.290 > load:0x400[37m7[37m8000,len:13192
+13:32:10.293 > load:0x40080400[37m,[37mlen:3028
+13:32:10.297 > entry 0x400805e4
+13:32:10.874 > [37ms[37mtart
+13:32:10.891 > [37m [37mBrown out Reset
+13:32:10.891 >  Watchdog Reset[37m
+13:32:10.894 > [37mMarlin 2.1.2
+13:32:10.894 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:10.899 > echo: Compiled: De[37mc[37m 16 2024
+13:32:10.902 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:10.910 > 
+13:32:10.910 > Core  1 register dump:
+13:32:10.910 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:10.919 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:10.927 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:10.935 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:10.944 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:10.949 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:10.958 > 
+13:32:10.958 > 
+13:32:10.958 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:10.972 > 
+13:32:10.972 > 
+13:32:10.972 > 
+13:32:10.972 > 
+13:32:10.972 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:10.976 > 
+13:32:11.087 > [37mR[37mebooting...
+13:32:11.087 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:11.089 > 
+13:32:11.089 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:11.095 > configsip: 0, SPIWP:0xee
+13:32:11.095 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:11.103 > mode:DIO, clock div:2
+13:32:11.103 > load[37m:[37m0x3fff0030,len:1184
+13:32:11.106 > load:0x400[37m7[37m8000,len:13192
+13:32:11.109 > load:0x40080400[37m,[37mlen:3028
+13:32:11.113 > entry 0x400805e4
+13:32:11.689 > [37ms[37mtart
+13:32:11.706 > [37m [37mBrown out Reset
+13:32:11.707 >  Watchdog Reset[37m
+13:32:11.709 > [37mMarlin 2.1.2
+13:32:11.709 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:11.715 > echo: Compiled: De[37mc[37m 16 2024
+13:32:11.718 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:11.726 > 
+13:32:11.726 > Core  1 register dump:
+13:32:11.726 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:11.734 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:11.743 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:11.751 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:11.759 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:11.765 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:11.773 > 
+13:32:11.773 > 
+13:32:11.773 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:11.787 > 
+13:32:11.787 > 
+13:32:11.787 > 
+13:32:11.787 > 
+13:32:11.787 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:11.791 > 
+13:32:11.900 > [37mR[37mebooting...
+13:32:11.900 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:11.903 > 
+13:32:11.903 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:11.908 > configsip: 0, SPIWP:0xee
+13:32:11.908 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:11.917 > mode:DIO, clock div:2
+13:32:11.917 > load[37m:[37m0x3fff0030,len:1184
+13:32:11.919 > load:0x400[37m7[37m8000,len:13192
+13:32:11.922 > load:0x40080400[37m,[37mlen:3028
+13:32:11.927 > entry 0x400805e4
+13:32:12.503 > [37ms[37mtart
+13:32:12.520 > [37m [37mBrown out Reset
+13:32:12.520 >  Watchdog Reset[37m
+13:32:12.523 > [37mMarlin 2.1.2
+13:32:12.523 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:12.529 > echo: Compiled: De[37mc[37m 16 2024
+13:32:12.531 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:12.540 > 
+13:32:12.540 > Core  1 register dump:
+13:32:12.540 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:12.548 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x3ffc9d4c  A5     [37m [37m: 0x00060123  
+13:32:12.556 > A6      : 0x000[37m6[37m0120  A7      : 0x00000001  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:12.565 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x00060120  A13     : 0x0006032[37m3[37m  
+13:32:12.573 > A14     : 0x007be540  A15  [37m [37m  : 0x003fffff  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:12.579 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:12.587 > 
+13:32:12.587 > 
+13:32:12.587 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:12.601 > 
+13:32:12.601 > 
+13:32:12.601 > 
+13:32:12.601 > 
+13:32:12.601 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:12.605 > 
+13:32:12.714 > [37mR[37mebooting...
+13:32:12.714 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:12.717 > 
+13:32:12.717 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:12.722 > configsip: 0, SPIWP:0xee
+13:32:12.722 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:12.731 > mode:DIO, clock div:2
+13:32:12.731 > load[37m:[37m0x3fff0030,len:1184
+13:32:12.733 > load:0x400[37m7[37m8000,len:13192
+13:32:12.736 > load:0x40080400[37m,[37mlen:3028
+13:32:12.741 > entry 0x400805e4
+13:32:13.317 > [37ms[37mtart
+13:32:13.334 > [37m [37mBrown out Reset
+13:32:13.335 >  Watchdog Reset[37m
+13:32:13.337 > [37mMarlin 2.1.2
+13:32:13.337 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:13.343 > echo: Compiled: De[37mc[37m 16 2024
+13:32:13.345 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:13.354 > 
+13:32:13.354 > Core  1 register dump:
+13:32:13.354 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:13.362 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffd2c40  
+13:32:13.370 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:13.379 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:32:13.387 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:13.393 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:13.401 > 
+13:32:13.401 > 
+13:32:13.401 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:13.415 > 
+13:32:13.415 > 
+13:32:13.415 > 
+13:32:13.415 > 
+13:32:13.415 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:13.419 > 
+13:32:13.529 > [37mR[37mebooting...
+13:32:13.530 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:13.532 > 
+13:32:13.532 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:13.538 > configsip: 0, SPIWP:0xee
+13:32:13.538 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:13.546 > mode:DIO, clock div:2
+13:32:13.546 > load[37m:[37m0x3fff0030,len:1184
+13:32:13.549 > load:0x400[37m7[37m8000,len:13192
+13:32:13.552 > load:0x40080400[37m,[37mlen:3028
+13:32:13.556 > entry 0x400805e4
+13:32:14.132 > [37ms[37mtart
+13:32:14.150 > [37m [37mBrown out Reset
+13:32:14.150 >  Watchdog Reset[37m
+13:32:14.152 > [37mMarlin 2.1.2
+13:32:14.152 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:14.158 > echo: Compiled: De[37mc[37m 16 2024
+13:32:14.161 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:14.169 > 
+13:32:14.169 > Core  1 register dump:
+13:32:14.169 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:14.177 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:32:14.186 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:14.194 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:32:14.202 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:14.208 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:14.216 > 
+13:32:14.216 > 
+13:32:14.216 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:14.230 > 
+13:32:14.230 > 
+13:32:14.230 > 
+13:32:14.230 > 
+13:32:14.230 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:14.234 > 
+13:32:14.342 > [37mR[37mebooting...
+13:32:14.342 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:14.344 > 
+13:32:14.344 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:14.350 > configsip: 0, SPIWP:0xee
+13:32:14.350 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:14.358 > mode:DIO, clock div:2
+13:32:14.358 > load[37m:[37m0x3fff0030,len:1184
+13:32:14.361 > load:0x400[37m7[37m8000,len:13192
+13:32:14.364 > load:0x40080400[37m,[37mlen:3028
+13:32:14.368 > entry 0x400805e4
+13:32:14.944 > [37ms[37mtart
+13:32:14.962 > [37m [37mBrown out Reset
+13:32:14.962 >  Watchdog Reset[37m
+13:32:14.965 > [37mMarlin 2.1.2
+13:32:14.965 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:14.970 > echo: Compiled: De[37mc[37m 16 2024
+13:32:14.973 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:14.981 > 
+13:32:14.981 > Core  1 register dump:
+13:32:14.981 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060f30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:14.990 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:32:14.998 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:15.006 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:32:15.015 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:15.020 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:15.029 > 
+13:32:15.029 > 
+13:32:15.029 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:15.043 > 
+13:32:15.043 > 
+13:32:15.043 > 
+13:32:15.043 > 
+13:32:15.043 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:15.047 > 
+13:32:15.156 > [37mR[37mebooting...
+13:32:15.156 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:15.159 > 
+13:32:15.159 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:15.164 > configsip: 0, SPIWP:0xee
+13:32:15.164 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:15.172 > mode:DIO, clock div:2
+13:32:15.172 > load[37m:[37m0x3fff0030,len:1184
+13:32:15.175 > load:0x400[37m7[37m8000,len:13192
+13:32:15.178 > load:0x40080400[37m,[37mlen:3028
+13:32:15.183 > entry 0x400805e4
+13:32:15.759 > [37ms[37mtart
+13:32:15.776 > [37m [37mBrown out Reset
+13:32:15.776 >  Watchdog Reset[37m
+13:32:15.779 > [37mMarlin 2.1.2
+13:32:15.779 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:15.785 > echo: Compiled: De[37mc[37m 16 2024
+13:32:15.787 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:15.796 > 
+13:32:15.796 > Core  1 register dump:
+13:32:15.796 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:15.804 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffb20f0  
+13:32:15.812 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:15.821 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:32:15.829 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:15.835 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:15.843 > 
+13:32:15.843 > 
+13:32:15.843 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:15.857 > 
+13:32:15.857 > 
+13:32:15.857 > 
+13:32:15.857 > 
+13:32:15.857 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:15.861 > 
+13:32:15.972 > [37mR[37mebooting...
+13:32:15.972 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:15.975 > 
+13:32:15.975 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:15.980 > configsip: 0, SPIWP:0xee
+13:32:15.980 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:15.989 > mode:DIO, clock div:2
+13:32:15.989 > load[37m:[37m0x3fff0030,len:1184
+13:32:15.992 > load:0x400[37m7[37m8000,len:13192
+13:32:15.994 > load:0x40080400[37m,[37mlen:3028
+13:32:15.999 > entry 0x400805e4
+13:32:16.575 > [37ms[37mtart
+13:32:16.592 > [37m [37mBrown out Reset
+13:32:16.593 >  Watchdog Reset[37m
+13:32:16.595 > [37mMarlin 2.1.2
+13:32:16.595 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:32:16.601 > echo: Compiled: De[37mc[37m 16 2024
+13:32:16.604 > echo:Guru Meditation E[37mr[37mror: Core  1 panic'ed (LoadProh[37mi[37mbited). Exception was unhandled[37m.[37m
+13:32:16.612 > 
+13:32:16.612 > Core  1 register dump:
+13:32:16.612 > PC [37m [37m    : 0x40134517  PS      : 0x0[37m0[37m060d30  A0      : 0x80134551  A[37m1[37m      : 0x3ffb21e0  
+13:32:16.620 > A2      :[37m [37m0x00000555  A3      : 0x0000080[37m0[37m  A4      : 0x8008459f  A5     [37m [37m: 0x3ffd2be0  
+13:32:16.629 > A6      : 0x000[37m0[37m0001  A7      : 0x3ffb0320  A8 [37m [37m    : 0x00000000  A9      : 0x3[37mf[37mfb21b0  
+13:32:16.637 > A10     : 0x3ffb6510 [37m [37mA11     : 0x0000003a  A12     :[37m [37m0x80000020  A13     : 0x0000000[37m7[37m  
+13:32:16.645 > A14     : 0x00000005  A15  [37m [37m  : 0x00000001  SAR     : 0x000[37m0[37m001f  EXCCAUSE: 0x0000001c  
+13:32:16.651 > E[37mX[37mCVADDR: 0x00000571  LBEG    : 0[37mx[37m4008a1f0  LEND    : 0x4008a1fb [37m [37mLCOUNT  : 0xffffffff  
+13:32:16.659 > 
+13:32:16.659 > 
+13:32:16.659 > Bac[37mk[37mtrace: 0x40134514:0x3ffb21e0 0x[37m4[37m013454e:0x3ffb2200 0x40108cfe:0[37mx[37m3ffb2220 0x400d35f2:0x3ffb2240 [37m0[37mx400d8d9f:0x3ffb2260 0x4010c692[37m:[37m0x3ffb2290
+13:32:16.673 > 
+13:32:16.673 > 
+13:32:16.673 > 
+13:32:16.673 > 
+13:32:16.673 > ELF file SH[37mA[37m256: acf71627bcb4e6cc
+13:32:16.677 > 
+13:32:16.792 > [37mR[37mebooting...
+13:32:16.792 > ets Jun  8 2016 00[37m:[37m22:57
+13:32:16.795 > 
+13:32:16.795 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+13:32:16.800 > configsip: 0, SPIWP:0xee
+13:32:16.800 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+13:32:16.809 > mode:DIO, clock div:2
+13:32:16.809 > load[37m:[37m0x3fff0030,len:1184
+13:32:16.812 > load:0x400[37m7[37m8000,len:13192
+13:32:16.814 > load:0x40080400[37m,[37mlen:3028
+13:32:16.819 > entry 0x400805e4

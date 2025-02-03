@@ -189,20 +189,25 @@ void GcodeSuite::get_destination_from_command() {
         destination[i] = current_position[i];
       else
         destination[i] = axis_is_relative(AxisEnum(i)) ? current_position[i] + v : LOGICAL_TO_NATIVE(v, i);
-    }
-    else
+    }else{
       destination[i] = current_position[i];
+    }
   }
 
   #if HAS_EXTRUDERS
     // Get new E position, whether absolute or relative
     if ( (seen.e = parser.seenval('E')) ) {
       const float v = parser.value_axis_units(E_AXIS);
-      destination.e = axis_is_relative(E_AXIS) ? current_position.e + v : v;
+      destination.e = axis_is_relative(E_AXIS) ? current_position.e + v : v;//e is the cement pump
+      if(!axis_is_relative(E_AXIS)){//CEMENT is not updated during relative moves to allow nozzle priming and additional mixing without changing the mix
+        CEMENT::e_destination_changed(); //updates the mix feed values for the current extrude position
+      }
+      /*PORT_REDIRECT(SerialMask::All);//Serial
+      serial_echopair(F("index: "),I_AXIS);
+      SERIAL_ECHOLNPAIR_F(", destination:", destination[I_AXIS]);*/
     }else{
       destination.e = current_position.e;
     }
-    CEMENT::extrude(destination.e);
   #endif
 
   #if ENABLED(POWER_LOSS_RECOVERY) && !PIN_EXISTS(POWER_LOSS)
@@ -349,7 +354,7 @@ void GcodeSuite::process_parsed_command(const bool no_ok/*=false*/) {
   #endif
 
   // Handle a known command or reply "unknown command"
-
+  
   switch (parser.command_letter) {
 
     case 'G': switch (parser.codenum) {
@@ -917,7 +922,10 @@ void GcodeSuite::process_parsed_command(const bool no_ok/*=false*/) {
       #endif
 
       #if ENABLED(SDSUPPORT)
-        case 524: M524(); break;                                  // M524: Abort the current SD print job
+        case 524:{
+          M524();
+          CEMENT::endPrint();
+        }break;                 // M524: Abort the current SD print job
       #endif
 
       #if ENABLED(SD_ABORT_ON_ENDSTOP_HIT)
@@ -1079,7 +1087,10 @@ void GcodeSuite::process_parsed_command(const bool no_ok/*=false*/) {
       #endif
 
       #if ENABLED(SDSUPPORT)
-        case 1001: M1001(); break;                                // M1001: [INTERNAL] Handle SD completion
+        case 1001:{
+          M1001();
+          CEMENT::endPrint(); 
+        }break;                                // M1001: [INTERNAL] Handle SD completion
       #endif
 
       #if ENABLED(DGUS_LCD_UI_MKS)
@@ -1101,7 +1112,7 @@ void GcodeSuite::process_parsed_command(const bool no_ok/*=false*/) {
       default: parser.unknown_command_warning(); break;
     }
     break;
-    case 'P': CEMENT::handleCommand(parser.codenum,parser.string_arg); break;
+    case 'P': CEMENT::handleCommand(parser.string_arg); break;
     case 'T': T(parser.codenum); break;                           // Tn: Tool Change
 
     #if ENABLED(MARLIN_DEV_MODE)

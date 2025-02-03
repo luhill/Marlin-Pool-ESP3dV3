@@ -1,0 +1,47 @@
+09:43:05.375 > [37mecho:No SD card
+09:43:05.375 > echo:Setup wifi
+09:43:05.375 > echo:Connecting
+09:43:25.776 > [37me[37mcho:AP SSID: 'ESP3D' is started[37m [37mand protected by password (setu[37mp[37m mode)
+09:43:27.778 > [37me[37mcho:192.168.0.1
+09:43:28.793 > [37me[37mcho:192.168.0.1
+09:44:05.028 > [37me[37mcho:New client
+09:44:43.230 > [37mE[37m (124182) task_wdt: Task watchd[37mo[37mg got triggered. The following [37mt[37masks did not reset the watchdog[37m [37min time:
+09:44:43.239 > E (124182) task_wdt: [37m [37m- IDLE (CPU 0)
+09:44:43.241 > E (124182) task[37m_[37mwdt: Tasks currently running:
+09:44:43.247 > [37mE[37m (124182) task_wdt: CPU 0: ESP3[37mD[37mLib Task
+09:44:43.250 > E (124182) task_wdt: [37mC[37mPU 1: StepperTask
+09:44:43.252 > E (124182) t[37ma[37msk_wdt: Aborting.
+09:44:43.255 > 
+09:44:43.255 > abort() wa[37ms[37m called at PC 0x401177e4 on cor[37me[37m 0
+09:44:43.261 > 
+09:44:43.261 > 
+09:44:43.261 > Backtrace: 0x40083e35:0[37mx[37m3ffbf3fc |<-CORRUPTED
+09:44:43.264 > 
+09:44:43.264 > 
+09:44:43.264 > 
+09:44:43.264 > 
+09:44:43.266 > [37mE[37mLF file SHA256: d320fe644407deb[37mb[37m
+09:44:43.267 > 
+09:44:43.453 > [37mR[37mebooting...
+09:44:43.456 > [37me[37mts Jun  8 2016 00:22:57
+09:44:43.456 > 
+09:44:43.456 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+09:44:43.462 > configsip: 0[37m,[37m SPIWP:0xee
+09:44:43.464 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+09:44:43.470 > mode:DIO,[37m [37mclock div:2
+09:44:43.472 > load:0x3fff0030,le[37mn[37m:1184
+09:44:43.475 > load:0x40078000,len:1319[37m2[37m
+09:44:43.478 > load:0x40080400,len:3028
+09:44:43.478 > ent[37mr[37my 0x400805e4
+09:44:44.062 > [37ms[37mtart
+09:44:44.082 > [37m [37mB[37mrown out Reset
+09:44:44.085 >  Watchdog Reset
+09:44:44.088 > [37mM[37marlin 2.1.2
+09:44:44.088 > echo: Last Updated:[37m [37m2022-12-17 | Author: (none, def[37ma[37mult config)
+09:44:44.093 > echo: Compiled: Nov[37m [37m28 2024
+09:44:44.096 > echo: Free Memory: 2313[37m0[37m4  PlannerBufferBytes: 1344
+09:44:44.142 > [37me[37mcho:V87 stored settings retriev[37me[37md (762 bytes; crc 37024)
+09:44:44.151 > [37me[37mcho:SD card released
+09:44:56.565 > [37me[37mcho:No SD card
+09:44:56.573 > [37me[37mcho:Setup wifi
+09:44:56.685 > [37me[37mcho:Connecting

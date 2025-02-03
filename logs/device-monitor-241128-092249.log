@@ -1,0 +1,485 @@
+09:22:49.128 > [37mock div:2
+09:22:49.128 > l����bb���1184
+09:22:49.128 > load:0x40078000,len:13192
+09:22:49.128 > load:0x40080400,len:3028
+09:22:49.128 > entry 0x400805e4
+09:22:49.128 > E (565) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+09:22:49.128 > 
+09:22:49.128 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.128 > Backtrace: 0x40083f49:0x3ffe3aa0 0x4008df29:0x3ffe3ac0 0x40093c79:0x3ffe3ae0 0x40118836:0x3ffe3c10 0x4008364e:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.128 > ELF file SHA256: 6e30520cbde26548
+09:22:49.128 > 
+09:22:49.128 > E (587) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+09:22:49.128 > Rebooting...
+09:22:49.128 > ets Jun  8 2016 00:22:57
+09:22:49.128 > 
+09:22:49.128 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:22:49.128 > configsip: 0, SPIWP:0xee
+09:22:49.128 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:22:49.128 > mode:DIO, clock div:2
+09:22:49.128 > load:0x3fff0030,len:1184
+09:22:49.128 > load:0x40078000,len:13192
+09:22:49.128 > load:0x40080400,len:3028
+09:22:49.128 > entry 0x400805e4
+09:22:49.128 > E (565) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+09:22:49.128 > 
+09:22:49.128 > assert fa[37miled: do_core_init startup.c:326 (flash_ret == ESP_OK)
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.128 > Backtrace: 0x40083f49:0x3ffe3aa0 0x4008df29:0x3ffe3ac0 0x40093c79:0x3ffe3ae0 0x40118836:0x3ffe3c10 0x4008364e:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.128 > ELF file SHA256: 6e30520cbde26548
+09:22:49.128 > 
+09:22:49.128 > E (587) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+09:22:49.128 > Rebooting...
+09:22:49.128 > ets Jun  8 2016 00:22:57
+09:22:49.128 > 
+09:22:49.128 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:22:49.128 > configsip: 0, SPIWP:0xee
+09:22:49.128 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:22:49.128 > mode:DIO, clock div:2
+09:22:49.128 > load:0x3fff0030,len:1184
+09:22:49.128 > load:0x40078000,len:13192
+09:22:49.128 > load:0x40080400,len:3028
+09:22:49.128 > entry 0x400805e4
+09:22:49.128 > E (565) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+09:22:49.128 > 
+09:22:49.128 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.128 > Backtrace: 0x40083f49:0x3ffe3aa0 0x4008df29:0x3ffe3ac0 0x40093c79:0x3ffe3ae0 0x40118836:0x3ffe3c10 0x4008364e:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+09:22:49.128 > 
+09:22:49.128 > 
+09:22:49.129 > [37m
+09:22:49.129 > 
+09:22:49.129 > ELF file SHA256: 6e30520cbde26548
+09:22:49.129 > 
+09:22:49.129 > E (587) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+09:22:49.129 > Rebooting...
+09:22:49.129 > ets Jun  8 2016 00:22:57
+09:22:49.129 > 
+09:22:49.129 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:22:49.129 > configsip: 0, SPIWP:0xee
+09:22:49.129 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:22:49.129 > mode:DIO, clock div:2
+09:22:49.129 > load:0x3fff0030,len:1184
+09:22:49.129 > load:0x40078000,len:13192
+09:22:49.129 > load:0x40080400,len:3028
+09:22:49.129 > entry 0x400805e4
+09:22:49.129 > E (565) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+09:22:49.129 > 
+09:22:49.129 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > Backtrace: 0x40083f49:0x3ffe3aa0 0x4008df29:0x3ffe3ac0 0x40093c79:0x3ffe3ae0 0x40118836:0x3ffe3c10 0x4008364e:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > ELF file SHA256: 6e30520cbde26548
+09:22:49.129 > 
+09:22:49.129 > E (587) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+09:22:49.129 > Rebooting...
+09:22:49.129 > ets Jun  8 2016 00:22:57
+09:22:49.129 > 
+09:22:49.129 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAS[37mT_FLASH_BOOT)
+09:22:49.129 > configsip: 0, SPIWP:0xee
+09:22:49.129 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:22:49.129 > mode:DIO, clock div:2
+09:22:49.129 > load:0x3fff0030,len:1184
+09:22:49.129 > load:0x40078000,len:13192
+09:22:49.129 > load:0x40080400,len:3028
+09:22:49.129 > entry 0x400805e4
+09:22:49.129 > E (565) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+09:22:49.129 > 
+09:22:49.129 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > Backtrace: 0x40083f49:0x3ffe3aa0 0x4008df29:0x3ffe3ac0 0x40093c79:0x3ffe3ae0 0x40118836:0x3ffe3c10 0x4008364e:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > ELF file SHA256: 6e30520cbde26548
+09:22:49.129 > 
+09:22:49.129 > E (587) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+09:22:49.129 > Rebooting...
+09:22:49.129 > ets Jun  8 2016 00:22:57
+09:22:49.129 > 
+09:22:49.129 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:22:49.129 > configsip: 0, SPIWP:0xee
+09:22:49.129 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:22:49.129 > mode:DIO, clock div:2
+09:22:49.129 > load:0x3fff0030,len:1184
+09:22:49.129 > load:0x40078000,len:13192
+09:22:49.129 > load:0x40080400,len:3028
+09:22:49.129 > entry[37m 0x400805e4
+09:22:49.129 > E (565) spi_flash: Detected size(4096k) smaller than the size in the binary image header(8192k). Probe failed.
+09:22:49.129 > 
+09:22:49.129 > assert failed: do_core_init startup.c:326 (flash_ret == ESP_OK)
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > Backtrace: 0x40083f49:0x3ffe3aa0 0x4008df29:0x3ffe3ac0 0x40093c79:0x3ffe3ae0 0x40118836:0x3ffe3c10 0x4008364e:0x3ffe3c40 0x40079266:0x3ffe3c90 |<-CORRUPTED
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > 
+09:22:49.129 > ELF file SHA256: 6e30520cbde26548
+09:22:49.129 > 
+09:22:49.129 > E (587) esp_core_dump_flash: Core dump flash config is corrupted! CRC=0x7bd5c66f instead of 0x0
+09:22:49.129 > Rebooting...
+09:22:49.129 > ets Jun  8 2016 00:22:57
+09:22:49.129 > 
+09:22:49.129 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:22:49.129 > configsip: 0, SPIWP:0xee
+09:22:49.129 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:22:49.129 > mode:DIO, clock div:2
+09:22:49.129 > load:0x3fff0030,len:1184
+09:22:49.129 > load:0x40078000,len:13192
+09:22:49.129 > load:0x40080400,len:3028
+09:22:49.129 > entry 0x400805e4
+09:22:49.557 > [37mE[37m [37m(565[37m)[37m spi_flash:[37m [37mDetected s[37mi[37mze(4096k) s[37mm[37maller than[37m [37mthe size in[37m [37mthe binary[37m [37mimage heade[37mr[37m(8192k). P[37mr[37mobe failed.[37m[37m
+09:22:49.568 > 
+09:22:49.568 > assert [37mf[37mailed: do_c[37mo[37mre_init sta[37mr[37mtup.c:326 [37m([37mflash_ret =[37m=[37m ESP_OK)
+09:22:49.574 > [37m[37m
+09:22:49.574 > 
+09:22:49.574 > Backtrac[37me[37m: 0x40083f[37m4[37m9:0x3ffe3aa[37m0[37m 0x4008df2[37m9[37m:0x3ffe3ac[37m0[37m 0x40093c79[37m:[37m0x3ffe3ae0 [37m0[37mx40118836:[37m0[37mx3ffe3c10 0[37mx[37m4008364e:0[37mx[37m3ffe3c40 0x[37m4[37m0079266:0x3[37mf[37mfe3c90 |<-[37mC[37mORRUPTED
+09:22:49.588 > [37m[37m
+09:22:49.588 > 
+09:22:49.588 > 
+09:22:49.588 > 
+09:22:49.588 > ELF [37mf[37mile SHA256[37m:[37m 6e30520cbd[37me[37m26548
+09:22:49.590 > 
+09:22:49.590 > E[37m [37m(587) esp_c[37mo[37mre_dump_fl[37ma[37msh: Core du[37mm[37mp flash con[37mf[37mig is corr[37mu[37mpted! CRC=0[37mx[37m7bd5c66f i[37mn[37mstead of 0x[37m0[37m
+09:22:49.600 > Rebootin[37mg[37m...
+09:22:49.602 > [37me[37mts Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+09:22:49.604 > 
+09:22:49.604 > rst:0xc[37m [37m(SW_CPU_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAS[37mT[37m_FLASH_BOOT[37m)[37m
+09:22:49.609 > configsi[37mp[37m: 0, SPIWP:[37m0[37mxee
+09:22:49.611 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_drv[37m:[37m0x00,cs0_d[37mr[37mv:0x00,hd_d[37mr[37mv:0x00,wp_[37md[37mrv:0x00
+09:22:49.617 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+09:22:49.619 > l[37mo[37mad:0x3fff00[37m3[37m0,len:1184[37m
+09:22:49.622 > [37mload:0x400[37m7[37m8000,len:13[37m1[37m92
+09:22:49.624 > load:0[37mx[37m40080400,le[37mn[37m:3028
+09:22:49.625 > ent[37mr[37my 0x400805e[37m4[37m
+09:22:50.166 > [37mE[37m [37m(565) [37ms[37mpi_flash: D[37me[37mtected siz[37me[37m(4096k) sma[37ml[37mler than t[37mh[37me size in t[37mh[37me binary im[37ma[37mge header([37m8[37m192k). Prob[37me[37m failed.
+09:22:50.177 > [37m[37m
+09:22:50.177 > assert fai[37ml[37med: do_cor[37me[37m_init star[37mt[37mup.c:326 (f[37ml[37mash_ret == [37mE[37mSP_OK)
+09:22:50.182 > 
+09:22:50.183 > [37m[37m
+09:22:50.183 > Backtrace:[37m [37m0x40083f49[37m:[37m0x3ffe3aa0 [37m0[37mx4008df29:[37m0[37mx3ffe3ac0 0[37mx[37m40093c79:0[37mx[37m3ffe3ae0 0x[37m4[37m0118836:0x[37m3[37mffe3c10 0x4[37m0[37m08364e:0x3[37mf[37mfe3c40 0x40[37m0[37m79266:0x3f[37mf[37me3c90 |<-CO[37mR[37mRUPTED
+09:22:50.196 > 
+09:22:50.197 > [37m[37m
+09:22:50.197 > 
+09:22:50.197 > 
+09:22:50.197 > ELF fi[37ml[37me SHA256: 6[37me[37m30520cbde2[37m6[37m548
+09:22:50.200 > 
+09:22:50.200 > E (5[37m8[37m7) esp_cor[37me[37m_dump_flash[37m:[37m Core dump[37m [37mflash conf[37mi[37mg is corrup[37mt[37med! CRC=0x7[37mb[37md5c66f ins[37mt[37mead of 0x0[37m
+09:22:50.209 > [37mRebooting.[37m.[37m.
+09:22:50.210 > et[37ms[37m Jun  8 201[37m6[37m 00:22:57[37m
+09:22:50.213 > [37m
+09:22:50.213 > rst:0xc ([37mS[37mW_CPU_RESE[37mT[37m),boot:0x13[37m [37m(SPI_FAST_F[37mL[37mASH_BOOT)[37m
+09:22:50.218 > [37mconfigsip: [37m0[37m, SPIWP:0x[37me[37me
+09:22:50.220 > clk_drv[37m:[37m0x00,q_drv:[37m0[37mx00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_drv[37m:[37m0x00,wp_dr[37mv[37m:0x00
+09:22:50.226 > mode[37m:[37mDIO, clock[37m [37mdiv:2
+09:22:50.228 > load[37m:[37m0x3fff0030[37m,[37mlen:1184
+09:22:50.230 > l[37mo[37mad:0x40078[37m0[37m00,len:1319[37m2[37m
+09:22:50.233 > load:0x4[37m0[37m080400,len:[37m3[37m028
+09:22:50.235 > entry[37m [37m0x400805e4[37m
+09:22:50.775 > [37mE[37m [37m(565) sp[37mi[37m_flash: Det[37me[37mcted size(4[37m0[37m96k) small[37me[37mr than the [37ms[37mize in the[37m [37mbinary ima[37mg[37me header(81[37m9[37m2k). Probe[37m [37mfailed.
+09:22:50.785 > 
+09:22:50.786 > [37ma[37mssert faile[37md[37m: do_core_[37mi[37mnit startup[37m.[37mc:326 (fla[37ms[37mh_ret == ES[37mP[37m_OK)
+09:22:50.791 > 
+09:22:50.791 > 
+09:22:50.792 > [37mB[37macktrace: 0[37mx[37m40083f49:0[37mx[37m3ffe3aa0 0x[37m4[37m008df29:0x[37m3[37mffe3ac0 0x4[37m0[37m093c79:0x3[37mf[37mfe3ae0 0x40[37m1[37m18836:0x3f[37mf[37me3c10 0x400[37m8[37m364e:0x3ffe[37m3[37mc40 0x4007[37m9[37m266:0x3ffe3[37mc[37m90 |<-CORR[37mU[37mPTED
+09:22:50.805 > 
+09:22:50.805 > 
+09:22:50.806 > [37m[37m
+09:22:50.806 > 
+09:22:50.806 > ELF file[37m [37mSHA256: 6e[37m3[37m0520cbde265[37m4[37m8
+09:22:50.809 > 
+09:22:50.809 > E (58[37m7[37m) esp_core_[37md[37mump_flash: [37mC[37more dump f[37ml[37mash config [37mi[37ms corrupte[37md[37m! CRC=0x7bd[37m5[37mc66f inste[37ma[37md of 0x0
+09:22:50.817 > R[37me[37mbooting...[37m[37m
+09:22:50.819 > ets [37mJ[37mun  8 2016 [37m0[37m0:22:57
+09:22:50.821 > [37m
+09:22:50.822 > [37mrst:0xc (SW[37m_[37mCPU_RESET)[37m,[37mboot:0x13 ([37mS[37mPI_FAST_FL[37mA[37mSH_BOOT)
+09:22:50.826 > c[37mo[37mnfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:22:50.829 > clk_drv:0x[37m0[37m0,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0[37mx[37m00,hd_drv:0[37mx[37m00,wp_drv:[37m0[37mx00
+09:22:50.835 > mode:D[37mI[37mO, clock d[37mi[37mv:2
+09:22:50.837 > load:0[37mx[37m3fff0030,l[37me[37mn:1184
+09:22:50.839 > loa[37md[37m:0x4007800[37m0[37m,len:13192[37m
+09:22:50.842 > [37mload:0x400[37m8[37m0400,len:30[37m2[37m8
+09:22:50.844 > entry 0x[37m4[37m00805e4
+09:22:51.384 > [37mE[37m [37m(565) spi_[37mf[37mlash: Detec[37mt[37med size(409[37m6[37mk) smaller[37m [37mthan the si[37mz[37me in the b[37mi[37mnary image [37mh[37meader(8192[37mk[37m). Probe f[37ma[37miled.
+09:22:51.394 > 
+09:22:51.394 > as[37ms[37mert failed:[37m [37mdo_core_in[37mi[37mt startup.c[37m:[37m326 (flash[37m_[37mret == ESP_[37mO[37mK)
+09:22:51.400 > 
+09:22:51.400 > 
+09:22:51.400 > Ba[37mc[37mktrace: 0x4[37m0[37m083f49:0x3[37mf[37mfe3aa0 0x40[37m0[37m8df29:0x3f[37mf[37me3ac0 0x400[37m9[37m3c79:0x3ff[37me[37m3ae0 0x4011[37m8[37m836:0x3ffe[37m3[37mc10 0x40083[37m6[37m4e:0x3ffe3[37mc[37m40 0x400792[37m6[37m6:0x3ffe3c9[37m0[37m |<-CORRUP[37mT[37mED
+09:22:51.414 > 
+09:22:51.414 > 
+09:22:51.414 > 
+09:22:51.414 > [37m
+09:22:51.415 > [37mELF file S[37mH[37mA256: 6e30[37m5[37m20cbde26548[37m[37m
+09:22:51.418 > 
+09:22:51.418 > E (587)[37m [37mesp_core_du[37mm[37mp_flash: Co[37mr[37me dump fla[37ms[37mh config is[37m [37mcorrupted![37m [37mCRC=0x7bd5c[37m6[37m6f instead[37m [37mof 0x0
+09:22:51.426 > Reb[37mo[37moting...
+09:22:51.428 > [37me[37mts Ju[37mn[37m  8 2016 00[37m:[37m22:57
+09:22:51.430 > 
+09:22:51.430 > r[37ms[37mt:0xc (SW_C[37mP[37mU_RESET),b[37mo[37mot:0x13 (SP[37mI[37m_FAST_FLASH[37m_[37mBOOT)
+09:22:51.435 > con[37mf[37migsip: 0, S[37mP[37mIWP:0xee
+09:22:51.438 > [37mc[37mlk_drv:0x00[37m,[37mq_drv:0x00[37m,[37md_drv:0x00[37m,[37mcs0_drv:0x0[37m0[37m,hd_drv:0x0[37m0[37m,wp_drv:0x[37m0[37m0
+09:22:51.444 > mode:DIO[37m,[37m clock div[37m:[37m2
+09:22:51.446 > load:0x3[37mf[37mff0030,len[37m:[37m1184
+09:22:51.448 > load:[37m0[37mx40078000,[37ml[37men:13192
+09:22:51.450 > l[37mo[37mad:0x40080[37m4[37m00,len:3028[37m[37m
+09:22:51.453 > entry 0x4[37m0[37m0805e4
+09:22:51.993 > [37mE[37m ([37m5[37m65) spi_fla[37ms[37mh: Detecte[37md[37m size(4096k[37m)[37m smaller t[37mh[37man the size[37m [37min the bin[37ma[37mry image h[37me[37mader(8192k)[37m.[37m Probe fail[37me[37md.
+09:22:52.003 > 
+09:22:52.003 > asse[37mr[37mt failed: d[37mo[37m_core_init[37m [37mstartup.c:3[37m2[37m6 (flash_r[37me[37mt == ESP_OK[37m)[37m
+09:22:52.009 > 
+09:22:52.009 > 
+09:22:52.009 > Back[37mt[37mrace: 0x400[37m8[37m3f49:0x3ff[37me[37m3aa0 0x4008[37md[37mf29:0x3ffe[37m3[37mac0 0x40093[37mc[37m79:0x3ffe3a[37me[37m0 0x401188[37m3[37m6:0x3ffe3c1[37m0[37m 0x4008364[37me[37m:0x3ffe3c40[37m [37m0x40079266[37m:[37m0x3ffe3c90[37m [37m|<-CORRUPTE[37mD[37m
+09:22:52.023 > 
+09:22:52.023 > 
+09:22:52.023 > 
+09:22:52.023 > 
+09:22:52.024 > [37mE[37mLF file SHA[37m2[37m56: 6e30520[37mc[37mbde26548
+09:22:52.027 > [37m[37m
+09:22:52.027 > E (587) es[37mp[37m_core_dump[37m_[37mflash: Core[37m [37mdump flash[37m [37mconfig is c[37mo[37mrrupted! C[37mR[37mC=0x7bd5c66[37mf[37m instead o[37mf[37m 0x0
+09:22:52.035 > Reboo[37mt[37ming...
+09:22:52.037 > [37me[37mts Jun  [37m8[37m 2016 00:2[37m2[37m:57
+09:22:52.039 > 
+09:22:52.039 > rst:[37m0[37mxc (SW_CPU[37m_[37mRESET),boot[37m:[37m0x13 (SPI_[37mF[37mAST_FLASH_[37mB[37mOOT)
+09:22:52.044 > confi[37mg[37msip: 0, SP[37mI[37mWP:0xee
+09:22:52.046 > cl[37mk[37m_drv:0x00,q[37m_[37mdrv:0x00,d[37m_[37mdrv:0x00,cs[37m0[37m_drv:0x00,[37mh[37md_drv:0x00,[37mw[37mp_drv:0x00[37m[37m
+09:22:52.053 > mode:DIO, [37mc[37mlock div:2[37m[37m
+09:22:52.055 > load:0x3ff[37mf[37m0030,len:1[37m1[37m84
+09:22:52.057 > load:0x[37m4[37m0078000,le[37mn[37m:13192
+09:22:52.059 > loa[37md[37m:0x40080400[37m,[37mlen:3028
+09:22:52.062 > [37me[37mntry 0x4008[37m0[37m5e4
+09:22:52.602 > [37mE[37m [37m(56[37m5[37m) spi_flash[37m:[37m Detected [37ms[37mize(4096k) [37ms[37mmaller tha[37mn[37m the size i[37mn[37m the binar[37my[37m image hea[37md[37mer(8192k). [37mP[37mrobe failed[37m.[37m
+09:22:52.612 > 
+09:22:52.612 > assert[37m [37mfailed: do_[37mc[37more_init s[37mt[37martup.c:326[37m [37m(flash_ret[37m [37m== ESP_OK)[37m
+09:22:52.618 > [37m
+09:22:52.618 > 
+09:22:52.618 > Backtr[37ma[37mce: 0x40083[37mf[37m49:0x3ffe3[37ma[37ma0 0x4008df[37m2[37m9:0x3ffe3a[37mc[37m0 0x40093c7[37m9[37m:0x3ffe3ae0[37m [37m0x40118836[37m:[37m0x3ffe3c10 [37m0[37mx4008364e:[37m0[37mx3ffe3c40 0[37mx[37m40079266:0[37mx[37m3ffe3c90 |[37m<[37m-CORRUPTED[37m
+09:22:52.632 > [37m
+09:22:52.632 > 
+09:22:52.632 > 
+09:22:52.632 > 
+09:22:52.632 > ELF[37m [37mfile SHA25[37m6[37m: 6e30520cb[37md[37me26548
+09:22:52.635 > 
+09:22:52.636 > [37mE[37m (587) esp_[37mc[37more_dump_f[37ml[37mash: Core d[37mu[37mmp flash c[37mo[37mnfig is cor[37mr[37mupted! CRC[37m=[37m0x7bd5c66f [37mi[37mnstead of [37m0[37mx0
+09:22:52.644 > Rebooti[37mn[37mg...
+09:22:52.646 > [37me[37mts Jun  8 [37m2[37m016 00:22:[37m5[37m7
+09:22:52.648 > 
+09:22:52.648 > rst:0[37mx[37mc (SW_CPU_R[37mE[37mSET),boot:[37m0[37mx13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+09:22:52.653 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+09:22:52.655 > clk_[37md[37mrv:0x00,q_d[37mr[37mv:0x00,d_d[37mr[37mv:0x00,cs0_[37md[37mrv:0x00,hd[37m_[37mdrv:0x00,wp[37m_[37mdrv:0x00
+09:22:52.662 > [37mm[37mode:DIO, cl[37mo[37mck div:2
+09:22:52.664 > [37ml[37moad:0x3fff0[37m0[37m30,len:1184[37m[37m
+09:22:52.666 > load:0x40[37m0[37m78000,len:1[37m3[37m192
+09:22:52.668 > load:[37m0[37mx40080400,[37ml[37men:3028
+09:22:52.670 > en[37mt[37mry 0x40080[37m5[37me4
+09:22:53.211 > [37mE[37m [37m(565)[37m [37mspi_flash:[37m [37mDetected si[37mz[37me(4096k) s[37mm[37maller than [37mt[37mhe size in [37mt[37mhe binary [37mi[37mmage header[37m([37m8192k). Pr[37mo[37mbe failed.[37m
+09:22:53.221 > [37m
+09:22:53.221 > assert f[37ma[37miled: do_co[37mr[37me_init sta[37mr[37mtup.c:326 ([37mf[37mlash_ret =[37m=[37m ESP_OK)
+09:22:53.226 > [37m
+09:22:53.227 > [37m
+09:22:53.227 > Backtrac[37me[37m: 0x40083f4[37m9[37m:0x3ffe3aa0[37m [37m0x4008df29[37m:[37m0x3ffe3ac0 [37m0[37mx40093c79:[37m0[37mx3ffe3ae0 0[37mx[37m40118836:0[37mx[37m3ffe3c10 0[37mx[37m4008364e:0x[37m3[37mffe3c40 0x[37m4[37m0079266:0x3[37mf[37mfe3c90 |<-C[37mO[37mRRUPTED
+09:22:53.240 > [37m
+09:22:53.241 > [37m
+09:22:53.241 > 
+09:22:53.241 > 
+09:22:53.241 > ELF f[37mi[37mle SHA256:[37m [37m6e30520cbde[37m2[37m6548
+09:22:53.244 > 
+09:22:53.244 > E [37m([37m587) esp_co[37mr[37me_dump_fla[37ms[37mh: Core dum[37mp[37m flash con[37mf[37mig is corru[37mp[37mted! CRC=0[37mx[37m7bd5c66f in[37ms[37mtead of 0x[37m0[37m
+09:22:53.253 > Rebooting[37m.[37m..
+09:22:53.254 > e[37mt[37ms Jun  8 2[37m0[37m16 00:22:57[37m[37m
+09:22:53.257 > 
+09:22:53.257 > rst:0xc[37m [37m(SW_CPU_RES[37mE[37mT),boot:0x1[37m3[37m (SPI_FAST[37m_[37mFLASH_BOOT)[37m[37m
+09:22:53.262 > configsip[37m:[37m 0, SPIWP:[37m0[37mxee
+09:22:53.264 > clk_dr[37mv[37m:0x00,q_drv[37m:[37m0x00,d_drv[37m:[37m0x00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_d[37mr[37mv:0x00
+09:22:53.270 > mod[37me[37m:DIO, cloc[37mk[37m div:2
+09:22:53.272 > lo[37ma[37md:0x3fff003[37m0[37m,len:1184[37m
+09:22:53.275 > [37mload:0x4007[37m8[37m000,len:13[37m1[37m92
+09:22:53.277 > load:0x[37m4[37m0080400,le[37mn[37m:3028
+09:22:53.279 > entr[37my[37m 0x400805e4[37m[37m
+09:22:53.820 > [37mE[37m [37m(565) s[37mp[37mi_flash: De[37mt[37mected size[37m([37m4096k) smal[37ml[37mer than th[37me[37m size in th[37me[37m binary im[37ma[37mge header(8[37m1[37m92k). Prob[37me[37m failed.
+09:22:53.829 > [37m
+09:22:53.830 > [37massert fail[37me[37md: do_core[37m_[37minit startu[37mp[37m.c:326 (fl[37ma[37msh_ret == [37mE[37mSP_OK)
+09:22:53.835 > 
+09:22:53.835 > [37m
+09:22:53.836 > [37mBacktrace:[37m [37m0x40083f49:[37m0[37mx3ffe3aa0 [37m0[37mx4008df29:0[37mx[37m3ffe3ac0 0x[37m4[37m0093c79:0x[37m3[37mffe3ae0 0x4[37m0[37m118836:0x3[37mf[37mfe3c10 0x40[37m0[37m8364e:0x3f[37mf[37me3c40 0x400[37m7[37m9266:0x3ff[37me[37m3c90 |<-COR[37mR[37mUPTED
+09:22:53.849 > 
+09:22:53.849 > [37m
+09:22:53.850 > [37m
+09:22:53.850 > 
+09:22:53.850 > ELF fil[37me[37m SHA256: 6[37me[37m30520cbde26[37m5[37m48
+09:22:53.853 > 
+09:22:53.853 > E (5[37m8[37m7) esp_core[37m_[37mdump_flash[37m:[37m Core dump [37mf[37mlash config[37m [37mis corrupt[37me[37md! CRC=0x7b[37md[37m5c66f inst[37me[37mad of 0x0[37m
+09:22:53.862 > [37mRebooting..[37m.[37m
+09:22:53.863 > ets[37m [37mJun  8 2016[37m [37m00:22:57
+09:22:53.866 > [37m[37m
+09:22:53.866 > rst:0xc (S[37mW[37m_CPU_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)
+09:22:53.871 > [37mc[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+09:22:53.873 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+09:22:53.879 > mode[37m:[37mDIO, clock [37md[37miv:2
+09:22:53.881 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+09:22:53.883 > lo[37ma[37md:0x400780[37m0[37m0,len:13192[37m[37m
+09:22:53.886 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+09:22:53.888 > entry [37m0[37mx400805e4
+09:22:54.428 > [37mE[37m [37m(565) spi[37m_[37mflash: Dete[37mc[37mted size(4[37m0[37m96k) smalle[37mr[37m than the [37ms[37mize in the [37mb[37minary imag[37me[37m header(819[37m2[37mk). Probe [37mf[37mailed.
+09:22:54.438 > 
+09:22:54.438 > a[37ms[37msert faile[37md[37m: do_core_i[37mn[37mit startup[37m.[37mc:326 (flas[37mh[37m_ret == ESP[37m_[37mOK)
+09:22:54.444 > 
+09:22:54.444 > 
+09:22:54.444 > B[37ma[37mcktrace: 0x[37m4[37m0083f49:0x[37m3[37mffe3aa0 0x4[37m0[37m08df29:0x3[37mf[37mfe3ac0 0x40[37m0[37m93c79:0x3f[37mf[37me3ae0 0x401[37m1[37m8836:0x3ff[37me[37m3c10 0x4008[37m3[37m64e:0x3ffe[37m3[37mc40 0x40079[37m2[37m66:0x3ffe3[37mc[37m90 |<-CORRU[37mP[37mTED
+09:22:54.458 > 
+09:22:54.458 > 
+09:22:54.458 > [37m
+09:22:54.459 > [37m
+09:22:54.459 > ELF file [37mS[37mHA256: 6e30[37m5[37m20cbde2654[37m8[37m
+09:22:54.462 > 
+09:22:54.462 > E (587)[37m [37mesp_core_d[37mu[37mmp_flash: [37mC[37more dump fl[37ma[37msh config [37mi[37ms corrupted[37m![37m CRC=0x7bd[37m5[37mc66f instea[37md[37m of 0x0
+09:22:54.470 > Re[37mb[37mooting...[37m
+09:22:54.472 > [37mets J[37mu[37mn  8 2016 0[37m0[37m:22:57
+09:22:54.474 > 
+09:22:54.475 > [37mr[37mst:0xc (SW_[37mC[37mPU_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+09:22:54.479 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+09:22:54.482 > [37mclk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0[37mx[37m00,wp_drv:0[37mx[37m00
+09:22:54.488 > mode:DI[37mO[37m, clock di[37mv[37m:2
+09:22:54.490 > load:0x[37m3[37mfff0030,le[37mn[37m:1184
+09:22:54.492 > load[37m:[37m0x40078000[37m,[37mlen:13192
+09:22:54.495 > [37ml[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+09:22:54.497 > entry 0x[37m4[37m00805e4
+09:22:55.037 > [37mE[37m [37m(565) spi_fl[37ma[37msh: Detect[37me[37md size(409[37m6[37mk) smaller [37mt[37mhan the si[37mz[37me in the bi[37mn[37mary image [37mh[37meader(8192k[37m)[37m. Probe fa[37mi[37mled.
+09:22:55.047 > 
+09:22:55.047 > ass[37me[37mrt failed:[37m [37mdo_core_ini[37mt[37m startup.c:[37m3[37m26 (flash_[37mr[37met == ESP_O[37mK[37m)
+09:22:55.053 > 
+09:22:55.053 > 
+09:22:55.053 > Bac[37mk[37mtrace: 0x40[37m0[37m83f49:0x3f[37mf[37me3aa0 0x400[37m8[37mdf29:0x3ff[37me[37m3ac0 0x4009[37m3[37mc79:0x3ffe[37m3[37mae0 0x40118[37m8[37m36:0x3ffe3[37mc[37m10 0x400836[37m4[37me:0x3ffe3c[37m4[37m0 0x4007926[37m6[37m:0x3ffe3c90[37m [37m|<-CORRUPT[37mE[37mD
+09:22:55.067 > 
+09:22:55.067 > 
+09:22:55.067 > 
+09:22:55.067 > 
+09:22:55.068 > [37mE[37mLF file SH[37mA[37m256: 6e305[37m2[37m0cbde26548[37m
+09:22:55.071 > [37m
+09:22:55.071 > E (587) [37me[37msp_core_dum[37mp[37m_flash: Cor[37me[37m dump flas[37mh[37m config is [37mc[37morrupted! [37mC[37mRC=0x7bd5c6[37m6[37mf instead [37mo[37mf 0x0
+09:22:55.079 > Rebo[37mo[37mting...
+09:22:55.081 > [37me[37mts Jun[37m [37m 8 2016 00:[37m2[37m2:57
+09:22:55.083 > 
+09:22:55.083 > rs[37mt[37m:0xc (SW_CP[37mU[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH[37m_[37mBOOT)
+09:22:55.088 > conf[37mi[37mgsip: 0, SP[37mI[37mWP:0xee
+09:22:55.090 > c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+09:22:55.097 > mode:DIO[37m,[37m clock div:[37m2[37m
+09:22:55.099 > load:0x3f[37mf[37mf0030,len:[37m1[37m184
+09:22:55.101 > load:0[37mx[37m40078000,l[37me[37mn:13192
+09:22:55.103 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+09:22:55.106 > [37mentry 0x40[37m0[37m805e4
+09:22:55.646 > [37mE[37m (5[37m6[37m5) spi_flas[37mh[37m: Detected[37m [37msize(4096k[37m)[37m smaller th[37ma[37mn the size[37m [37min the bina[37mr[37my image he[37ma[37mder(8192k).[37m [37mProbe faile[37md[37m.
+09:22:55.656 > 
+09:22:55.656 > asser[37mt[37m failed: do[37m_[37mcore_init [37ms[37mtartup.c:32[37m6[37m (flash_re[37mt[37m == ESP_OK)[37m[37m
+09:22:55.662 > 
+09:22:55.662 > 
+09:22:55.662 > Backt[37mr[37mace: 0x4008[37m3[37mf49:0x3ffe[37m3[37maa0 0x4008d[37mf[37m29:0x3ffe3[37ma[37mc0 0x40093c[37m7[37m9:0x3ffe3ae[37m0[37m 0x4011883[37m6[37m:0x3ffe3c1[37m0[37m 0x4008364e[37m:[37m0x3ffe3c40[37m [37m0x40079266:[37m0[37mx3ffe3c90 [37m|[37m<-CORRUPTED[37m[37m
+09:22:55.676 > 
+09:22:55.676 > 
+09:22:55.676 > 
+09:22:55.676 > 
+09:22:55.676 > EL[37mF[37m file SHA2[37m5[37m6: 6e30520c[37mb[37mde26548
+09:22:55.679 > [37m
+09:22:55.680 > [37mE (587) esp[37m_[37mcore_dump_[37mf[37mlash: Core [37md[37mump flash [37mc[37monfig is c[37mo[37mrrupted! CR[37mC[37m=0x7bd5c66f[37m [37minstead of[37m [37m0x0
+09:22:55.688 > Reboot[37mi[37mng...
+09:22:55.690 > [37me[37mts Jun  [37m8[37m 2016 00:22[37m:[37m57
+09:22:55.692 > 
+09:22:55.692 > rst:[37m0[37mxc (SW_CPU_[37mR[37mESET),boot[37m:[37m0x13 (SPI_F[37mA[37mST_FLASH_B[37mO[37mOT)
+09:22:55.697 > config[37ms[37mip: 0, SPI[37mW[37mP:0xee
+09:22:55.699 > clk[37m_[37mdrv:0x00,q_[37md[37mrv:0x00,d_[37md[37mrv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00[37m
+09:22:55.706 > [37mmode:DIO, c[37ml[37mock div:2[37m
+09:22:55.708 > [37mload:0x3fff[37m0[37m030,len:11[37m8[37m4
+09:22:55.710 > load:0x4[37m0[37m078000,len[37m:[37m13192
+09:22:55.712 > load[37m:[37m0x40080400,[37ml[37men:3028
+09:22:55.714 > e[37mn[37mtry 0x4008[37m0[37m5e4
+09:22:56.255 > [37mE[37m (565[37m)[37m spi_flash[37m:[37m Detected s[37mi[37mze(4096k) [37ms[37mmaller than[37m [37mthe size in[37m [37mthe binary[37m [37mimage heade[37mr[37m(8192k). P[37mr[37mobe failed.[37m[37m
+09:22:56.265 > 
+09:22:56.265 > assert [37mf[37mailed: do_[37mc[37more_init st[37ma[37mrtup.c:326 [37m([37mflash_ret [37m=[37m= ESP_OK)
+09:22:56.271 > [37m[37m
+09:22:56.272 > 
+09:22:56.272 > Backtra[37mc[37me: 0x40083f[37m4[37m9:0x3ffe3a[37ma[37m0 0x4008df2[37m9[37m:0x3ffe3ac[37m0[37m 0x40093c79[37m:[37m0x3ffe3ae0[37m [37m0x40118836:[37m0[37mx3ffe3c10 [37m0[37mx4008364e:0[37mx[37m3ffe3c40 0x[37m4[37m0079266:0x[37m3[37mffe3c90 |<-[37mC[37mORRUPTED
+09:22:56.285 > [37m[37m
+09:22:56.285 > 
+09:22:56.285 > 
+09:22:56.285 > 
+09:22:56.285 > ELF [37mf[37mile SHA256[37m:[37m 6e30520cbd[37me[37m26548
+09:22:56.288 > 
+09:22:56.288 > E[37m [37m(587) esp_c[37mo[37mre_dump_fl[37ma[37msh: Core du[37mm[37mp flash co[37mn[37mfig is corr[37mu[37mpted! CRC=[37m0[37mx7bd5c66f i[37mn[37mstead of 0x[37m0[37m
+09:22:56.297 > Rebootin[37mg[37m...
+09:22:56.299 > [37me[37mts Jun  8 [37m2[37m016 00:22:5[37m7[37m
+09:22:56.301 > 
+09:22:56.301 > rst:0xc[37m [37m(SW_CPU_RE[37mS[37mET),boot:0x[37m1[37m3 (SPI_FAS[37mT[37m_FLASH_BOO[37mT[37m)
+09:22:56.306 > configsi[37mp[37m: 0, SPIWP[37m:[37m0xee
+09:22:56.308 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+09:22:56.314 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+09:22:56.316 > l[37mo[37mad:0x3fff00[37m3[37m0,len:1184[37m[37m
+09:22:56.319 > load:0x400[37m7[37m8000,len:1[37m3[37m192
+09:22:56.321 > load:0[37mx[37m40080400,l[37me[37mn:3028
+09:22:56.323 > ent[37mr[37my 0x400805e[37m4[37m
+09:22:56.864 > [37mE[37m [37m(565) [37ms[37mpi_flash: D[37me[37mtected siz[37me[37m(4096k) sma[37ml[37mler than t[37mh[37me size in t[37mh[37me binary i[37mm[37mage header([37m8[37m192k). Pro[37mb[37me failed.
+09:22:56.874 > [37m[37m
+09:22:56.875 > assert fa[37mi[37mled: do_cor[37me[37m_init star[37mt[37mup.c:326 (f[37ml[37mash_ret ==[37m [37mESP_OK)
+09:22:56.879 > 
+09:22:56.880 > [37m[37m
+09:22:56.881 > Backtrace:[37m [37m0x40083f49[37m:[37m0x3ffe3aa0 [37m0[37mx4008df29:[37m0[37mx3ffe3ac0 [37m0[37mx40093c79:0[37mx[37m3ffe3ae0 0[37mx[37m40118836:0x[37m3[37mffe3c10 0x4[37m0[37m08364e:0x3[37mf[37mfe3c40 0x40[37m0[37m79266:0x3f[37mf[37me3c90 |<-CO[37mR[37mRUPTED
+09:22:56.893 > 
+09:22:56.894 > [37m[37m
+09:22:56.894 > 
+09:22:56.894 > 
+09:22:56.894 > ELF fi[37ml[37me SHA256: [37m6[37me30520cbde[37m2[37m6548
+09:22:56.897 > 
+09:22:56.897 > E ([37m5[37m87) esp_cor[37me[37m_dump_flas[37mh[37m: Core dump[37m [37mflash conf[37mi[37mg is corrup[37mt[37med! CRC=0x7[37mb[37md5c66f ins[37mt[37mead of 0x0[37m[37m
+09:22:56.906 > Rebooting.[37m.[37m.
+09:22:56.907 > et[37ms[37m Jun  8 201[37m6[37m 00:22:57[37m
+09:22:56.910 > [37m
+09:22:56.910 > rst:0xc ([37mS[37mW_CPU_RESE[37mT[37m),boot:0x13[37m [37m(SPI_FAST_[37mF[37mLASH_BOOT)[37m[37m
+09:22:56.915 > configsip:[37m [37m0, SPIWP:0x[37me[37me
+09:22:56.917 > clk_drv[37m:[37m0x00,q_drv:[37m0[37mx00,d_drv:[37m0[37mx00,cs0_drv[37m:[37m0x00,hd_dr[37mv[37m:0x00,wp_dr[37mv[37m:0x00
+09:22:56.923 > mod[37me[37m:DIO, clock[37m [37mdiv:2
+09:22:56.925 > loa[37md[37m:0x3fff0030[37m,[37mlen:1184
+09:22:56.928 > [37ml[37moad:0x40078[37m0[37m00,len:131[37m9[37m2
+09:22:56.930 > load:0x4[37m0[37m080400,len[37m:[37m3028
+09:22:56.932 > entry[37m [37m0x400805e4[37m
+09:22:57.473 > [37mE[37m [37m(565) sp[37mi[37m_flash: Det[37me[37mcted size([37m4[37m096k) small[37me[37mr than the[37m [37msize in the[37m [37mbinary ima[37mg[37me header(8[37m1[37m92k). Probe[37m [37mfailed.
+09:22:57.482 > 
+09:22:57.483 > [37ma[37mssert fail[37me[37md: do_core_[37mi[37mnit startu[37mp[37m.c:326 (fla[37ms[37mh_ret == E[37mS[37mP_OK)
+09:22:57.488 > 
+09:22:57.488 > 
+09:22:57.489 > [37mB[37macktrace: [37m0[37mx40083f49:0[37mx[37m3ffe3aa0 0[37mx[37m4008df29:0x[37m3[37mffe3ac0 0x[37m4[37m0093c79:0x3[37mf[37mfe3ae0 0x40[37m1[37m18836:0x3f[37mf[37me3c10 0x400[37m8[37m364e:0x3ff[37me[37m3c40 0x4007[37m9[37m266:0x3ffe[37m3[37mc90 |<-COR[37mR[37mUPTED
+09:22:57.502 > 
+09:22:57.502 > 
+09:22:57.503 > [37m[37m
+09:22:57.503 > 
+09:22:57.503 > ELF file[37m [37mSHA256: 6e[37m3[37m0520cbde265[37m4[37m8
+09:22:57.506 > 
+09:22:57.506 > E (58[37m7[37m) esp_core_[37md[37mump_flash:[37m [37mCore dump f[37ml[37mash config[37m [37mis corrupte[37md[37m! CRC=0x7b[37md[37m5c66f inste[37ma[37md of 0x0
+09:22:57.515 > [37mR[37mebooting...[37m[37m
+09:22:57.517 > ets [37mJ[37mun  8 2016[37m [37m00:22:57
+09:22:57.519 > [37m
+09:22:57.519 > rst:0xc (S[37mW[37m_CPU_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_FL[37mA[37mSH_BOOT)
+09:22:57.523 > c[37mo[37mnfigsip: 0[37m,[37m SPIWP:0xee[37m[37m
+09:22:57.526 > clk_drv:0[37mx[37m00,q_drv:0x[37m0[37m0,d_drv:0x[37m0[37m0,cs0_drv:0[37mx[37m00,hd_drv:[37m0[37mx00,wp_drv:[37m0[37mx00
+09:22:57.532 > mode:[37mD[37mIO, clock d[37mi[37mv:2
+09:22:57.534 > load:[37m0[37mx3fff0030,l[37me[37mn:1184
+09:22:57.536 > lo[37ma[37md:0x4007800[37m0[37m,len:13192[37m
+09:22:57.539 > [37mload:0x400[37m8[37m0400,len:3[37m0[37m28
+09:22:57.541 > entry 0[37mx[37m400805e4

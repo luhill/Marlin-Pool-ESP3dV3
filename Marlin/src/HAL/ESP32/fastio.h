@@ -29,8 +29,11 @@
 
 // I2S expander pin mapping.
 #define IS_I2S_EXPANDER_PIN(IO) TEST(IO, 7)
-#define I2S_EXPANDER_PIN_INDEX(IO) (IO & 0x7F)
-
+#ifdef TINYBEE_MASTER
+  #define I2S_EXPANDER_PIN_INDEX(IO) ((IO+8) & 0x7F)//I2s sends two chunks of 24 bits, each 24 bits is pushed into the msb of a 32 bit pack
+#else
+  #define I2S_EXPANDER_PIN_INDEX(IO) (IO & 0x7F)
+#endif
 // Set pin as input
 #define _SET_INPUT(IO)          (IO < 100 ?pinMode(IO, INPUT):void())
 
@@ -50,6 +53,7 @@
   #define READ(IO)                (IS_I2S_EXPANDER_PIN(IO) ? i2s_state(I2S_EXPANDER_PIN_INDEX(IO)) : digitalRead(IO))
   // Write to a pin wrapper
   #define WRITE(IO, v)            (IS_I2S_EXPANDER_PIN(IO) ? i2s_write(I2S_EXPANDER_PIN_INDEX(IO), v) : digitalWrite(IO, v))
+  #define WRITE_D_A(IO,v,pwm)         (pwm? hal.set_pwm_duty(IO,v*pwm) : i2s_write(I2S_EXPANDER_PIN_INDEX(IO), v))//wrapper for writting digital or analog to an i2s pin
 #endif
 
 // Set pin as input wrapper (0x80 | (v << 5) | (IO - 100))

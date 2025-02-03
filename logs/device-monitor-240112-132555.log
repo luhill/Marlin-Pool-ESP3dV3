@@ -1,0 +1,66 @@
+13:25:56.635 > [37m [37mExternal Reset
+13:25:56.635 >  Brown out Reset[37m
+13:25:56.637 > [37m Watchdog Reset
+13:25:56.637 > Marlin 2.1.2
+13:25:56.637 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+13:25:56.643 > ec[37mh[37mo: Compiled: Jan 12 2024
+13:25:56.645 > echo: [37mF[37mree Memory: 225352  PlannerBuff[37me[37mrBytes: 1344
+13:25:56.673 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+13:25:56.695 > [37me[37mcho:Settings Stored (870 bytes;[37m [37mcrc 37517)
+13:25:56.789 > [37me[37mcho:EEPROM Initialized
+13:25:57.323 > [37me[37mcho:SD card ok
+13:26:07.387 > [37me[37mcho:SD card ok
+13:26:07.395 > [37me[37mcho:Setup wifi
+13:26:07.530 > [37me[37mcho:Connecting
+13:26:11.156 > [37me[37mcho:10.0.0.110
+13:26:12.528 > [37me[37mcho:10.0.0.110
+13:26:15.888 > [37me[37mcho:[37mS[37mD card ok
+13:26:22.787 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m4-01-12T13:26:22"}}}
+13:26:31.588 > [37me[37mcho:SD card ok
+13:26:48.482 > [37me[37mcho:Now fresh file: /TestMix.g
+13:26:48.485 > [37mF[37mile opened: TestMix.g Size: 118[37m7[37m8
+13:26:48.487 > File selected
+13:26:48.597 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (Unhandled debug excepti[37mo[37mn). 
+13:26:48.603 > Debug exception reason: S[37mt[37mack canary watchpoint triggered[37m [37m(StepperTask) 
+13:26:48.608 > Core  1 registe[37mr[37m dump:
+13:26:48.611 > PC      : 0x400d767e  P[37mS[37m      : 0x00060636  A0      : 0[37mx[37m800dfcf4  A1      : 0x3ffd3280 [37m [37m
+13:26:48.619 > A2      : 0x00006849  A3     [37m [37m: 0xffffffff  A4      : 0x3ffc5[37m6[37mf4  A5      : 0x00000000  
+13:26:48.625 > A6 [37m [37m    : 0x00000018  A7      : 0x0[37m0[37m000001  A8      : 0x3ffd0c60  A[37m9[37m      : 0x3ffcfc44  
+13:26:48.633 > A10     :[37m [37m0x3ffc56f8  A11     : 0x0000060[37m0[37m  A12     : 0x3ffc56f4  A13    [37m [37m: 0x00000000  
+13:26:48.641 > A14     : 0x000[37m0[37m0018  A15     : 0x00000001  SAR[37m [37m    : 0x00000013  EXCCAUSE: 0x0[37m0[37m000001  
+13:26:48.650 > EXCVADDR: 0x00000000 [37m [37mLBEG    : 0x400d7644  LEND    :[37m [37m0x400d7668  LCOUNT  : 0x0000000[37m0[37m  
+13:26:48.658 > 
+13:26:48.658 > 
+13:26:48.658 > Backtrace: 0x400d767b:0[37mx[37m3ffd3280 0x400dfcf1:0x3ffd32a0 [37m0[37mx400d76c0:0x3ffd32d0
+13:26:48.664 > 
+13:26:48.664 > 
+13:26:48.664 > 
+13:26:48.664 > 
+13:26:48.664 > E[37mL[37mF file SHA256: 77421856b2e2a064[37m[37m
+13:26:48.667 > 
+13:26:48.989 > [37mR[37mebooting...
+13:26:48.992 > [37me[37mts Jun  8 2016 00:22:57
+13:26:48.992 > 
+13:26:48.992 > rst:[37m0[37mxc (SW_CPU_RESET),boot:0x1b (SP[37mI[37m_FAST_FLASH_BOOT)
+13:26:48.998 > configsip: 0[37m,[37m SPIWP:0xee
+13:26:49.000 > clk_drv:0x00,q_drv[37m:[37m0x00,d_drv:0x00,cs0_drv:0x00,hd[37m_[37mdrv:0x00,wp_drv:0x00
+13:26:49.006 > mode:DIO,[37m [37mclock div:2
+13:26:49.009 > load:0x3fff0030,le[37mn[37m:1184
+13:26:49.012 > load:0x40078000,len:1319[37m2[37m
+13:26:49.014 > load:0x40080400,len:3028
+13:26:49.014 > ent[37mr[37my 0x400805e4
+13:26:49.630 > [37ms[37mtart
+13:26:49.658 > [37m [37mBrown out Reset
+13:26:49.658 >  Watchdog Reset[37m
+13:26:49.661 > [37mMarlin 2.1.2
+13:26:49.661 > echo: Last Updated[37m:[37m 2022-12-17 | Author: (none, de[37mf[37mault config)
+13:26:49.666 > echo: Compiled: Ja[37mn[37m 12 2024
+13:26:49.669 > echo: Free Memory: 225[37m3[37m60  PlannerBufferBytes: 1344
+13:26:49.706 > [37me[37mcho:V87 stored settings retriev[37me[37md (870 bytes; crc 37517)
+13:26:50.236 > [37me[37mcho:SD card ok
+13:27:00.299 > [37me[37mcho:SD card ok
+13:27:00.307 > [37me[37mcho:Setup wifi
+13:27:00.444 > [37me[37mcho:Connecting
+13:27:03.465 > [37me[37mcho:10.0.0.110
+13:27:04.940 > [37me[37mcho:10.0.0.110
+13:27:05.974 > [37m{[37m"myPanel":{"values":{"time":"2024-01-12T13:27:05"}}}

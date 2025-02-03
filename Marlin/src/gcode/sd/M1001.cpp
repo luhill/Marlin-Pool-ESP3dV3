@@ -71,7 +71,7 @@ void GcodeSuite::M1001() {
   card.flag.sdprinting = card.flag.sdprintdone = false;
 
   // If there's another auto#.g file to run...
-  if (TERN(NO_SD_AUTOSTART, false, card.autofile_check())) return;
+  //if (TERN(NO_SD_AUTOSTART, false, card.autofile_check())) return;
 
   // Purge the recovery file...
   TERN_(POWER_LOSS_RECOVERY, recovery.purge());
@@ -112,7 +112,7 @@ void GcodeSuite::M1001() {
   TERN_(DWIN_LCD_PROUI, DWIN_Print_Finished());
 
   // Re-select the last printed file in the UI
-  TERN_(SD_REPRINT_LAST_SELECTED_FILE, ui.reselect_last_file());
+  //TERN_(SD_REPRINT_LAST_SELECTED_FILE, ui.reselect_last_file());
 }
 
 #endif // SDSUPPORT

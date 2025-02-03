@@ -353,12 +353,14 @@ int8_t get_pwm_channel(const pin_t pin, const uint32_t freq, const uint16_t res)
 void MarlinHAL::set_pwm_duty(const pin_t pin, const uint16_t v, const uint16_t v_size/*=_BV(PWM_RESOLUTION)-1*/, const bool invert/*=false*/) {
   #if ENABLED(I2S_STEPPER_STREAM)
     if (pin > 127) {
-      const uint8_t pinlo = pin & 0x7F;
+      //const uint8_t pinlo = pin & 0x7F;
+      const uint8_t pinlo = I2S_EXPANDER_PIN_INDEX(pin);
+      if(!(pinlo < MAX_EXPANDER_BITS))return;//pin indix out of bounds
       pwm_pin_t &pindata = pwm_pin_data[pinlo];
       const uint32_t duty = map(invert ? v_size - v : v, 0, v_size, 0, pindata.pwm_cycle_ticks);
       if (duty == 0 || duty == pindata.pwm_cycle_ticks) { // max or min (i.e., on/off)
         pindata.pwm_duty_ticks = 0;  // turn off PWM for this pin
-        duty ? SBI32(i2s_port_data, pinlo) : CBI32(i2s_port_data, pinlo); // set pin level
+        duty ? SBI64(i2s_port_data, pinlo) : CBI64(i2s_port_data, pinlo); // set pin level
       }
       else
         pindata.pwm_duty_ticks = duty; // PWM duty count = # of 4µs ticks per full PWM cycle
@@ -377,7 +379,10 @@ void MarlinHAL::set_pwm_duty(const pin_t pin, const uint16_t v, const uint16_t v
 int8_t MarlinHAL::set_pwm_frequency(const pin_t pin, const uint32_t f_desired) {
   #if ENABLED(I2S_STEPPER_STREAM)
     if (pin > 127) {
-      pwm_pin_data[pin & 0x7F].pwm_cycle_ticks = 1000000UL / f_desired / 4; // # of 4µs ticks per full PWM cycle
+      const uint8_t pinlo = I2S_EXPANDER_PIN_INDEX(pin);
+      if(!(pinlo < MAX_EXPANDER_BITS))return 0;//pin index out of bounds
+      //pwm_pin_data[pin & 0x7F].pwm_cycle_ticks = 1000000UL / f_desired / 4; // # of 4µs ticks per full PWM cycle
+      pwm_pin_data[pinlo].pwm_cycle_ticks = STEPPER_FREQUENCY / f_desired; // # of ticks per full PWM cycle
       return 0;
     }
     else

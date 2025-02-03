@@ -52,7 +52,11 @@ typedef uint64_t hal_timer_t;
 
 #if ENABLED(I2S_STEPPER_STREAM)
   #define STEPPER_TIMER_PRESCALE     1
-  #define STEPPER_TIMER_RATE         250000                           // 250khz, 4µs pulses of i2s word clock
+  #ifdef STEPPER_RATE_200khz
+    #define STEPPER_TIMER_RATE         200000 // 200khz = 5µs pulses of i2s word clock
+  #else
+    #define STEPPER_TIMER_RATE         250000 // 250khz = 4µs pulses of i2s word clock
+  #endif
   #define STEPPER_TIMER_TICKS_PER_US ((STEPPER_TIMER_RATE) / 1000000) // stepper timer ticks per µs // wrong would be 0.25
 #else
   #define STEPPER_TIMER_PRESCALE     40

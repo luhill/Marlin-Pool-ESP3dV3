@@ -88,6 +88,11 @@
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
 #define MOTHERBOARD BOARD_MKS_TINYBEE
+#define TINYBEE_MASTER // Second tinybee daisy chanined via I2S
+#define STEPPER_RATE_200khz 200000UL //when chaining two tinybees, slow the rate as the gpio i2s pins have reduced signal strength at the default 250khz
+//#ifdef TINYBEE_MASTER
+  //#define SLAVE 0 //If building a master and slave pair, indicate slave status hear
+//#endif
 #endif
 
 /**
@@ -165,14 +170,16 @@
 //#define Z2_DRIVER_TYPE A4988
 //#define Z3_DRIVER_TYPE A4988
 //#define Z4_DRIVER_TYPE A4988
-//#define I_DRIVER_TYPE  A4988
-//#define J_DRIVER_TYPE  A4988
-//#define K_DRIVER_TYPE  A4988
-//#define U_DRIVER_TYPE  A4988
-//#define V_DRIVER_TYPE  A4988
-//#define W_DRIVER_TYPE  A4988
+#define I_DRIVER_TYPE  A4988
+#ifdef TINYBEE_MASTER
+  #define J_DRIVER_TYPE  A4988
+  #define K_DRIVER_TYPE  A4988
+  #define U_DRIVER_TYPE  A4988
+  #define V_DRIVER_TYPE  A4988
+  #define W_DRIVER_TYPE  A4988
+#endif
 #define E0_DRIVER_TYPE A4988
-#define E1_DRIVER_TYPE A4988
+//#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
 //#define E4_DRIVER_TYPE A4988
@@ -211,22 +218,22 @@
 #endif
 #ifdef U_DRIVER_TYPE
   #define AXIS7_NAME 'U' // :['U', 'V', 'W']
-  //#define AXIS7_ROTATES
+  #define AXIS7_ROTATES
 #endif
 #ifdef V_DRIVER_TYPE
   #define AXIS8_NAME 'V' // :['V', 'W']
-  //#define AXIS8_ROTATES
+  #define AXIS8_ROTATES
 #endif
 #ifdef W_DRIVER_TYPE
   #define AXIS9_NAME 'W' // :['W']
-  //#define AXIS9_ROTATES
+  #define AXIS9_ROTATES
 #endif
 
 // @section extruder
 
 // This defines the number of extruders
 // :[0, 1, 2, 3, 4, 5, 6, 7, 8]
-#define EXTRUDERS 2
+#define EXTRUDERS 1
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
 #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
@@ -535,15 +542,15 @@
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  *
  */
-#define TEMP_SENSOR_0 1000
-#define TEMP_SENSOR_1 1000
+#define TEMP_SENSOR_0 998
+#define TEMP_SENSOR_1 998
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
 #define TEMP_SENSOR_5 0
 #define TEMP_SENSOR_6 0
 #define TEMP_SENSOR_7 0
-#define TEMP_SENSOR_BED 1000
+#define TEMP_SENSOR_BED 998
 #define TEMP_SENSOR_PROBE 0
 #define TEMP_SENSOR_CHAMBER 0
 #define TEMP_SENSOR_COOLER 0
@@ -889,7 +896,7 @@
   // Make delta curves from many straight lines (linear interpolation).
   // This is a trade-off between visible corners (not enough segments)
   // and processor overload (too many expensive sqrt calls).
-  #define DEFAULT_SEGMENTS_PER_SECOND 30
+  #define DEFAULT_SEGMENTS_PER_SECOND 10
 
   // After homing move down to a height where XY movement is unconstrained
   //#define DELTA_HOME_TO_SAFE_ZONE
@@ -1206,27 +1213,37 @@
 #define gear_reduction_ratio 50.0
 #define steps_per_unit full_steps_per_rotation * microsteps * gear_reduction_ratio / belt_pitch / pulley_teeth / DELTA_BICEP * DELTA_BICEP_DRIVE_RADIUS
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { steps_per_unit, steps_per_unit, steps_per_unit, 200}
+
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
  * Override with M203
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 300, 300, 300, 3000 }
-
-//#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
-#if ENABLED(LIMITED_MAX_FR_EDITING)
-  #define MAX_FEEDRATE_EDIT_VALUES    { 600, 600, 10, 50 } // ...or, set your own edit limits
-#endif
-
 /**
  * Default Max Acceleration (speed change with time) (linear=mm/(s^2), rotational=°/(s^2))
  * (Maximum start speed for accelerated moves)
  * Override with M201
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 300, 300, 300, 300 }
+#ifdef TINYBEE_MASTER
+  //Note the extruder makes loud vibrations when steps per unit is low. Increasing the micro steps reduces noise but may increase chance for the motor to stall
+  #define DEFAULT_AXIS_STEPS_PER_UNIT   { steps_per_unit, steps_per_unit, steps_per_unit, 164.0,1430.24,1370.39,1422.38,1403.46,1600.0,159.0} //(X,Y,Z,I(dry cement grams),J,K,U,V,W,E(pump mL)) 
+  #define DEFAULT_MAX_FEEDRATE          { 300, 300, 300, 300, 70, 100,100,100,100,100 }
+   #define DEFAULT_MAX_ACCELERATION      { 300, 300, 300, 300, 300,300,300,300,300,300}
+#else
+  #define DEFAULT_AXIS_STEPS_PER_UNIT   { steps_per_unit, steps_per_unit, steps_per_unit, 164.0, 79.5} //(X,Y,Z,dry cement grams, pump mL) 
+  #define DEFAULT_MAX_FEEDRATE          { 300, 300, 300, 300, 70 }
+    #define DEFAULT_MAX_ACCELERATION      { 300, 300, 300, 300, 300}
+#endif
+
+
+//#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
+#if ENABLED(LIMITED_MAX_FR_EDITING)
+  #define MAX_FEEDRATE_EDIT_VALUES    { 600, 600, 10, 50 } // ...or, set your own edit limits
+#endif
+
+
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
@@ -1255,15 +1272,15 @@
  */
 #define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK 40.0
-  #define DEFAULT_YJERK 40.0
-  #define DEFAULT_ZJERK 40.0
-  //#define DEFAULT_IJERK  0.3
-  //#define DEFAULT_JJERK  0.3
-  //#define DEFAULT_KJERK  0.3
-  //#define DEFAULT_UJERK  0.3
-  //#define DEFAULT_VJERK  0.3
-  //#define DEFAULT_WJERK  0.3
+  #define DEFAULT_XJERK 10.0
+  #define DEFAULT_YJERK 10.0
+  #define DEFAULT_ZJERK 10.0
+  #define DEFAULT_IJERK  5.0
+  #define DEFAULT_JJERK  5
+  #define DEFAULT_KJERK  5
+  #define DEFAULT_UJERK  5
+  #define DEFAULT_VJERK  5
+  #define DEFAULT_WJERK  5
 
   //#define TRAVEL_EXTRA_XYJERK 0.0     // Additional jerk allowance for all travel moves
 
@@ -1644,28 +1661,28 @@
 
 // For Inverting Stepper Enable Pins (Active Low) use 0, Non Inverting (Active High) use 1
 // :{ 0:'Low', 1:'High' }
-#define X_ENABLE_ON 1
-#define Y_ENABLE_ON 1
-#define Z_ENABLE_ON 1
+#define X_ENABLE_ON 1 //luke
+#define Y_ENABLE_ON 1// luke
+#define Z_ENABLE_ON 1// luke
 #define E_ENABLE_ON 0 // For all extruders
-//#define I_ENABLE_ON 0
-//#define J_ENABLE_ON 0
-//#define K_ENABLE_ON 0
-//#define U_ENABLE_ON 0
-//#define V_ENABLE_ON 0
-//#define W_ENABLE_ON 0
+#define I_ENABLE_ON 0
+#define J_ENABLE_ON 0
+#define K_ENABLE_ON 0
+#define U_ENABLE_ON 0
+#define V_ENABLE_ON 0
+#define W_ENABLE_ON 0
 
 // Disable axis steppers immediately when they're not being stepped.
 // WARNING: When motors turn off there is a chance of losing position accuracy!
 #define DISABLE_X false
 #define DISABLE_Y false
 #define DISABLE_Z false
-//#define DISABLE_I false
-//#define DISABLE_J false
-//#define DISABLE_K false
-//#define DISABLE_U false
-//#define DISABLE_V false
-//#define DISABLE_W false
+#define DISABLE_I true
+#define DISABLE_J true
+#define DISABLE_K true
+#define DISABLE_U true
+#define DISABLE_V true
+#define DISABLE_W true
 
 // Turn off the display blinking that warns about possible accuracy reduction
 //#define DISABLE_REDUCED_ACCURACY_WARNING
@@ -1681,12 +1698,12 @@
 #define INVERT_X_DIR false
 #define INVERT_Y_DIR false
 #define INVERT_Z_DIR false
-//#define INVERT_I_DIR false
-//#define INVERT_J_DIR false
-//#define INVERT_K_DIR false
-//#define INVERT_U_DIR false
-//#define INVERT_V_DIR false
-//#define INVERT_W_DIR false
+#define INVERT_I_DIR false
+#define INVERT_J_DIR false
+#define INVERT_K_DIR false
+#define INVERT_U_DIR false
+#define INVERT_V_DIR false
+#define INVERT_W_DIR false
 
 // @section extruder
 
@@ -1722,12 +1739,12 @@
 #define X_HOME_DIR 1
 #define Y_HOME_DIR 1
 #define Z_HOME_DIR 1
-//#define I_HOME_DIR -1
-//#define J_HOME_DIR -1
-//#define K_HOME_DIR -1
-//#define U_HOME_DIR -1
-//#define V_HOME_DIR -1
-//#define W_HOME_DIR -1
+#define I_HOME_DIR -1
+#define J_HOME_DIR -1
+#define K_HOME_DIR -1
+#define U_HOME_DIR -1
+#define V_HOME_DIR -1
+#define W_HOME_DIR -1
 
 // @section geometry
 
@@ -1742,18 +1759,18 @@
 #define X_MAX_POS DELTA_PRINTABLE_RADIUS
 #define Y_MAX_POS DELTA_PRINTABLE_RADIUS
 #define Z_MAX_POS MANUAL_Z_HOME_POS
-//#define I_MIN_POS 0
-//#define I_MAX_POS 50
-//#define J_MIN_POS 0
-//#define J_MAX_POS 50
-//#define K_MIN_POS 0
-//#define K_MAX_POS 50
-//#define U_MIN_POS 0
-//#define U_MAX_POS 50
-//#define V_MIN_POS 0
-//#define V_MAX_POS 50
-//#define W_MIN_POS 0
-//#define W_MAX_POS 50
+#define I_MIN_POS -9999999
+#define I_MAX_POS  9999999
+#define J_MIN_POS -9999999
+#define J_MAX_POS  9999999
+#define K_MIN_POS -9999999
+#define K_MAX_POS  9999999
+#define U_MIN_POS -9999999
+#define U_MAX_POS  9999999
+#define V_MIN_POS -9999999
+#define V_MAX_POS  9999999
+#define W_MIN_POS -9999999
+#define W_MAX_POS  9999999
 
 /**
  * Software Endstops
@@ -2114,12 +2131,12 @@
 //#define MANUAL_X_HOME_POS 0
 //#define MANUAL_Y_HOME_POS 0
 #define MANUAL_Z_HOME_POS DELTA_HEIGHT
-//#define MANUAL_I_HOME_POS 0
-//#define MANUAL_J_HOME_POS 0
-//#define MANUAL_K_HOME_POS 0
-//#define MANUAL_U_HOME_POS 0
-//#define MANUAL_V_HOME_POS 0
-//#define MANUAL_W_HOME_POS 0
+#define MANUAL_I_HOME_POS 0
+#define MANUAL_J_HOME_POS 0
+#define MANUAL_K_HOME_POS 0
+#define MANUAL_U_HOME_POS 0
+#define MANUAL_V_HOME_POS 0
+#define MANUAL_W_HOME_POS 0
 
 /**
  * Use "Z Safe Homing" to avoid homing with a Z probe outside the bed area.
@@ -2136,8 +2153,12 @@
 #endif
 
 // Homing speeds (linear=mm/min, rotational=°/min)
-#define HOMING_FEEDRATE_MM_M { (50*60), (50*60), (4*60) }
 
+#ifdef TINYBEE_MASTER
+  #define HOMING_FEEDRATE_MM_M { (20*60), (20*60), (20*60), (20*60),(20*60),(20*60),(20*60),(20*60),(20*60) }
+#else
+  #define HOMING_FEEDRATE_MM_M { (20*60), (20*60), (20*60), (20*60)}
+#endif
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
 

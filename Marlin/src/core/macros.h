@@ -121,12 +121,20 @@
   #define CBI(A,B) (A &= ~_BV(B))
 #endif
 #define TBI(N,B) (N ^= _BV(B))
+
 #define _BV32(b) (1UL << (b))
 #define TEST32(n,b) !!((n)&_BV32(b))
 #define SBI32(n,b) (n |= _BV32(b))
 #define CBI32(n,b) (n &= ~_BV32(b))
 #define TBI32(N,B) (N ^= _BV32(B))
 
+//64 bit luke
+#define SET_BIT_TO64(N,B,TF) do{ if (TF) SBI64(N,B); else CBI64(N,B); }while(0)
+#define _BV64(b) (1ULL << (b))//luke
+#define TEST64(n,b) (bool)(((n) >> (b))&1)//luke
+#define SBI64(n,b) (n |= _BV64(b))//luke
+#define CBI64(n,b) (n &= ~_BV64(b))//luke
+#define TBI64(N,B) (N ^= _BV64(B))//luke
 #define cu(x)      ({__typeof__(x) _x = (x); (_x)*(_x)*(_x);})
 #define RADIANS(d) ((d)*float(M_PI)/180.0f)
 #define DEGREES(r) ((r)*180.0f/float(M_PI))
