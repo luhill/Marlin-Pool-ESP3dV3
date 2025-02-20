@@ -1,0 +1,599 @@
+15:04:27.187 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:27.193 > 
+15:04:27.193 > Core[37m [37m 1 register dump:
+15:04:27.196 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:27.204 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:27.212 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:27.221 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:27.226 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95d4  SAR     : 0x0000001b  EX[37mC[37mCAUSE: 0x00000014  
+15:04:27.234 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:27.243 > 
+15:04:27.243 > 
+15:04:27.243 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:27.251 > 
+15:04:27.251 > 
+15:04:27.251 > 
+15:04:27.251 > 
+15:04:27.254 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:27.256 > 
+15:04:27.438 > [37mR[37mebooting...
+15:04:27.439 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:27.441 > 
+15:04:27.441 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:27.448 > configsip: 0, SPIWP:0xee
+15:04:27.448 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:27.455 > mode:DIO, clock div:2
+15:04:27.455 > load[37m:[37m0x3fff0030,len:1184
+15:04:27.458 > load:0x400[37m7[37m8000,len:13192
+15:04:27.460 > load:0x40080400[37m,[37mlen:3028
+15:04:27.465 > entry 0x400805e4
+15:04:28.057 > [37ms[37mtart
+15:04:28.111 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:28.117 > 
+15:04:28.117 > Core[37m [37m 1 register dump:
+15:04:28.119 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:28.127 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:28.136 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:28.144 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:28.150 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:28.158 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:28.166 > 
+15:04:28.166 > 
+15:04:28.166 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:28.175 > 
+15:04:28.175 > 
+15:04:28.175 > 
+15:04:28.175 > 
+15:04:28.177 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:28.180 > 
+15:04:28.362 > [37mR[37mebooting...
+15:04:28.362 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:28.365 > 
+15:04:28.365 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:28.370 > configsip: 0, SPIWP:0xee
+15:04:28.370 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:28.378 > mode:DIO, clock div:2
+15:04:28.378 > load[37m:[37m0x3fff0030,len:1184
+15:04:28.381 > load:0x400[37m7[37m8000,len:13192
+15:04:28.384 > load:0x40080400[37m,[37mlen:3028
+15:04:28.389 > entry 0x400805e4
+15:04:28.980 > [37ms[37mtart
+15:04:29.043 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:29.049 > 
+15:04:29.049 > Core[37m [37m 1 register dump:
+15:04:29.052 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:29.060 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:29.068 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:29.077 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:29.082 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:29.091 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:29.099 > 
+15:04:29.099 > 
+15:04:29.099 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:29.107 > 
+15:04:29.107 > 
+15:04:29.107 > 
+15:04:29.107 > 
+15:04:29.110 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:29.112 > 
+15:04:29.297 > [37mR[37mebooting...
+15:04:29.297 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:29.299 > 
+15:04:29.299 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:29.305 > configsip: 0, SPIWP:0xee
+15:04:29.305 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:29.313 > mode:DIO, clock div:2
+15:04:29.313 > load[37m:[37m0x3fff0030,len:1184
+15:04:29.316 > load:0x400[37m7[37m8000,len:13192
+15:04:29.319 > load:0x40080400[37m,[37mlen:3028
+15:04:29.323 > entry 0x400805e4
+15:04:29.915 > [37ms[37mtart
+15:04:29.977 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:29.983 > 
+15:04:29.983 > Core[37m [37m 1 register dump:
+15:04:29.985 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:29.994 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:30.002 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:30.010 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:30.016 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:30.024 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:30.033 > 
+15:04:30.033 > 
+15:04:30.033 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:30.041 > 
+15:04:30.041 > 
+15:04:30.041 > 
+15:04:30.041 > 
+15:04:30.044 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:30.046 > 
+15:04:30.228 > [37mR[37mebooting...
+15:04:30.228 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:30.230 > 
+15:04:30.230 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:30.236 > configsip: 0, SPIWP:0xee
+15:04:30.236 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:30.245 > mode:DIO, clock div:2
+15:04:30.245 > load[37m:[37m0x3fff0030,len:1184
+15:04:30.247 > load:0x400[37m7[37m8000,len:13192
+15:04:30.250 > load:0x40080400[37m,[37mlen:3028
+15:04:30.254 > entry 0x400805e4
+15:04:30.846 > [37ms[37mtart
+15:04:30.901 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:30.906 > 
+15:04:30.906 > Core[37m [37m 1 register dump:
+15:04:30.909 > PC      : 0x[37m0[37m0000000  PS      : 0x00060d30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:30.917 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:30.926 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:30.934 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:30.939 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:30.948 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:30.956 > 
+15:04:30.956 > 
+15:04:30.956 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:30.964 > 
+15:04:30.964 > 
+15:04:30.964 > 
+15:04:30.964 > 
+15:04:30.967 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:30.970 > 
+15:04:31.147 > [37mR[37mebooting...
+15:04:31.147 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:31.149 > 
+15:04:31.149 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:31.155 > configsip: 0, SPIWP:0xee
+15:04:31.155 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:31.163 > mode:DIO, clock div:2
+15:04:31.163 > load[37m:[37m0x3fff0030,len:1184
+15:04:31.166 > load:0x400[37m7[37m8000,len:13192
+15:04:31.168 > load:0x40080400[37m,[37mlen:3028
+15:04:31.173 > entry 0x400805e4
+15:04:31.765 > [37ms[37mtart
+15:04:31.819 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:31.825 > 
+15:04:31.825 > Core[37m [37m 1 register dump:
+15:04:31.827 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:31.836 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:31.844 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:31.852 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:31.858 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:31.866 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:31.875 > 
+15:04:31.875 > 
+15:04:31.875 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:31.883 > 
+15:04:31.883 > 
+15:04:31.883 > 
+15:04:31.883 > 
+15:04:31.886 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:31.888 > 
+15:04:32.067 > [37mR[37mebooting...
+15:04:32.067 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:32.070 > 
+15:04:32.070 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:32.075 > configsip: 0, SPIWP:0xee
+15:04:32.075 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:32.083 > mode:DIO, clock div:2
+15:04:32.083 > load[37m:[37m0x3fff0030,len:1184
+15:04:32.086 > load:0x400[37m7[37m8000,len:13192
+15:04:32.089 > load:0x40080400[37m,[37mlen:3028
+15:04:32.094 > entry 0x400805e4
+15:04:32.685 > [37ms[37mtart
+15:04:32.740 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:32.745 > 
+15:04:32.745 > Core[37m [37m 1 register dump:
+15:04:32.748 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:32.756 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:32.764 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:32.773 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:32.778 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:32.787 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:32.795 > 
+15:04:32.795 > 
+15:04:32.795 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:32.803 > 
+15:04:32.803 > 
+15:04:32.803 > 
+15:04:32.803 > 
+15:04:32.806 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:32.808 > 
+15:04:32.988 > [37mR[37mebooting...
+15:04:32.988 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:32.990 > 
+15:04:32.990 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:32.996 > configsip: 0, SPIWP:0xee
+15:04:32.996 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:33.004 > mode:DIO, clock div:2
+15:04:33.004 > load[37m:[37m0x3fff0030,len:1184
+15:04:33.007 > load:0x400[37m7[37m8000,len:13192
+15:04:33.010 > load:0x40080400[37m,[37mlen:3028
+15:04:33.014 > entry 0x400805e4
+15:04:33.606 > [37ms[37mtart
+15:04:33.661 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:33.667 > 
+15:04:33.667 > Core[37m [37m 1 register dump:
+15:04:33.669 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:33.678 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:33.686 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:33.694 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:33.700 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:33.708 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:33.717 > 
+15:04:33.717 > 
+15:04:33.717 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:33.725 > 
+15:04:33.725 > 
+15:04:33.725 > 
+15:04:33.725 > 
+15:04:33.728 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:33.730 > 
+15:04:33.909 > [37mR[37mebooting...
+15:04:33.909 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:33.912 > 
+15:04:33.912 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:33.917 > configsip: 0, SPIWP:0xee
+15:04:33.917 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:33.925 > mode:DIO, clock div:2
+15:04:33.925 > load[37m:[37m0x3fff0030,len:1184
+15:04:33.928 > load:0x400[37m7[37m8000,len:13192
+15:04:33.931 > load:0x40080400[37m,[37mlen:3028
+15:04:33.935 > entry 0x400805e4
+15:04:34.527 > [37ms[37mtart
+15:04:34.582 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:34.587 > 
+15:04:34.587 > Core[37m [37m 1 register dump:
+15:04:34.590 > PC      : 0x[37m0[37m0000000  PS      : 0x00060d30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:34.598 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:34.607 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:34.615 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:34.621 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:34.629 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:34.637 > 
+15:04:34.637 > 
+15:04:34.637 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:34.645 > 
+15:04:34.645 > 
+15:04:34.645 > 
+15:04:34.645 > 
+15:04:34.648 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:34.651 > 
+15:04:34.831 > [37mR[37mebooting...
+15:04:34.831 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:34.833 > 
+15:04:34.833 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:34.839 > configsip: 0, SPIWP:0xee
+15:04:34.839 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:34.847 > mode:DIO, clock div:2
+15:04:34.847 > load[37m:[37m0x3fff0030,len:1184
+15:04:34.850 > load:0x400[37m7[37m8000,len:13192
+15:04:34.853 > load:0x40080400[37m,[37mlen:3028
+15:04:34.857 > entry 0x400805e4
+15:04:35.449 > [37ms[37mtart
+15:04:35.512 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:35.518 > 
+15:04:35.518 > Core[37m [37m 1 register dump:
+15:04:35.520 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:35.529 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:35.537 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:35.545 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:35.551 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:35.559 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:35.567 > 
+15:04:35.567 > 
+15:04:35.567 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:35.576 > 
+15:04:35.576 > 
+15:04:35.576 > 
+15:04:35.576 > 
+15:04:35.578 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:35.581 > 
+15:04:35.764 > [37mR[37mebooting...
+15:04:35.765 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:35.767 > 
+15:04:35.767 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:35.773 > configsip: 0, SPIWP:0xee
+15:04:35.773 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:35.781 > mode:DIO, clock div:2
+15:04:35.781 > load[37m:[37m0x3fff0030,len:1184
+15:04:35.784 > load:0x400[37m7[37m8000,len:13192
+15:04:35.786 > load:0x40080400[37m,[37mlen:3028
+15:04:35.791 > entry 0x400805e4
+15:04:36.382 > [37ms[37mtart
+15:04:36.445 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:36.450 > 
+15:04:36.450 > Core[37m [37m 1 register dump:
+15:04:36.453 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:36.462 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:36.470 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:36.478 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:36.484 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:36.492 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:36.501 > 
+15:04:36.501 > 
+15:04:36.501 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:36.509 > 
+15:04:36.509 > 
+15:04:36.509 > 
+15:04:36.509 > 
+15:04:36.512 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:36.514 > 
+15:04:36.697 > [37mR[37mebooting...
+15:04:36.698 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:36.700 > 
+15:04:36.700 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:36.706 > configsip: 0, SPIWP:0xee
+15:04:36.706 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:36.714 > mode:DIO, clock div:2
+15:04:36.714 > load[37m:[37m0x3fff0030,len:1184
+15:04:36.717 > load:0x400[37m7[37m8000,len:13192
+15:04:36.719 > load:0x40080400[37m,[37mlen:3028
+15:04:36.724 > entry 0x400805e4
+15:04:37.315 > [37ms[37mtart
+15:04:37.371 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:37.377 > 
+15:04:37.377 > Core[37m [37m 1 register dump:
+15:04:37.380 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:37.388 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:37.396 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:37.405 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:37.410 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:37.418 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:37.427 > 
+15:04:37.427 > 
+15:04:37.427 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:37.436 > 
+15:04:37.436 > 
+15:04:37.436 > 
+15:04:37.436 > 
+15:04:37.438 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:37.441 > 
+15:04:37.625 > [37mR[37mebooting...
+15:04:37.625 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:37.627 > 
+15:04:37.627 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:37.633 > configsip: 0, SPIWP:0xee
+15:04:37.633 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:37.641 > mode:DIO, clock div:2
+15:04:37.641 > load[37m:[37m0x3fff0030,len:1184
+15:04:37.644 > load:0x400[37m7[37m8000,len:13192
+15:04:37.647 > load:0x40080400[37m,[37mlen:3028
+15:04:37.652 > entry 0x400805e4
+15:04:38.243 > [37ms[37mtart
+15:04:38.298 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:38.303 > 
+15:04:38.303 > Core[37m [37m 1 register dump:
+15:04:38.306 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:38.314 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:38.323 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:38.331 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:38.336 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:38.345 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:38.353 > 
+15:04:38.353 > 
+15:04:38.353 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:38.361 > 
+15:04:38.361 > 
+15:04:38.361 > 
+15:04:38.361 > 
+15:04:38.364 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:38.367 > 
+15:04:38.543 > [37mR[37mebooting...
+15:04:38.543 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:38.546 > 
+15:04:38.546 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:38.551 > configsip: 0, SPIWP:0xee
+15:04:38.551 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:38.560 > mode:DIO, clock div:2
+15:04:38.560 > load[37m:[37m0x3fff0030,len:1184
+15:04:38.563 > load:0x400[37m7[37m8000,len:13192
+15:04:38.565 > load:0x40080400[37m,[37mlen:3028
+15:04:38.570 > entry 0x400805e4
+15:04:39.162 > [37ms[37mtart
+15:04:39.216 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:39.222 > 
+15:04:39.222 > Core[37m [37m 1 register dump:
+15:04:39.224 > PC      : 0x[37m0[37m0000000  PS      : 0x00060d30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:39.233 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:39.241 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:39.249 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:39.255 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:39.263 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:39.272 > 
+15:04:39.272 > 
+15:04:39.272 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:39.280 > 
+15:04:39.280 > 
+15:04:39.280 > 
+15:04:39.280 > 
+15:04:39.283 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:39.285 > 
+15:04:39.460 > [37mR[37mebooting...
+15:04:39.460 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:39.462 > 
+15:04:39.462 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:39.468 > configsip: 0, SPIWP:0xee
+15:04:39.468 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:39.476 > mode:DIO, clock div:2
+15:04:39.476 > load[37m:[37m0x3fff0030,len:1184
+15:04:39.479 > load:0x400[37m7[37m8000,len:13192
+15:04:39.482 > load:0x40080400[37m,[37mlen:3028
+15:04:39.486 > entry 0x400805e4
+15:04:40.078 > [37ms[37mtart
+15:04:40.132 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:40.138 > 
+15:04:40.138 > Core[37m [37m 1 register dump:
+15:04:40.141 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:40.149 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:40.157 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:40.166 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:40.171 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:40.179 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:40.188 > 
+15:04:40.188 > 
+15:04:40.188 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:40.196 > 
+15:04:40.196 > 
+15:04:40.196 > 
+15:04:40.196 > 
+15:04:40.199 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:40.201 > 
+15:04:40.379 > [37mR[37mebooting...
+15:04:40.379 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:40.382 > 
+15:04:40.382 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:40.387 > configsip: 0, SPIWP:0xee
+15:04:40.387 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:40.396 > mode:DIO, clock div:2
+15:04:40.396 > load[37m:[37m0x3fff0030,len:1184
+15:04:40.399 > load:0x400[37m7[37m8000,len:13192
+15:04:40.401 > load:0x40080400[37m,[37mlen:3028
+15:04:40.406 > entry 0x400805e4
+15:04:40.997 > [37ms[37mtart
+15:04:41.052 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:41.057 > 
+15:04:41.057 > Core[37m [37m 1 register dump:
+15:04:41.060 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:41.068 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:41.077 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:41.085 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:41.091 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:41.099 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:41.107 > 
+15:04:41.107 > 
+15:04:41.107 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:41.116 > 
+15:04:41.116 > 
+15:04:41.116 > 
+15:04:41.116 > 
+15:04:41.118 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:41.121 > 
+15:04:41.299 > [37mR[37mebooting...
+15:04:41.299 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:41.301 > 
+15:04:41.301 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:41.307 > configsip: 0, SPIWP:0xee
+15:04:41.307 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:41.316 > mode:DIO, clock div:2
+15:04:41.316 > load[37m:[37m0x3fff0030,len:1184
+15:04:41.318 > load:0x400[37m7[37m8000,len:13192
+15:04:41.321 > load:0x40080400[37m,[37mlen:3028
+15:04:41.325 > entry 0x400805e4
+15:04:41.917 > [37ms[37mtart
+15:04:41.980 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:41.986 > 
+15:04:41.986 > Core[37m [37m 1 register dump:
+15:04:41.988 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:41.997 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:42.005 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:42.013 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:42.019 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:42.027 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:42.036 > 
+15:04:42.036 > 
+15:04:42.036 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:42.044 > 
+15:04:42.044 > 
+15:04:42.044 > 
+15:04:42.044 > 
+15:04:42.047 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:42.049 > 
+15:04:42.223 > [37mR[37mebooting...
+15:04:42.223 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:42.226 > 
+15:04:42.226 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:42.231 > configsip: 0, SPIWP:0xee
+15:04:42.231 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:42.241 > mode:DIO, clock div:2
+15:04:42.241 > load[37m:[37m0x3fff0030,len:1184
+15:04:42.242 > load:0x400[37m7[37m8000,len:13192
+15:04:42.245 > load:0x40080400[37m,[37mlen:3028
+15:04:42.250 > entry 0x400805e4
+15:04:42.841 > [37ms[37mtart
+15:04:42.903 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:42.909 > 
+15:04:42.909 > Core[37m [37m 1 register dump:
+15:04:42.912 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:42.920 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:42.928 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:42.937 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:42.942 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:42.951 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:42.959 > 
+15:04:42.959 > 
+15:04:42.959 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:42.967 > 
+15:04:42.967 > 
+15:04:42.967 > 
+15:04:42.967 > 
+15:04:42.970 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:42.972 > 
+15:04:43.153 > [37mR[37mebooting...
+15:04:43.153 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:43.156 > 
+15:04:43.156 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:43.161 > configsip: 0, SPIWP:0xee
+15:04:43.161 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:43.170 > mode:DIO, clock div:2
+15:04:43.170 > load[37m:[37m0x3fff0030,len:1184
+15:04:43.172 > load:0x400[37m7[37m8000,len:13192
+15:04:43.175 > load:0x40080400[37m,[37mlen:3028
+15:04:43.180 > entry 0x400805e4
+15:04:43.771 > [37ms[37mtart
+15:04:43.828 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:43.833 > 
+15:04:43.833 > Core[37m [37m 1 register dump:
+15:04:43.836 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:43.845 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:43.853 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:43.861 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:43.867 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:43.875 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:43.884 > 
+15:04:43.884 > 
+15:04:43.884 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:43.892 > 
+15:04:43.892 > 
+15:04:43.892 > 
+15:04:43.892 > 
+15:04:43.895 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:43.897 > 
+15:04:44.076 > [37mR[37mebooting...
+15:04:44.077 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:44.079 > 
+15:04:44.079 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:44.085 > configsip: 0, SPIWP:0xee
+15:04:44.085 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:44.093 > mode:DIO, clock div:2
+15:04:44.093 > load[37m:[37m0x3fff0030,len:1184
+15:04:44.095 > load:0x400[37m7[37m8000,len:13192
+15:04:44.098 > load:0x40080400[37m,[37mlen:3028
+15:04:44.103 > entry 0x400805e4
+15:04:44.694 > [37ms[37mtart
+15:04:44.749 > [37mG[37muru Meditation Error: Core  1 p[37ma[37mnic'ed (InstrFetchProhibited). [37mE[37mxception was unhandled.
+15:04:44.754 > 
+15:04:44.754 > Core[37m [37m 1 register dump:
+15:04:44.757 > PC      : 0x[37m0[37m0000000  PS      : 0x00060f30  [37mA[37m0      : 0x800d433e  A1      : [37m0[37mx3ffb2200  
+15:04:44.765 > A2      : 0x000000[37m0[37m0  A3      : 0x000003fc  A4    [37m [37m : 0x3ffc55f0  A5      : 0x3ffc[37m5[37m5e8  
+15:04:44.774 > A6      : 0xffffffbf  A7[37m [37m     : 0xffffffdf  A8      : 0x[37m8[37m00d5c98  A9      : 0x3ffb21e0  [37m[37m
+15:04:44.782 > A10     : 0x3ffc55f0  A11     [37m:[37m 0x401c0d30  A12     : 0x000000[37m1[37m4  A13     : 0x00000014  
+15:04:44.788 > A14 [37m [37m   : 0x00000000  A15     : 0x3f[37mf[37mb95cc  SAR     : 0x0000001a  EX[37mC[37mCAUSE: 0x00000014  
+15:04:44.796 > EXCVADDR: [37m0[37mx00000000  LBEG    : 0x4008a638[37m [37m LEND    : 0x4008a64e  LCOUNT  [37m:[37m 0x00000000  
+15:04:44.805 > 
+15:04:44.805 > 
+15:04:44.805 > Backtrace: 0[37mx[37mfffffffd:0x3ffb2200 0x400d433b:[37m0[37mx3ffb2240 0x400d9c9a:0x3ffb2260[37m [37m0x4010d5aa:0x3ffb2290
+15:04:44.813 > 
+15:04:44.813 > 
+15:04:44.813 > 
+15:04:44.813 > 
+15:04:44.815 > [37mE[37mLF file SHA256: 260deb13ccd0a10[37m2[37m
+15:04:44.818 > 
+15:04:45.002 > [37mR[37mebooting...
+15:04:45.003 > ets Jun  8 2016 00[37m:[37m22:57
+15:04:45.005 > 
+15:04:45.005 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x13 (SPI_FAST_FLASH_BOOT)[37m[37m
+15:04:45.011 > configsip: 0, SPIWP:0xee
+15:04:45.011 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:04:45.019 > mode:DIO, clock div:2
+15:04:45.019 > load[37m:[37m0x3fff0030,len:1184
+15:04:45.022 > load:0x400[37m7[37m8000,len:13192
+15:04:45.024 > load:0x40080400[37m,[37mlen:3028
+15:04:45.029 > entry 0x400805e4

@@ -1,0 +1,17 @@
+15:08:47.080 > [37m [37mExternal Reset
+15:08:47.081 >  Brown out Reset[37m
+15:08:47.083 > [37m Watchdog Reset
+15:08:47.083 > Marlin 2.1.2
+15:08:47.083 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+15:08:47.088 > ec[37mh[37mo: Compiled: Feb 16 2025
+15:08:47.091 > echo: [37mF[37mree Memory: 221060  PlannerBuff[37me[37mrBytes: 1664
+15:08:47.149 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+15:08:47.214 > [37me[37mcho:Settings Stored (1162 bytes[37m;[37m crc 4272)
+15:08:47.294 > [37me[37mcho:EEPROM Initialized
+15:08:47.321 > [37me[37mcho:SD card released
+15:08:59.762 > [37me[37mcho:No SD card
+15:08:59.774 > [37me[37mcho:Setup wifi
+15:08:59.903 > [37me[37mcho:Connecting
+15:09:03.453 > [37me[37mcho:10.0.0.210
+15:09:04.914 > [37me[37mcho:10.0.0.210
+15:09:14.072 > [37mC[37mement cmd not recognised

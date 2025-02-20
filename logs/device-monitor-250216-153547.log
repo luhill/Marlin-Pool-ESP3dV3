@@ -1,0 +1,17 @@
+15:35:47.765 > [37m [37mExternal Reset
+15:35:47.766 >  Brown out Reset[37m
+15:35:47.768 > [37m Watchdog Reset
+15:35:47.768 > Marlin 2.1.2
+15:35:47.768 > ec[37mh[37mo: Last Updated: 2022-12-17 | A[37mu[37mthor: (none, default config)
+15:35:47.773 > ec[37mh[37mo: Compiled: Feb 16 2025
+15:35:47.776 > echo: [37mF[37mree Memory: 216568  PlannerBuff[37me[37mrBytes: 1664
+15:35:47.846 > [37me[37mcho:Hardcoded Default Settings [37mL[37moaded
+15:35:47.910 > [37me[37mcho:Settings Stored (1162 bytes[37m;[37m crc 4272)
+15:35:47.985 > [37me[37mcho:EEPROM Initialized
+15:35:48.011 > [37me[37mcho:SD card released
+15:36:00.455 > [37me[37mcho:No SD card
+15:36:00.467 > [37me[37mcho:Setup wifi
+15:36:00.598 > [37me[37mcho:Connecting
+15:36:04.151 > [37me[37mcho:10.0.0.210
+15:36:05.611 > [37me[37mcho:10.0.0.210
+15:36:16.710 > [37m{[37m"myPanel":{"values":{"time":"20[37m2[37m5-02-16T15:36:16","auto":[0,648[37m0[37m0,75600],"waterfall":[true,64],[37m"[37mcolor":"#ffff0000","effect":0,"[37mf[37mloods":[true,64]}}}

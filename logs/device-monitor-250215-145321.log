@@ -1,0 +1,459 @@
+[37mh[37md_drv:0x00,wp_drv:0x00
+14:53:21.613 > mode:DIO, clock div:2
+14:53:21.613 > load:0x3fff0030,len:1184
+14:53:21.613 > load:0x40078000,len:13232
+14:53:21.613 > load:0x40080400,len:3028
+14:53:21.613 > entry 0x400805e4
+14:53:21.613 > ets Jul 29 2019 12:21:46
+14:53:21.613 > 
+14:53:21.613 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.613 > configsip: 0, SPIWP:0xee
+14:53:21.613 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.613 > mode:DIO, clock div:2
+14:53:21.613 > load:0x3fff0030,len:1184
+14:53:21.613 > load:0x40078000,len:13232
+14:53:21.613 > load:0x40080400,len:3028
+14:53:21.613 > entry 0x400805e4
+14:53:21.613 > ets Jul 29 2019 12:21:46
+14:53:21.613 > 
+14:53:21.613 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.613 > configsip: 0, SPIWP:0xee
+14:53:21.613 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.613 > mode:DIO, clock div:2
+14:53:21.613 > load:0x3fff0030,len:1184
+14:53:21.613 > load:0x40078000,len:13232
+14:53:21.613 > load:0x40080400,len:3028
+14:53:21.613 > entry 0x400805e4
+14:53:21.613 > ets Jul 29 2019 12:21:46
+14:53:21.613 > 
+14:53:21.613 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.613 > configsip: 0, SPIWP:0xee
+14:53:21.613 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.613 > mode:DIO, clock div:2
+14:53:21.613 > load:0x3fff0030,len:1184
+14:53:21.613 > load:0x40078000,len:13232
+14:53:21.613 > load:0x40080400,len:30[37m28
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0[37mxee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:11[37m84
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),b[37moot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_dr[37mv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x400805e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SPIWP:0xee
+14:53:21.614 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:53:21.614 > mode:DIO, clock div:2
+14:53:21.614 > load:0x3fff0030,len:1184
+14:53:21.614 > load:0x40078000,len:13232
+14:53:21.614 > load:0x40080400,len:3028
+14:53:21.614 > entry 0x40080[37m5e4
+14:53:21.614 > ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:53:21.614 > configsip: 0, SP� ��    �� ��    �� ��    �� ��    �� ��    �� ��    �� ��    �� ��    ��      ��      ��      ��      ��      ��      ��      ��      ��      ��      ��      ��      ��      ��      ��      ��      �ets Jul 29 2019 12:21:46
+14:53:21.614 > 
+14:53:21.614 > rst:0x1 (POWERON_RESET),boot:0x3 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+14:53:21.614 > waiting for download
+14:53:22.358 > [37m�[37m [37m��    �� ��    �� �[37m[37m�    �� ��    �� ��   [37m [37m�� ��    �[37m[37m[37m [37m [37m�      �[37m[37m [37m [37m [37m�      �[37me[37mts Jul 29 2019 12:21:46
+14:53:28.670 > 
+14:53:28.670 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:53:28.678 > waiting for download[37m
+14:53:29.037 > [37m[37m [37m [37m�[37m[37m[37m [37m�[37m�      �[37m[37m[37m [37m��      �ets Jul 29 2019[37m 12:21:46
+14:53:35.364 > 
+14:53:35.364 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:53:35.372 > waiting for download[37m
+14:53:36.400 > [37m[37m [37m [37m�[37m[37m[37m [37m�[37me[37mts Jul 29 2019 12:21:46
+14:53:36.644 > 
+14:53:36.644 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:53:36.652 > waiting for download[37m
+14:53:37.013 > [37m[37m [37m�[37m [37m� �Y�    �[37mt[37m0[37mx1 (POWERON_RESET),boot:0x13 (S[37mP[37mI_FAST_FLASH_BOOT)
+14:53:37.904 > configsip: [37m0[37m, SPIWP:0xee
+14:53:37.907 > clk_drv:0x00,q_dr[37mv[37m:0x00,d_drv:0x00,cs0_drv:0x00,h[37md[37m_drv:0x00,wp_drv:0x00
+14:53:37.912 > mode:DIO[37m,[37m clock div:2
+14:53:37.915 > load:0x3fff0030,l[37me[37mn:1184
+14:53:37.918 > load:0x40078000,len:132[37m3[37m2
+14:53:37.921 > load:0x40080400,len:3028
+14:53:37.921 > en[37mt[37mry 0x400805e4
+14:53:37.927 > [37me[37mts Jul 29 2019 12:21:46
+14:53:37.927 > 
+14:53:37.927 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:53:37.933 > configsip: 0, SP[37mI[37mWP:0xee
+14:53:37.935 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:53:37.941 > mode:DIO, clo[37mc[37mk div:2
+14:53:37.943 > load:0x3fff0030,len:11[37m8[37m4
+14:53:37.946 > load:0x40078000,len:13232
+14:53:37.946 > l[37mo[37m4[37me[37mts Jul 29 2019 12:21:46
+14:53:37.955 > 
+14:53:37.955 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:53:37.960 > configsip: 0, SP[37mI[37mWP:0xee
+14:53:37.963 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:53:37.969 > mode:DIO, clo[37mc[37mk div:2
+14:53:37.971 > load:0x3fff0030,len:11[37m8[37m4
+14:53:37.974 > load:0x40078000,len:13232
+14:53:37.974 > l[37mo[37mad:0x40080400,len:3028
+14:53:37.977 > entry 0[37mx[37m400805e4
+14:53:37.983 > [37me[37mts Jul 29 2019 12:21:46
+14:53:37.983 > 
+14:53:37.983 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:53:37.988 > configsip: 0, SP[37mI[37mWP:0xee
+14:53:37.991 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:53:37.997 > mode:DIO, clo[37mc[37mk div:2
+14:53:38.000 > load:0x3fff0030,len:11[37m8[37m4
+14:53:38.002 > load:0x40078000,len:13232
+14:53:38.002 > l[37mo[37mad:0x40080400,len:3028
+14:53:38.005 > entry 0[37mx[37m:[37m46
+14:53:38.012 > 
+14:53:38.012 > rst:0x3 (SW_RESET),boot:0[37mx[37m13 (SPI_FAST_FLASH_BOOT)
+14:53:38.015 > confi[37mg[37msip: 0, SPIWP:0xee
+14:53:38.018 > clk_drv:0x0[37m0[37m,q_drv:0x00,d_drv:0x00,cs0_drv:[37m0[37mx00,hd_drv:0x00,wp_drv:0x00
+14:53:38.023 > mo[37md[37me:DIO, clock div:2
+14:53:38.026 > load:0x3fff[37m0[37m030,len:1184
+14:53:38.029 > load:0x40078000,l[37me[37mn:13232
+14:53:38.032 > load:0x40080400,len:30[37m2[37m8
+14:53:38.036 > entry 0x400805e4
+14:53:38.038 > [37me[37mts Jul 29 2019 12:21:46
+14:53:38.038 > 
+14:53:38.038 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:53:38.044 > configsip: 0, SP[37mI[37mWP:0xee
+14:53:38.047 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:53:38.052 > mode:DIO, clo[37mc[37mk div:2
+14:53:38.055 > load:0x3fff0030,len:11[37m8[37m4
+14:53:38.058 > load:0x40078000,len:13232
+14:53:38.058 > l[37mo[37mad:0x40080400,len:3028
+14:53:38.061 > entry 0[37mx[37me[37mts Jul 29 2019 12:21:[37me[37mts Jul 29 2019 12:21:46
+14:53:38.172 > 
+14:53:38.172 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:53:38.180 > waiting for download[37m
+14:53:39.209 > [37m[37m[37m� [37m�[37m�[37m [37m     ��      �� [37m [37m    ��      ��     [37m [37m��      �[37me[37mts Jul 29 2019 12:21:46
+14:53:39.445 > 
+14:53:39.445 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:53:39.454 > waiting for download[37m
+14:53:39.983 > [37m[37m [37m�[37m�[37m[37m [37m     ��      �� [37m [37m�[37me[37m0[37mx1 (POWERON_RESET),boot:0x13 (S[37mP[37mI_FAST_FLASH_BOOT)
+14:53:50.002 > configsip: [37m0[37m, SPIWP:0xee
+14:53:50.005 > clk_drv:0x00,q_dr[37mv[37m:0x00,d_drv:0x00,cs0_drv:0x00,h[37md[37m_drv:0x00,wp_drv:0x00
+14:53:50.010 > mode:DIO[37m,[37m clock div:2
+14:53:50.013 > load:0x3fff0030,l[37me[37mn:1184
+14:53:50.016 > load:0x40078000,len:132[37m3[37m2
+14:53:50.018 > load:0x40080400,len:3028
+14:53:50.018 > en[37mt[37mry 0x400805e4
+14:53:50.025 > [37me[37mts Jul 29 2019 12:21:46
+14:53:50.025 > 
+14:53:50.025 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:53:50.030 > configsip: 0, SP[37mI[37mWP:0xee
+14:53:50.033 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:53:50.039 > mode:DIO, clo[37mc[37mk div:2
+14:53:50.041 > load:0x3fff0030,len:11[37m8[37m4
+14:53:50.044 > load:0x40078000,len:13232
+14:53:50.044 > l[37mo[37mad:0x40080400,len:3028
+14:53:50.047 > entry 0[37mx[37m400805e4
+14:53:50.053 > [37mt[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:53:50.058 > configsip: 0, SP[37mI[37mWP:0xee
+14:53:50.061 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:53:50.066 > mode:DIO, clo[37mc[37mk div:2
+14:53:50.069 > load:0x3fff0030,len:11[37m8[37m4
+14:53:50.072 > load:0x40078000,len:13232
+14:53:50.072 > l[37mo[37mad:0x40080400,len:3028
+14:53:50.075 > entry 0[37mx[37m400805e4
+14:53:50.080 > [37me[37mts Jul 29 2019 12:21:46
+14:53:50.081 > 
+14:53:50.081 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:53:50.086 > configsip: 0, SP[37mI[37mWP:0xee
+14:53:50.089 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:53:50.094 > mode:DIO, clo[37mc[37mk div:2
+14:53:50.097 > load:0x3fff0030,len:11[37m8[37m4
+14:53:50.100 > load:0x40078000,len:13232
+14:53:50.100 > l[37mo[37mad:0x40080400,len:3028
+14:53:50.103 > entry 0[37mx[37m400805e4
+14:53:50.108 > [37me[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:53:50.114 > configsip: 0, SP[37mI[37mWP:0xee
+14:53:50.117 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:53:50.122 > mode:DIO, clo[37mc[37mk div:2
+14:53:50.125 > load:0x3fff0030,len:11[37m8[37m4
+14:53:50.128 > load:0x40078000,len:13232
+14:53:50.128 > l[37mo[37mad:0x40080400,len:3028
+14:53:50.131 > entry 0[37mx[37m400805e4
+14:53:50.136 > [37me[37mts Jul 29 2019 12:21:46
+14:53:50.136 > 
+14:53:50.136 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:53:50.142 > configsip: 0, SP[37mI[37mWP:0xee
+14:53:50.145 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:53:50.150 > mode:DIO, clo[37mc[37mk div:2
+14:53:50.153 > load:0x3fff0030,len:11[37m8[37m4
+14:53:50.156 > load:0x40078000,len:13232
+14:53:50.156 > l[37mo[37mad:0x40080400,len:3028
+14:53:50.159 > entry 0[37mx[37m400805e4
+14:53:50.164 > ets Jul 29 2019 12:21[37m:[37m46
+14:53:50.167 > 
+14:53:50.167 > rst:0x3 �[37me[37mts Jul 29 2019 12:21:46
+14:53:50.271 > 
+14:53:50.271 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:53:50.279 > waiting for download[37m
+14:53:51.305 > [37m[37m[37m� [37m [37m� �Y�    �[37m[37m[37m [37m��      �ets Jul 29 2019[37m 12:21:46
+14:53:57.556 > 
+14:53:57.556 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:53:57.564 > waiting for download[37m
+14:53:58.080 > [37m[37m[37m� [37m�[37m�[37m [37m     ��      �� [37m [37m    ��      ��     [37m [37m��      �[37me[37mts Jul 29 2019 12:21:46
+14:53:58.317 > 
+14:53:58.317 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:53:58.325 > waiting for download[37m
+14:53:59.184 > [37m[37m [37m [37m�[37m[37m [37m [37m�[37m�[37m [37m     ��      �� [37m [37m    ��      ��     [37m [37m��      �[37me[37mts Jul 29 2019 12:21:46
+14:53:59.492 > 
+14:53:59.492 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:53:59.500 > waiting for download[37m
+14:54:00.323 > [37me[37mts Jul 29 2019 12:21:46
+14:54:00.324 > 
+14:54:00.324 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x13 (S[37mP[37mI_FAST_FLASH_BOOT)
+14:54:00.329 > configsip: [37m0[37m, SPIWP:0xee
+14:54:00.332 > clk_drv:0x00,q_dr[37mv[37m:0x00,d_drv:0x00,cs0_drv:0x00,h[37md[37m_drv:0x00,wp_drv:0x00
+14:54:00.337 > mode:DIO[37m,[37me[37mn:1184
+14:54:00.344 > load:0x40078000,�[37me[37mts Jul 29 2019 12:21:46
+14:54:00.449 > 
+14:54:00.449 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:00.457 > waiting for download[37m
+14:54:01.470 > [37m�[37m [37m     ��      �� [37m [37m    ��      ��     [37m [37m��      �[37m[37m[37m [37m   ��      ��     [37m [37m��      �[37me[37mts Jul 29 2019 12:21:46
+14:54:08.967 > 
+14:54:08.967 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:08.975 > waiting for download[37m
+14:54:09.799 > [37m[37m[37m؛[37m   �� ��    �� ��   [37m [37m� ��    �[37m[37m[37m [37m    ��      ��     [37m [37m��      �[37me[37mts Jul 29 2019 12:21:46
+14:54:24.096 > 
+14:54:24.096 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x13 (S[37mP[37mI_FAST_FLASH_BOOT)
+14:54:24.102 > configsip: [37m0[37m, SPIWP:0xee
+14:54:24.104 > clk_drv:0x00,q_dr[37mv[37m:0x00,d_drv:0x00,cs0_drv:0x00,h[37md[37m_drv:0x00,wp_drv:0x00
+14:54:24.110 > mode:DIO[37m,[37m clock div:2
+14:54:24.113 > load:0x3fff0030,l[37me[37mn:1184
+14:54:24.115 > load:0x40078000,len:132[37m3[37m2
+14:54:24.118 > load:0x40080400,len:3028
+14:54:24.118 > en[37mt[37mry 0x400805e4
+14:54:24.127 > [37m0[37mS[37mT_FLASH_BOOT)
+14:54:24.130 > configsip: 0, SP[37mI[37mWP:0xee
+14:54:24.133 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:54:24.139 > mode:DIO, clo[37mc[37mk div:2
+14:54:24.141 > load:0x3fff0030,len:11[37m8[37m4
+14:54:24.144 > load:0x40078000,len:13232
+14:54:24.144 > l[37mo[37mad:0x40080400,len:3028
+14:54:24.147 > entry 0[37mx[37m400805e4
+14:54:24.153 > [37me[37mts Jul 29 2019 12:21:46
+14:54:24.153 > 
+14:54:24.153 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:54:24.158 > configsip: 0, SP[37mI[37mWP:0xee
+14:54:24.161 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:54:24.166 > mode:DIO, clo[37mc[37mk div:2
+14:54:24.169 > load:0x3fff0030,len:11[37m8[37m4
+14:54:24.172 > load:0x40078000,len:13232
+14:54:24.172 > l[37mo[37mad:0x40080400,len:3028
+14:54:24.175 > entry 0[37mx[37m400805e4
+14:54:24.180 > [37me[37mts Jul 29 2019 12:21:46
+14:54:24.180 > 
+14:54:24.180 > rst:[37m0[37mS[37mI[37mWP:0xee
+14:54:24.189 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:54:24.194 > mode:DIO, clo[37mc[37mk div:2
+14:54:24.197 > load:0x3fff0030,len:11[37m8[37m4
+14:54:24.200 > load:0x40078000,len:13232
+14:54:24.200 > l[37mo[37mad:0x40080400,len:3028
+14:54:24.203 > entry 0[37mx[37m400805e4
+14:54:24.208 > [37me[37mts Jul 29 2019 12:21:46
+14:54:24.208 > 
+14:54:24.208 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FA[37mS[37mT_FLASH_BOOT)
+14:54:24.214 > configsip: 0, SP[37mI[37mWP:0xee
+14:54:24.217 > clk_drv:0x00,q_drv:0x0[37m0[37m,d_drv:0x00,cs0_drv:0x00,hd_drv[37m:[37m0x00,wp_drv:0x00
+14:54:24.222 > mode:DIO, clo[37mc[37mk div:2
+14:54:24.225 > load:0x3fff0030,len:11[37m8[37m4
+14:54:24.228 > load:0x40078000,len:13232
+14:54:24.228 > l[37mo[37mad:0x40080400,len:3028
+14:54:24.230 > entry 0[37mx[37m400805e4
+14:54:24.236 > [37me[37mts Jul 29 2019 12:21:46
+14:54:24.236 > 
+14:54:24.236 > rst:[37m0[37mx3 (SW_RESET),boot:0x13 ([37m�e[37mts Jul 29 2019 12:21:46
+14:54:24.344 > 
+14:54:24.344 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:24.353 > waiting for download[37m
+14:54:25.801 > [37me[37mts Jul 29 2019 12:21:46
+14:54:25.801 > 
+14:54:25.801 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:25.809 > waiting for download[37m
+14:54:26.750 > [37me[37mts Jul 29 2019 12:21:46
+14:54:26.750 > 
+14:54:26.750 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:26.758 > waiting for download[37m
+14:54:27.776 > [37m[37m[37mл[37m [37m� ��    �[37m[37m[37m [37m�[37me[37mts Jul 29 2019 12:21:46
+14:54:31.025 > 
+14:54:31.025 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:31.034 > waiting for download[37m
+14:54:31.399 > [37m[37m [37m [37m�[37m[37m[37m [37m�[37m�[37m [37m     ��      �� [37m [37m    ��      ��     [37m [37m��      �[37me[37mts Jul 29 2019 12:21:46
+14:54:39.398 > 
+14:54:39.398 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:39.406 > waiting for download[37m
+14:54:40.351 > [37me[37mts Jul 29 2019 12:21:46
+14:54:40.351 > 
+14:54:40.351 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:40.359 > waiting for download[37m
+14:54:41.223 > [37m�[37m [37m��    �� ��    �� �[37m[37m�    �� ��    �� ��   [37m [37m�� ��    �[37m[37m[37m [37m�[37m[37m[37m [37m�[37me[37mts Jul 29 2019 12:21:46
+14:54:41.528 > 
+14:54:41.528 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:41.536 > waiting for download[37m
+14:54:41.895 > [37m[37m[37m [37m�[37m[37m[37m [37m�[37m�[37m [37m     ��      �� [37m [37m    ��      ��     [37m [37m��      �[37me[37mts Jul 29 2019 12:21:46
+14:54:42.201 > 
+14:54:42.201 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:42.209 > waiting for download[37m
+14:54:43.653 > [37me[37mts Jul 29 2019 12:21:46
+14:54:43.653 > 
+14:54:43.653 > rst:[37m0[37mx1 (POWERON_RESET),boot:0x3 (DO[37mW[37mNLOAD_BOOT(UART0/UART1/SDIO_REI[37m_[37mREO_V2))
+14:54:43.661 > waiting for download[37m
+14:54:44.027 > [37m[37m[37m�Y�    �� �Y�    �� �Y
