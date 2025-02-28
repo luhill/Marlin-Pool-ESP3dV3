@@ -41,7 +41,9 @@
 
 #define PIN_LED_PUMP            FAN_PIN
 #define PIN_LED_BOOSTER         FAN1_PIN
-
+#define PIN_FAN_CASE            147// FAN_PIN
+#define DUTY_FAN_CASE           225 //0-255
+#define FREQ_FAN_CASE           10000UL
 struct PoolParameters{//26 bytes
   byte initialized;//1 byte = flag, used to determine if the eeprom has been initialized with pool settings yet
   byte auto_on_a;//1 byte = flag
@@ -371,6 +373,7 @@ void POOL::setup(uint32_t cycle_period_ms){
     SET_OUTPUT(PIN_LED_BOOSTER);
     SET_INPUT_PULLUP(PIN_ON_INTERRUPT_A);
     SET_INPUT_PULLUP(PIN_ON_INTERRUPT_B);
+    hal.set_pwm_frequency(PIN_FAN_CASE,FREQ_FAN_CASE);
 
     setupClock();
     loadSettings();//get saved settings from eeprom
@@ -577,8 +580,13 @@ void POOL::setFloc(bool on, int duty){
 }
 void POOL::writeOutputs(){
   WRITE(PIN_POWER_SUPPLY_ON,  pump_on || pump_12v_on);
+  if(pump_on || pump_12v_on){
+    WRITE_D_A(PIN_FAN_CASE,DUTY_FAN_CASE,true);
+  }else{
+    WRITE(PIN_FAN_CASE,LOW);
+  }
   WRITE(PIN_PUMP_POWER,       pump_on);
-  WRITE(PIN_LED_PUMP,         pump_on);
+  //WRITE(PIN_LED_PUMP,         pump_on);
   WRITE(PIN_BOOSTER_POWER,    booster_on);
   WRITE(PIN_LED_BOOSTER,      booster_on);
   WRITE(PIN_12V_PUMP, pump_12v_on);
