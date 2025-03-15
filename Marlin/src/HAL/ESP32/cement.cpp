@@ -30,7 +30,7 @@ CRGB leds[NUM_LEDS];
 
 volatile bool onA = true;
 volatile bool onB = true;
-//volatile uint8_t dutyA = 255;
+uint8_t DUTY_FLOODS_MAX = 255;
 #define FRAMES_PER_SECOND  120
 
 char c[] = "0xFFFF00";
@@ -159,7 +159,7 @@ void CEMENT::handleCommand(String val){
 
   value = cmd[F("waterfall")];/*both*/
   if (!value.isNull()){
-    onA = value[0]>0;
+    onA = value[0].as<bool>();
     S.dutyA = (uint8_t)value[1].as<unsigned int>();
     FastLED.setBrightness(onA*S.dutyA);
     send[F("waterfall")][0] = onA;
@@ -195,9 +195,9 @@ void CEMENT::handleCommand(String val){
   }
   value = cmd[F("floods")];/*both*/
   if (!value.isNull()){
-    onB = value[0]>0;
+    onB = value[0].as<bool>();
     S.dutyB = (uint8_t)value[1].as<unsigned int>();
-    S.dutyB = min(S.dutyB,(uint8_t)200);
+    S.dutyB = min(S.dutyB,DUTY_FLOODS_MAX);//limit brightness here
     analogWrite(PIN_FLOODS,S.dutyB*onB);
     //FastLED.setBrightness(onB*S.dutyB);
     send[F("floods")][0] = onB;
@@ -313,48 +313,41 @@ void CEMENT::buildValues(){
   values[F("floods")][0] = onB;
   values[F("floods")][1] = S.dutyB;
 }
-void CEMENT::setup(){
-    //Set Pin states
-    setupClock();
-    loadSettings();//get saved settings from eeprom
-    if(!S.initialized){//the settings have never been saved (code loaded to device for the first time or eeprom was erased)
-      S.initialized = true;
-      S.auto_on = false;
-      S.time_start = 64800;//6:00 pm
-      S.time_stop = 75600;//8:00 pm
-      S.color = 0xFFFF00;
-      S.dutyA = 64;
-      S.dutyB = 64;
-      S.effect = 1;
-      saveSettings();
-    }
-   
-    if (hTimer3.attachInterruptInterval(1000,hwTimerHandler)){}//set hardware timer to run at 1ms (1000 us)
-    //Up to 16 timers based on hTimer3. These timers tick length is determined by hTimer3 interrupt interval
-    /*Note - reading an i2s analog to digital converter cannot be performed inside an ISR*/
-    ISR_TIMER_AUTO_ON = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOn);                      //auto on timer
-    ISR_TIMER_AUTO_OFF = ISR_Timer.setInterval(SEC_PER_DAY*1000,alarm_autoOff);                    //auto off timer
-    setAutoTimers();//Auto on & off timers were initialized with arbitrary values above. Update them based on current time
-    /*
-    ledcSetup(blenderPWMChannel, pwm_freq, 7);//3khz 7bits (0-128)
-    ledcAttachPin(PIN_BLENDER, blenderPWMChannel);
+void CEMENT::setup() {
+    // Set Pin states
+    pinMode(PIN_WATERFALL_DATA, OUTPUT);
+    pinMode(PIN_FLOODS, OUTPUT);
+    FastLED.addLeds<LED_TYPE, PIN_WATERFALL_DATA, COLOR_ORDER>(
+        leds, NUM_LEDS);  //.setCorrection(TypicalLEDStrip);
+    gPatterns[S.effect]();
 
-    ledcSetup(auxPWMChannel, pwm_freq, 7);//3khz 7bits (0-128)
-    ledcAttachPin(PIN_AUX, auxPWMChannel);
+    setupClock();
+    loadSettings();        // get saved settings from eeprom
+    if (!S.initialized) {  // the settings have never been saved (code loaded to
+                           // device for the first time or eeprom was erased)
+        S.initialized = true;
+        S.auto_on = false;
+        S.time_start = 64800;  // 6:00 pm
+        S.time_stop = 75600;   // 8:00 pm
+        S.color = 0xFFFF00;
+        S.dutyA = 64;
+        S.dutyB = 64;
+        S.effect = 1;
+        saveSettings();
+    }
+
+    if (hTimer3.attachInterruptInterval(1000, hwTimerHandler)) {}  // set hardware timer to run at 1ms (1000 us)
+    // Up to 16 timers based on hTimer3. These timers tick length is determined
+    // by hTimer3 interrupt interval
+    /*Note - reading an i2s analog to digital converter cannot be performed
+     * inside an ISR*/
+    ISR_TIMER_AUTO_ON = ISR_Timer.setInterval(SEC_PER_DAY * 1000, alarm_autoOn);  // auto on timer
+    ISR_TIMER_AUTO_OFF = ISR_Timer.setInterval(SEC_PER_DAY * 1000, alarm_autoOff);  // auto off timer
+    setAutoTimers();  // Auto on & off timers were initialized with arbitrary
+                      // values above. Update them based on current time
 
     writeOutputs();
-    */
-   pinMode(PIN_WATERFALL_DATA,OUTPUT);
-   pinMode(PIN_FLOODS,OUTPUT);
-  // tell FastLED about the LED strip configuration
-  FastLED.addLeds<LED_TYPE,PIN_WATERFALL_DATA,COLOR_ORDER>(leds, NUM_LEDS);//.setCorrection(TypicalLEDStrip);
-  //FastLED.addLeds<LED_TYPE,DATA_PIN,CLK_PIN,COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-  gPatterns[S.effect]();
-  // set master brightness control
-  //FastLED.setBrightness(onA*S.dutyA);
-  writeOutputs();
 }
-
 
 //SimplePatternList gPatterns = {solid};
 
@@ -481,6 +474,11 @@ void CEMENT::setAutoTimers(){
     int stop = (S.time_stop-sec+SEC_PER_DAY)%SEC_PER_DAY;
     ISR_Timer.changeInterval(ISR_TIMER_AUTO_ON,start*1000);
     ISR_Timer.changeInterval(ISR_TIMER_AUTO_OFF,stop*1000);
+    if(S.auto_on && stop < start){
+      onA = true;
+      onB = true;
+      writeOutputs();
+    }
 }
 
 void CEMENT::setAuto(bool on, int start, int stop){
