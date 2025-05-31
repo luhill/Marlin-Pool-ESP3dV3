@@ -137,7 +137,7 @@ public:
   #endif
 
   // Basic file ops
-  static void openFileRead(const char * const path, const uint8_t subcall=0);
+  static void openFileRead(const char * path, const uint8_t subcall=0);
   static void openFileWrite(const char * const path);
   static void closefile(const bool store_location=false);
   static bool fileExists(const char * const name);
@@ -257,7 +257,7 @@ public:
     typedef TERN(NEED_SD2CARD_SDIO, DiskIODriver_SDIO, DiskIODriver_SPI_SD) sdcard_driver_t;
     static sdcard_driver_t media_driver_sdcard;
   #endif
-
+  static char* findShortName(SdFile parent, const char* l_name);//return the short name of sd file for given long name
 private:
   //
   // Working directory and parents

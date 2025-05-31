@@ -203,7 +203,7 @@ char *createFilename(char * const buffer, const dir_t &p) {
 // Return 'true' if the item is a folder, G-code file or Binary file
 //
 bool CardReader::is_visible_entity(const dir_t &p OPTARG(CUSTOM_FIRMWARE_UPLOAD, const bool onlyBin/*=false*/)) {
-  //uint8_t pn0 = p.name[0];
+  uint8_t pn0 = p.name[0];
 
   #if DISABLED(CUSTOM_FIRMWARE_UPLOAD)
     constexpr bool onlyBin = false;
@@ -211,9 +211,9 @@ bool CardReader::is_visible_entity(const dir_t &p OPTARG(CUSTOM_FIRMWARE_UPLOAD,
 
   if ( (p.attributes & DIR_ATT_HIDDEN)                  // Hidden by attribute
     // When readDir() > 0 these must be false:
-    //|| pn0 == DIR_NAME_FREE || pn0 == DIR_NAME_DELETED  // Clear or Deleted entry
-    //|| pn0 == '.' || longFilename[0] == '.'             // Hidden file
-    //|| !DIR_IS_FILE_OR_SUBDIR(&p)                       // Not a File or Directory
+    || pn0 == DIR_NAME_FREE || pn0 == DIR_NAME_DELETED  // Clear or Deleted entry
+    || pn0 == '.' || longFilename[0] == '.'             // Hidden file
+    || !DIR_IS_FILE_OR_SUBDIR(&p)                       // Not a File or Directory
   ) return false;
 
   flag.filenameIsDir = DIR_IS_SUBDIR(&p);               // We know it's a File or Folder
@@ -273,7 +273,26 @@ void CardReader::selectByName(SdFile dir, const char * const match) {
     }
   }
 }
-
+/*
+Luke find a files dos 8.3 name given its long name.
+Loop through SD directory until a file is found with the specified l_name
+Note this does not search sub folders
+*/
+char* CardReader::findShortName(SdFile parent, const char* l_name){
+  dir_t p;
+  while (parent.readDir(&p, longFilename) > 0) {
+    if(is_visible_entity(p OPTARG(CUSTOM_FIRMWARE_UPLOAD, onlyBin))) {
+      if(strcasecmp(l_name, longFilename)==0){//names the same
+        createFilename(filename, p);
+        //SERIAL_ECHO("Do3 8.3 shortname: ");
+        //SERIAL_ECHOLN(filename);
+        return(filename);
+        break;
+      }
+    }
+  }
+  return nullptr;
+}
 /**
  * Recursive method to print all files within a folder in flat
  * DOS 8.3 format. This style of listing is the most compatible
@@ -298,7 +317,7 @@ void CardReader::printListing(SdFile parent,  const char * const prepend, const 
   dir_t p;
   while (parent.readDir(&p, longFilename) > 0) {
     if (DIR_IS_SUBDIR(&p)) {
-
+      if(longFilename[0]=='.')continue;//ignore hidden folders
       size_t lenPrepend = prepend ? strlen(prepend) + 1 : 0;
       // Allocate enough stack space for the full path including / separator
       char path[lenPrepend + FILENAME_LENGTH];
@@ -656,7 +675,17 @@ void announceOpen(const uint8_t doing, const char * const path) {
 //   - 1 : (no file open) Opening a macro (M98).
 //   - 2 : Resuming from a sub-procedure
 //
-void CardReader::openFileRead(const char * const path, const uint8_t subcall_type/*=0*/) {
+void CardReader::openFileRead(const char * path, const uint8_t subcall_type/*=0*/) {
+  //check if the path begins with '/' and is longer than dos 8.3 standard
+  if(path[0] == '/'){
+    path++;//skip the '/'
+    char* n = strchr(path,'.');
+    if(n && n-path >= 8){
+      SERIAL_ECHO("Locating long file: ");
+      SERIAL_ECHOLN(path);//make sure to increment pointer. first character of fname from esp3d is '/'
+      path = findShortName(root,path);
+    }
+  }
   if (!isMounted()) return openFailed(path);
 
   switch (subcall_type) {

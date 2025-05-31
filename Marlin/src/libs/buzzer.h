@@ -84,12 +84,12 @@
        * @details Alias of digitalWrite(PIN, HIGH) using FastIO
        */
       FORCE_INLINE static void on() { WRITE(BEEPER_PIN, HIGH); }
-
+      FORCE_INLINE static void on(const uint16_t f) {WRITE_A_F(BEEPER_PIN,f); WRITE_A_D(BEEPER_PIN,128,true);} 
       /**
        * @brief Turn off a digital PIN
        * @details Alias of digitalWrite(PIN, LOW) using FastIO
        */
-      FORCE_INLINE static void off() { WRITE(BEEPER_PIN, LOW); }
+      FORCE_INLINE static void off() { WRITE(BEEPER_PIN, LOW); WRITE_A_D(BEEPER_PIN,0,true); }
 
       static void click(const uint16_t duration) { on(); delay(duration); off(); }
 

@@ -71,10 +71,13 @@ void Buzzer::tick() {
         CRITICAL_SECTION_END();
       #elif ENABLED(SPEAKER)
         CRITICAL_SECTION_START();
-        ::tone(BEEPER_PIN, state.tone.frequency, state.tone.duration);
+        WRITE_A_D(BEEPER_PIN,128,true);
+        WRITE_A_F(BEEPER_PIN,state.tone.frequency);
+        //::tone(BEEPER_PIN, state.tone.frequency, state.tone.duration);
         CRITICAL_SECTION_END();
       #else
-        on();
+        //on();
+        on(state.tone.frequency);
       #endif
     }
   }

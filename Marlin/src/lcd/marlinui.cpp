@@ -1449,10 +1449,28 @@ void MarlinUI::init() {
 
     // At this point, we have the proper cut point. Use it
     uint8_t maxLen = pend - cstr;
+    if (strstr(status_message,"Conne")&&(cstr, "10.0")) {  // wifi connected play a tone
+      queue.inject_P(
+          PSTR("G4 P500\n"//short dwell to allow lcd to update?
+               "M300 P95 S659\n"
+               "M300 P48 S0\n"
+               "M300 P95 S659\n"
+               "M300 P190 S0\n"
+               "M300 P95 S659\n"
+               "M300 P190 S0\n"
+               "M300 P95 S523\n"
+               "M300 P48 S0\n"
+               "M300 P95 S659\n"
+               "M300 P190 S0\n"
+               "M300 P95 S784\n"
+               "M300 P476 S0\n"
+               "M300 P95 S392\n"));
+  }
     strncpy(status_message, cstr, maxLen);
     status_message[maxLen] = '\0';
 
     finish_status(persist);
+   
   }
 
   /**

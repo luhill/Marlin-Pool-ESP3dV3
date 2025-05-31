@@ -104,7 +104,7 @@ void Marlin_NeoPixel::init() {
   #ifdef NEOPIXEL_BKGD_INDEX_FIRST
     reset_background_color();
   #endif
-
+  //set_color(adaneo1.Color(255,255,255));
   set_color(adaneo1.Color
     TERN(LED_USER_PRESET_STARTUP,
       (LED_USER_PRESET_RED, LED_USER_PRESET_GREEN, LED_USER_PRESET_BLUE, LED_USER_PRESET_WHITE),

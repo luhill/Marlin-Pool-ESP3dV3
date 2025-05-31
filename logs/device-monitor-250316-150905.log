@@ -1,0 +1,276 @@
+15:09:05.757 > [37mstart
+15:09:05.757 > 
+15:09:05.757 > abort() was called at PC 0x400854ef on core 1
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > Backtrace: 0x40083f21:0x3ffb2060 0x4008df01:0x3ffb2080 0x40093b4d:0x3ffb20a0 0x400854ef:0x3ffb2120 0x40085639:0x3ffb2150 0x40110d08:0x3ffb2170 0x400e63bc:0x3ffb21b0 0x400e62a9:0x3ffb2200 0x400d4f21:0x3ffb2220 0x400d4de3:0x3ffb2240 0x400d4ae5:0x3ffb2260 0x4010e0b2:0x3ffb2290
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > ELF file SHA256: 7b9b6db963bbb06a
+15:09:05.757 > 
+15:09:05.757 > Rebooting...
+15:09:05.757 > ets Jun  8 2016 00:22:57
+15:09:05.757 > 
+15:09:05.757 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+15:09:05.757 > configsip: 0, SPIWP:0xee
+15:09:05.757 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:09:05.757 > mode:DIO, clock div:2
+15:09:05.757 > load:0x3fff0030,len:1184
+15:09:05.757 > load:0x40078000,len:13192
+15:09:05.757 > load:0x40080400,len:3028
+15:09:05.757 > entry 0x400805e4
+15:09:05.757 > start
+15:09:05.757 > 
+15:09:05.757 > abort() was called at PC 0x400854ef on core 1
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > Backtrace: 0x40083f21:0x3ffb2060 0x4008df01:0x3ffb2080 0x40093b4d:0x3ffb20a0 0x400854ef:0x3ffb2120 0x40085639:0x3ffb2150 0x40110d08:0x3ffb2170 0x400e63bc:0x3ffb21b0 0x400e62a9:0x3ffb2200 0x400d4f21:0x3ffb2220 0x400d4de3:0x3ffb2240 0x400d4ae5:0x3ffb2260 0x4010e0b2:[37m0x3ffb2290
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > ELF file SHA256: 7b9b6db963bbb06a
+15:09:05.757 > 
+15:09:05.757 > Rebooting...
+15:09:05.757 > ets Jun  8 2016 00:22:57
+15:09:05.757 > 
+15:09:05.757 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+15:09:05.757 > configsip: 0, SPIWP:0xee
+15:09:05.757 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:09:05.757 > mode:DIO, clock div:2
+15:09:05.757 > load:0x3fff0030,len:1184
+15:09:05.757 > load:0x40078000,len:13192
+15:09:05.757 > load:0x40080400,len:3028
+15:09:05.757 > entry 0x400805e4
+15:09:05.757 > start
+15:09:05.757 > 
+15:09:05.757 > abort() was called at PC 0x400854ef on core 1
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > Backtrace: 0x40083f21:0x3ffb2060 0x4008df01:0x3ffb2080 0x40093b4d:0x3ffb20a0 0x400854ef:0x3ffb2120 0x40085639:0x3ffb2150 0x40110d08:0x3ffb2170 0x400e63bc:0x3ffb21b0 0x400e62a9:0x3ffb2200 0x400d4f21:0x3ffb2220 0x400d4de3:0x3ffb2240 0x400d4ae5:0x3ffb2260 0x4010e0b2:0x3ffb2290
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > ELF file SHA256: 7b9b6db963bbb06a
+15:09:05.757 > 
+15:09:05.757 > Rebooting...
+15:09:05.757 > ets Jun  8 2016 00:22:57
+15:09:05.757 > 
+15:09:05.757 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+15:09:05.757 > configsip: 0, SPIWP:0xee
+15:09:05.757 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:09:05.757 > mode:DIO, clock div:2
+15:09:05.757 > load:0x3fff0030,len:1184
+15:09:05.757 > load:0x40078000,len:[37m13192
+15:09:05.757 > load:0x40080400,len:3028
+15:09:05.757 > entry 0x400805e4
+15:09:05.757 > start
+15:09:05.757 > 
+15:09:05.757 > abort() was called at PC 0x400854ef on core 1
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > Backtrace: 0x40083f21:0x3ffb2060 0x4008df01:0x3ffb2080 0x40093b4d:0x3ffb20a0 0x400854ef:0x3ffb2120 0x40085639:0x3ffb2150 0x40110d08:0x3ffb2170 0x400e63bc:0x3ffb21b0 0x400e62a9:0x3ffb2200 0x400d4f21:0x3ffb2220 0x400d4de3:0x3ffb2240 0x400d4ae5:0x3ffb2260 0x4010e0b2:0x3ffb2290
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > ELF file SHA256: 7b9b6db963bbb06a
+15:09:05.757 > 
+15:09:05.757 > Rebooting...
+15:09:05.757 > ets Jun  8 2016 00:22:57
+15:09:05.757 > 
+15:09:05.757 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+15:09:05.757 > configsip: 0, SPIWP:0xee
+15:09:05.757 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:09:05.757 > mode:DIO, clock div:2
+15:09:05.757 > load:0x3fff0030,len:1184
+15:09:05.757 > load:0x40078000,len:13192
+15:09:05.757 > load:0x40080400,len:3028
+15:09:05.757 > entry 0x400805e4
+15:09:05.757 > start
+15:09:05.757 > 
+15:09:05.757 > abort() was called at PC 0x400854ef on core 1
+15:09:05.757 > 
+15:09:05.757 > 
+15:09:05.757 > Backtrace: 0x40083f21:0x3ffb2060 0x4008df01:0x3ffb2080 0x40093b4d:0x3ffb20a0 0x400854ef:0x3ffb2120 0x40085639:0x3ffb2150 0x40110d08:0x3ffb2170 0x400e63bc:0x3ffb21b0 0x400e62a9:0x3ffb2200 0x400d4f21:0x3ffb2220 0x40[37m0d4de3:0x3ffb2240 0x400d4ae5:0x3ffb2260 0x4010e0b2:0x3ffb2290
+15:09:05.758 > 
+15:09:05.758 > 
+15:09:05.758 > 
+15:09:05.758 > 
+15:09:05.758 > ELF file SHA256: 7b9b6db963bbb06a
+15:09:05.758 > 
+15:09:05.758 > Rebooting...
+15:09:05.758 > ets Jun  8 2016 00:22:57
+15:09:05.758 > 
+15:09:05.758 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+15:09:05.758 > configsip: 0, SPIWP:0xee
+15:09:05.758 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:09:05.758 > mode:DIO, clock div:2
+15:09:05.758 > load:0x3fff0030,len:1184
+15:09:05.758 > load:0x40078000,len:13192
+15:09:05.758 > load:0x40080400,len:3028
+15:09:05.758 > entry 0x400805e4
+15:09:05.810 > [37ms[37mtart
+15:09:05.810 > 
+15:09:05.810 > abort() was called at PC[37m [37m0x400854ef on core 1
+15:09:05.812 > 
+15:09:05.812 > 
+15:09:05.812 > Backt[37mr[37mace: 0x40083f21:0x3ffb2060 0x40[37m0[37m8df01:0x3ffb2080 0x40093b4d:0x3[37mf[37mfb20a0 0x400854ef:0x3ffb2120 0x[37m4[37m0085639:0x3ffb2150 0x40110d08:0[37mx[37m3ffb2170 0x400e63bc:0x3ffb21b0 [37m0[37mx400e62a9:0x3ffb2200 0x400d4f21[37m:[37m0x3ffb2220 0x400d4de3:0x3ffb224[37m0[37m 0x400d4ae5:0x3ffb2260 0x4010e0[37mb[37m2:0x3ffb2290
+15:09:05.837 > 
+15:09:05.837 > 
+15:09:05.837 > 
+15:09:05.837 > 
+15:09:05.837 > ELF file [37mS[37mHA256: 7b9b6db963bbb06a
+15:09:05.842 > 
+15:09:05.974 > [37mR[37mebooting...
+15:09:05.974 > ets Jun  8 2016 00[37m:[37m22:57
+15:09:05.976 > 
+15:09:05.976 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+15:09:05.982 > configsip: 0, SPIWP:0xee
+15:09:05.982 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:09:05.990 > mode:DIO, clock div:2
+15:09:05.990 > load[37m:[37m0x3fff0030,len:1184
+15:09:05.993 > load:0x400[37m7[37m8000,len:13192
+15:09:05.996 > load:0x40080400[37m,[37mlen:3028
+15:09:06.000 > entry 0x400805e4
+15:09:06.605 > [37ms[37mtart
+15:09:06.606 > 
+15:09:06.606 > abort() was called at PC[37m [37m0x400854ef on core 1
+15:09:06.608 > 
+15:09:06.608 > 
+15:09:06.608 > Backt[37mr[37mace: 0x40083f21:0x3ffb2060 0x40[37m0[37m8df01:0x3ffb2080 0x40093b4d:0x3[37mf[37mfb20a0 0x400854ef:0x3ffb2120 0x[37m4[37m0085639:0x3ffb2150 0x40110d08:0[37mx[37m3ffb2170 0x400e63bc:0x3ffb21b0 [37m0[37mx400e62a9:0x3ffb2200 0x400d4f21[37m:[37m0x3ffb2220 0x400d4de3:0x3ffb224[37m0[37m 0x400d4ae5:0x3ffb2260 0x4010e0[37mb[37m2:0x3ffb2290
+15:09:06.633 > 
+15:09:06.633 > 
+15:09:06.633 > 
+15:09:06.633 > 
+15:09:06.633 > ELF file [37mS[37mHA256: 7b9b6db963bbb06a
+15:09:06.637 > 
+15:09:06.770 > [37mR[37mebooting...
+15:09:06.771 > ets Jun  8 2016 00[37m:[37m22:57
+15:09:06.773 > 
+15:09:06.773 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+15:09:06.779 > configsip: 0, SPIWP:0xee
+15:09:06.779 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:09:06.787 > mode:DIO, clock div:2
+15:09:06.787 > load[37m:[37m0x3fff0030,len:1184
+15:09:06.790 > load:0x400[37m7[37m8000,len:13192
+15:09:06.793 > load:0x40080400[37m,[37mlen:3028
+15:09:06.797 > entry 0x400805e4
+15:09:07.402 > [37ms[37mtart
+15:09:07.402 > 
+15:09:07.402 > abort() was called at PC[37m [37m0x400854ef on core 1
+15:09:07.405 > 
+15:09:07.405 > 
+15:09:07.405 > Backt[37mr[37mace: 0x40083f21:0x3ffb2060 0x40[37m0[37m8df01:0x3ffb2080 0x40093b4d:0x3[37mf[37mfb20a0 0x400854ef:0x3ffb2120 0x[37m4[37m0085639:0x3ffb2150 0x40110d08:0[37mx[37m3ffb2170 0x400e63bc:0x3ffb21b0 [37m0[37mx400e62a9:0x3ffb2200 0x400d4f21[37m:[37m0x3ffb2220 0x400d4de3:0x3ffb224[37m0[37m 0x400d4ae5:0x3ffb2260 0x4010e0[37mb[37m2:0x3ffb2290
+15:09:07.430 > 
+15:09:07.430 > 
+15:09:07.430 > 
+15:09:07.430 > 
+15:09:07.430 > ELF file [37mS[37mHA256: 7b9b6db963bbb06a
+15:09:07.434 > 
+15:09:07.572 > [37mR[37mebooting...
+15:09:07.572 > ets Jun  8 2016 00[37m:[37m22:57
+15:09:07.575 > 
+15:09:07.575 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+15:09:07.580 > configsip: 0, SPIWP:0xee
+15:09:07.580 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:09:07.588 > mode:DIO, clock div:2
+15:09:07.588 > load[37m:[37m0x3fff0030,len:1184
+15:09:07.591 > load:0x400[37m7[37m8000,len:13192
+15:09:07.594 > load:0x40080400[37m,[37mlen:3028
+15:09:07.598 > entry 0x400805e4
+15:09:08.203 > [37ms[37mtart
+15:09:08.204 > 
+15:09:08.204 > abort() was called at PC[37m [37m0x400854ef on core 1
+15:09:08.206 > 
+15:09:08.206 > 
+15:09:08.206 > Backt[37mr[37mace: 0x40083f21:0x3ffb2060 0x40[37m0[37m8df01:0x3ffb2080 0x40093b4d:0x3[37mf[37mfb20a0 0x400854ef:0x3ffb2120 0x[37m4[37m0085639:0x3ffb2150 0x40110d08:0[37mx[37m3ffb2170 0x400e63bc:0x3ffb21b0 [37m0[37mx400e62a9:0x3ffb2200 0x400d4f21[37m:[37m0x3ffb2220 0x400d4de3:0x3ffb224[37m0[37m 0x400d4ae5:0x3ffb2260 0x4010e0[37mb[37m2:0x3ffb2290
+15:09:08.231 > 
+15:09:08.231 > 
+15:09:08.231 > 
+15:09:08.231 > 
+15:09:08.231 > ELF file [37mS[37mHA256: 7b9b6db963bbb06a
+15:09:08.235 > 
+15:09:08.372 > [37mR[37mebooting...
+15:09:08.372 > ets Jun  8 2016 00[37m:[37m22:57
+15:09:08.375 > 
+15:09:08.375 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+15:09:08.380 > configsip: 0, SPIWP:0xee
+15:09:08.380 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:09:08.388 > mode:DIO, clock div:2
+15:09:08.388 > load[37m:[37m0x3fff0030,len:1184
+15:09:08.391 > load:0x400[37m7[37m8000,len:13192
+15:09:08.394 > load:0x40080400[37m,[37mlen:3028
+15:09:08.399 > entry 0x400805e4
+15:09:09.004 > [37ms[37mtart
+15:09:09.004 > 
+15:09:09.004 > abort() was called at PC[37m [37m0x400854ef on core 1
+15:09:09.007 > 
+15:09:09.007 > 
+15:09:09.007 > Backt[37mr[37mace: 0x40083f21:0x3ffb2060 0x40[37m0[37m8df01:0x3ffb2080 0x40093b4d:0x3[37mf[37mfb20a0 0x400854ef:0x3ffb2120 0x[37m4[37m0085639:0x3ffb2150 0x40110d08:0[37mx[37m3ffb2170 0x400e63bc:0x3ffb21b0 [37m0[37mx400e62a9:0x3ffb2200 0x400d4f21[37m:[37m0x3ffb2220 0x400d4de3:0x3ffb224[37m0[37m 0x400d4ae5:0x3ffb2260 0x4010e0[37mb[37m2:0x3ffb2290
+15:09:09.031 > 
+15:09:09.031 > 
+15:09:09.031 > 
+15:09:09.031 > 
+15:09:09.031 > ELF file [37mS[37mHA256: 7b9b6db963bbb06a
+15:09:09.036 > 
+15:09:09.169 > [37mR[37mebooting...
+15:09:09.169 > ets Jun  8 2016 00[37m:[37m22:57
+15:09:09.172 > 
+15:09:09.172 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+15:09:09.178 > configsip: 0, SPIWP:0xee
+15:09:09.178 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:09:09.186 > mode:DIO, clock div:2
+15:09:09.186 > load[37m:[37m0x3fff0030,len:1184
+15:09:09.188 > load:0x400[37m7[37m8000,len:13192
+15:09:09.191 > load:0x40080400[37m,[37mlen:3028
+15:09:09.195 > entry 0x400805e4
+15:09:09.801 > [37ms[37mtart
+15:09:09.801 > 
+15:09:09.801 > abort() was called at PC[37m [37m0x400854ef on core 1
+15:09:09.803 > 
+15:09:09.803 > 
+15:09:09.803 > Backt[37mr[37mace: 0x40083f21:0x3ffb2060 0x40[37m0[37m8df01:0x3ffb2080 0x40093b4d:0x3[37mf[37mfb20a0 0x400854ef:0x3ffb2120 0x[37m4[37m0085639:0x3ffb2150 0x40110d08:0[37mx[37m3ffb2170 0x400e63bc:0x3ffb21b0 [37m0[37mx400e62a9:0x3ffb2200 0x400d4f21[37m:[37m0x3ffb2220 0x400d4de3:0x3ffb224[37m0[37m 0x400d4ae5:0x3ffb2260 0x4010e0[37mb[37m2:0x3ffb2290
+15:09:09.828 > 
+15:09:09.828 > 
+15:09:09.828 > 
+15:09:09.828 > 
+15:09:09.828 > ELF file [37mS[37mHA256: 7b9b6db963bbb06a
+15:09:09.833 > 
+15:09:09.966 > [37mR[37mebooting...
+15:09:09.967 > ets Jun  8 2016 00[37m:[37m22:57
+15:09:09.969 > 
+15:09:09.969 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+15:09:09.974 > configsip: 0, SPIWP:0xee
+15:09:09.974 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:09:09.983 > mode:DIO, clock div:2
+15:09:09.983 > load[37m:[37m0x3fff0030,len:1184
+15:09:09.986 > load:0x400[37m7[37m8000,len:13192
+15:09:09.988 > load:0x40080400[37m,[37mlen:3028
+15:09:09.993 > entry 0x400805e4
+15:09:10.598 > [37ms[37mtart
+15:09:10.598 > 
+15:09:10.598 > abort() was called at PC[37m [37m0x400854ef on core 1
+15:09:10.601 > 
+15:09:10.601 > 
+15:09:10.601 > Backt[37mr[37mace: 0x40083f21:0x3ffb2060 0x40[37m0[37m8df01:0x3ffb2080 0x40093b4d:0x3[37mf[37mfb20a0 0x400854ef:0x3ffb2120 0x[37m4[37m0085639:0x3ffb2150 0x40110d08:0[37mx[37m3ffb2170 0x400e63bc:0x3ffb21b0 [37m0[37mx400e62a9:0x3ffb2200 0x400d4f21[37m:[37m0x3ffb2220 0x400d4de3:0x3ffb224[37m0[37m 0x400d4ae5:0x3ffb2260 0x4010e0[37mb[37m2:0x3ffb2290
+15:09:10.625 > 
+15:09:10.625 > 
+15:09:10.625 > 
+15:09:10.625 > 
+15:09:10.625 > ELF file [37mS[37mHA256: 7b9b6db963bbb06a
+15:09:10.630 > 
+15:09:10.767 > [37mR[37mebooting...
+15:09:10.767 > ets Jun  8 2016 00[37m:[37m22:57
+15:09:10.770 > 
+15:09:10.770 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+15:09:10.775 > configsip: 0, SPIWP:0xee
+15:09:10.775 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+15:09:10.784 > mode:DIO, clock div:2
+15:09:10.784 > load[37m:[37m0x3fff0030,len:1184
+15:09:10.786 > load:0x400[37m7[37m8000,len:13192
+15:09:10.789 > load:0x40080400[37m,[37mlen:3028
+15:09:10.794 > entry 0x400805e4

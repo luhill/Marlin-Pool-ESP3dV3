@@ -50,6 +50,8 @@
   #define READ(IO)                (IS_I2S_EXPANDER_PIN(IO) ? i2s_state(I2S_EXPANDER_PIN_INDEX(IO)) : digitalRead(IO))
   // Write to a pin wrapper
   #define WRITE(IO, v)            (IS_I2S_EXPANDER_PIN(IO) ? i2s_write(I2S_EXPANDER_PIN_INDEX(IO), v) : digitalWrite(IO, v))
+  #define WRITE_A_D(IO,v,pwm)     (pwm? hal.set_pwm_duty(IO,v*pwm) : i2s_write(I2S_EXPANDER_PIN_INDEX(IO), v))// (IO,value,bool)wrapper for writting digital or analog to an i2s pin
+  #define WRITE_A_F(IO,F)         (hal.set_pwm_frequency(IO,F)) // wrapper for setting i2s pin freq
 #endif
 
 // Set pin as input wrapper (0x80 | (v << 5) | (IO - 100))

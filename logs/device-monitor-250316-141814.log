@@ -1,0 +1,522 @@
+14:18:14.257 > [37mstart
+14:18:14.257 >  Brown out Reset
+14:18:14.257 >  Watchdog Reset
+14:18:14.257 > Marlin 2.1.2
+14:18:14.257 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+14:18:14.257 > echo: Compiled: Mar 16 2025
+14:18:14.257 > echo: Free Memory: 234304  PlannerBufferBytes: 1344
+14:18:14.257 > 
+14:18:14.257 > abort() was called at PC 0x400854ef on core 1
+14:18:14.257 > 
+14:18:14.257 > 
+14:18:14.257 > Backtrace: 0x40083f21:0x3ffb2040 0x4008df01:0x3ffb2060 0x40093b4d:0x3ffb2080 0x400854ef:0x3ffb2100 0x40085639:0x3ffb2130 0x40113fe8:0x3ffb2150 0x400e6cc6:0x3ffb2190 0x400e6ba9:0x3ffb21e0 0x400d4f0e:0x3ffb2200 0x400d4f4f:0x3ffb2220 0x400d4e87:0x3ffb2240 0x400d4b5f:0x3ffb2260 0x4010e9ca:0x3ffb2290
+14:18:14.257 > 
+14:18:14.257 > 
+14:18:14.257 > 
+14:18:14.257 > 
+14:18:14.257 > ELF file SHA256: 60693740af0c3d88
+14:18:14.257 > 
+14:18:14.257 > Rebooting...
+14:18:14.257 > ets Jun  8 2016 00:22:57
+14:18:14.257 > 
+14:18:14.257 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+14:18:14.257 > configsip: 0, SPIWP:0xee
+14:18:14.257 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:18:14.257 > mode:DIO, clock div:2
+14:18:14.257 > load:0x3fff0030,len:1184
+14:18:14.257 > load:0x40078000,len:13192
+14:18:14.257 > load:0x40080400,len:3028
+14:18:14.257 > entry 0x400805e4
+14:18:14.257 > start
+14:18:14.257 >  Brown out Reset
+14:18:14.257 >  Watchdog Reset
+14:18:14.257 > Marlin 2.1.2
+14:18:14.257 > echo: Last Updated: 2022-12-17 | Author: (none, default con[37mfig)
+14:18:14.258 > echo: Compiled: Mar 16 2025
+14:18:14.258 > echo: Free Memory: 234304  PlannerBufferBytes: 1344
+14:18:14.258 > 
+14:18:14.258 > abort() was called at PC 0x400854ef on core 1
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > Backtrace: 0x40083f21:0x3ffb2040 0x4008df01:0x3ffb2060 0x40093b4d:0x3ffb2080 0x400854ef:0x3ffb2100 0x40085639:0x3ffb2130 0x40113fe8:0x3ffb2150 0x400e6cc6:0x3ffb2190 0x400e6ba9:0x3ffb21e0 0x400d4f0e:0x3ffb2200 0x400d4f4f:0x3ffb2220 0x400d4e87:0x3ffb2240 0x400d4b5f:0x3ffb2260 0x4010e9ca:0x3ffb2290
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > ELF file SHA256: 60693740af0c3d88
+14:18:14.258 > 
+14:18:14.258 > Rebooting...
+14:18:14.258 > ets Jun  8 2016 00:22:57
+14:18:14.258 > 
+14:18:14.258 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+14:18:14.258 > configsip: 0, SPIWP:0xee
+14:18:14.258 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:18:14.258 > mode:DIO, clock div:2
+14:18:14.258 > load:0x3fff0030,len:1184
+14:18:14.258 > load:0x40078000,len:13192
+14:18:14.258 > load:0x40080400,len:3028
+14:18:14.258 > entry 0x400805e4
+14:18:14.258 > start
+14:18:14.258 >  Brown out Reset
+14:18:14.258 >  Watchdog Reset
+14:18:14.258 > Marlin 2.1.2
+14:18:14.258 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+14:18:14.258 > echo: Compiled: Mar 16 2025
+14:18:14.258 > echo: Free Memory: 234304  PlannerBufferBytes: 1344
+14:18:14.258 > 
+14:18:14.258 > abort() was called at PC[37m 0x400854ef on core 1
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > Backtrace: 0x40083f21:0x3ffb2040 0x4008df01:0x3ffb2060 0x40093b4d:0x3ffb2080 0x400854ef:0x3ffb2100 0x40085639:0x3ffb2130 0x40113fe8:0x3ffb2150 0x400e6cc6:0x3ffb2190 0x400e6ba9:0x3ffb21e0 0x400d4f0e:0x3ffb2200 0x400d4f4f:0x3ffb2220 0x400d4e87:0x3ffb2240 0x400d4b5f:0x3ffb2260 0x4010e9ca:0x3ffb2290
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > ELF file SHA256: 60693740af0c3d88
+14:18:14.258 > 
+14:18:14.258 > Rebooting...
+14:18:14.258 > ets Jun  8 2016 00:22:57
+14:18:14.258 > 
+14:18:14.258 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+14:18:14.258 > configsip: 0, SPIWP:0xee
+14:18:14.258 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:18:14.258 > mode:DIO, clock div:2
+14:18:14.258 > load:0x3fff0030,len:1184
+14:18:14.258 > load:0x40078000,len:13192
+14:18:14.258 > load:0x40080400,len:3028
+14:18:14.258 > entry 0x400805e4
+14:18:14.258 > start
+14:18:14.258 >  Brown out Reset
+14:18:14.258 >  Watchdog Reset
+14:18:14.258 > Marlin 2.1.2
+14:18:14.258 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+14:18:14.258 > echo: Compiled: Mar 16 2025
+14:18:14.258 > echo: Free Memory: 234304  PlannerBufferBytes: 1344
+14:18:14.258 > 
+14:18:14.258 > abort() was called at PC 0x400854ef on core 1
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > Backtrace: 0x40083f21:0x3ffb2040 0x4008df01:0x3ffb2060 0x40093b4d:0x3ffb2080 0x40085[37m4ef:0x3ffb2100 0x40085639:0x3ffb2130 0x40113fe8:0x3ffb2150 0x400e6cc6:0x3ffb2190 0x400e6ba9:0x3ffb21e0 0x400d4f0e:0x3ffb2200 0x400d4f4f:0x3ffb2220 0x400d4e87:0x3ffb2240 0x400d4b5f:0x3ffb2260 0x4010e9ca:0x3ffb2290
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > ELF file SHA256: 60693740af0c3d88
+14:18:14.258 > 
+14:18:14.258 > Rebooting...
+14:18:14.258 > ets Jun  8 2016 00:22:57
+14:18:14.258 > 
+14:18:14.258 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+14:18:14.258 > configsip: 0, SPIWP:0xee
+14:18:14.258 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:18:14.258 > mode:DIO, clock div:2
+14:18:14.258 > load:0x3fff0030,len:1184
+14:18:14.258 > load:0x40078000,len:13192
+14:18:14.258 > load:0x40080400,len:3028
+14:18:14.258 > entry 0x400805e4
+14:18:14.258 > start
+14:18:14.258 >  Brown out Reset
+14:18:14.258 >  Watchdog Reset
+14:18:14.258 > Marlin 2.1.2
+14:18:14.258 > echo: Last Updated: 2022-12-17 | Author: (none, default config)
+14:18:14.258 > echo: Compiled: Mar 16 2025
+14:18:14.258 > echo: Free Memory: 234304  PlannerBufferBytes: 1344
+14:18:14.258 > 
+14:18:14.258 > abort() was called at PC 0x400854ef on core 1
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > Backtrace: 0x40083f21:0x3ffb2040 0x4008df01:0x3ffb2060 0x40093b4d:0x3ffb2080 0x400854ef:0x3ffb2100 0x40085639:0x3ffb2130 0x40113fe8:0x3ffb2150 0x400e6cc6:0x3ffb2190 0x400e6ba9:0x3ffb21e0 0x400d4f[37m0e:0x3ffb2200 0x400d4f4f:0x3ffb2220 0x400d4e87:0x3ffb2240 0x400d4b5f:0x3ffb2260 0x4010e9ca:0x3ffb2290
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > 
+14:18:14.258 > ELF file SHA256: 60693740af0c3d88
+14:18:14.258 > 
+14:18:14.258 > Rebooting...
+14:18:14.258 > ets Jun  8 2016 00:22:57
+14:18:14.258 > 
+14:18:14.258 > rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+14:18:14.258 > configsip: 0, SPIWP:0xee
+14:18:14.258 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:18:14.258 > mode:DIO, clock div:2
+14:18:14.258 > load:0x3fff0030,len:1184
+14:18:14.258 > load:0x40078000,len:13192
+14:18:14.258 > load:0x40080400,len:3028
+14:18:14.258 > entry 0x400805e4
+14:18:14.388 > [37ms[37mtart
+14:18:14.388 >  Brown out Reset
+14:18:14.388 >  Watchdog[37m [37mReset
+14:18:14.391 > Marlin 2.1.2
+14:18:14.391 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:14.396 > echo: Compil[37me[37md: Mar 16 2025
+14:18:14.399 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:14.404 > 
+14:18:14.404 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:14.407 > 
+14:18:14.407 > 
+14:18:14.407 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:14.435 > 
+14:18:14.435 > 
+14:18:14.435 > 
+14:18:14.435 > 
+14:18:14.435 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:14.438 > 
+14:18:14.564 > [37mR[37mebooting...
+14:18:14.564 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:14.566 > 
+14:18:14.566 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:14.572 > configsip: 0, SPIWP:0xee
+14:18:14.572 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:14.581 > mode:DIO, clock div:2
+14:18:14.581 > load[37m:[37m0x3fff0030,len:1184
+14:18:14.583 > load:0x400[37m7[37m8000,len:13192
+14:18:14.586 > load:0x40080400[37m,[37mlen:3028
+14:18:14.590 > entry 0x400805e4
+14:18:15.196 > [37ms[37mtart
+14:18:15.196 >  Brown out Reset
+14:18:15.196 >  Watchdog[37m [37mReset
+14:18:15.199 > Marlin 2.1.2
+14:18:15.199 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:15.204 > echo: Compil[37me[37md: Mar 16 2025
+14:18:15.207 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:15.212 > 
+14:18:15.212 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:15.215 > 
+14:18:15.215 > 
+14:18:15.215 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:15.243 > 
+14:18:15.243 > 
+14:18:15.243 > 
+14:18:15.243 > 
+14:18:15.243 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:15.246 > 
+14:18:15.370 > [37mR[37mebooting...
+14:18:15.370 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:15.373 > 
+14:18:15.373 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:15.378 > configsip: 0, SPIWP:0xee
+14:18:15.378 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:15.387 > mode:DIO, clock div:2
+14:18:15.387 > load[37m:[37m0x3fff0030,len:1184
+14:18:15.389 > load:0x400[37m7[37m8000,len:13192
+14:18:15.392 > load:0x40080400[37m,[37mlen:3028
+14:18:15.397 > entry 0x400805e4
+14:18:16.002 > [37ms[37mtart
+14:18:16.003 >  Brown out Reset
+14:18:16.003 >  Watchdog[37m [37mReset
+14:18:16.005 > Marlin 2.1.2
+14:18:16.005 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:16.010 > echo: Compil[37me[37md: Mar 16 2025
+14:18:16.013 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:16.019 > 
+14:18:16.019 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:16.021 > 
+14:18:16.021 > 
+14:18:16.021 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:16.049 > 
+14:18:16.049 > 
+14:18:16.049 > 
+14:18:16.049 > 
+14:18:16.049 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:16.053 > 
+14:18:16.176 > [37mR[37mebooting...
+14:18:16.177 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:16.179 > 
+14:18:16.179 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:16.185 > configsip: 0, SPIWP:0xee
+14:18:16.185 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:16.193 > mode:DIO, clock div:2
+14:18:16.193 > load[37m:[37m0x3fff0030,len:1184
+14:18:16.196 > load:0x400[37m7[37m8000,len:13192
+14:18:16.199 > load:0x40080400[37m,[37mlen:3028
+14:18:16.203 > entry 0x400805e4
+14:18:16.808 > [37ms[37mtart
+14:18:16.809 >  Brown out Reset
+14:18:16.809 >  Watchdog[37m [37mReset
+14:18:16.811 > Marlin 2.1.2
+14:18:16.811 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:16.816 > echo: Compil[37me[37md: Mar 16 2025
+14:18:16.819 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:16.825 > 
+14:18:16.825 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:16.828 > 
+14:18:16.828 > 
+14:18:16.828 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:16.855 > 
+14:18:16.855 > 
+14:18:16.855 > 
+14:18:16.855 > 
+14:18:16.855 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:16.859 > 
+14:18:16.982 > [37mR[37mebooting...
+14:18:16.982 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:16.984 > 
+14:18:16.984 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:16.990 > configsip: 0, SPIWP:0xee
+14:18:16.990 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:16.998 > mode:DIO, clock div:2
+14:18:16.998 > load[37m:[37m0x3fff0030,len:1184
+14:18:17.001 > load:0x400[37m7[37m8000,len:13192
+14:18:17.004 > load:0x40080400[37m,[37mlen:3028
+14:18:17.008 > entry 0x400805e4
+14:18:17.614 > [37ms[37mtart
+14:18:17.614 >  Brown out Reset
+14:18:17.614 >  Watchdog[37m [37mReset
+14:18:17.616 > Marlin 2.1.2
+14:18:17.616 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:17.622 > echo: Compil[37me[37md: Mar 16 2025
+14:18:17.625 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:17.630 > 
+14:18:17.630 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:17.633 > 
+14:18:17.633 > 
+14:18:17.633 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:17.661 > 
+14:18:17.661 > 
+14:18:17.661 > 
+14:18:17.661 > 
+14:18:17.661 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:17.664 > 
+14:18:17.789 > [37mR[37mebooting...
+14:18:17.789 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:17.791 > 
+14:18:17.791 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:17.797 > configsip: 0, SPIWP:0xee
+14:18:17.797 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:17.805 > mode:DIO, clock div:2
+14:18:17.805 > load[37m:[37m0x3fff0030,len:1184
+14:18:17.808 > load:0x400[37m7[37m8000,len:13192
+14:18:17.810 > load:0x40080400[37m,[37mlen:3028
+14:18:17.815 > entry 0x400805e4
+14:18:18.420 > [37ms[37mtart
+14:18:18.421 >  Brown out Reset
+14:18:18.421 >  Watchdog[37m [37mReset
+14:18:18.423 > Marlin 2.1.2
+14:18:18.423 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:18.428 > echo: Compil[37me[37md: Mar 16 2025
+14:18:18.431 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:18.437 > 
+14:18:18.437 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:18.440 > 
+14:18:18.440 > 
+14:18:18.440 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:18.467 > 
+14:18:18.467 > 
+14:18:18.467 > 
+14:18:18.467 > 
+14:18:18.467 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:18.471 > 
+14:18:18.601 > [37mR[37mebooting...
+14:18:18.601 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:18.604 > 
+14:18:18.604 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:18.609 > configsip: 0, SPIWP:0xee
+14:18:18.609 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:18.618 > mode:DIO, clock div:2
+14:18:18.618 > load[37m:[37m0x3fff0030,len:1184
+14:18:18.620 > load:0x400[37m7[37m8000,len:13192
+14:18:18.623 > load:0x40080400[37m,[37mlen:3028
+14:18:18.628 > entry 0x400805e4
+14:18:19.233 > [37ms[37mtart
+14:18:19.233 >  Brown out Reset
+14:18:19.233 >  Watchdog[37m [37mReset
+14:18:19.236 > Marlin 2.1.2
+14:18:19.236 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:19.241 > echo: Compil[37me[37md: Mar 16 2025
+14:18:19.244 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:19.250 > 
+14:18:19.250 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:19.252 > 
+14:18:19.252 > 
+14:18:19.252 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:19.280 > 
+14:18:19.280 > 
+14:18:19.280 > 
+14:18:19.280 > 
+14:18:19.280 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:19.284 > 
+14:18:19.415 > [37mR[37mebooting...
+14:18:19.415 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:19.417 > 
+14:18:19.417 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:19.423 > configsip: 0, SPIWP:0xee
+14:18:19.423 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:19.431 > mode:DIO, clock div:2
+14:18:19.431 > load[37m:[37m0x3fff0030,len:1184
+14:18:19.434 > load:0x400[37m7[37m8000,len:13192
+14:18:19.437 > load:0x40080400[37m,[37mlen:3028
+14:18:19.441 > entry 0x400805e4
+14:18:20.047 > [37ms[37mtart
+14:18:20.047 >  Brown out Reset
+14:18:20.047 >  Watchdog[37m [37mReset
+14:18:20.049 > Marlin 2.1.2
+14:18:20.049 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:20.055 > echo: Compil[37me[37md: Mar 16 2025
+14:18:20.058 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:20.063 > 
+14:18:20.063 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:20.066 > 
+14:18:20.066 > 
+14:18:20.066 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:20.094 > 
+14:18:20.094 > 
+14:18:20.094 > 
+14:18:20.094 > 
+14:18:20.094 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:20.097 > 
+14:18:20.228 > [37mR[37mebooting...
+14:18:20.228 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:20.230 > 
+14:18:20.230 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:20.236 > configsip: 0, SPIWP:0xee
+14:18:20.236 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:20.244 > mode:DIO, clock div:2
+14:18:20.244 > load[37m:[37m0x3fff0030,len:1184
+14:18:20.247 > load:0x400[37m7[37m8000,len:13192
+14:18:20.250 > load:0x40080400[37m,[37mlen:3028
+14:18:20.255 > entry 0x400805e4
+14:18:20.860 > [37ms[37mtart
+14:18:20.860 >  Brown out Reset
+14:18:20.860 >  Watchdog[37m [37mReset
+14:18:20.862 > Marlin 2.1.2
+14:18:20.862 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:20.868 > echo: Compil[37me[37md: Mar 16 2025
+14:18:20.871 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:20.876 > 
+14:18:20.876 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:20.879 > 
+14:18:20.879 > 
+14:18:20.879 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:20.907 > 
+14:18:20.907 > 
+14:18:20.907 > 
+14:18:20.907 > 
+14:18:20.907 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:20.910 > 
+14:18:21.044 > [37mR[37mebooting...
+14:18:21.045 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:21.047 > 
+14:18:21.047 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:21.053 > configsip: 0, SPIWP:0xee
+14:18:21.053 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:21.061 > mode:DIO, clock div:2
+14:18:21.061 > load[37m:[37m0x3fff0030,len:1184
+14:18:21.063 > load:0x400[37m7[37m8000,len:13192
+14:18:21.066 > load:0x40080400[37m,[37mlen:3028
+14:18:21.071 > entry 0x400805e4
+14:18:21.676 > [37ms[37mtart
+14:18:21.676 >  Brown out Reset
+14:18:21.676 >  Watchdog[37m [37mReset
+14:18:21.679 > Marlin 2.1.2
+14:18:21.679 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:21.684 > echo: Compil[37me[37md: Mar 16 2025
+14:18:21.687 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:21.693 > 
+14:18:21.693 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:21.695 > 
+14:18:21.695 > 
+14:18:21.695 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:21.723 > 
+14:18:21.723 > 
+14:18:21.723 > 
+14:18:21.723 > 
+14:18:21.723 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:21.726 > 
+14:18:21.849 > [37mR[37mebooting...
+14:18:21.850 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:21.852 > 
+14:18:21.852 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:21.857 > configsip: 0, SPIWP:0xee
+14:18:21.857 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:21.866 > mode:DIO, clock div:2
+14:18:21.866 > load[37m:[37m0x3fff0030,len:1184
+14:18:21.869 > load:0x400[37m7[37m8000,len:13192
+14:18:21.871 > load:0x40080400[37m,[37mlen:3028
+14:18:21.876 > entry 0x400805e4
+14:18:22.481 > [37ms[37mtart
+14:18:22.481 >  Brown out Reset
+14:18:22.481 >  Watchdog[37m [37mReset
+14:18:22.484 > Marlin 2.1.2
+14:18:22.484 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:22.489 > echo: Compil[37me[37md: Mar 16 2025
+14:18:22.492 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:22.498 > 
+14:18:22.498 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:22.500 > 
+14:18:22.500 > 
+14:18:22.500 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:22.528 > 
+14:18:22.528 > 
+14:18:22.528 > 
+14:18:22.528 > 
+14:18:22.528 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:22.531 > 
+14:18:22.653 > [37mR[37mebooting...
+14:18:22.654 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:22.656 > 
+14:18:22.656 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:22.662 > configsip: 0, SPIWP:0xee
+14:18:22.662 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:22.670 > mode:DIO, clock div:2
+14:18:22.670 > load[37m:[37m0x3fff0030,len:1184
+14:18:22.672 > load:0x400[37m7[37m8000,len:13192
+14:18:22.675 > load:0x40080400[37m,[37mlen:3028
+14:18:22.680 > entry 0x400805e4
+14:18:23.285 > [37ms[37mtart
+14:18:23.285 >  Brown out Reset
+14:18:23.285 >  Watchdog[37m [37mReset
+14:18:23.288 > Marlin 2.1.2
+14:18:23.288 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:23.293 > echo: Compil[37me[37md: Mar 16 2025
+14:18:23.296 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:23.302 > 
+14:18:23.302 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:23.305 > 
+14:18:23.305 > 
+14:18:23.305 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:23.332 > 
+14:18:23.332 > 
+14:18:23.332 > 
+14:18:23.332 > 
+14:18:23.332 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:23.335 > 
+14:18:23.463 > [37mR[37mebooting...
+14:18:23.463 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:23.466 > 
+14:18:23.466 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:23.471 > configsip: 0, SPIWP:0xee
+14:18:23.471 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:23.479 > mode:DIO, clock div:2
+14:18:23.479 > load[37m:[37m0x3fff0030,len:1184
+14:18:23.482 > load:0x400[37m7[37m8000,len:13192
+14:18:23.485 > load:0x40080400[37m,[37mlen:3028
+14:18:23.489 > entry 0x400805e4
+14:18:24.095 > [37ms[37mtart
+14:18:24.095 >  Brown out Reset
+14:18:24.095 >  Watchdog[37m [37mReset
+14:18:24.098 > Marlin 2.1.2
+14:18:24.098 > echo: Last U[37mp[37mdated: 2022-12-17 | Author: (no[37mn[37me, default config)
+14:18:24.103 > echo: Compil[37me[37md: Mar 16 2025
+14:18:24.106 > echo: Free Memor[37my[37m: 234304  PlannerBufferBytes: 1[37m3[37m44
+14:18:24.111 > 
+14:18:24.111 > abort() was called at PC 0[37mx[37m400854ef on core 1
+14:18:24.114 > 
+14:18:24.114 > 
+14:18:24.114 > Backtra[37mc[37me: 0x40083f21:0x3ffb2040 0x4008[37md[37mf01:0x3ffb2060 0x40093b4d:0x3ff[37mb[37m2080 0x400854ef:0x3ffb2100 0x40[37m0[37m85639:0x3ffb2130 0x40113fe8:0x3[37mf[37mfb2150 0x400e6cc6:0x3ffb2190 0x[37m4[37m00e6ba9:0x3ffb21e0 0x400d4f0e:0[37mx[37m3ffb2200 0x400d4f4f:0x3ffb2220 [37m0[37mx400d4e87:0x3ffb2240 0x400d4b5f[37m:[37m0x3ffb2260 0x4010e9ca:0x3ffb229[37m0[37m
+14:18:24.142 > 
+14:18:24.142 > 
+14:18:24.142 > 
+14:18:24.142 > 
+14:18:24.142 > ELF file SHA256: 6069[37m3[37m740af0c3d88
+14:18:24.145 > 
+14:18:24.268 > [37mR[37mebooting...
+14:18:24.268 > ets Jun  8 2016 00[37m:[37m22:57
+14:18:24.271 > 
+14:18:24.271 > rst:0xc (SW_CPU_RESET)[37m,[37mboot:0x1b (SPI_FAST_FLASH_BOOT)[37m[37m
+14:18:24.276 > configsip: 0, SPIWP:0xee
+14:18:24.276 > clk_[37md[37mrv:0x00,q_drv:0x00,d_drv:0x00,c[37ms[37m0_drv:0x00,hd_drv:0x00,wp_drv:0[37mx[37m00
+14:18:24.285 > mode:DIO, clock div:2
+14:18:24.285 > load[37m:[37m0x3fff0030,len:1184
+14:18:24.287 > load:0x400[37m7[37m8000,len:13192
+14:18:24.290 > load:0x40080400[37m,[37mlen:3028
+14:18:24.295 > entry 0x400805e4
