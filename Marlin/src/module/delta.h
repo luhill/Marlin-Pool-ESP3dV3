@@ -79,10 +79,18 @@ void recalc_delta_settings();
     )                                     \
   )
 
+  #define DELTA_Z_FAST(V,T) V.z + sqrtf_f(          \
+    delta_diagonal_rod_2_tower[T] - HYPOT2( \
+        delta_tower[T].x - V.x,             \
+        delta_tower[T].y - V.y              \
+      )                                     \
+    )
+
 #define DELTA_IK(V) delta.set(DELTA_Z(V, A_AXIS), DELTA_Z(V, B_AXIS), DELTA_Z(V, C_AXIS))
+#define DELTA_IK_FAST(V) delta.set(DELTA_Z_FAST(V, A_AXIS), DELTA_Z_FAST(V, B_AXIS), DELTA_Z_FAST(V, C_AXIS))
 
 void inverse_kinematics(const xyz_pos_t &raw);
-
+//void delta_ik_luke(const xyz_pos_t &pos);
 /**
  * Calculate the highest Z position where the
  * effector has the full range of XY motion.

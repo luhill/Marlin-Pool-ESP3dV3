@@ -192,7 +192,7 @@ public:
         TERN_(IS_SCARA, SCARA_PRINTABLE_RADIUS)
       );
       static constexpr float probe_radius(const xy_pos_t &probe_offset_xy=offset_xy) {
-        return printable_radius - _MAX(PROBING_MARGIN, HYPOT(probe_offset_xy.x, probe_offset_xy.y));
+        return printable_radius - PROBING_MARGIN;//_MAX(PROBING_MARGIN, HYPOT(probe_offset_xy.x, probe_offset_xy.y));
       }
     #endif
 

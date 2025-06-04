@@ -157,9 +157,9 @@
  *          TMC5130, TMC5130_STANDALONE, TMC5160, TMC5160_STANDALONE
  * :['A4988', 'A5984', 'DRV8825', 'LV8729', 'TB6560', 'TB6600', 'TMC2100', 'TMC2130', 'TMC2130_STANDALONE', 'TMC2160', 'TMC2160_STANDALONE', 'TMC2208', 'TMC2208_STANDALONE', 'TMC2209', 'TMC2209_STANDALONE', 'TMC26X', 'TMC26X_STANDALONE', 'TMC2660', 'TMC2660_STANDALONE', 'TMC5130', 'TMC5130_STANDALONE', 'TMC5160', 'TMC5160_STANDALONE']
  */
-#define X_DRIVER_TYPE  A4988
-#define Y_DRIVER_TYPE  A4988
-#define Z_DRIVER_TYPE  A4988
+#define X_DRIVER_TYPE  TMC2209_STANDALONE
+#define Y_DRIVER_TYPE  TMC2209_STANDALONE
+#define Z_DRIVER_TYPE  TMC2209_STANDALONE
 //#define X2_DRIVER_TYPE A4988
 //#define Y2_DRIVER_TYPE A4988
 //#define Z2_DRIVER_TYPE A4988
@@ -171,8 +171,8 @@
 //#define U_DRIVER_TYPE  A4988
 //#define V_DRIVER_TYPE  A4988
 //#define W_DRIVER_TYPE  A4988
-#define E0_DRIVER_TYPE A4988
-//#define E1_DRIVER_TYPE A4988
+#define E0_DRIVER_TYPE TMC2209_STANDALONE
+//#define E1_DRIVER_TYPE TMC2209_STANDALONE
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
 //#define E4_DRIVER_TYPE A4988
@@ -884,16 +884,16 @@
 // @section delta
 
 // Enable for DELTA kinematics and configure below
-//#define DELTA
+#define DELTA
 #if ENABLED(DELTA)
 
   // Make delta curves from many straight lines (linear interpolation).
   // This is a trade-off between visible corners (not enough segments)
   // and processor overload (too many expensive sqrt calls).
-  #define DEFAULT_SEGMENTS_PER_SECOND 200
+  #define DEFAULT_SEGMENTS_PER_SECOND 40
 
   // After homing move down to a height where XY movement is unconstrained
-  //#define DELTA_HOME_TO_SAFE_ZONE
+  #define DELTA_HOME_TO_SAFE_ZONE
 
   // Delta calibration menu
   // Add three-point calibration to the MarlinUI menu.
@@ -914,21 +914,21 @@
   #endif
 
   // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
-  #define DELTA_PRINTABLE_RADIUS 140.0    // (mm)
+  #define DELTA_PRINTABLE_RADIUS 175.0f    // (mm)
 
   // Maximum reachable area
-  #define DELTA_MAX_RADIUS       140.0    // (mm)
+  #define DELTA_MAX_RADIUS       175.0f    // (mm)
 
   // Center-to-center distance of the holes in the diagonal push rods.
-  #define DELTA_DIAGONAL_ROD 250.0        // (mm)
+  #define DELTA_DIAGONAL_ROD 520.0f        // (mm)
 
   // Distance between bed and nozzle Z home position
-  #define DELTA_HEIGHT 250.00             // (mm) Get this value from G33 auto calibrate
+  #define DELTA_HEIGHT 395.0f             // (mm) Get this value from G33 auto calibrate
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // Get these values from G33 auto calibrate
 
   // Horizontal distance bridged by diagonal push rods when effector is centered.
-  #define DELTA_RADIUS 124.0              // (mm) Get this value from G33 auto calibrate
+  #define DELTA_RADIUS 228.0f              // (mm) Get this value from G33 auto calibrate
 
   // Trim adjustments for individual towers
   // tower angle corrections for X and Y tower / rotate XYZ so Z tower angle = 0
@@ -1033,7 +1033,7 @@
 // extra connectors. Leave undefined any used for non-endstop and non-probe purposes.
 //#define USE_XMIN_PLUG
 //#define USE_YMIN_PLUG
-#define USE_ZMIN_PLUG
+//#define USE_ZMIN_PLUG
 //#define USE_IMIN_PLUG
 //#define USE_JMIN_PLUG
 //#define USE_KMIN_PLUG
@@ -1042,7 +1042,7 @@
 //#define USE_WMIN_PLUG
 #define USE_XMAX_PLUG
 #define USE_YMAX_PLUG
-//#define USE_ZMAX_PLUG
+#define USE_ZMAX_PLUG
 //#define USE_IMAX_PLUG
 //#define USE_JMAX_PLUG
 //#define USE_KMAX_PLUG
@@ -1103,15 +1103,15 @@
 // Mechanical endstop with COM to ground and NC to Signal uses "false" here (most common setup).
 #define X_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define Y_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
-#define Z_MIN_ENDSTOP_INVERTING true // Set to true to invert the logic of the endstop.
+#define Z_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define I_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define J_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define K_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define U_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define V_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define W_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
-#define X_MAX_ENDSTOP_INVERTING true // Set to true to invert the logic of the endstop.
-#define Y_MAX_ENDSTOP_INVERTING true // Set to true to invert the logic of the endstop.
+#define X_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
+#define Y_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define Z_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define I_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define J_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
@@ -1170,20 +1170,20 @@
 /*luke: TM2209 Drivers Settings:
 MS1   MS2   Microsteps
 Low   Low   8
-Low   High  32
-High  Low   64
 High  High  16
+High  Low   32
+Low   High  64
 
 Spread / USART Low = StealthChop, High = SpreadCycle
 */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 94.1176, 94.1176, 400, 690 };// x & 7 have a 17 tooth 2mm pitch pulley (200steps*16/(17*2)), z has an 8mm screw, e has and LDO orbiter v2
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.0f, 80.0f, 80.0f, 690.0f };// x,y,z have a 20 tooth 2mm pitch pulley (200steps*16/(20*2)),e has and LDO orbiter v2
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
  * Override with M203
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 120 }
+#define DEFAULT_MAX_FEEDRATE          { 400, 400, 400, 120 }
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
@@ -1196,7 +1196,7 @@ Spread / USART Low = StealthChop, High = SpreadCycle
  * Override with M201
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 4000, 3000, 100, 3000 }
+#define DEFAULT_MAX_ACCELERATION      { 20000, 20000, 20000, 3000 }
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
@@ -1211,9 +1211,9 @@ Spread / USART Low = StealthChop, High = SpreadCycle
  *   M204 R    Retract Acceleration
  *   M204 T    Travel Acceleration
  */
-#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E acceleration for printing moves
+#define DEFAULT_ACCELERATION          20000    // X, Y, Z and E acceleration for printing moves
 #define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration for retracts
-#define DEFAULT_TRAVEL_ACCELERATION   4000    // X, Y, Z acceleration for travel (non printing) moves
+#define DEFAULT_TRAVEL_ACCELERATION   20000    // X, Y, Z acceleration for travel (non printing) moves
 
 /**
  * Default Jerk limits (mm/s)
@@ -1225,9 +1225,9 @@ Spread / USART Low = StealthChop, High = SpreadCycle
  */
 //#define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK 10.0
-  #define DEFAULT_YJERK 10.0
-  #define DEFAULT_ZJERK  0.3
+  #define DEFAULT_XJERK 20.0
+  #define DEFAULT_YJERK 20.0
+  #define DEFAULT_ZJERK 20.0
   //#define DEFAULT_IJERK  0.3
   //#define DEFAULT_JJERK  0.3
   //#define DEFAULT_KJERK  0.3
@@ -1281,7 +1281,7 @@ Spread / USART Low = StealthChop, High = SpreadCycle
  * The probe replaces the Z-MIN endstop and is used for Z homing.
  * (Automatically enables USE_PROBE_FOR_Z_HOMING.)
  */
-#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
 // Force the use of the probe for Z-axis homing
 //#define USE_PROBE_FOR_Z_HOMING
@@ -1315,7 +1315,7 @@ Spread / USART Low = StealthChop, High = SpreadCycle
  * Use G29 repeatedly, adjusting the Z height at each point with movement commands
  * or (with LCD_BED_LEVELING) the LCD controller.
  */
-#define PROBE_MANUALLY
+//#define PROBE_MANUALLY
 
 /**
  * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
@@ -1327,7 +1327,7 @@ Spread / USART Low = StealthChop, High = SpreadCycle
  * Use the nozzle as the probe, as with a conductive
  * nozzle system or a piezo-electric smart effector.
  */
-//#define NOZZLE_AS_PROBE
+#define NOZZLE_AS_PROBE
 
 /**
  * Z Servo Probe, such as an endstop switch on a rotating arm.
@@ -1647,9 +1647,9 @@ Spread / USART Low = StealthChop, High = SpreadCycle
 // @section motion
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR false
+#define INVERT_X_DIR true
 #define INVERT_Y_DIR true
-#define INVERT_Z_DIR false
+#define INVERT_Z_DIR true
 //#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
 //#define INVERT_K_DIR false
@@ -1690,7 +1690,7 @@ Spread / USART Low = StealthChop, High = SpreadCycle
 // :[-1,1]
 #define X_HOME_DIR 1
 #define Y_HOME_DIR 1
-#define Z_HOME_DIR -1
+#define Z_HOME_DIR 1
 //#define I_HOME_DIR -1
 //#define J_HOME_DIR -1
 //#define K_HOME_DIR -1
@@ -1701,16 +1701,16 @@ Spread / USART Low = StealthChop, High = SpreadCycle
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE 227
-#define Y_BED_SIZE 148
+#define X_BED_SIZE 350
+#define Y_BED_SIZE 350
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
-#define X_MIN_POS -25
-#define Y_MIN_POS 0
+#define X_MIN_POS -175
+#define Y_MIN_POS -175
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE + 23.5//luke check these
-#define Y_MAX_POS Y_BED_SIZE + 20
-#define Z_MAX_POS 150
+#define X_MAX_POS 175
+#define Y_MAX_POS 175
+#define Z_MAX_POS 345
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
 //#define J_MIN_POS 0
@@ -2077,7 +2077,7 @@ Spread / USART Low = StealthChop, High = SpreadCycle
 // @section homing
 
 // The center of the bed is at (X=0, Y=0)
-//#define BED_CENTER_AT_0_0
+#define BED_CENTER_AT_0_0
 
 // Manually set the home position. Leave these undefined for automatic settings.
 // For DELTA this is the top-center of the Cartesian print volume.
@@ -2106,7 +2106,7 @@ Spread / USART Low = StealthChop, High = SpreadCycle
 #endif
 
 // Homing speeds (linear=mm/min, rotational=°/min)
-#define HOMING_FEEDRATE_MM_M { (30*60), (30*60), (8*60) }
+#define HOMING_FEEDRATE_MM_M { (50*60), (50*60), (50*60) }
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
@@ -3320,7 +3320,7 @@ Spread / USART Low = StealthChop, High = SpreadCycle
   //#define NEOPIXEL2_PIN               5
   #define NEOPIXEL_PIXELS              3 // Number of LEDs in the strip. (Longest strip when NEOPIXEL2_SEPARATE is disabled.)
   #define NEOPIXEL_IS_SEQUENTIAL          // Sequential display for temperature change - LED by LED. Disable to change all LEDs at once.
-  #define NEOPIXEL_BRIGHTNESS         64 // Initial brightness (0-255)
+  #define NEOPIXEL_BRIGHTNESS         100 // Initial brightness (0-255)
   //#define NEOPIXEL_STARTUP_TEST         // Cycle through colors at startup
 
   // Support for second Adafruit NeoPixel LED driver controlled with M150 S1 ...

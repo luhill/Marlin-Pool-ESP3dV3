@@ -28,7 +28,7 @@
 #include <esp_adc_cal.h>
 #include <HardwareSerial.h>
 //#include "pool.h"
-
+#define USE_ESP32_TASK_WDT
 #if ENABLED(USE_ESP32_TASK_WDT)
   #include <esp_task_wdt.h>
 #endif
@@ -196,7 +196,7 @@ int MarlinHAL::freeMemory() { return ESP.getFreeHeap(); }
 // ------------------------
 // Watchdog Timer
 // ------------------------
-
+//#define WATCHDOG_DURATION_8S true
 #if ENABLED(USE_WATCHDOG)
 
   #define WDT_TIMEOUT_US TERN(WATCHDOG_DURATION_8S, 8000000, 4000000) // 4 or 8 second timeout

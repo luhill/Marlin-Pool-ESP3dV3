@@ -60,7 +60,7 @@ xy_float_t delta_tower[ABC];
 abc_float_t delta_diagonal_rod_2_tower;
 float delta_clip_start_height = Z_MAX_POS;
 abc_float_t delta_diagonal_rod_trim;
-
+float x2, y2;//helpers for inverse kinematics
 float delta_safe_distance_from_top();
 
 void refresh_delta_clip_start_height() {
@@ -76,10 +76,10 @@ void refresh_delta_clip_start_height() {
  */
 void recalc_delta_settings() {
   constexpr abc_float_t trt = DELTA_RADIUS_TRIM_TOWER;
-  delta_tower[A_AXIS].set(cos(RADIANS(210 + delta_tower_angle_trim.a)) * (delta_radius + trt.a), // front left tower
-                          sin(RADIANS(210 + delta_tower_angle_trim.a)) * (delta_radius + trt.a));
-  delta_tower[B_AXIS].set(cos(RADIANS(330 + delta_tower_angle_trim.b)) * (delta_radius + trt.b), // front right tower
+  delta_tower[A_AXIS].set(cos(RADIANS(330 + delta_tower_angle_trim.b)) * (delta_radius + trt.b), // front right tower
                           sin(RADIANS(330 + delta_tower_angle_trim.b)) * (delta_radius + trt.b));
+  delta_tower[B_AXIS].set(cos(RADIANS(210 + delta_tower_angle_trim.a)) * (delta_radius + trt.a), // front left tower
+                          sin(RADIANS(210 + delta_tower_angle_trim.a)) * (delta_radius + trt.a));
   delta_tower[C_AXIS].set(cos(RADIANS( 90 + delta_tower_angle_trim.c)) * (delta_radius + trt.c), // back middle tower
                           sin(RADIANS( 90 + delta_tower_angle_trim.c)) * (delta_radius + trt.c));
   delta_diagonal_rod_2_tower.set(sq(delta_diagonal_rod + delta_diagonal_rod_trim.a),
@@ -89,6 +89,18 @@ void recalc_delta_settings() {
   set_all_unhomed();
 }
 
+float fast_inv_sqrt(float n) {
+  float x2 = n * 0.5f;
+  long i = *(long*)&n;
+  i = 0x5f3759df - (i >> 1);
+  n = *(float*)&i;
+  n = n * (1.5f - (x2 * n * n));
+  return n; // Returns 1/sqrt(n)
+}
+
+float sqrtf_f(float n) {
+  return n * fast_inv_sqrt(n);
+}
 /**
  * Delta Inverse Kinematics
  *
@@ -119,11 +131,51 @@ void inverse_kinematics(const xyz_pos_t &raw) {
     DELTA_IK(pos);
     //DELTA_DEBUG(pos);
   #else
-    DELTA_IK(raw);
+    //delta_ik_luke(raw);
+    /*
+    x2 = raw.x-delta_tower[A_AXIS].x;
+    x2 = x2*x2;//
+    y2 = raw.y-delta_tower[A_AXIS].y;
+    y2 = y2*y2;
+    delta.x = raw.z + sqrtf_f(delta_diagonal_rod_2_tower[A_AXIS]-x2-y2);
+
+    x2 = raw.x-delta_tower[B_AXIS].x;
+    x2 = x2*x2;//
+    y2 = raw.y-delta_tower[B_AXIS].y;
+    y2 = y2*y2;
+    delta.y = raw.z + sqrtf_f(delta_diagonal_rod_2_tower[B_AXIS]-x2-y2);
+
+    x2 = raw.x-delta_tower[C_AXIS].x;
+    x2 = x2*x2;//
+    y2 = raw.y-delta_tower[C_AXIS].y;
+    y2 = y2*y2;
+    delta.z = raw.z + sqrtf_f(delta_diagonal_rod_2_tower[C_AXIS]-x2-y2);*/
+    DELTA_IK_FAST(raw);
     //DELTA_DEBUG(raw);
   #endif
 }
+/*
+void delta_ik_luke(const xyz_pos_t &pos){
+  float x2,y2,X;
+  x2 = pos.x-delta_tower[A_AXIS].x;
+  x2 = x2*x2;//
+  y2 = pos.y-delta_tower[A_AXIS].y;
+  y2 = y2*y2;
+  delta.x = sqrtf(delta_diagonal_rod_2_tower[A_AXIS]-x2+y2);
 
+  x2 = pos.x-delta_tower[B_AXIS].x;
+  x2 = x2*x2;//
+  y2 = pos.y-delta_tower[B_AXIS].y;
+  y2 = y2*y2;
+  delta.y = sqrtf(delta_diagonal_rod_2_tower[B_AXIS]-x2+y2);
+
+  x2 = pos.x-delta_tower[C_AXIS].x;
+  x2 = x2*x2;//
+  y2 = pos.y-delta_tower[C_AXIS].y;
+  y2 = y2*y2;
+  delta.z = sqrtf(delta_diagonal_rod_2_tower[C_AXIS]-x2+y2);
+}
+*/
 /**
  * Calculate the highest Z position where the
  * effector has the full range of XY motion.

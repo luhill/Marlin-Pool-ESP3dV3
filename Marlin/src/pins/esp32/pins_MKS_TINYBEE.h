@@ -46,6 +46,7 @@
 // Servos
 //
 #define SERVO0_PIN                             2
+#define Z_MIN_PROBE_PIN                        2
 
 //
 // Limit Switches
@@ -153,7 +154,7 @@
 //#define SD_MISO_PIN                EXP2_01_PIN  // uses esp32 default 19
 //#define SD_SCK_PIN                 EXP2_02_PIN  // uses esp32 default 18
 #define SDSS                         EXP2_04_PIN
-#define SD_DETECT_PIN                EXP2_07_PIN  // IO34 default is SD_DET signal (Jump to SDDET)
+#define SD_DETECT_PIN                -1//EXP2_07_PIN  // IO34 default is SD_DET signal (Jump to SDDET)
 #define USES_SHARED_SPI                           // SPI is shared by SD card with TMC SPI drivers
 
 #if HAS_WIRED_LCD

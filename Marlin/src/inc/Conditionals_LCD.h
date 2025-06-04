@@ -1406,7 +1406,7 @@
 #endif
 
 // This flag indicates some kind of jerk storage is needed
-#if EITHER(CLASSIC_JERK, IS_KINEMATIC)
+#if EITHER(CLASSIC_JERK, 0)
   #define HAS_CLASSIC_JERK 1
 #endif
 
